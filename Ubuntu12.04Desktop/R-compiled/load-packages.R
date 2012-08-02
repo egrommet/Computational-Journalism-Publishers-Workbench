@@ -1,0 +1,29 @@
+source("http://bioconductor.org/biocLite.R", echo=TRUE)
+biocLite('Rgraphviz')
+install.packages(
+  c(
+    'seewave',
+    'tuneR',
+    'audio',
+    'ctv', 
+    'sem',
+    'relimp',
+    'multcomp',
+    'lmtest',
+    'leaps',
+    'effects',
+    'abind'
+  ),
+ repos='http://cran.fhcrc.org'
+)
+warnings()
+library(ctv)
+update.views(
+  c(
+    'ReproducibleResearch',
+    'Graphics',
+    'NaturalLanguageProcessing'
+  ),
+ repos='http://cran.fhcrc.org'
+)
+warnings()

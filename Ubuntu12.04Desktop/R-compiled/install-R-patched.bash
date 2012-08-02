@@ -1,12 +1,12 @@
 #! /bin/bash -v
 
+source /etc/profile # need to find TexLive
 export WHERE=ftp://ftp.stat.math.ethz.ch/Software/R
 export DIR=R-patched
 export WHAT=${DIR}.tar.bz2
 
 mkdir -p /usr/local/src
 pushd /usr/local/src
-rm -f ${WHAT}
 curl ${WHERE}/${WHAT} > ${WHAT}
 rm -fr ${DIR}
 tar xf ${WHAT}
@@ -33,13 +33,15 @@ mkdir -p ~/R/library; export R_LIBS_USER="~/R/library"
   --with-tcltk \
   --with-cairo \
   --with-libpng \
-  --with-jpeglib \
+  --with-system-xz \
   --with-recommended-packages \
   --with-ICU \
   --with-x
-exit
 /usr/bin/time make -j ${CORES}
 make install
 popd
 
 popd
+export MACHINE=`uname -i`
+cp R-patched-${MACHINE}.conf /etc/ld.so.conf.d
+ldconfig
