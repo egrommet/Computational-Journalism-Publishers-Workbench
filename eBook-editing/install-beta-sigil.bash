@@ -1,6 +1,5 @@
 #! /bin/bash -v
 
-yum install -y minizip-devel
 mkdir -p /usr/local/src
 pushd /usr/local/src
   export SDIR=sigil
