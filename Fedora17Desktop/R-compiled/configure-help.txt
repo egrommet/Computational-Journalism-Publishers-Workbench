@@ -1,0 +1,219 @@
+`configure' configures R 2.15.1 to adapt to many kinds of systems.
+
+Usage: /usr/local/src/R-patched/configure [OPTION]... [VAR=VALUE]...
+
+To assign environment variables (e.g., CC, CFLAGS...), specify them as
+VAR=VALUE.  See below for descriptions of some of the useful variables.
+
+Defaults for the options are specified in brackets.
+
+Configuration:
+  -h, --help              display this help and exit
+      --help=short        display options specific to this package
+      --help=recursive    display the short help of all the included packages
+  -V, --version           display version information and exit
+  -q, --quiet, --silent   do not print `checking ...' messages
+      --cache-file=FILE   cache test results in FILE [disabled]
+  -C, --config-cache      alias for `--cache-file=config.cache'
+  -n, --no-create         do not create output files
+      --srcdir=DIR        find the sources in DIR [configure dir or `..']
+
+Installation directories:
+  --prefix=PREFIX         install architecture-independent files in PREFIX
+                          [/usr/local]
+  --exec-prefix=EPREFIX   install architecture-dependent files in EPREFIX
+                          [PREFIX]
+
+By default, `make install' will install all the files in
+`/usr/local/bin', `/usr/local/lib' etc.  You can specify
+an installation prefix other than `/usr/local' using `--prefix',
+for instance `--prefix=$HOME'.
+
+For better control, use the options below.
+
+Fine tuning of the installation directories:
+  --bindir=DIR            user executables [EPREFIX/bin]
+  --sbindir=DIR           system admin executables [EPREFIX/sbin]
+  --libexecdir=DIR        program executables [EPREFIX/libexec]
+  --sysconfdir=DIR        read-only single-machine data [PREFIX/etc]
+  --sharedstatedir=DIR    modifiable architecture-independent data [PREFIX/com]
+  --localstatedir=DIR     modifiable single-machine data [PREFIX/var]
+  --libdir=DIR            object code libraries [EPREFIX/lib]
+  --includedir=DIR        C header files [PREFIX/include]
+  --oldincludedir=DIR     C header files for non-gcc [/usr/include]
+  --datarootdir=DIR       read-only arch.-independent data root [PREFIX/share]
+  --datadir=DIR           read-only architecture-independent data [DATAROOTDIR]
+  --infodir=DIR           info documentation [DATAROOTDIR/info]
+  --localedir=DIR         locale-dependent data [DATAROOTDIR/locale]
+  --mandir=DIR            man documentation [DATAROOTDIR/man]
+  --docdir=DIR            documentation root [DATAROOTDIR/doc/R]
+  --htmldir=DIR           html documentation [DOCDIR]
+  --dvidir=DIR            dvi documentation [DOCDIR]
+  --pdfdir=DIR            pdf documentation [DOCDIR]
+  --psdir=DIR             ps documentation [DOCDIR]
+
+R installation directories:
+  --libdir=DIR        R files to R_HOME=DIR/R [EPREFIX/$LIBnn]
+    rdocdir=DIR       R doc files to DIR      [R_HOME/doc]
+    rincludedir=DIR   R include files to DIR  [R_HOME/include]
+    rsharedir=DIR     R share files to DIR    [R_HOME/share]
+
+X features:
+  --x-includes=DIR    X include files are in DIR
+  --x-libraries=DIR   X library files are in DIR
+
+System types:
+  --build=BUILD     configure for building on BUILD [guessed]
+  --host=HOST       cross-compile to build programs to run on HOST [BUILD]
+
+Optional Features:
+  --disable-option-checking  ignore unrecognized --enable/--with options
+  --disable-FEATURE       do not include FEATURE (same as --enable-FEATURE=no)
+  --enable-FEATURE[=ARG]  include FEATURE [ARG=yes]
+  --enable-R-profiling    attempt to compile support for Rprof() [yes]
+  --enable-memory-profiling
+                          attempt to compile support for Rprofmem(),
+                          tracemem() [no]
+  --enable-R-framework[=DIR]
+                          MacOS X only: build R framework (if possible), and
+                          specify its installation prefix [yes,
+                          /Library/Frameworks]
+  --enable-R-shlib        build the shared/dynamic library 'libR' [no]
+  --enable-R-static-lib   build the static library 'libR.a' [no]
+  --enable-BLAS-shlib     build BLAS into a shared/dynamic library [perhaps]
+  --enable-maintainer-mode
+                          enable make rules and dependencies not useful (and
+                          maybe confusing) to the casual installer [no]
+  --enable-strict-barrier provoke compile error on write barrier violation
+                          [no]
+  --enable-prebuilt-html  build static HTML help pages [no]
+  --enable-lto            enable link-time optimization [no]
+  --enable-byte-compiled-packages
+                          byte-compile base and recommended packages [yes]
+  --enable-static[=PKGS]  (libtool) build static libraries [default=no]
+  --enable-shared[=PKGS]  (libtool) build shared libraries [default=yes]
+
+  --disable-openmp        do not use OpenMP
+  --disable-largefile     omit support for large files
+  --disable-nls           do not use Native Language Support
+
+Optional Packages:
+  --with-PACKAGE[=ARG]    use PACKAGE [ARG=yes]
+  --without-PACKAGE       do not use PACKAGE (same as --with-PACKAGE=no)
+  --with-blas             use system BLAS library (if available), or specify
+                          it [no]
+  --with-lapack           use system LAPACK library (if available), or specify
+                          it [no]
+  --with-readline         use readline library [yes]
+  --with-aqua             MacOS X only: use Aqua (if available) [yes]
+  --with-tcltk            use Tcl/Tk (if available), or specify its library
+                          dir [yes]
+  --with-tcl-config=TCL_CONFIG
+                          specify location of tclConfig.sh []
+  --with-tk-config=TK_CONFIG
+                          specify location of tkConfig.sh []
+  --with-cairo            use cairo (and pango) if available [yes]
+  --with-libpng           use libpng library (if available) [yes]
+  --with-jpeglib          use jpeglib library (if available) [yes]
+  --with-system-zlib      use system zlib library (if available) [no]
+  --with-system-bzlib     use system bzlib library (if available) [no]
+  --with-system-pcre      use system PCRE library (if available) [no]
+  --with-system-xz        use system xz (lzma) library (if available) [yes]
+  --with-valgrind-instrumentation
+                          Level of additional instrumentation for Valgrind
+                          (0/1/2) [0]
+  --with-recommended-packages
+                          use/install recommended R packages [yes]
+  --with-ICU              use ICU library (if available) [yes]
+  --with-pic              try to use only PIC/non-PIC objects [default=use
+                          both]
+  --with-x                use the X Window System
+  --with-libpth-prefix[=DIR]  search for libpth in DIR/include and DIR/lib
+  --without-libpth-prefix     don't search for libpth in includedir and libdir
+  --with-included-gettext use the GNU gettext library included here
+  --with-libintl-prefix[=DIR]  search for libintl in DIR/include and DIR/lib
+  --without-libintl-prefix     don't search for libintl in includedir and libdir
+
+Some influential environment variables:
+  R_PRINTCMD  command used to spool PostScript files to the printer
+  R_PAPERSIZE paper size for the local (PostScript) printer
+  R_BATCHSAVE set default behavior of R when ending a session
+  MAIN_CFLAGS additional CFLAGS used when compiling the main binary
+  SHLIB_CFLAGS
+              additional CFLAGS used when building shared objects
+  MAIN_FFLAGS additional FFLAGS used when compiling the main binary
+  SHLIB_FFLAGS
+              additional FFLAGS used when building shared objects
+  MAIN_LD     command used to link the main binary
+  MAIN_LDFLAGS
+              flags which are necessary for loading a main program which will
+              load shared objects (DLLs) at runtime
+  CPICFLAGS   special flags for compiling C code to be turned into a shared
+              object.
+  FPICFLAGS   special flags for compiling Fortran code to be turned into a
+              shared object.
+  FCPICFLAGS  special flags for compiling Fortran 95 code to be turned into a
+              shared object.
+  SHLIB_LD    command for linking shared objects which contain object files
+              from a C or Fortran compiler only
+  SHLIB_LDFLAGS
+              special flags used by SHLIB_LD
+  DYLIB_LD    command for linking dynamic libraries which contain object files
+              from a C or Fortran compiler only
+  DYLIB_LDFLAGS
+              special flags used for make a dynamic library
+  CXXPICFLAGS special flags for compiling C++ code to be turned into a shared
+              object
+  SHLIB_CXXLD command for linking shared objects which contain object files
+              from the C++ compiler
+  SHLIB_CXXLDFLAGS
+              special flags used by SHLIB_CXXLD
+  SHLIB_FCLD  command for linking shared objects which contain object files
+              from the Fortran 95 compiler
+  SHLIB_FCLDFLAGS
+              special flags used by SHLIB_FCLD
+  TCLTK_LIBS  flags needed for linking against the Tcl and Tk libraries
+  TCLTK_CPPFLAGS
+              flags needed for finding the tcl.h and tk.h headers
+  MAKE        make command
+  TAR         tar command
+  R_BROWSER   default browser
+  R_PDFVIEWER default PDF viewer
+  BLAS_LIBS   flags needed for linking against external BLAS libraries
+  LAPACK_LIBS flags needed for linking against external LAPACK libraries
+  LIBnn       'lib' or 'lib64' for dynamic libraries
+  SAFE_FFLAGS Safe Fortran 77 compiler flags for e.g. dlamc.f
+  r_arch      Use architecture-dependent subdirs with this name
+  DEFS        C defines for use when compiling R
+  JAVA_HOME   Path to the root of the Java environment
+  R_SHELL     shell to be used for shell scripts, including 'R'
+  YACC        The `Yet Another Compiler Compiler' implementation to use.
+              Defaults to the first program found out of: `bison -y', `byacc',
+              `yacc'.
+  YFLAGS      The list of arguments that will be passed by default to $YACC.
+              This script will default YFLAGS to the empty string to avoid a
+              default value of `-d' given by some make applications.
+  CC          C compiler command
+  CFLAGS      C compiler flags
+  LDFLAGS     linker flags, e.g. -L<lib dir> if you have libraries in a
+              nonstandard directory <lib dir>
+  LIBS        libraries to pass to the linker, e.g. -l<library>
+  CPPFLAGS    (Objective) C/C++ preprocessor flags, e.g. -I<include dir> if
+              you have headers in a nonstandard directory <include dir>
+  CPP         C preprocessor
+  F77         Fortran 77 compiler command
+  FFLAGS      Fortran 77 compiler flags
+  CXX         C++ compiler command
+  CXXFLAGS    C++ compiler flags
+  CXXCPP      C++ preprocessor
+  OBJC        Objective C compiler command
+  OBJCFLAGS   Objective C compiler flags
+  XMKMF       Path to xmkmf, Makefile generator for X Window System
+  FC          Fortran compiler command
+  FCFLAGS     Fortran compiler flags
+
+Use these variables to override the choices made by `configure' or to help
+it to find libraries and programs with nonstandard names/locations.
+
+Report bugs to <http://bugs.r-project.org>.
+R home page: <http://www.r-project.org>.

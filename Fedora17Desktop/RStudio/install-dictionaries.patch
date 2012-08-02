@@ -1,0 +1,16 @@
+--- install-dictionaries	2012-06-28 05:39:51.000000000 -0700
++++ /data/znmeb/Projects/Computational-Journalism-Server/Base/install-dictionaries	2012-07-02 12:09:47.417322664 -0700
+@@ -24,12 +24,7 @@
+ # use curl or wget as appropriate
+ download()
+ {
+-  if [ "$PLATFORM" == "Darwin" ]
+-  then
+-    curl -L https://s3.amazonaws.com/rstudio-dictionaries/$1 > $1
+-  else
+-    wget https://s3.amazonaws.com/rstudio-dictionaries/$1 -O $1
+-  fi
++  curl -k -L https://s3.amazonaws.com/rstudio-dictionaries/$1 > $1
+ }
+ 
+ # download and extract the dictionaries if necessary

@@ -1,0 +1,25 @@
+--- src/gwt/build.xml	2012-07-02 12:19:33.149655493 -0700
++++ /data/znmeb/Projects/Computational-Journalism-Server/Base/build.xml	2012-07-02 11:52:53.658937559 -0700
+@@ -109,11 +109,11 @@
+             <path refid="project.class.path"/>
+          </classpath>
+          <!-- add jvmarg -Xss16M or similar if you see a StackOverflowError -->
+-         <jvmarg value="-Xmx1024M"/>
++         <jvmarg value="-Xmx512M"/>
+          <arg value="-war"/>
+          <arg value="www"/>
+          <arg value="-localWorkers"/>
+-         <arg value="4"/>
++         <arg value="1"/>
+          <arg value="-XdisableClassMetadata"/>
+          <arg value="-XdisableCastChecking"/>
+          <arg line="-gen gen"/>
+@@ -153,7 +153,7 @@
+             <pathelement location="src"/>
+             <path refid="project.class.path"/>
+          </classpath>
+-         <jvmarg value="-Xmx2048M"/>
++         <jvmarg value="-Xmx1024M"/>
+          <arg value="-war"/>
+          <arg value="www"/>
+          <arg value="-noserver"/>
