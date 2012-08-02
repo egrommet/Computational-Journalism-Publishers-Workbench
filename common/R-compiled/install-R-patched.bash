@@ -17,7 +17,6 @@ export CFLAGS='-O2 -pipe -march=native'
 export FFLAGS='-O2 -pipe -march=native'
 export CXXFLAGS='-O2 -pipe -march=native'
 export FCFLAGS='-O2 -pipe -march=native'
-export CORES=`grep 'cpu cores' /proc/cpuinfo | wc -l`
 unset JAVA_HOME
 mkdir -p ~/R/library; export R_LIBS_USER="~/R/library"
 ./configure \
@@ -37,7 +36,7 @@ mkdir -p ~/R/library; export R_LIBS_USER="~/R/library"
   --with-recommended-packages \
   --with-ICU \
   --with-x
-/usr/bin/time make -j ${CORES}
+/usr/bin/time make
 make install
 popd
 

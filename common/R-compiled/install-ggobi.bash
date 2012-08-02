@@ -19,8 +19,6 @@ make install
 make ggobirc
 mkdir -p /etc/xdg/ggobi
 cp ggobirc /etc/xdg/ggobi/ggobirc
-cp ggobi.conf /etc/ld.so.conf.d
-ldconfig
 popd
 
 popd
