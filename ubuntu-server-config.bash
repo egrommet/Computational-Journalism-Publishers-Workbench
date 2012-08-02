@@ -8,4 +8,4 @@ chmod +x /etc/init.d/rstudio-server
 ln -f -s /usr/local/lib/rstudio-server/bin/rstudio-server \
   /usr/sbin/rstudio-server
 rstudio-server start
-yast2 firewall
+echo 'TODO: find Ubuntu firewall; modify for upstart'
