@@ -1,5 +1,3 @@
-source("http://bioconductor.org/biocLite.R", echo=TRUE)
-biocLite('Rgraphviz')
 install.packages(
   c(
     'seewave',
