@@ -1,6 +1,8 @@
 #! /bin/bash -v
 
 source /etc/profile
+export PATH=/usr/local/bin:$PATH
+which R
 export HERE=`pwd` # save pointer to where the hacked files are
 mkdir -p /usr/local/src 
 
