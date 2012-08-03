@@ -44,3 +44,4 @@ popd
 export MACHINE=`uname -i`
 cp R-patched-${MACHINE}.conf /etc/ld.so.conf.d
 ldconfig
+cp R.sh /etc/profile.d
