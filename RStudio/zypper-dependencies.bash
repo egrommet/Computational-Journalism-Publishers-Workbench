@@ -1,7 +1,7 @@
 #!/bin/bash -v
 
 zypper install -y \
-  libqt4-webkit-devel \
+  libQtWebKit-devel \
   build \
   cmake \
   libbz2-devel \
