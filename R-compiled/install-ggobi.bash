@@ -24,3 +24,5 @@ popd
 popd
 cp ggobi.conf /etc/ld.so.conf.d/
 ldconfig
+cp ggobi.sh /etc/profile.d/
+source /etc/profile
