@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 useradd -r rstudio-server
 #cp /usr/local/lib/rstudio-server/extras/upstart/rstudio-server.conf somewhere

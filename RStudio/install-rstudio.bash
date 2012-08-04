@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 source /etc/profile
 export PATH=/usr/local/bin:$PATH

@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 mkdir -p /usr/local/src
 

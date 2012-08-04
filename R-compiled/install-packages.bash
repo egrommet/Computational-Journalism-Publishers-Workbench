@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 xhost +
 source /etc/profile # reload environment variables

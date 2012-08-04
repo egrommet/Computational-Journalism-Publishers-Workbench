@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 # R-compiled
 yum install -y \

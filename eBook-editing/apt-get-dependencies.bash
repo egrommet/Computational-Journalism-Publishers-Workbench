@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 # Sigil beta
 apt-get install -y \

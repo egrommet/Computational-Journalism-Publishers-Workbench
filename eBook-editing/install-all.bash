@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 for i in dependencies pandoc calibre epubcheck beta-sigil
 do

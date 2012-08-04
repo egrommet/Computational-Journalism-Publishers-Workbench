@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 for i in dependencies R-patched ggobi graphviz-devel Rgraphviz packages
 do
