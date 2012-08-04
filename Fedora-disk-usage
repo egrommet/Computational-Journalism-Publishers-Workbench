@@ -1,0 +1,9 @@
+Filesystem                     Size  Used Avail Use% Mounted on
+rootfs                          13G  2.5G  9.5G  21% /
+devtmpfs                       747M     0  747M   0% /dev
+tmpfs                          756M     0  756M   0% /dev/shm
+tmpfs                          756M  900K  755M   1% /run
+/dev/mapper/vg_fedora-lv_root   13G  2.5G  9.5G  21% /
+tmpfs                          756M     0  756M   0% /sys/fs/cgroup
+tmpfs                          756M     0  756M   0% /media
+/dev/sda1                      497M   59M  413M  13% /boot
