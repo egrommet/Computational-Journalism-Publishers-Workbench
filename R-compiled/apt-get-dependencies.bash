@@ -2,6 +2,7 @@
 
 # R-compiled
 apt-get install -y \
+  epdfview \
   lxterminal \
   firefox \
   curl \

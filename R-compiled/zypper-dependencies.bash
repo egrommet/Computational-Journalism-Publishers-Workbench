@@ -2,6 +2,7 @@
 
 # R-compiled
 zypper install -y \
+  epdfview \
   vim-enhanced \
   gvim \
   make \
