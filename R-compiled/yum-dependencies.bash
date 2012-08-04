@@ -2,6 +2,8 @@
 
 # R-compiled
 yum install -y \
+  vim-enhanced \
+  vim-X11 \
   gcc-gfortran \
   gcc-c++ \
   java-1.7.0-openjdk-devel \
@@ -14,6 +16,7 @@ yum install -y \
   tk-devel \
   libtiff-devel \
   texinfo \
+  texlive-latex \
   libicu-devel
 
 # ggobi
