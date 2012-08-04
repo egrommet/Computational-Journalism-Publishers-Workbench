@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 source /etc/profile # need to find TexLive
 export WHERE=ftp://ftp.stat.math.ethz.ch/Software/R

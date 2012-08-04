@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 source /etc/profile # grab TexLive
 mkdir -p /usr/local/src
