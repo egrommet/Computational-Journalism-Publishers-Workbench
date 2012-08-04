@@ -2,6 +2,10 @@
 
 # R-compiled
 apt-get install -y \
+  firefox \
+  curl \
+  vim \
+  vim-gtk \
   gfortran \
   g++ \
   openjdk-7-jdk \
@@ -14,9 +18,13 @@ apt-get install -y \
   tk-dev \
   libtiff4-dev \
   texinfo \
+  texlive-fonts-extra \
+  texlive-latex-base \
   libicu-dev
 
 # ggobi
+apt-get remove -y graphviz-dev
+apt-get autoremove -y
 apt-get install -y \
   libgtk2.0-dev \
   libxml2-dev \
