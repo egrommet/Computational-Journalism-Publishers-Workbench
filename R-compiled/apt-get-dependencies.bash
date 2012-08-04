@@ -5,7 +5,9 @@ apt-get install -y \
   epdfview \
   lxappearance \
   lxappearance-obconf \
+  lxinput \
   lxmenu-data \
+  lxmusic \
   lxpanel \
   lxpanel-indicator-applet-plugin \
   lxrandr \
@@ -14,6 +16,9 @@ apt-get install -y \
   lxshortcut \
   lxtask \
   lxterminal \
+  beaver \
+  galculator \
+  parcellite \
   firefox \
   curl \
   vim \
