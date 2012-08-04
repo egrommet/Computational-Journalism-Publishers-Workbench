@@ -2,24 +2,6 @@
 
 # R-compiled
 apt-get install -y \
-  epdfview \
-  lxappearance \
-  lxappearance-obconf \
-  lxinput \
-  lxmenu-data \
-  lxmusic \
-  lxpanel \
-  lxpanel-indicator-applet-plugin \
-  lxrandr \
-  lxsession \
-  lxsession-edit \
-  lxshortcut \
-  lxtask \
-  lxterminal \
-  beaver \
-  galculator \
-  parcellite \
-  firefox \
   curl \
   vim \
   vim-gtk \
