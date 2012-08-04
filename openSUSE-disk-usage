@@ -1,0 +1,10 @@
+Filesystem      Size  Used Avail Use% Mounted on
+rootfs           14G  3.4G  9.9G  26% /
+devtmpfs        741M  4.0K  741M   1% /dev
+tmpfs           747M     0  747M   0% /dev/shm
+tmpfs           747M  544K  747M   1% /run
+/dev/sda2        14G  3.4G  9.9G  26% /
+tmpfs           747M     0  747M   0% /sys/fs/cgroup
+tmpfs           747M  544K  747M   1% /var/lock
+tmpfs           747M  544K  747M   1% /var/run
+tmpfs           747M     0  747M   0% /media
