@@ -2,7 +2,6 @@
 
 # R-compiled
 yum install -y \
-  epdfview \
   vim-enhanced \
   vim-X11 \
   gcc-gfortran \
