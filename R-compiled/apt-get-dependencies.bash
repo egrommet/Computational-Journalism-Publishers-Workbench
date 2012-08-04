@@ -3,6 +3,16 @@
 # R-compiled
 apt-get install -y \
   epdfview \
+  lxappearance \
+  lxappearance-obconf \
+  lxmenu-data \
+  lxpanel \
+  lxpanel-indicator-applet-plugin \
+  lxrandr \
+  lxsession \
+  lxsession-edit \
+  lxshortcut \
+  lxtask \
   lxterminal \
   firefox \
   curl \
