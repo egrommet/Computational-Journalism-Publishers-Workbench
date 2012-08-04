@@ -1,12 +1,12 @@
 #! /bin/bash -v
 
 # R-compiled
-yum install -y \
+zypper install -y \
   vim-enhanced \
-  vim-X11 \
-  gcc-gfortran \
+  gvim \
+  gcc-fortran \
   gcc-c++ \
-  java-1.7.0-openjdk-devel \
+  java-1_7_0-openjdk-devel \
   readline-devel \
   libXt-devel \
   libX11-devel \
@@ -17,19 +17,19 @@ yum install -y \
   libtiff-devel \
   texinfo \
   texlive-latex \
+  texlive-fonts-extra \
   libicu-devel
 
 # ggobi
-yum remove -y graphviz-devel
-yum install -y \
+zypper remove -y graphviz-devel
+zypper install -y \
   gtk2-devel \
-  libxml2-devel \
-  libtool-ltdl-devel
+  libxml2-devel
 
 # Packages
-yum install -y \
+zypper install -y \
   freeglut-devel \
-  fftw-devel \
+  fftw3-devel \
   gd-devel \
   gsl-devel \
   libsndfile-devel
