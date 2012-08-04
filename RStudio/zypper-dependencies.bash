@@ -1,6 +1,7 @@
 #!/bin/bash
 
 zypper install -y \
+  patch \
   libQtWebKit-devel \
   build \
   cmake \
