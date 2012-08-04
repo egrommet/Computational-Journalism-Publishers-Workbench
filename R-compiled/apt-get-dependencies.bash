@@ -2,6 +2,7 @@
 
 # R-compiled
 apt-get install -y \
+  lxterminal \
   firefox \
   curl \
   vim \
