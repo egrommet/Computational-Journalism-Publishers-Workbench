@@ -4,6 +4,7 @@
 zypper install -y \
   vim-enhanced \
   gvim \
+  make \
   gcc-fortran \
   gcc-c++ \
   java-1_7_0-openjdk-devel \
