@@ -1,4 +1,4 @@
-#!/bin/bash -v
+#!/bin/bash
 
 zypper install -y \
   libQtWebKit-devel \

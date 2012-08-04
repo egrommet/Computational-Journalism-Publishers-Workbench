@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 # RStudio
 apt-get install -y \

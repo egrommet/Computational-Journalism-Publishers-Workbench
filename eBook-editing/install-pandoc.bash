@@ -1,4 +1,4 @@
-#!/bin/bash -v
+#!/bin/bash
 
 # use distro-supplied pandoc for now
 if [ -e "/usr/bin/apt-get" ]
