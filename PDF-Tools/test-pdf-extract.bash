@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 # Download document
 curl -L http://comjnl.oxfordjournals.org/content/14/1/96.full.pdf > Michie.pdf

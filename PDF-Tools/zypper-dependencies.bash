@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 zypper addrepo -cf http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.2/Documentation:Tools.repo
 zypper refresh
