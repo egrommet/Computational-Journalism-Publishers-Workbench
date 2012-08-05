@@ -3,6 +3,7 @@
 package TwitterUtilities;
 use strict;
 use warnings;
+use local::lib;
 use Carp;
 use English qw(-no_match_vars);
 use JSON;
