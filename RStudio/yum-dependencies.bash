@@ -2,6 +2,8 @@
 
 # RStudio
 yum install -y \
+  qt-devel \
+  qt-gstreamer-devel \
   qtwebkit-devel \
   cmake \
   rpmdevtools \
