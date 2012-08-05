@@ -18,8 +18,6 @@ zypper install -y \
   tk-devel \
   libtiff-devel \
   texinfo \
-  texlive-latex \
-  texlive-fonts-extra \
   libicu-devel
 
 # ggobi

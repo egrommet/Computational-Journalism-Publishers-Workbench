@@ -16,7 +16,6 @@ yum install -y \
   tk-devel \
   libtiff-devel \
   texinfo \
-  texlive-latex \
   libicu-devel
 
 # ggobi

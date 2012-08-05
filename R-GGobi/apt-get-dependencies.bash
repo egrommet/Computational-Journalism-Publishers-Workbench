@@ -17,8 +17,6 @@ apt-get install -y \
   tk-dev \
   libtiff4-dev \
   texinfo \
-  texlive-fonts-extra \
-  texlive-latex-base \
   libicu-dev
 
 # ggobi
