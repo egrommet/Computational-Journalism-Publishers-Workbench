@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 export WHERE=http://mirror.ctan.org/systems/texlive/tlnet
 export WHAT=install-tl-unx.tar.gz

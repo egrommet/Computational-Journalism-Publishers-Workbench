@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 # use the upstream TeXLive first
 export PATH=/opt/texlive/2012/bin/i386-linux:$PATH

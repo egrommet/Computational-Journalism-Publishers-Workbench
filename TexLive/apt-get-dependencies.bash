@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 # TexLive
 apt-get install -y \
