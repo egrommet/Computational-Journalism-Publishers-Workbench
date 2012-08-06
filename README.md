@@ -91,17 +91,17 @@ And seven million Whys!<br>
 ## Getting Started
 1. There are two options: "bare metal", usually a dual-boot with Windows or MacOS X, or running as a guest machine inside a host virtualization ("hypervisor") platfrom. I run it both ways - my main development system is dual-booted with Windows 7 and Fedora 17 Linux. I've tested mostly with an Oracle VM VirtualBox host, but I know everything works with VMware Workstation, VMware Player and KVM.
 
-If you go with bare metal, you'll need at least a 32-bit machine with 1536 MB of RAM. The base distributions I've chosen, which use the LXDE desktop, are aimed at older systems. The recommended base systems are, in no particular order:
+    If you go with bare metal, you'll need at least a 32-bit machine with 1536 MB of RAM. The base distributions I've chosen, which use the LXDE desktop, are aimed at older systems. The recommended base systems are, in no particular order:
 
-* [Fedora LXDE Desktop](http://spins.fedoraproject.org/lxde/)
-* [Lubuntu 12.04](https://help.ubuntu.com/community/Lubuntu/GetLubuntu)
-* [openSUSE 12.2 Release Candidate 2](http://software.opensuse.org/developer/en)
+    * [Fedora LXDE Desktop](http://spins.fedoraproject.org/lxde/)
+    * [Lubuntu 12.04](https://help.ubuntu.com/community/Lubuntu/GetLubuntu)
+    * [openSUSE 12.2 Release Candidate 2](http://software.opensuse.org/developer/en)
 
-If you go with a hypervisor, you will need a host system with at least 3 GB of RAM. This is the path I recommend for beginners. When you create the virtual machine, you'll need to allocate a 16 GB disk drive and 1536 MB of RAM minimum. I recommend Oracle VM VirtualBox as a hypervisor for beginners. The user interface is the same whether your host is Windows, MacOS X or Linux, and it has the so-called "seamless" mode. In seamless mode, your guest machine's menu and application windows appear on your host's desktop.
+    If you go with a hypervisor, you will need a host system with at least 3 GB of RAM. This is the path I recommend for beginners. When you create the virtual machine, you'll need to allocate a 16 GB disk drive and 1536 MB of RAM minimum. I recommend Oracle VM VirtualBox as a hypervisor for beginners. The user interface is the same whether your host is Windows, MacOS X or Linux, and it has the so-called "seamless" mode. In seamless mode, your guest machine's menu and application windows appear on your host's desktop.
 
-* [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) (available for Linux, Windows and Macintosh)
+    * [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) (available for Linux, Windows and Macintosh)
 
-In either case, you'll need wall power and Internet connectivity. Most of the software in the workbench is downloaded from the Internet, and a fair amount of it is compiled from source. On my dual-core Intel i5 with 8 GB of RAM a full install typically takes two hours in a guest machine.
+    In either case, you'll need wall power and Internet connectivity. Most of the software in the workbench is downloaded from the Internet, and a fair amount of it is compiled from source. On my dual-core Intel i5 with 8 GB of RAM a full install typically takes two hours in a guest machine.
 
 2. Boot up Linux and log in as a non-root user.
 
@@ -117,7 +117,7 @@ $ ./run-me-first.bash
 $ sudo ./install-all.bash  
 ```
 
-This will take quite a while. It is downloading most of the software over the Internet and compiling much of it from source. Typically on a modern laptop in a virtual machine using coffee shop wireless it takes about two hours.
+    This will take quite a while. It is downloading most of the software over the Internet and compiling much of it from source. Typically on a modern laptop in a virtual machine using coffee shop wireless it takes about two hours.
 
 ## Issue tracker
 I'm using the [Github issue tracker](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues) on this project, although you can also send me a message if you're a Github member.
