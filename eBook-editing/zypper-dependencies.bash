@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,16 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# use distro-supplied freemind for now
-if [ -e "/usr/bin/apt-get" ]
-then
-  apt-get install -y freemind
-elif [ -e "/usr/bin/yum" ]
-then
-  yum install -y freemind
-elif [ -e "/usr/bin/zypper" ]
-then
-  zypper addrepo -cf http://download.opensuse.org/repositories/home:/AndreasStieger/openSUSE_12.2/home:AndreasStieger.repo
-  zypper refresh
-  zypper install -y freemind
-fi
+# Sigil beta
+zypper install -y \
+  latex2html
