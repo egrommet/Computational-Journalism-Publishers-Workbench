@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 ../common/cleanup.bash
 rm -f Michie.pdf

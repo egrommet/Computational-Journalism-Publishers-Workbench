@@ -3,6 +3,7 @@
 
 use strict;
 use warnings;
+use local::lib;
 use English qw(-no_match_vars);
 
 use Net::Twitter;
