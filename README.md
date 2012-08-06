@@ -112,10 +112,10 @@ One of the major components, [RStudio](https://github.com/rstudio/rstudio), is l
 
 ## Main upstream projects
 
-* [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) (available for Linux, Windows and Macintosh)
 * [Fedora LXDE Desktop](http://spins.fedoraproject.org/lxde/)
 * [Lubuntu 12.04](https://help.ubuntu.com/community/Lubuntu/GetLubuntu)
 * [openSUSE 12.2 Release Candidate 2](http://software.opensuse.org/developer/en)
+* [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) (available for Linux, Windows and Macintosh)
 * [TeX Live](http://www.tug.org/texlive/acquire-netinstall.html) (available for Windows and Macintosh)
 * [R Patched](ftp://ftp.stat.math.ethz.ch/Software/R/) (available for Windows and Macintosh)
 * [GGobi](http://www.ggobi.org/downloads/) (available for Windows and Macintosh)
