@@ -114,7 +114,7 @@ $ ./run-me-first.bash
 $ sudo ./install-all.bash  
 ```
 
-    This will take quite a while. It is downloading most of the software over the Internet and compiling much of it from source. Typically on a modern laptop in a virtual machine using coffee shop wireless it takes about two hours.
+This will take quite a while. It is downloading most of the software over the Internet and compiling much of it from source. Typically on a modern laptop in a virtual machine using coffee shop wireless it takes about two hours.
 
 ## Issue tracker
 I'm using the [Github issue tracker](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues) on this project, although you can also send me a message if you're a Github member.
