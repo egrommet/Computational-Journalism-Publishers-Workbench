@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Name=freemind
+Comment=Free mind mapping software
+Exec=freemind
+Terminal=false
+Type=Application
+Icon=freemind
+MimeType=application/x-freemind;text/x-troff-mm;
+Categories=Office;
+X-Desktop-File-Install-Version=0.19
