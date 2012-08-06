@@ -9,16 +9,17 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# use distro-supplied bluefish for now
-if [ -e "/usr/bin/apt-get" ]
-then
-  apt-get install -y bluefish
-elif [ -e "/usr/bin/yum" ]
-then
-  yum install -y bluefish
-elif [ -e "/usr/bin/zypper" ]
-then
-  zypper addrepo -cf http://download.opensuse.org/repositories/editors/openSUSE_Factory/editors.repo
-  zypper refresh
-  zypper install -y bluefish
-fi
+mkdir -p /usr/local/src
+pushd /usr/local/src
+export VERSION=2.2.3
+export WHERE=http://downloads.sourceforge.net/project/bluefish/bluefish/${VERSION}
+export DIR=bluefish-${VERSION}
+export WHAT=${DIR}.tar.bz2
+curl -L ${WHERE}/${WHAT} > ${WHAT}
+rm -fr ${DIR}
+tar xf ${WHAT}
+cd ${DIR}
+./configure
+make
+make install
+popd
