@@ -125,3 +125,4 @@ One of the major components, [RStudio](https://github.com/rstudio/rstudio), is l
 * [Sigil](http://code.google.com/p/sigil/downloads/list) (available for Windows and Macintosh)
 * [Calibre](http://calibre-ebook.com/download) (available for Windows and Macintosh)
 * [FreeMind](http://sourceforge.net/projects/freemind/files/freemind/0.9.0/) (available for Windows and Macintosh)
+* [Bluefish](http://bluefish.openoffice.nl/download.html) (available for Windows and Macintosh)
