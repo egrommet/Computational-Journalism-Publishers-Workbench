@@ -8,8 +8,4 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-
-for i in dependencies pandoc calibre freemind epubcheck beta-sigil lyx bluefish
-do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
-done
+pandoc -f html -o README.md README.html
