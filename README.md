@@ -1,8 +1,8 @@
 ## I Keep Six Honest Serving Men
-I keep six honest serving-men  
-(They taught me all I knew);   
-Their names are What and Why and When  
-And How and Where and Who.  
+I keep six honest serving-men<br>
+(They taught me all I knew);<br>
+Their names are What and Why and When<br>
+And How and Where and Who.<br>
 [(RudyardKipling, from "The Elephant's Child" in Just So Stories).](http://c2.com/cgi/wiki?SixHonestServingMen)
 
 ## Why?
@@ -60,33 +60,33 @@ The components of the Computational Journalism Publishers Workbench are proven t
 * ***Functionality that would cost thousands of dollars in commercial licenses is available for the cost of a download!***
 
 ## I Keep Six Honest Serving Men
-I keep six honest serving-men  
-(They taught me all I knew);   
-Their names are What and Why and When  
-And How and Where and Who.   
+I keep six honest serving-men<br>
+(They taught me all I knew);<br>
+Their names are What and Why and When<br>
+And How and Where and Who.<br>
 
 ### The Rest of the Story
 (Did you know there was more?)
 
-I send them over land and sea,  
-I send them east and west;   
-But after they have worked for me,  
-***I*** give them all a rest.  
+I send them over land and sea,<br>
+I send them east and west;<br>
+But after they have worked for me,<br>
+***I*** give them all a rest.<br>
 
-***I*** let them rest from nine till five,  
-For I am busy then,   
-As well as breakfast, lunch, and tea,  
-For they are hungry men;   
+***I*** let them rest from nine till five,<br>
+For I am busy then,<br>
+As well as breakfast, lunch, and tea,<br>
+For they are hungry men;<br>
 
-But different folk have different views:  
-I know a person small -   
-She keeps ten million serving-men,  
-Who get no rest at all!   
+But different folk have different views:<br>
+I know a person small -<br>
+She keeps ten million serving-men,<br>
+Who get no rest at all!<br>
 
-She sends 'em abroad on her own affairs.  
-From the second she opens her eyes -   
-One million Hows, two million Wheres,  
-And seven million Whys! 
+She sends 'em abroad on her own affairs,<br>
+From the second she opens her eyes -<br>
+One million Hows, two million Wheres,<br>
+And seven million Whys!<br>
 
 ## Getting Started
 1. Install a modern Linux desktop. At a minimum, you will need the LXDE desktop. I've tested the scripts on Lubuntu 12.04, Fedora 17 LXDE re-spin and openSUSE 12.2 Release Candidate 2 with the LXDE desktop. You can do this in either a virtual machine or on bare metal.
