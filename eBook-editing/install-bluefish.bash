@@ -18,5 +18,7 @@ then
   yum install -y bluefish
 elif [ -e "/usr/bin/zypper" ]
 then
+  zypper addrepo -cf http://download.opensuse.org/repositories/editors/openSUSE_Factory/editors.repo
+  zypper refresh
   zypper install -y bluefish
 fi
