@@ -109,3 +109,19 @@ I'm using the [Github issue tracker](https://github.com/znmeb/Computational-Jour
 
 ## License
 One of the major components, [RStudio](https://github.com/rstudio/rstudio), is licensed AGPL3 (Affero GNU Public License, version 3). So that's the license I'm using for this project.
+
+## Main upstream projects
+
+* [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) (available for Linux, Windows and Macintosh)
+* [Fedora LXDE Desktop](http://spins.fedoraproject.org/lxde/)
+* [Lubuntu 12.04](https://help.ubuntu.com/community/Lubuntu/GetLubuntu)
+* [openSUSE 12.2 Release Candidate 2](http://software.opensuse.org/developer/en)
+* [TeX Live](http://www.tug.org/texlive/acquire-netinstall.html) (available for Windows and Macintosh)
+* [R Patched](ftp://ftp.stat.math.ethz.ch/Software/R/) (available for Windows and Macintosh)
+* [GGobi](http://www.ggobi.org/downloads/) (available for Windows and Macintosh)
+* [R Studio](http://rstudio.org/download/) (available for Windows and Macintosh)
+* [R Commander](http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/) (available for Windows and Macintosh)
+* [LyX](http://www.lyx.org/Download) (available for Windows and Macintosh)
+* [Sigil](http://code.google.com/p/sigil/downloads/list) (available for Windows and Macintosh)
+* [Calibre](http://calibre-ebook.com/download) (available for Windows and Macintosh)
+* [FreeMind](http://sourceforge.net/projects/freemind/files/freemind/0.9.0/) (available for Windows and Macintosh)
