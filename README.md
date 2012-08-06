@@ -93,8 +93,8 @@ And seven million Whys!<br>
 
     If you go with bare metal, you'll need at least a 32-bit machine with 1536 MB of RAM. The base distributions I've chosen, which use the LXDE desktop, are aimed at older systems. The recommended base systems are, in no particular order:
 
-    [Fedora LXDE Desktop](http://spins.fedoraproject.org/lxde/)
-    [Lubuntu 12.04](https://help.ubuntu.com/community/Lubuntu/GetLubuntu)
+    [Fedora LXDE Desktop](http://spins.fedoraproject.org/lxde/)<br/>
+    [Lubuntu 12.04](https://help.ubuntu.com/community/Lubuntu/GetLubuntu)<br/>
     [openSUSE 12.2 Release Candidate 2](http://software.opensuse.org/developer/en)
 
     If you go with a hypervisor, you will need a host system with at least 3 GB of RAM. This is the path I recommend for beginners. When you create the virtual machine, you'll need to allocate a 16 GB disk drive and 1536 MB of RAM minimum. I recommend Oracle VM VirtualBox as a hypervisor for beginners. The user interface is the same whether your host is Windows, MacOS X or Linux, and it has the so-called "seamless" mode. In seamless mode, your guest machine's menu and application windows appear on your host's desktop.
