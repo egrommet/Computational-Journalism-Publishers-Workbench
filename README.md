@@ -3,7 +3,6 @@ I keep six honest serving-men
 (They taught me all I knew);   
 Their names are What and Why and When  
 And How and Where and Who.  
-
 [(RudyardKipling, from "The Elephant's Child" in Just So Stories).](http://c2.com/cgi/wiki?SixHonestServingMen)
 
 ## Why?
@@ -30,27 +29,22 @@ Independent journalists today work in a world dominated by two trends:
 * ***100 percent open source technologies!***
 * A complete Linux workstation, plus
 * Real-time Twitter data collection via REST, Search and User Streams APIs
-* Tools for collecting, managing, analyzing and presenting data
+* PDF data extraction tools
+* Plus ...
 
-    – Numerical
-    – Financial and economic
-    – Geospatial / mapping
-    – Twitter and other text data
-    – Social networks and graphs
-
-* Tools for creating, editing and producing digital media
+### Tools for collecting, managing, analyzing and presenting data
+* Numerical
+* Financial and economic
+* Geospatial / mapping
+* Twitter and other text data
+* Social networks and graphs
+* Web page, PDF and eBook creation tools
 
 ## Who Is It For?
-* Journalism students
-    – High school, community college and beyond
-* Freelance journalists
-    – Researchers
-    – Reporters
-    – Editors
-    – Publishers
+* Journalism students: high school, community college and beyond
+* Freelance journalists: researchers, reporters, editors, publishers
 
 ## Why 100 Percent Open Source?
-
 * Open source software is robust.
 * Open source software is low cost.
 
@@ -72,7 +66,7 @@ Their names are What and Why and When
 And How and Where and Who.   
 
 ### The Rest of the Story
-Did you know there was more?
+(Did you know there was more?)
 
 I send them over land and sea,  
 I send them east and west;   
@@ -92,24 +86,26 @@ Who get no rest at all!
 She sends 'em abroad on her own affairs.  
 From the second she opens her eyes -   
 One million Hows, two million Wheres,  
-And seven million Whys!  
+And seven million Whys! 
+
+## Getting Started
+1. Install a modern Linux desktop. At a minimum, you will need the LXDE desktop. I've tested the scripts on Lubuntu 12.04, Fedora 17 LXDE re-spin and openSUSE 12.2 Release Candidate 2 with the LXDE desktop. You can do this in either a virtual machine or on bare metal.
+2. On bare metal, you'll need at least 1.5 GB of RAM, but it should work on a 32-bit machine. In a virtual machine, allocate 16 GB of disk space and 1.5 GB of RAM. Your host should have at least 3 GB of RAM in this case.
+3. You'll need a persistent Internet connection and a power source; the install downloads most of the software from the World-Wide Web and compiles a fair amount of it from source.
+4. Install _git_ using the Linux package manager.
+5. Open a terminal window and type
 
 ```
-$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
+$ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
+$ cd Computational-Journalism-Publishers-Workbench  
+$ ./run-me-first.bash  
+$ sudo ./install-all.bash  
 ```
 
-If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.
+This will take quite a while. It is downloading most of the software over the Internet and compiling much of it from source. Typically on a modern laptop in a virtual machine using coffee shop wireless it takes about two hours.
 
-### Designer Templates
-We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.
+## Issue tracker
+I'm using the Github issue tracker on this project, although you can also send me a message if you're a Github member.
 
-### Rather Drive Stick?
-If you prefer to not use the automatic generator, push a branch named `gh-pages` to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.
-
-### Authors and Contributors
-You can @mention a GitHub username to generate a link to their profile. The resulting `<a>` element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (@defunkt), PJ Hyett (@pjhyett), and Tom Preston-Werner (@mojombo) founded GitHub.
-
-### Support or Contact
-Having trouble with Pages? Check out the documentation at http://help.github.com/pages or contact support@github.com and we’ll help you sort it out.
+## License
+One of the major components, [RStudio](https://github.com/rstudio/rstudio), is licensed AGPL3 (Affero GNU Public License, version 3). So that's the license I'm using for this project.
