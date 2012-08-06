@@ -2,7 +2,7 @@
 
 rm -fr Book.html.LyXconv
 rm -f *.tex
-rm -f images/*.tex
+rm -fr images
 rm -f *.epub
 rm -f \#*
 rm -f *.lyx~
