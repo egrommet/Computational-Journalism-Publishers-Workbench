@@ -1,0 +1,188 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass book
+\use_default_options true
+\begin_modules
+knitr
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format pdf2
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict true
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+About the Book
+\end_layout
+
+\begin_layout Quote
+"There are three kinds of men.
+ The one that learns by reading.
+ The few who learn by observation.
+ The rest of them have to pee on the electric fence for themselves." - Will
+ Rogers 
+\end_layout
+
+\begin_layout Standard
+I have two intended audiences for this book, both, of course, the ones who
+ learn by reading.
+ One is developers and the other is journalists.
+ Computational journalism is an emerging discipline that merges computer
+ science and storytelling.
+ As Cohen, Hamilton and Turner put it (
+\begin_inset CommandInset citation
+LatexCommand cite
+key "CohenHamiltonTurner"
+
+\end_inset
+
+):
+\end_layout
+
+\begin_layout Quote
+"Here, we focus on an aspect of computational journalism with a particularly
+ powerful potential impact on the public good: tools to support accountability
+ reporting.
+ Building on the experience of an earlier generation of computer-assisted
+ reporting, journalists and computer scientists are developing new ways
+ to reduce the cost and difficulty of in-depth public-affairs reporting.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Journalists today work in a world dominated by two trends:
+\end_layout
+
+\begin_layout Itemize
+Real-time many-to-many communications platforms, and
+\end_layout
+
+\begin_layout Itemize
+Large sets of complex data with stories waiting to be told.
+\end_layout
+
+\begin_layout Standard
+Open source software is well-known for its low cost.
+ Functionality that would cost thousands of dollars in commercial licenses
+ is available for the cost of a download, and there are thousands of web
+ sites with free tutorials on how to use the major tool sets.
+ But I think the more important characteristic of open source software is
+ its robustness.
+\end_layout
+
+\begin_layout Standard
+Open source software projects like R and Linux are crafted by highly-motivated
+ self-regulated world-wide communities of experts.
+ Security flaws, functionality defects and performance issues are rapidly
+ found and fixed.
+ And this peer review process yields software that is usually more efficient
+ than commercial counterparts.
+\end_layout
+
+\begin_layout Standard
+There are a wide variety of open source tools used in computational and
+ data journalism, but I'll be writing about the ones I know best, the R
+ programming language and Linux.
+ As with most books here at Leanpub, this is a work in progress.
+ You can get a glimpse of the tools and areas I'll be covering by visiting
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "my blog"
+target "http://borasky-research.net"
+
+\end_inset
+
+, or by downloading my 
+\begin_inset CommandInset href
+LatexCommand href
+name "Computational Journalism Server"
+target "http://j.mp/compjournoserver"
+
+\end_inset
+
+ appliance.
+ If you want to watch me think in real time, start with 
+\begin_inset CommandInset href
+LatexCommand href
+name "Computational and Data Journalism on Scoop.it"
+target "http://www.scoop.it/t/computational-and-data-journalism"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "my Github page"
+target "http://github.com/znmeb"
+
+\end_inset
+
+, or
+\begin_inset CommandInset href
+LatexCommand href
+name "send me a tweet"
+target "http://twitter.com/znmeb"
+
+\end_inset
+
+.
+\end_layout
+
+\end_body
+\end_document
