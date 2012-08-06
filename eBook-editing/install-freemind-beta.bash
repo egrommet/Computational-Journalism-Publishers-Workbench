@@ -9,6 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+rm -fr /usr/local/share/freemind
 mkdir -p /usr/local/share/freemind
 pushd /usr/local/share
 curl -L http://downloads.sourceforge.net/project/freemind/freemind-unstable/1.0.0_Beta5/freemind-bin-max-1.0.0_Beta_5.zip > freemind-bin-max-1.0.0_Beta_5.zip
