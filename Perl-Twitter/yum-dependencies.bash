@@ -9,5 +9,5 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-yuminstall -y \
+yum install -y \
   perl-local-lib
