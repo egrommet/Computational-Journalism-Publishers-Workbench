@@ -16,7 +16,7 @@ Independent journalists today work in a world dominated by two trends:
 * Millions of active Twitter users
 * Complex patterns of interactions around people, places and events
 * Intricate and changing connection patterns between people
-* People break and discuss the news in real time on Twitter.
+* ***People break and discuss the news in real time on Twitter.***
 
 ### Large Sets of Complex Data with Stories Waiting to be Told
 * Government data - national, regional, and local
@@ -31,11 +31,13 @@ Independent journalists today work in a world dominated by two trends:
 * A complete Linux workstation, plus
 * Real-time Twitter data collection via REST, Search and User Streams APIs
 * Tools for collecting, managing, analyzing and presenting data
+
     – Numerical
     – Financial and economic
     – Geospatial / mapping
     – Twitter and other text data
     – Social networks and graphs
+
 * Tools for creating, editing and producing digital media
 
 ## Who Is It For?
