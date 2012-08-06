@@ -10,14 +10,14 @@ Independent journalists today work in a world dominated by two trends:
 * Real-time many-to-many communications platforms, and
 * Large sets of complex data with stories waiting to be told.
 
-### Real-time Many-to-Many Communications Platforms
+### Real-time many-to-many communications platforms
 * Hundreds of millions of Facebook and Twitter accounts almost everywhere in the world
 * Millions of active Twitter users
 * Complex patterns of interactions around people, places and events
 * Intricate and changing connection patterns between people
 * ***People break and discuss the news in real time on Twitter.***
 
-### Large Sets of Complex Data with Stories Waiting to be Told
+### Large sets of complex data with stories waiting to be told
 * Government data - national, regional, and local
 * Business and financial data
 * Political fundraising and vote tabulation data
@@ -25,7 +25,7 @@ Independent journalists today work in a world dominated by two trends:
 * Social network data
 * And yes - traffic and sports data too
 
-## What's In The Workbench?
+## What's in the workbench?
 * ***100 percent open source technologies!***
 * A complete Linux workstation, plus
 * Real-time Twitter data collection via REST, Search and User Streams APIs
@@ -40,11 +40,11 @@ Independent journalists today work in a world dominated by two trends:
 * Social networks and graphs
 * Web page, PDF and eBook creation tools
 
-## Who Is It For?
+## Who is it for?
 * Journalism students: high school, community college and beyond
-* Freelance journalists: researchers, reporters, editors, publishers
+* Independent journalists: researchers, reporters, editors, publishers
 
-## Why 100 Percent Open Source?
+## Why 100 percent open source?
 * Open source software is robust.
 * Open source software is low cost.
 
@@ -54,7 +54,7 @@ The components of the Computational Journalism Publishers Workbench are proven t
 * Security flaws, functionality defects and performance issues are rapidly found and fixed.
 * Peer review process yields software that is usually more efficient than commercial counterparts.
 
-### Low Cost
+### Low cost
 * The software in the Computational Journalism Publishers Workbench is freely downloadable without legal restrictions.
 * A wide range of documentation and training material for the tools is available for free on the World-Wide Web.
 * ***Functionality that would cost thousands of dollars in commercial licenses is available for the cost of a download!***
@@ -89,15 +89,30 @@ One million Hows, two million Wheres,<br>
 And seven million Whys!<br>
 
 ## Getting Started
-1. Install a modern Linux desktop. At a minimum, you will need the LXDE desktop. I've tested the scripts on Lubuntu 12.04, Fedora 17 LXDE re-spin and openSUSE 12.2 Release Candidate 2 with the LXDE desktop. You can do this in either a virtual machine or on bare metal.
-2. On bare metal, you'll need at least 1.5 GB of RAM, but it should work on a 32-bit machine. In a virtual machine, allocate 16 GB of disk space and 1.5 GB of RAM. Your host should have at least 3 GB of RAM in this case.
-3. You'll need a persistent Internet connection and a power source; the install downloads most of the software from the World-Wide Web and compiles a fair amount of it from source.
-4. Install _git_ using the Linux package manager.
-5. Open a terminal window and type
+1. There are two options: "bare metal", usually a dual-boot with Windows or MacOS X, or running as a guest machine inside a host virtualization ("hypervisor") platfrom. I run it both ways - my main development system is dual-booted with Windows 7 and Fedora 17 Linux. I've tested mostly with an Oracle VM VirtualBox host, but I know everything works with VMware Workstation, VMware Player and KVM.
+
+If you go with bare metal, you'll need at least a 32-bit machine with 1536 MB of RAM. The base distributions I've chosen, which use the LXDE desktop, are aimed at older systems. The recommended base systems are, in no particular order:
+
+* [Fedora LXDE Desktop](http://spins.fedoraproject.org/lxde/)
+* [Lubuntu 12.04](https://help.ubuntu.com/community/Lubuntu/GetLubuntu)
+* [openSUSE 12.2 Release Candidate 2](http://software.opensuse.org/developer/en)
+
+If you go with a hypervisor, you will need a host system with at least 3 GB of RAM. This is the path I recommend for beginners. When you create the virtual machine, you'll need to allocate a 16 GB disk drive and 1536 MB of RAM minimum. I recommend Oracle VM VirtualBox as a hypervisor for beginners. The user interface is the same whether your host is Windows, MacOS X or Linux, and it has the so-called "seamless" mode. In seamless mode, your guest machine's menu and application windows appear on your host's desktop.
+
+* [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) (available for Linux, Windows and Macintosh)
+
+In either case, you'll need wall power and Internet connectivity. Most of the software in the workbench is downloaded from the Internet, and a fair amount of it is compiled from source. On my dual-core Intel i5 with 8 GB of RAM a full install typically takes two hours in a guest machine.
+
+2. Boot up Linux and log in as a non-root user.
+
+3. Install _git_ using the Linux package manager.
+
+4. Open a terminal window and type
 
 ```
 $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
 $ cd Computational-Journalism-Publishers-Workbench  
+$ git checkout v0.1.0
 $ ./run-me-first.bash  
 $ sudo ./install-all.bash  
 ```
