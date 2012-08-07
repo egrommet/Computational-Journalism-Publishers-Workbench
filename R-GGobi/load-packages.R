@@ -21,7 +21,8 @@ install.packages(
     'effects',
     'abind'
   ),
- repos='http://cran.fhcrc.org'
+  lib=paste(R.home(), '/library', sep=''),
+  repos='http://cran.fhcrc.org'
 )
 warnings()
 library(ctv)
@@ -31,6 +32,7 @@ update.views(
     'Graphics',
     'NaturalLanguageProcessing'
   ),
- repos='http://cran.fhcrc.org'
+  lib=paste(R.home(), '/library', sep=''),
+  repos='http://cran.fhcrc.org'
 )
 warnings()
