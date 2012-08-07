@@ -11,6 +11,7 @@
 
 # Sigil beta
 yum install -y \
+  pitivi \
   gtk-recordmydesktop \
   latex2html \
   latex2rtf \
