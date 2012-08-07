@@ -10,7 +10,9 @@
 #
 
 useradd -r rstudio-server
-#cp /usr/local/lib/rstudio-server/extras/upstart/rstudio-server.conf somewhere
+cp /usr/local/lib/rstudio-server/extras/init.d/debian/rstudio-server /etc/init.d
+chmod +x /etc/init.d/rstudio-server
+cp /usr/local/lib/rstudio-server/extras/upstart/rstudio-server.conf /etc/init/
 ln -f -s /usr/local/lib/rstudio-server/bin/rstudio-server \
   /usr/sbin/rstudio-server
 rstudio-server start
