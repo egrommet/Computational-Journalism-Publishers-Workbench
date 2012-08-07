@@ -14,4 +14,5 @@ yum install -y \
   latex2html \
   latex2rtf \
   jabref \
+  intltool \
   minizip
