@@ -50,7 +50,7 @@ make install
 popd
 
 popd
-export MACHINE=`uname -i`
+export MACHINE=`uname -m`
 cp R-patched-${MACHINE}.conf /etc/ld.so.conf.d
 ldconfig
 cp R.sh /etc/profile.d
