@@ -11,4 +11,5 @@
 
 # Sigil beta
 apt-get install -y \
+  intltool \
   zlib-bin
