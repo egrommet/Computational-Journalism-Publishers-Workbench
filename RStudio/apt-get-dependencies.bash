@@ -25,4 +25,5 @@ apt-get install -y \
   apparmor-utils \
   libboost-all-dev \
   ant \
+  gufw \
   unzip
