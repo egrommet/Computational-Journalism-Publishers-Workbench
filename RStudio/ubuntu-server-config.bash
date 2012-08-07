@@ -16,4 +16,5 @@ ln -f -s /usr/local/lib/rstudio-server/bin/rstudio-server \
 rstudio-server start
 
 echo "Open TCP port 8787"
+gufw
 firefox localhost:8787 &
