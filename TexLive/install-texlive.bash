@@ -12,7 +12,7 @@
 export WHERE=http://mirror.ctan.org/systems/texlive/tlnet
 export WHAT=install-tl-unx.tar.gz
 export HERE=`pwd`
-export MACHINE=`uname -i`
+export MACHINE=`uname -m`
 
 mkdir -p /usr/local/src
 pushd /usr/local/src
