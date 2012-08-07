@@ -10,5 +10,6 @@
 #
 
 yum install -y \
+  curl \
   wget \
   perl-Digest-MD5
