@@ -41,4 +41,10 @@ zypper install -y \
   fftw3-devel \
   gd-devel \
   gsl-devel \
-  libsndfile-devel
+  libsndfile-devel \
+  wordnet-devel
+
+# WordNet environment variable
+cp wordnet-zypper.sh /etc/profile.d/ # set WordNet home
+source /etc/profile
+set|grep WNHOME
