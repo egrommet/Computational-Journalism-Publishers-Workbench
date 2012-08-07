@@ -42,3 +42,8 @@ yum install -y \
   gsl-devel \
   wordnet-devel \
   libsndfile-devel
+
+# WordNet environment variable
+cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
+source /etc/profile
+set|grep WNHOME
