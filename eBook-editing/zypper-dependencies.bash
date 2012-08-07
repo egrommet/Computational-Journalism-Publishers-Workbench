@@ -11,4 +11,5 @@
 
 # Sigil beta
 zypper install -y \
+  intltool \
   latex2html
