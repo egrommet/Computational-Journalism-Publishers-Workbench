@@ -42,7 +42,13 @@ apt-get install -y \
   libfftw3-dev \
   libgd2-xpm-dev \
   libgsl0-dev \
-  libsndfile1-dev
+  libsndfile1-dev \
+  wordnet \
+  wordnet-base \
+  wordnet-dev \
+  wordnet-grind \
+  wordnet-gui \
+  wordnet-sense-index
 
 # R Java interface is hosed with both Java 6 and 7 -- nuke 6!
 apt-get remove -y \
