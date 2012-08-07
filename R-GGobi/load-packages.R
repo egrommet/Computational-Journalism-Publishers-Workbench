@@ -9,6 +9,7 @@
 #
 install.packages(
   c(
+    'rJava',
     'seewave',
     'tuneR',
     'audio',
