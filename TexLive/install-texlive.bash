@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-export WHERE=http://mirror.ctan.org/systems/texlive/tlnet
+export WHERE=http://www.math.washington.edu/tex-archive/systems/texlive/tlnet/
 export WHAT=install-tl-unx.tar.gz
 export HERE=`pwd`
 export MACHINE=`uname -m`
