@@ -33,6 +33,7 @@ zypper install -y \
 # ggobi
 zypper remove -y graphviz-devel
 zypper install -y \
+  libtool \
   gtk2-devel \
   libxml2-devel
 
