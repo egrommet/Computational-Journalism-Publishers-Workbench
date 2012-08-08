@@ -33,6 +33,7 @@ apt-get install -y \
 apt-get remove -y graphviz-dev
 apt-get autoremove -y
 apt-get install -y \
+  libtool \
   libgtk2.0-dev \
   libxml2-dev \
   libltdl-dev
