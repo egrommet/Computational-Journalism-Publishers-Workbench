@@ -20,7 +20,7 @@ pushd /usr/local/src
   tar xf ${WHAT}
   pushd ${DIR}
     ./configure
-    make
+    /usr/bin/time make
     make install
   popd
   

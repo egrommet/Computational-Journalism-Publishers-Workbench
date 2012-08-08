@@ -20,6 +20,6 @@ rm -fr ${DIR}
 tar xf ${WHAT}
 cd ${DIR}
 ./configure
-make
+/usr/bin/time make
 make install
 popd

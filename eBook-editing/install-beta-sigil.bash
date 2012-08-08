@@ -19,7 +19,7 @@ pushd /usr/local/src
   mkdir -p ${BDIR}
   pushd ${BDIR}
     cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release ../${SDIR}
-    make
+    /usr/bin/time make
     make install
   popd
   

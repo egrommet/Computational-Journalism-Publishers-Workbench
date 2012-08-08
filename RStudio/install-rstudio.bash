@@ -25,7 +25,7 @@ pushd /usr/local/src
       for i in gwt dictionaries mathjax
       do
         patch -b ./install-$i ${HERE}/install-$i.patch
-        ./install-$i
+        /usr/bin/time ./install-$i
       done
     popd
     patch -b src/gwt/build.xml ${HERE}/build.xml.patch

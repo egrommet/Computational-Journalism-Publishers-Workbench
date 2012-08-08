@@ -23,7 +23,7 @@ tar xf ${WHAT}
 
 pushd ${DIR}
 ./configure --with-all-plugins
-make 
+/usr/bin/time make 
 make install
 make ggobirc
 mkdir -p /etc/xdg/ggobi
