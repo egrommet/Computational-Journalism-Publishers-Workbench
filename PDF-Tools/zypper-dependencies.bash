@@ -10,7 +10,7 @@
 #
 
 zypper addrepo -cf http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.2/Documentation:Tools.repo
-zypper refresh --gpg-auto-import-keys
+zypper refresh
 
 zypper install -y \
   ImageMagick \
