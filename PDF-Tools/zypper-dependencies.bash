@@ -9,9 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-zypper addrepo -cf http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.2/Documentation:Tools.repo
-zypper refresh
-
 zypper install -y \
   ImageMagick \
   ImageMagick-doc \

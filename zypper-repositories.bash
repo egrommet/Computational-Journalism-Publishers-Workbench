@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,16 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# get babysitting out of the way for openSUSE :-(
-
-if [ -e "/usr/bin/zypper" ]
-then
-  ./zypper-repositories.bash
-fi
-
-for i in TexLive R-GGobi RStudio eBook-editing PDF-Tools Perl-Twitter
-do
-  pushd $i
-  ./install-all.bash
-  popd
-done
+zypper addrepo -cf http://download.opensuse.org/repositories/devel:/languages:/haskell:/next/openSUSE_12.2/devel:languages:haskell:next.repo
+zypper addrepo -cf http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.2/Documentation:Tools.repo
+echo "Answer 'a' to repository trust questions below."
+zypper refresh
