@@ -11,5 +11,7 @@
 
 # Sigil beta
 zypper install -y \
+  gtk-recordMyDesktop \
+  pitivi \
   intltool \
   latex2html
