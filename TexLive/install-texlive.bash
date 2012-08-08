@@ -19,7 +19,9 @@ pushd /usr/local/src
 rm -fr install-tl*
 curl -L ${WHERE}/${WHAT} | tar xzf -
 cd install-tl-*
-/usr/bin/time ./install-tl -profile ${HERE}/texlive.profile-${MACHINE}
+/usr/bin/time ./install-tl \
+  -repository ${WHERE} \
+  -profile ${HERE}/texlive.profile-${MACHINE}
 popd
 cp texlive-${MACHINE}.sh /etc/profile.d/
 source /etc/profile
