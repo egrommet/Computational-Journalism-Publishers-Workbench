@@ -11,6 +11,7 @@
 
 # R-compiled
 apt-get install -y \
+  mlocate \
   curl \
   vim \
   vim-gtk \

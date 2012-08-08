@@ -11,6 +11,7 @@
 
 # R-compiled
 yum install -y \
+  mlocate \
   vim-enhanced \
   vim-X11 \
   gcc-gfortran \

@@ -11,6 +11,7 @@
 
 # R-compiled
 zypper install -y \
+  findutils-locate \
   epdfview \
   vim-enhanced \
   gvim \
