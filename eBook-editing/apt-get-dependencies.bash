@@ -11,5 +11,8 @@
 
 # Sigil beta
 apt-get install -y \
+  firefox \
+  pitivi \
+  gtk-recordmydesktop \
   intltool \
   zlib-bin
