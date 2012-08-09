@@ -25,3 +25,4 @@ pushd /usr/local/src
   popd
   
 popd
+cp lyx.desktop /usr/local/share/applications/
