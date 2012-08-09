@@ -19,4 +19,4 @@ rstudio-server start
 
 echo "Open TCP port 8787"
 gufw
-chromium localhost:8787 &
+chromium-browser localhost:8787 &
