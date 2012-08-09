@@ -22,6 +22,6 @@ mkdir -p /mnt/cdrom
 mount /dev/sr0 /mnt/cdrom
 /mnt/cdrom/VBoxLinuxAdditions.run
 
-echo "Rebooting in 15 seconds to load VirtualBox modules"
+echo "Shutting down in 15 seconds to take snapshot"
 sleep 15
-reboot 
+shutdown
