@@ -10,4 +10,9 @@
 #
 
 yum install -y \
+  perl-YAML \
+  perl-YAML-Syck \
+  perl-JSON-XS \
+  perl-JSON \
+  perl-Crypt-SSLeay \
   perl-local-lib
