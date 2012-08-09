@@ -9,6 +9,7 @@
 #
 install.packages(
   c(
+    'rattle',
     'rJava',
     'seewave',
     'tuneR',
