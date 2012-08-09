@@ -11,7 +11,6 @@
 
 # Sigil beta
 yum install -y \
-  chromium \
   pitivi \
   gtk-recordmydesktop \
   latex2html \
