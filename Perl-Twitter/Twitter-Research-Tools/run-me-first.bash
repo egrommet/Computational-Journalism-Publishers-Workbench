@@ -5,9 +5,8 @@ echo 'eval $(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)' >> ~/.bashrc
 source ~/.bashrc
 
 rm -fr ~/perl5 ~/.cpan
-cpan # do the autoconfig
+cpan < config.cpan # do the autoconfig
 cpan CPAN # update CPAN
-cpan < prep.cpan # should end all the babysitting
 
 perl -MCPAN -Mlocal::lib -e 'CPAN::install(YAML)'
 perl -MCPAN -Mlocal::lib -e 'CPAN::install(YAML::Syck)'
