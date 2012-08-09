@@ -9,7 +9,6 @@ zypper update
 echo "Installing basic development tools"
 zypper install -y \
   make \
-  dkms \
   kernel-devel \
   vim-data \
   vim-enhanced \
