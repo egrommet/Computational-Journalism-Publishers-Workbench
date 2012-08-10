@@ -10,4 +10,9 @@
 #
 
 zypper install -y \
+  perl-Crypt-SSLeay \
+  perl-YAML \
+  perl-YAML-Syck \
+  perl-JSON \
+  perl-JSON-XS \
   perl-local-lib
