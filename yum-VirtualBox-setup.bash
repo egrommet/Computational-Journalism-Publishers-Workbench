@@ -2,6 +2,9 @@
 
 echo "If you haven't already, do 'Devices -> Install Guest Additions'"
 
+# Patches
+yum update -y
+
 # install tools
 echo "Installing basic development tools"
 yum install -y \
@@ -9,7 +12,8 @@ yum install -y \
   dkms \
   kernel-devel \
   gcc \
-  git
+  vim \
+  vim-X11
 
 # install
 echo "Installing guest additions"
@@ -17,6 +21,6 @@ mkdir -p /mnt/cdrom
 mount /dev/sr0 /mnt/cdrom
 /mnt/cdrom/VBoxLinuxAdditions.run
 
-echo "Rebooting in ten seconds to load VirtualBox modules"
-sleep 10
-reboot 
+echo "Shutting down in 15 seconds to take snapshot"
+sleep 15
+shutdown -P now
