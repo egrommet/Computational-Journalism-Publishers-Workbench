@@ -15,5 +15,6 @@ apt-get install -y \
   pitivi \
   gtk-recordmydesktop \
   intltool \
+  jabref \
   vim-latexsuite \
   zlib-bin
