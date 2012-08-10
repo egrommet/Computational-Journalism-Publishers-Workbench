@@ -11,4 +11,9 @@
 
 apt-get install -y \
   libssl-dev \
+  libcrypt-ssleay-perl \
+  libjson-xs-perl \
+  libjson-perl \
+  libyaml-syck-perl \
+  libyaml-perl \
   liblocal-lib-perl
