@@ -1,10 +1,13 @@
 #! /bin/bash
 
+# clean slate
+rm -fr ~/perl5 ~/.cpan
+
 # set environment variables
 echo 'eval $(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)' >> ~/.bashrc
 source ~/.bashrc
+set|grep PERL
 
-rm -fr ~/perl5 ~/.cpan
 cpan < config.cpan # do the autoconfig
 cpan CPAN # update CPAN
 
