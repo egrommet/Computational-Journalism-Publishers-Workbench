@@ -17,4 +17,6 @@ yum install -y \
   latex2rtf \
   jabref \
   intltool \
+  vim-latex \
+  vim-latex-doc \
   minizip
