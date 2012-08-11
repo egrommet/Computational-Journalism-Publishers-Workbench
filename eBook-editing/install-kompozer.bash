@@ -18,5 +18,5 @@ then
   yum install -y kompozer
 elif [ -e "/usr/bin/zypper" ]
 then
-  zypper install -y kompozer
+  #zypper install -y kompozer
 fi
