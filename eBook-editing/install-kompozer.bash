@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,16 +9,14 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-for i in \
-  dependencies \
-  pandoc \
-  calibre \
-  freemind-beta \
-  epubcheck \
-  beta-sigil \
-  lyx \
-  kompozer \
-  bluefish
-do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
-done
+# use distro-supplied kompozer for now
+if [ -e "/usr/bin/apt-get" ]
+then
+  apt-get install -y kompozer
+elif [ -e "/usr/bin/yum" ]
+then
+  yum install -y kompozer
+elif [ -e "/usr/bin/zypper" ]
+then
+  zypper install -y kompozer
+fi
