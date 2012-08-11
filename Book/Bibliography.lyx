@@ -63,11 +63,17 @@ knitr
 
 \begin_body
 
-\begin_layout Chapter*
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "key-1"
+
+\end_inset
+
 
 \end_layout
 
-\begin_layout Bibliography
+\begin_layout Standard
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
 key "CohenHamiltonTurner"
