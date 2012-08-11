@@ -11,6 +11,7 @@
 
 # clean slate
 rm -fr ~/perl5 ~/.cpan
+mkdir -p ~/perl5 ~/.cpan
 
 # set environment variables
 perl -Mlocal::lib >> ~/.bashrc
