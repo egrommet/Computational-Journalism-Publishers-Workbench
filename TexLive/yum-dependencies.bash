@@ -10,6 +10,7 @@
 #
 
 yum install -y \
+  perl-Tk \
   curl \
   wget \
   perl-Digest-MD5
