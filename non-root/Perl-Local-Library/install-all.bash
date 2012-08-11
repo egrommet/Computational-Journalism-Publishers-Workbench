@@ -19,7 +19,7 @@ set|grep PERL
 
 cpan < config.cpan 2>&1 | tee config.log # do the autoconfig
 
-for i in 
+for i in \
   CPAN \
   Net::Twitter \
   AnyEvent::Twitter::Stream \
