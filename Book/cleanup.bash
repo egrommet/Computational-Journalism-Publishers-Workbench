@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 rm -fr Book.html.LyXconv
 rm -f *.tex
