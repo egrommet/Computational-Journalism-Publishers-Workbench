@@ -6,7 +6,7 @@ mkdir -p images
 # make html
 rm -fr Book.html.LyXconv
 lyx -e html Book.lyx
-rm -f *.tex
+rm -f *.tex */*tex
 
 # ImageMagick FTW!
 pushd Book.html.LyXconv
@@ -24,9 +24,9 @@ sigil *.html
 popd
 
 # run through epubcheck
-epub-fix --unmanifested --epubcheck Book.epub
+epub-fix --delete-unmanifested --epubcheck Book.epub
 epubcheck Book.epub
-
+sigil Book.epub # fix errors
 # stash stuff here in Git
 git add *.lyx
 git commit
