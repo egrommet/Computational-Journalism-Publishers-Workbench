@@ -17,7 +17,6 @@ for i in \
   epubcheck \
   beta-sigil \
   lyx \
-  kompozer \
   bluefish
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
