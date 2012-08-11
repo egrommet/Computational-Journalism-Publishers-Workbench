@@ -23,7 +23,7 @@ knitr
 \font_tt_scale 100
 
 \graphics default
-\default_output_format pdf2
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -66,21 +66,12 @@ knitr
 \begin_layout Bibliography
 \begin_inset CommandInset bibitem
 LatexCommand bibitem
-key "key-1"
+label "CHT2011"
+key "CHT2011"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset CommandInset bibitem
-LatexCommand bibitem
-key "CohenHamiltonTurner"
-
-\end_inset
-
-Sarah Cohen, James T.
+ Sarah Cohen, James T.
  Hamilton, Fred Turner (2011), "Computational Journalism", 
 \emph on
 Communications of the ACM

@@ -23,7 +23,7 @@ knitr
 \font_tt_scale 100
 
 \graphics default
-\default_output_format pdf2
+\default_output_format pdf5
 \output_sync 0
 \bibtex_command default
 \index_command default
@@ -98,6 +98,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename images/Figure1.png
+	width 4in
 
 \end_inset
 
