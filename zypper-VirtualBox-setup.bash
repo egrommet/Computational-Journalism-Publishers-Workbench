@@ -28,6 +28,6 @@ mkdir -p /mnt/cdrom
 mount /dev/sr0 /mnt/cdrom
 /mnt/cdrom/VBoxLinuxAdditions.run
 
-echo "Shutting down in 15 seconds to take snapshot"
+echo "Shutting down in 15 seconds so you can take a snapshot"
 sleep 15
 shutdown -P now
