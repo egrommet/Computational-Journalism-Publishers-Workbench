@@ -2,8 +2,8 @@
 
 echo "If you haven't already, do 'Devices -> Install Guest Additions'"
 
-# update
-zypper update
+# remove CD repo - it's not attached any more
+zypper rr 'openSUSE-12.2-1.5'
 
 # install tools
 echo "Installing basic development tools"
