@@ -99,31 +99,29 @@ And seven million Whys!<br>
 8. When the install is finished and you've done the post-install set up, log in.
 9. Open a terminal and type
 
-```
-$ sudo yum update -y
-```
-
+    ```
+    $ sudo yum update -y
+    ```
 10. Reboot the virtual machine.
 11. When it comes back up, log in again. In the VirtualBox "Devices" menu, select "Install guest additions". Press the ***"Cancel"*** button if you are asked to open the media with the File Manager or run it.
 12. Open a terminal and type
 
-```
-$ sudo yum install -y git
-$ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
-$ cd Computational-Journalism-Publishers-Workbench  
-$ git checkout v0.1.0
-$ sudo ./VirtualBoxSetup.bash
-```
-
+    ```
+    $ sudo yum install -y git
+    $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
+    $ cd Computational-Journalism-Publishers-Workbench  
+    $ git checkout v0.1.0
+    $ sudo ./VirtualBoxSetup.bash
+    ```
 13. The script will install the VirtualBox guest additions. Then the virtual machine will shut down.
 14. After shutdown, go into the machine's Storage settings and disconnect the virtual ISO file with the guest additions.
 15. Take a snapshot of the machine in its present state. If something goes wrong further down the line in the install, you can drop back to this known good state.
 16. Start the machine up again, log in and open a terminal. Type
 
-```
-$ ./run-me-first.bash  
-$ sudo ./install-all.bash  
-```
+    ```
+    $ ./run-me-first.bash  
+    $ sudo ./install-all.bash  
+    ```
 17. This will run quite a while. On my dual-core i5 laptop on typical coffee shop wireless, it takes about two hours. It is downloading most of the software over the Internet and compiling much of it from source.
 
 ## Issue tracker
