@@ -88,33 +88,43 @@ From the second she opens her eyes -<br>
 One million Hows, two million Wheres,<br>
 And seven million Whys!<br>
 
-## Getting Started
-1. There are two options: "bare metal", usually a dual-boot with Windows or MacOS X, or running as a guest machine inside a host virtualization ("hypervisor") platfrom. I run it both ways - my main development system is dual-booted with Windows 7 and Fedora 17 Linux. I've tested mostly with an Oracle VM VirtualBox host, but I know everything works with VMware Workstation, VMware Player and KVM.
-
-    If you go with bare metal, you'll need at least a 32-bit machine with 1536 MB of RAM. The base distributions I've chosen, which use the LXDE desktop, are aimed at older systems. The recommended base systems are, in no particular order:
-
-    [Fedora LXDE Desktop](http://spins.fedoraproject.org/lxde/)<br/>
-    [Lubuntu 12.04](https://help.ubuntu.com/community/Lubuntu/GetLubuntu)<br/>
-    [openSUSE 12.2 Release Candidate 2](http://software.opensuse.org/developer/en)
-
-    If you go with a hypervisor, you will need a host system with at least 3 GB of RAM. This is the path I recommend for beginners. When you create the virtual machine, you'll need to allocate a 16 GB disk drive and 1536 MB of RAM minimum. I recommend Oracle VM VirtualBox as a hypervisor for beginners. The user interface is the same whether your host is Windows, MacOS X or Linux, and it has the so-called "seamless" mode. In seamless mode, your guest machine's menu and application windows appear on your host's desktop.
-
-    [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) (available for Linux, Windows and Macintosh)
-
-    In either case, you'll need wall power and Internet connectivity. Most of the software in the workbench is downloaded from the Internet, and a fair amount of it is compiled from source. On my dual-core Intel i5 with 8 GB of RAM a full install typically takes two hours in a guest machine.
-2. Boot up Linux and log in as a non-root user.
-3. Install _git_ using the Linux package manager.
-4. Open a terminal window and type
+## Quick Start
+1. System requirements: You'll need a Windows, Macintosh or Linux desktop/laptop with at least 3 GB of RAM. You will also need reliable wall power and a reliable Internet connection.
+2. Download and install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+3. Download the [Fedora LXDE 32-bit Desktop ISO file](http://download.fedoraproject.org/pub/alt/releases/17/Spins/i686/Fedora-17-i686-Live-LXDE.iso). You do ***not*** need to burn this to a CD or copy it to a USB drive.
+4. Start up Oracle VM VirtualBox. Create a virtual machine with the Fedora Linux operating system, 1536 MB of memory, and a 16 GB virtual hard disk.
+5. In the virtual machine Display settings, set the display video memory to 128 MB and enable 3D acceleration.
+6. In the virtual machine Storage settings, connect the virtual machine CD drive to the ISO file you downloaded.
+7. Start the virtual machine and install Fedora to it.
+8. When the install is finished and you've done the post-install set up, log in.
+9. Open a terminal and type
 
 ```
+$ sudo yum update -y
+```
+
+10. Reboot the virtual machine.
+11. When it comes back up, log in again. In the VirtualBox "Devices" menu, select "Install guest additions". Press the ***"Cancel"*** button if you are asked to open the media with the File Manager or run it.
+12. Open a terminal and type
+
+```
+$ sudo yum install -y git
 $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
 $ cd Computational-Journalism-Publishers-Workbench  
 $ git checkout v0.1.0
+$ sudo ./VirtualBoxSetup.bash
+```
+
+13. The script will install the VirtualBox guest additions. Then the virtual machine will shut down.
+14. After shutdown, go into the machine's Storage settings and disconnect the virtual ISO file with the guest additions.
+15. Take a snapshot of the machine in its present state. If something goes wrong further down the line in the install, you can drop back to this known good state.
+16. Start the machine up again, log in and open a terminal. Type
+
+```
 $ ./run-me-first.bash  
 $ sudo ./install-all.bash  
 ```
-
-This will take quite a while. It is downloading most of the software over the Internet and compiling much of it from source. Typically on a modern laptop in a virtual machine using coffee shop wireless it takes about two hours.
+17. This will run quite a while. On my dual-core i5 laptop on typical coffee shop wireless, it takes about two hours. It is downloading most of the software over the Internet and compiling much of it from source.
 
 ## Issue tracker
 I'm using the [Github issue tracker](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues) on this project, although you can also send me a message if you're a Github member.
@@ -124,10 +134,10 @@ One of the major components, [RStudio](https://github.com/rstudio/rstudio), is l
 
 ## Main upstream projects
 
+* [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) (available for Linux, Windows and Macintosh)
 * [Fedora LXDE Desktop](http://spins.fedoraproject.org/lxde/)
 * [Lubuntu 12.04](https://help.ubuntu.com/community/Lubuntu/GetLubuntu)
 * [openSUSE 12.2 Release Candidate 2](http://software.opensuse.org/developer/en)
-* [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads) (available for Linux, Windows and Macintosh)
 * [TeX Live](http://www.tug.org/texlive/acquire-netinstall.html) (available for Windows and Macintosh)
 * [R Patched](ftp://ftp.stat.math.ethz.ch/Software/R/) (available for Windows and Macintosh)
 * [GGobi](http://www.ggobi.org/downloads/) (available for Windows and Macintosh)
