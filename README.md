@@ -103,7 +103,7 @@ And seven million Whys!<br>
     ```
     $ sudo yum update -y
     ```
-1. Reboot the virtual machine.
+1. The update will take quite a while. When it has finished, reboot the virtual machine.
 1. When it comes back up, log in again. In the VirtualBox "Devices" menu, select "Install guest additions". Press the ***"Cancel"*** button if you are asked to open the media with the File Manager or run it.
 1. Open a terminal and type
 
