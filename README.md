@@ -144,6 +144,7 @@ One of the major components, [RStudio](https://github.com/rstudio/rstudio), is l
 * [Fedora LXDE Desktop](http://spins.fedoraproject.org/lxde/)
 * [Lubuntu 12.04](https://help.ubuntu.com/community/Lubuntu/GetLubuntu)
 * [openSUSE 12.2 Release Candidate 2](http://software.opensuse.org/developer/en)
+
 ### Applications / Tools (all are available for Windows, Macintosh and Linux desktops/laptops)
 * [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [TeX Live](http://www.tug.org/texlive/acquire-netinstall.html)
