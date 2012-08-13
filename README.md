@@ -119,6 +119,7 @@ And seven million Whys!<br>
 1. Start the machine up again, log in and open a terminal. Type
 
     ```
+    $ cd Computational-Journalism-Publishers-Workbench  
     $ ./run-me-first.bash  
     $ sudo ./install-all.bash  
     ```
