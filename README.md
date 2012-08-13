@@ -111,7 +111,7 @@ And seven million Whys!<br>
     $ sudo yum install -y git
     $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
-    $ git checkout v0.1.0
+    $ git checkout v0.2.0
     $ sudo ./VirtualBoxSetup.bash
     ```
 1. The script will install the VirtualBox guest additions. Then the virtual machine will shut down.
