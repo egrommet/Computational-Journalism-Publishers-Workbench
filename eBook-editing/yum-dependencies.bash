@@ -20,3 +20,24 @@ yum install -y \
   vim-latex \
   vim-latex-doc \
   minizip
+
+# Calibre
+yum install -y \
+  pyicu \
+  icu \
+  python-dns \
+  ImageMagick-devel \
+  sqlite-devel \
+  python-imaging-devel \
+  PyQt4-devel \
+  libmtp-devel \
+  python-mechanize \
+  xdg-utils \
+  python-lxml \
+  python-dateutil \
+  python-cssutils \
+  python-BeautifulSoup \
+  podofo-devel \
+  libwmf-devel \
+  chmlib-devel \
+  libicu-devel
