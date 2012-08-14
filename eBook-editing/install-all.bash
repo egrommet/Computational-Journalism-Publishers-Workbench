@@ -12,7 +12,7 @@
 for i in \
   dependencies \
   pandoc \
-  calibre \
+  calibre-source \
   freemind-beta \
   epubcheck \
   beta-sigil \

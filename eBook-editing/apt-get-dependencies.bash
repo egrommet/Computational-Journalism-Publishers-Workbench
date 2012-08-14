@@ -21,3 +21,22 @@ apt-get install -y \
   latex2rtf  \
   latex2rtf-doc \
   zlib-bin
+
+apt-get install -y \
+  python-pyicu \
+  python-dns \
+  libmagick++-dev \
+  libsqlite3-dev \
+  python-imaging \
+  python-qt4-dev \
+  libmtp-dev \
+  python-mechanize \
+  xdg-utils \
+  python-lxml \
+  python-dateutil \
+  python-cssutils \
+  python-beautifulsoup \
+  libpodofo-dev \
+  libwmf-dev \
+  libchm-dev \
+  libicu-dev
