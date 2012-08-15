@@ -14,5 +14,4 @@ zypper install -y \
   chromium \
   gtk-recordMyDesktop \
   pitivi \
-  intltool \
-  latex2html
+  intltool
