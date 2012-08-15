@@ -11,11 +11,11 @@
 
 for i in \
   dependencies \
+  lyx \
   beta-sigil \
   calibre-source \
   freemind-beta \
   epubcheck \
-  lyx \
   bluefish \
   seamonkey \
   pandoc
