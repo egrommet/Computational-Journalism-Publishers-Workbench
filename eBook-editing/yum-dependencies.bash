@@ -17,6 +17,9 @@ yum install -y \
   intltool \
   FlightCrew-devel \
   xerces-c-devel \
+  pcre-devel \
+  pcre-tools \
+  hunspell-devel \
   minizip-devel
 
 # Calibre
