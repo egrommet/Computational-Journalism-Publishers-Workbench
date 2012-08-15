@@ -15,7 +15,7 @@ yum install -y \
   gtk-recordmydesktop \
   jabref \
   intltool \
-  minizip
+  minizip-devel
 
 # Calibre
 yum install -y \
