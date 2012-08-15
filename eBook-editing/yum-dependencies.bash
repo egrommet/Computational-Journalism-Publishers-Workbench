@@ -44,21 +44,7 @@ yum install -y \
   libicu-devel
 
 # LyX
-yum install -y \
-  abiword \
-  gnumeric \
-  gimp \
-  tgif \
-  dia \
-  dia-CMOS \
-  dia-Digital \
-  dia-electric2 \
-  dia-electronic \
-  dia-optics \
-  xfig \
-  fig2ps \
-  transfig \
-  inkscape \
+yum install \
   enchant-devel \
   aspell-devel
 
