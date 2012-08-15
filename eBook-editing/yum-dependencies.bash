@@ -16,6 +16,7 @@ yum install -y \
   jabref \
   intltool \
   FlightCrew-devel \
+  xerces-c-devel \
   minizip-devel
 
 # Calibre
