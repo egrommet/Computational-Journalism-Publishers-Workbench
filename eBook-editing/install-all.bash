@@ -11,14 +11,14 @@
 
 for i in \
   dependencies \
-  pandoc \
+  beta-sigil \
   calibre-source \
   freemind-beta \
   epubcheck \
-  beta-sigil \
   lyx \
-  seamonkey \
-  bluefish
+  bluefish \
+  seamonkey
+  pandoc \
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
