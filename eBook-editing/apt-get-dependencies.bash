@@ -16,10 +16,6 @@ apt-get install -y \
   gtk-recordmydesktop \
   intltool \
   jabref \
-  vim-latexsuite \
-  latex2html \
-  latex2rtf  \
-  latex2rtf-doc \
   zlib-bin
 
 apt-get install -y \

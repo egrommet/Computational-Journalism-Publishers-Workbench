@@ -13,12 +13,8 @@
 yum install -y \
   pitivi \
   gtk-recordmydesktop \
-  latex2html \
-  latex2rtf \
   jabref \
   intltool \
-  vim-latex \
-  vim-latex-doc \
   minizip
 
 # Calibre
