@@ -17,8 +17,8 @@ for i in \
   epubcheck \
   lyx \
   bluefish \
-  seamonkey
-  pandoc \
+  seamonkey \
+  pandoc
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
