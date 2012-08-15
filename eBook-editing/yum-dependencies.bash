@@ -42,3 +42,8 @@ yum install -y \
   libwmf-devel \
   chmlib-devel \
   libicu-devel
+
+# LyX
+yum install -y \
+  enchant-devel \
+  aspell-devel
