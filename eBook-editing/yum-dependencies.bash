@@ -45,6 +45,20 @@ yum install -y \
 
 # LyX
 yum install -y \
+  abiword \
+  gnumeric \
+  gimp \
+  tgif \
+  dia \
+  dia-CMOS \
+  dia-Digital \
+  dia-electric2 \
+  dia-electronic \
+  dia-optics \
+  xfig \
+  fig2ps \
+  transfig \
+  inkscape \
   enchant-devel \
   aspell-devel
 

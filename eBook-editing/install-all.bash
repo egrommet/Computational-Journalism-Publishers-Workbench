@@ -11,8 +11,8 @@
 
 for i in \
   dependencies \
-  bluefish \
   lyx \
+  bluefish \
   beta-sigil \
   calibre-source \
   freemind-beta \
