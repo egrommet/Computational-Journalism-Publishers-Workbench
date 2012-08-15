@@ -47,3 +47,7 @@ yum install -y \
 yum install -y \
   enchant-devel \
   aspell-devel
+
+# Bluefish
+yum install -y \
+  jing
