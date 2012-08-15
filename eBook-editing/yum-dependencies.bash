@@ -15,6 +15,7 @@ yum install -y \
   gtk-recordmydesktop \
   jabref \
   intltool \
+  FlightCrew-devel \
   minizip-devel
 
 # Calibre
