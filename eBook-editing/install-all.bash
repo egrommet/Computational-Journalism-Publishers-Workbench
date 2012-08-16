@@ -17,7 +17,6 @@ for i in \
   calibre-source \
   freemind-beta \
   epubcheck \
-  seamonkey \
   pandoc
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
