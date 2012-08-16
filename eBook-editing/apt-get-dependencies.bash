@@ -28,7 +28,9 @@ apt-get install -y \
   libmagick++-dev \
   libsqlite3-dev \
   python-imaging \
+  python-qt4 \
   python-qt4-dev \
+  pyqt4-dev-tools \
   libmtp-dev \
   python-mechanize \
   xdg-utils \
