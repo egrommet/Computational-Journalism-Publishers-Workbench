@@ -16,8 +16,12 @@ apt-get install -y \
   gtk-recordmydesktop \
   intltool \
   jabref \
+  libxerces-c-dev \
+  libpcre3-dev \
+  libhunspell-dev \
   zlib-bin
 
+# Calibre
 apt-get install -y \
   python-pyicu \
   python-dns \
@@ -36,3 +40,12 @@ apt-get install -y \
   libwmf-dev \
   libchm-dev \
   libicu-dev
+
+# LyX
+apt-get install \
+  libenchant-dev \
+  libaspell-dev
+
+# Bluefish
+apt-get install -y \
+  jing
