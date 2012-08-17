@@ -13,7 +13,6 @@
 yum install -y \
   pitivi \
   gtk-recordmydesktop \
-  jabref \
   intltool \
   FlightCrew-devel \
   xerces-c-devel \

@@ -15,7 +15,6 @@ apt-get install -y \
   pitivi \
   gtk-recordmydesktop \
   intltool \
-  jabref \
   libxerces-c-dev \
   libpcre3-dev \
   libhunspell-dev \

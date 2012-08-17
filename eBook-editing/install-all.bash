@@ -11,6 +11,7 @@
 
 for i in \
   dependencies \
+  jabref \
   calibre-source \
   lyx \
   bluefish \

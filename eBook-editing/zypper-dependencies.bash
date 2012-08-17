@@ -13,7 +13,6 @@
 zypper install -y \
   gtk-recordMyDesktop \
   pitivi \
-  jabref \
   intltool \
   libxerces-c-devel \
   pcre-devel \
