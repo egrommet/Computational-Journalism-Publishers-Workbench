@@ -38,10 +38,11 @@ zypper install -y \
   python-beautifulsoup \
   libpodofo-devel \
   libwmf-devel \
+  libmtp-devel \
   chmlib-devel
 
 # LyX
-zypper install \
+zypper install -y \
   enchant-devel \
   aspell-devel
 
