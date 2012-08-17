@@ -19,8 +19,7 @@ yum install -y \
   xerces-c-devel \
   pcre-devel \
   pcre-tools \
-  hunspell-devel \
-  minizip-devel
+  hunspell-devel
 
 # Calibre
 yum install -y \
