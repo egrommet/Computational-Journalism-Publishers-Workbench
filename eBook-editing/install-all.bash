@@ -16,8 +16,7 @@ for i in \
   bluefish \
   beta-sigil \
   freemind-beta \
-  epubcheck \
-  pandoc
+  epubcheck
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
