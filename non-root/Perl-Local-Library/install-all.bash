@@ -24,8 +24,6 @@ cpan < config.cpan 2>&1 | tee config.log # do the autoconfig
 
 for i in \
   CPAN \
-  Net::Twitter \
-  AnyEvent::Twitter::Stream \
   Sys::Statistics::Linux \
   Hash::Flatten \
   Browser::Open
