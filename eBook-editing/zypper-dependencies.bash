@@ -11,8 +11,40 @@
 
 # Sigil beta
 zypper install -y \
-  chromium \
   gtk-recordMyDesktop \
   pitivi \
   jabref \
-  intltool
+  intltool \
+  libxerces-c-devel \
+  pcre-devel \
+  pcre-tools \
+  hunspell-devel
+
+# Calibre
+zypper install -y \
+  icu \
+  icu-data \
+  libicu-devel \
+  python-dnspython \
+  ImageMagick-devel \
+  sqlite3-devel \
+  python-imaging \
+  python-qt4-devel \
+  python-mechanize \
+  xdg-utils \
+  python-lxml \
+  python-dateutil \
+  python-cssutils \
+  python-beautifulsoup \
+  libpodofo-devel \
+  libwmf-devel \
+  chmlib-devel
+
+# LyX
+zypper install \
+  enchant-devel \
+  aspell-devel
+
+# Bluefish
+zypper install -y \
+  jing
