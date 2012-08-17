@@ -1,0 +1,2 @@
+#! /bin/bash
+java -jar /usr/local/src/jabref/JabRef-2.8.1.jar $1
