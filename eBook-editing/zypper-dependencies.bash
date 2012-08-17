@@ -41,7 +41,7 @@ zypper install -y \
   chmlib-devel
 
 # LyX
-zypper install \
+zypper install -y \
   enchant-devel \
   aspell-devel
 
