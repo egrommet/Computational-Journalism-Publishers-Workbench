@@ -10,7 +10,7 @@
 #
 
 export WHERE=http://calibre-ebook.googlecode.com/files
-export VERSION=0.8.64
+export VERSION=`curl https://code.google.com/p/calibre-ebook/|grep 'tar.bz2'|head -n 1|sed 's/^.*calibre-//'|sed 's/-.*$//'`
 export WHAT=calibre-${VERSION}.tar.xz
 export DIR=calibre
 
