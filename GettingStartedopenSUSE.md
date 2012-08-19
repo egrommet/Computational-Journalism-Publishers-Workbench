@@ -1,4 +1,9 @@
 ## Quick Start - openSUSE 12.2 Release Candidate 2
+
+Note: if you get stuck, have a look at the screenshots from an install at
+
+[https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Book/openSUSEInstallScreenshots](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Book/openSUSEInstallScreenshots)
+
 1. System requirements: You'll need a Windows, Macintosh or Linux desktop/laptop with at least 3 GB of RAM. You will also need reliable wall power and a reliable Internet connection.
 1. Download and install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 1. Download the [openSUSE 12.2 RC 2 Installation Medium DVD](http://software.opensuse.org/developer/en). You do ***not*** need to burn this to a CD or copy it to a USB drive.
