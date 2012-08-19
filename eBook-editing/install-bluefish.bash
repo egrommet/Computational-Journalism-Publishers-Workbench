@@ -11,7 +11,7 @@
 
 mkdir -p /usr/local/src
 pushd /usr/local/src
-export VERSION=2.2.3
+export VERSION=`curl http://sourceforge.net/projects/bluefish/files/|grep tar.bz2|head -n 1|sed 's/^.*bluefish-//'|sed 's/.tar.*//'`
 export WHERE=http://downloads.sourceforge.net/project/bluefish/bluefish/${VERSION}
 export DIR=bluefish-${VERSION}
 export WHAT=${DIR}.tar.bz2
