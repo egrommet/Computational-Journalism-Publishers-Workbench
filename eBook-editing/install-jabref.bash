@@ -15,8 +15,12 @@ pushd /usr/local/src
 rm -fr jabref*
 mkdir -p jabref
 cd jabref
-curl -L http://downloads.sourceforge.net/project/jabref/jabref/2.8.1/JabRef-2.8.1.jar \
-  > JabRef-2.8.1.jar
+export VERSION=`curl http://sourceforge.net/projects/jabref/files/|grep \.jar|head -n 1|sed 's/^.*JabRef-//'|sed 's/\.jar.*$//'`
+export WHERE="http://downloads.sourceforge.net/project/jabref/jabref/${VERSION}"
+export WHAT="JabRef-${VERSION}.jar"
+curl -L ${WHERE}/${WHAT} > ${WHAT}
 popd
 
-cp jabref /usr/local/bin
+sed "s/VERSION/${VERSION}/" jabref > /usr/local/bin/jabref
+chmod +x /usr/local/bin/jabref
+ln -sf /usr/local/bin/jabref /usr/local/bin/JabRef
