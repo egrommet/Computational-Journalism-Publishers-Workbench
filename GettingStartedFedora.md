@@ -1,6 +1,8 @@
 ## Quick Start - Fedora 17
 
-Note: if you get stuck, have a look at the screenshots from an install at [https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Book/FedoraInstallScreenshots](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Book/FedoraInstallScreenshots).
+Note: if you get stuck, have a look at the screenshots from an install at
+
+[https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Book/FedoraInstallScreenshots](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Book/FedoraInstallScreenshots).
 
 1. System requirements: You'll need a Windows, Macintosh or Linux desktop/laptop with at least 3 GB of RAM. You will also need reliable wall power and a reliable Internet connection.
 1. Download and install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads).
