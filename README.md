@@ -7,15 +7,8 @@ And How and Where and Who.<br>
 
 ## Why?
 Independent journalists today work in a world dominated by two trends:
-* Real-time many-to-many communications platforms, and
-* Large sets of complex data with stories waiting to be told.
-
-### Real-time many-to-many communications platforms
-* Hundreds of millions of Facebook and Twitter accounts almost everywhere in the world
-* Millions of active Twitter users
-* Complex patterns of interactions around people, places and events
-* Intricate and changing connection patterns between people
-* ***People break and discuss the news in real time on Twitter.***
+* Large sets of complex data with stories waiting to be told, and
+* Real-time many-to-many communications platforms
 
 ### Large sets of complex data with stories waiting to be told
 * Government data - national, regional, and local
@@ -25,10 +18,16 @@ Independent journalists today work in a world dominated by two trends:
 * Social network data
 * And yes - traffic and sports data too
 
+### Real-time many-to-many communications platforms
+* Hundreds of millions of Facebook and Twitter accounts almost everywhere in the world
+* Millions of active Twitter users
+* Complex patterns of interactions around people, places and events
+* Intricate and changing connection patterns between people
+* ***People break and discuss the news in real time on Twitter.***
+
 ## What's in the workbench?
 * ***100 percent open source technologies!***
 * A complete Linux workstation, plus
-* Real-time Twitter data collection via REST, Search and User Streams APIs
 * PDF data extraction tools
 * Plus ...
 
@@ -36,9 +35,9 @@ Independent journalists today work in a world dominated by two trends:
 * Numerical
 * Financial and economic
 * Geospatial / mapping
-* Twitter and other text data
+* Text data
 * Social networks and graphs
-* Web page, PDF and eBook creation tools
+* ***Web page, PDF and eBook creation tools***
 
 ## Who is it for?
 * Journalism students: high school, community college and beyond
