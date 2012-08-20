@@ -9,7 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# use distro-supplied calibre for now
 if [ -e "/usr/bin/apt-get" ]
 then
   apt-get install -y graphviz-dev

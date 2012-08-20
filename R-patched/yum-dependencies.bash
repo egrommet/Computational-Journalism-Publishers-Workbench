@@ -29,13 +29,6 @@ yum install -y \
   icu \
   libicu-devel
 
-# ggobi
-yum remove -y graphviz-devel
-yum install -y \
-  gtk2-devel \
-  libxml2-devel \
-  libtool-ltdl-devel
-
 # Packages
 yum install -y \
   freeglut-devel \

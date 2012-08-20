@@ -9,7 +9,9 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-for i in dependencies R-patched ggobi graphviz-devel Rgraphviz packages
-do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
-done
+# ggobi
+zypper remove -y graphviz-devel
+zypper install -y \
+  libtool \
+  gtk2-devel \
+  libxml2-devel

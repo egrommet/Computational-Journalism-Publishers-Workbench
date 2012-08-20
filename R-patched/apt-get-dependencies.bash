@@ -36,15 +36,6 @@ apt-get install -y \
   texinfo \
   libicu-dev
 
-# ggobi
-apt-get remove -y graphviz-dev
-apt-get autoremove -y
-apt-get install -y \
-  libtool \
-  libgtk2.0-dev \
-  libxml2-dev \
-  libltdl-dev
-
 # Packages
 apt-get install -y \
   freeglut3-dev \

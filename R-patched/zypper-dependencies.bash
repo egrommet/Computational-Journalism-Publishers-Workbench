@@ -30,13 +30,6 @@ zypper install -y \
   texinfo \
   libicu-devel
 
-# ggobi
-zypper remove -y graphviz-devel
-zypper install -y \
-  libtool \
-  gtk2-devel \
-  libxml2-devel
-
 # Packages
 zypper install -y \
   freeglut-devel \
