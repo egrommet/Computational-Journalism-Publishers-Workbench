@@ -2,8 +2,13 @@
 
 echo "If you haven't already, do 'Devices -> Install Guest Additions'"
 
-# Patches
-apt-get update; apt-get upgrade -y
+# remove existing tools
+apt-get remove -y \
+  virtualbox-guest-dkms \
+  virtualbox-guest-source \
+  virtualbox-guest-utils \
+  virtualbox-guest-x11
+apt-get autoremove -y
 
 # install tools
 echo "Installing basic development tools"
