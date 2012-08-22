@@ -8,3 +8,12 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
+
+# ggobi
+urpme --auto --auto-orphans graphviz-devel
+urpmi --auto \
+  libtool \
+  libcairo-devel \
+  gtk2-devel \
+  libzlib-devel \
+  libxml2-devel
