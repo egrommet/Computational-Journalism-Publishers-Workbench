@@ -18,4 +18,7 @@ then
 elif [ -e "/usr/bin/zypper" ]
 then
   zypper install -y graphviz-devel
+elif [ -e "/usr/sbin/urpmi" ]
+then
+  urpmi --auto libgraphviz-devel
 fi
