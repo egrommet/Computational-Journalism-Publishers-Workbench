@@ -10,7 +10,7 @@
 #
 
 # R-compiled
-urpmi --auto \
+urpmi --auto --no-suggests \
   gcc-gfortran \
   java-1.7.0-openjdk-devel \
   libreadline-devel \
@@ -26,7 +26,7 @@ urpme --auto --auto-orphans \
   java-1.6.0-openjdk
 
 # Packages
-urpmi --auto \
+urpmi --auto --no-suggests \
   libfftw-devel \
   libgd-devel \
   libgsl-devel \
