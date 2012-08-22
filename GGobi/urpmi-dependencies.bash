@@ -18,4 +18,5 @@ urpmi --auto \
   libzlib-devel \
   libfreeglut-devel \
   libltdl-devel \
+  libcanberra-gtk-devel \
   libxml2-devel
