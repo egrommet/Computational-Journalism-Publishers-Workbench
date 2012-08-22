@@ -12,6 +12,7 @@
 # R-compiled
 urpmi --auto --no-suggests \
   gcc-gfortran \
+  gcc-c++ \
   java-1.7.0-openjdk-devel \
   libreadline-devel \
   libpango1.0-devel \
