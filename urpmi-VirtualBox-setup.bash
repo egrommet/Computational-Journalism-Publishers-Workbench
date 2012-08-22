@@ -10,7 +10,7 @@ urpme --auto --auto-orphans virtualbox-guest-additions
 
 # install tools
 echo "Installing basic development tools"
-urpmi --auto \
+urpmi --auto --no-suggests \
   dkms \
   vim \
   vim-X11

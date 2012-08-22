@@ -11,7 +11,7 @@
 
 # ggobi
 urpme --auto --auto-orphans libgraphviz-devel
-urpmi --auto \
+urpmi --auto --no-suggests \
   libtool \
   libcairo-devel \
   gtk2-devel \
