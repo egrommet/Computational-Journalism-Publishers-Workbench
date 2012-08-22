@@ -16,4 +16,5 @@ zypper install -y \
   perl-YAML-Syck \
   perl-JSON \
   perl-JSON-XS \
+  perl-PadWalker \
   perl-local-lib
