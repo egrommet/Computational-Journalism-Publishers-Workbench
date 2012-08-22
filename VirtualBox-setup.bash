@@ -18,4 +18,7 @@ then
 elif [ -e "/usr/bin/zypper" ]
 then
   ./zypper-VirtualBox-setup.bash
+elif [ -e "/usr/sbin/urpmi" ]
+then
+  ./urpmi-VirtualBox-setup.bash
 fi
