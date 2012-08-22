@@ -6,8 +6,7 @@ echo "If you haven't already, do 'Devices -> Install Guest Additions'"
 urpmi.removemedia 'Mageia 2 - i586 DVD'
 
 echo "Removing guest tools / additions already installed"
-urpme --auto virtualbox-guest-additions
-urpme --auto-orphans
+urpme --auto --auto-orphans virtualbox-guest-additions
 
 # install tools
 echo "Installing basic development tools"
