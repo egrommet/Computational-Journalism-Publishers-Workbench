@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -8,17 +8,3 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-
-if [ -e "/usr/bin/apt-get" ]
-then
-  ./apt-get-dependencies.bash
-elif [ -e "/usr/bin/yum" ]
-then
-  ./yum-dependencies.bash
-elif [ -e "/usr/bin/zypper" ]
-then
-  ./zypper-dependencies.bash
-elif [ -e "/usr/sbin/urpmi" ]
-then
-  ./urpmi-dependencies.bash
-fi
