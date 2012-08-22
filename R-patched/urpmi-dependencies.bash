@@ -14,6 +14,9 @@ urpmi --auto --no-suggests \
   gcc-gfortran \
   gcc-c++ \
   java-1.7.0-openjdk-devel \
+  libx11_6-devel \
+  libxt-devel \
+  libxmu6-devel \
   libreadline-devel \
   libpango1.0-devel \
   libtk-devel \
