@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-yum install -y \
+urpmi --auto --no-suggests \
   imagemagick \
   imagemagick-doc \
   graphicsmagick \
