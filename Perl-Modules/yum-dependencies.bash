@@ -15,4 +15,5 @@ yum install -y \
   perl-JSON-XS \
   perl-JSON \
   perl-Crypt-SSLeay \
+  perl-Net-SSLeay \
   perl-local-lib
