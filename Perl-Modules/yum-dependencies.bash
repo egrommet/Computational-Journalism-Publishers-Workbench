@@ -16,4 +16,5 @@ yum install -y \
   perl-JSON \
   perl-Crypt-SSLeay \
   perl-Net-SSLeay \
+  perl-PadWalker \
   perl-local-lib
