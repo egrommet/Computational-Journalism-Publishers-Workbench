@@ -10,10 +10,12 @@
 #
 
 # ggobi
-urpme --auto --auto-orphans graphviz-devel
+urpme --auto --auto-orphans libgraphviz-devel
 urpmi --auto \
   libtool \
   libcairo-devel \
   gtk2-devel \
   libzlib-devel \
+  libfreeglut-devel \
+  libltdl-devel \
   libxml2-devel
