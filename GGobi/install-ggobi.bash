@@ -22,6 +22,10 @@ rm -fr ${DIR}
 tar xf ${WHAT}
 
 pushd ${DIR}
+export CFLAGS='-O2 -pipe -march=native'
+export FFLAGS='-O2 -pipe -march=native'
+export CXXFLAGS='-O2 -pipe -march=native'
+export FCFLAGS='-O2 -pipe -march=native'
 ./configure --with-all-plugins
 /usr/bin/time make 
 make install
