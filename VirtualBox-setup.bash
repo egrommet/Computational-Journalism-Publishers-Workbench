@@ -11,14 +11,14 @@
 
 if [ -e "/usr/bin/apt-get" ]
 then
-  ./apt-get-VirtualBox-setup.bash
+  ./apt-get-VirtualBox-setup.bash 2>&1 | tee VirtualBox.log
 elif [ -e "/usr/bin/yum" ]
 then
-  ./yum-VirtualBox-setup.bash
+  ./yum-VirtualBox-setup.bash 2>&1 | tee VirtualBox.log
 elif [ -e "/usr/bin/zypper" ]
 then
-  ./zypper-VirtualBox-setup.bash
+  ./zypper-VirtualBox-setup.bash 2>&1 | tee VirtualBox.log
 elif [ -e "/usr/sbin/urpmi" ]
 then
-  ./urpmi-VirtualBox-setup.bash
+  ./urpmi-VirtualBox-setup.bash 2>&1 | tee VirtualBox.log
 fi
