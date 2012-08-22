@@ -21,9 +21,11 @@ source ~/.bash_profile
 set|grep -i PERL
 
 cpan < config.cpan 2>&1 | tee config.log # do the autoconfig
+cpan CPAN
 
 for i in \
-  CPAN \
+  AnyEvent::Twitter::Stream \
+  Net::Twitter \
   Sys::Statistics::Linux \
   Hash::Flatten \
   Browser::Open
