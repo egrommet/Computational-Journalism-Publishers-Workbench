@@ -11,6 +11,7 @@
 
 zypper install -y \
   perl-Crypt-SSLeay \
+  perl-Net-SSLeay \
   perl-YAML \
   perl-YAML-Syck \
   perl-JSON \
