@@ -2,9 +2,6 @@
 
 echo "If you haven't already, do 'Devices -> Install Guest Additions'"
 
-# Patches
-yum update -y
-
 # install tools
 echo "Installing basic development tools"
 yum install -y \
