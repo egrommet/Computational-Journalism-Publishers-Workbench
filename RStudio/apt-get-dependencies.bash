@@ -11,6 +11,8 @@
 
 # RStudio
 apt-get install -y \
+  qdevelop \
+  qtcreator \
   libqtwebkit-dev \
   build-essential \
   pkg-config \
