@@ -35,6 +35,7 @@ yum install -y \
   fftw-devel \
   gd-devel \
   gsl-devel \
+  libcurl-devel \
   wordnet-devel \
   libsndfile-devel
 
