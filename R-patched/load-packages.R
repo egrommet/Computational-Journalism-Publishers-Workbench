@@ -13,6 +13,7 @@ install.packages(
     'devtools',
     'testthat',
     'roxygen2',
+    'twitteR',
     'rJava',
     'seewave',
     'tuneR',
