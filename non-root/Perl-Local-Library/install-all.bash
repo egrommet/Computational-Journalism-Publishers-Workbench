@@ -26,7 +26,6 @@ for i in \
   CPAN \
   AnyEvent::Twitter::Stream \
   Net::Twitter \
-  Net::Twitter::Stream \
   Sys::Statistics::Linux \
   Hash::Flatten \
   Browser::Open
