@@ -9,6 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+export PATH=$PATH:/usr/lib/qt4/bin
 mkdir -p /usr/local/src
 pushd /usr/local/src
   export WHERE=ftp://ftp.lyx.org/pub/lyx/stable/2.0.x
