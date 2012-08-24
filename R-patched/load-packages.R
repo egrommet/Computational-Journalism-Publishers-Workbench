@@ -10,6 +10,7 @@
 install.packages(
   c(
     'rattle',
+    'devtools',
     'rJava',
     'seewave',
     'tuneR',
