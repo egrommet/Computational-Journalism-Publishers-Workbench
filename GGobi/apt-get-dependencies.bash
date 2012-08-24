@@ -13,6 +13,7 @@
 apt-get remove -y graphviz-dev
 apt-get autoremove -y
 apt-get install -y \
+  libcanberra-gtk-dev \
   libtool \
   libgtk2.0-dev \
   libxml2-dev \
