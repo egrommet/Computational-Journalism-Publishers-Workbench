@@ -11,6 +11,8 @@ install.packages(
   c(
     'rattle',
     'devtools',
+    'testthat',
+    'roxygen2',
     'rJava',
     'seewave',
     'tuneR',
