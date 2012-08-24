@@ -10,6 +10,7 @@
 #
 
 urpmi --auto --no-suggests \
+  perl-devel \
   perl-Crypt-SSLeay \
   perl-Net-SSLeay \
   perl-YAML \
