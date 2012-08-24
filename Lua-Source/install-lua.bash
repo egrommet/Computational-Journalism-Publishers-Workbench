@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash -v
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,25 +9,17 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# get babysitting out of the way for openSUSE :-(
+mkdir -p /usr/local/src
+pushd /usr/local/src/
+export WHERE=http://www.lua.org/ftp
+export DIR=lua-5.2.1
+export WHAT=${DIR}.tar.gz
+rm -f ${WHAT}; curl ${WHERE}/${WHAT} > ${WHAT}
+rm -fr ${DIR}; tar xf ${WHAT}
 
-if [ -e "/usr/bin/zypper" ]
-then
-  ./zypper-repositories.bash
-fi
+pushd ${DIR}
+make linux install
+make test
+popd
 
-for i in \
-  TexLive \
-  GGobi \
-  R-patched \
-  RStudio \
-  eBook-editing \
-  PDF-Tools \
-  Perl-Modules \
-  Lua-Source \
-  Redis-Source
-do
-  pushd $i
-  ./install-all.bash
-  popd
-done
+popd

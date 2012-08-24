@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash -v
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,25 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# get babysitting out of the way for openSUSE :-(
-
-if [ -e "/usr/bin/zypper" ]
-then
-  ./zypper-repositories.bash
-fi
-
-for i in \
-  TexLive \
-  GGobi \
-  R-patched \
-  RStudio \
-  eBook-editing \
-  PDF-Tools \
-  Perl-Modules \
-  Lua-Source \
-  Redis-Source
+for i in lua
 do
-  pushd $i
-  ./install-all.bash
-  popd
+  ./install-${i}.bash 2>&1 | tee ${i}.log
 done
