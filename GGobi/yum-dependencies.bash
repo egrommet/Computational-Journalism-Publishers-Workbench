@@ -14,4 +14,5 @@ yum remove -y graphviz-devel
 yum install -y \
   gtk2-devel \
   libxml2-devel \
+  libcanberra-devel \
   libtool-ltdl-devel
