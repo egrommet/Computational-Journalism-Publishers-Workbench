@@ -16,7 +16,16 @@ then
   ./zypper-repositories.bash
 fi
 
-for i in TexLive GGobi R-patched RStudio eBook-editing PDF-Tools Perl-Modules
+for i in \
+  TexLive \
+  GGobi \
+  R-patched \
+  RStudio \
+  eBook-editing \
+  PDF-Tools \
+  Perl-Modules \
+  Lua-Source \
+  Redis-Source
 do
   pushd $i
   ./install-all.bash
