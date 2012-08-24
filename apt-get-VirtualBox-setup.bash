@@ -12,23 +12,11 @@ apt-get autoremove -y
 
 # make sure the whole LXDE desktop is here
 apt-get install -y \
-  lxappearance \
-  lxappearance-obconf \
-  lxde-icon-theme \
   lxde \
-  lxinput \
-  lxkeymap \
+  lxappearance-obconf \
   lxlauncher \
-  lxmenu-data \
-  lxmusic \
   lxpanel-indicator-applet-plugin \
-  lxpanel \
-  lxrandr \
-  lxsession \
-  lxsession-edit \
-  lxshortcut \
   lxtask \
-  lxterminal \
   menu-xdg \
   obconf \
   obmenu \
