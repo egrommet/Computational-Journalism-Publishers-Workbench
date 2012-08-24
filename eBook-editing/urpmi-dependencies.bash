@@ -47,4 +47,5 @@ urpmi --auto --no-suggests \
 
 # Bluefish
 urpmi --auto --no-suggests \
+  gettext-devel \
   jing08
