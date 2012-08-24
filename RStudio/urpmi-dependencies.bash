@@ -10,6 +10,8 @@
 #
 
 urpmi --auto --no-suggests \
+  qt-creator \
+  libqt4-devel \
   libqtwebkit2.2-devel \
   cmake \
   libbzip2-devel \
