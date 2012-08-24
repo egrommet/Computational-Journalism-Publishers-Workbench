@@ -2,13 +2,46 @@
 
 echo "If you haven't already, do 'Devices -> Install Guest Additions'"
 
-# remove existing tools
+# remove existing guest additions
 apt-get remove -y \
   virtualbox-guest-dkms \
   virtualbox-guest-source \
   virtualbox-guest-utils \
   virtualbox-guest-x11
 apt-get autoremove -y
+
+# make sure the whole LXDE desktop is here
+apt-get install -y \
+  lubuntu-core \
+  lubuntu-desktop \
+  lxappearance \
+  lxappearance-obconf \
+  lxde-common \
+  lxde-core \
+  lxde-icon-theme \
+  lxde \
+  lxinput \
+  lxkeymap \
+  lxlauncher \
+  lxmenu-data \
+  lxmusic \
+  lxpanel-indicator-applet-plugin \
+  lxpanel \
+  lxrandr \
+  lxsession \
+  lxsession-edit \
+  lxshortcut \
+  lxtask \
+  lxterminal \
+  menu-xdg \
+  obconf \
+  obmenu \
+  openbox \
+  openbox-themes \
+  openbox-xdgmenu \
+  xdg-user-dirs-gtk \
+  xdg-user-dirs \
+  xdg-utils
 
 # install tools
 echo "Installing basic development tools"
