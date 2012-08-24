@@ -35,6 +35,7 @@ zypper install -y \
   python-dateutil \
   python-cssutils \
   python-beautifulsoup \
+  podofo \
   libpodofo-devel \
   libwmf-devel \
   libmtp-devel \

@@ -36,6 +36,7 @@ yum install -y \
   python-dateutil \
   python-cssutils \
   python-BeautifulSoup \
+  podofo \
   podofo-devel \
   libwmf-devel \
   chmlib-devel \

@@ -10,27 +10,23 @@
 #
 
 # Sigil beta
-apt-get install -y \
-  firefox \
+urpmi --auto --no-suggests \
+  gtk-recordMyDesktop \
   pitivi \
-  gtk-recordmydesktop \
   intltool \
-  libxerces-c-dev \
-  libpcre3-dev \
-  libhunspell-dev \
-  zlib-bin
+  libxerces-c-devel \
+  libpcre-devel \
+  libhunspell-devel
 
 # Calibre
-apt-get install -y \
-  python-pyicu \
-  python-dns \
-  libmagick++-dev \
-  libsqlite3-dev \
-  python-imaging \
-  python-qt4 \
-  python-qt4-dev \
-  pyqt4-dev-tools \
-  libmtp-dev \
+urpmi --auto --no-suggests \
+  icu \
+  libicu-devel \
+  python-dnspython \
+  libmagick-devel \
+  libsqlite3-devel \
+  python-imaging-devel \
+  python-qt4-devel \
   python-mechanize \
   xdg-utils \
   python-lxml \
@@ -38,16 +34,17 @@ apt-get install -y \
   python-cssutils \
   python-beautifulsoup \
   podofo \
-  libpodofo-dev \
-  libwmf-dev \
-  libchm-dev \
-  libicu-dev
+  libpodofo-devel \
+  libwmf-devel \
+  libmtp-devel \
+  python-chm \
+  chmlib
 
 # LyX
-apt-get install \
-  libenchant-dev \
-  libaspell-dev
+urpmi --auto --no-suggests \
+  libenchant-devel \
+  libaspell-devel
 
 # Bluefish
-apt-get install -y \
-  jing
+urpmi --auto --no-suggests \
+  jing08
