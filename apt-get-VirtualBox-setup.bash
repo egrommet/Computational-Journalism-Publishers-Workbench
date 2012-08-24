@@ -12,12 +12,8 @@ apt-get autoremove -y
 
 # make sure the whole LXDE desktop is here
 apt-get install -y \
-  lubuntu-core \
-  lubuntu-desktop \
   lxappearance \
   lxappearance-obconf \
-  lxde-common \
-  lxde-core \
   lxde-icon-theme \
   lxde \
   lxinput \
