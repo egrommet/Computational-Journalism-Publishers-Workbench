@@ -11,7 +11,7 @@
 
 # Sigil beta
 urpmi --auto --no-suggests \
-  gtk-recordMyDesktop \
+  gtk-recordmydesktop \
   pitivi \
   intltool \
   libxerces-c-devel \
