@@ -26,7 +26,6 @@ export CFLAGS='-O2 -pipe -march=native'
 export FFLAGS='-O2 -pipe -march=native'
 export CXXFLAGS='-O2 -pipe -march=native'
 export FCFLAGS='-O2 -pipe -march=native'
-unset JAVA_HOME
 mkdir -p ~/R/library; export R_LIBS_USER="~/R/library"
 ./configure \
   --enable-R-profiling \
