@@ -11,6 +11,7 @@
 
 # RStudio
 yum install -y \
+  qt-creator \
   qt-devel \
   qt-gstreamer-devel \
   qtwebkit-devel \
