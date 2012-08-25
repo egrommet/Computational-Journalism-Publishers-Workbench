@@ -26,4 +26,3 @@ popd
 popd
 
 /sbin/ldconfig
-/sbin/SuSEconfig
