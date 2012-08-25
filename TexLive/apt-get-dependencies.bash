@@ -12,7 +12,5 @@
 # TexLive
 apt-get install -y \
   perl-tk \
-  vim \
-  vim-gtk \
   wget \
   curl
