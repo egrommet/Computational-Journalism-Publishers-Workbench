@@ -36,8 +36,8 @@ apt-get install -y \
   python-dateutil \
   python-cssutils \
   python-beautifulsoup \
-  podofo \
   libpodofo-dev \
+  libpodofo-utils \
   libwmf-dev \
   libchm-dev \
   libicu-dev
