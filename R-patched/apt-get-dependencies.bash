@@ -12,9 +12,6 @@
 # R-compiled
 apt-get install -y \
   mlocate \
-  curl \
-  vim \
-  vim-gtk \
   gfortran \
   g++ \
   openjdk-7-jdk \
@@ -31,6 +28,9 @@ apt-get install -y \
 
 # Packages
 apt-get install -y \
+  libcurl4-gnutls-dev \
+  libcurl4-nss-dev \
+  libcurl4-openssl-dev \
   freeglut3-dev \
   libfftw3-dev \
   libgd2-xpm-dev \
