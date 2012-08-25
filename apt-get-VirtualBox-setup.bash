@@ -12,6 +12,7 @@ apt-get autoremove -y
 
 # make sure the whole LXDE desktop is here
 apt-get install -y \
+  firefox \
   lxde \
   lxappearance-obconf \
   lxlauncher \
