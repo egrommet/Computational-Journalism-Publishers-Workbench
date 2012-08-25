@@ -9,13 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# Openbox
-apt-get install -y \
-  openbox-xdgmenu \
-  menu-xdg \
-  obmenu \
-  openbox-themes
-
 # R-compiled
 apt-get install -y \
   mlocate \
