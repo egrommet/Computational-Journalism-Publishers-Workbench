@@ -32,6 +32,7 @@ zypper install -y \
 
 # Packages
 zypper install -y \
+  libcurl-devel \
   freeglut-devel \
   fftw3-devel \
   gd-devel \
