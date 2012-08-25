@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,7 +9,3 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-for i in dependencies lua
-do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
-done
