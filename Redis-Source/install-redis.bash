@@ -25,4 +25,4 @@ popd
 
 popd
 
-/sbin/ldconfig
+ldconfig
