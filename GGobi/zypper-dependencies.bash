@@ -12,6 +12,7 @@
 # ggobi
 zypper remove -y graphviz-devel
 zypper install -y \
+  libcanberra-devel \
   libtool \
   gtk2-devel \
   libxml2-devel
