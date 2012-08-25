@@ -56,3 +56,4 @@ apt-get remove -y \
   openjdk-6-jre-lib \
   openjdk-6-jre-zero \
   openjdk-6-source
+apt-get autoremove -y
