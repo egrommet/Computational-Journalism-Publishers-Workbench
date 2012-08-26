@@ -11,19 +11,15 @@
 
 # R-compiled
 yum install -y \
-  mlocate \
   gcc-gfortran \
   gcc-c++ \
-  java-1.7.0-openjdk-devel \
   readline-devel \
   libXt-devel \
-  libX11-devel \
   libXmu-devel \
-  pango-devel \
-  cairo-devel \
+  java-1.7.0-openjdk-devel \
   tk-devel \
-  libtiff-devel \
   texinfo \
+  libtiff-devel \
   icu \
   libicu-devel
 
@@ -34,6 +30,7 @@ yum install -y \
   gd-devel \
   gsl-devel \
   libcurl-devel \
+  wordnet \
   wordnet-devel \
   libsndfile-devel
 
