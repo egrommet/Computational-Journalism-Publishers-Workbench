@@ -12,8 +12,6 @@
 # R-compiled
 yum install -y \
   mlocate \
-  vim-enhanced \
-  vim-X11 \
   gcc-gfortran \
   gcc-c++ \
   java-1.7.0-openjdk-devel \

@@ -13,8 +13,6 @@
 zypper install -y \
   findutils-locate \
   epdfview \
-  vim-enhanced \
-  gvim \
   make \
   gcc-fortran \
   gcc-c++ \
