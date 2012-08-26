@@ -16,6 +16,7 @@ echo "Completing LXDE desktop"
 
 echo "Installing basic development tools"
 yum install -y \
+  mlocate \
   make \
   dkms \
   kernel-devel \
