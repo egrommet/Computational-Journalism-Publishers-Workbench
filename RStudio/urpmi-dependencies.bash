@@ -11,6 +11,10 @@
 
 urpmi --auto --no-suggests \
   qt-creator \
+  qt-assistant \
+  qt-designer \
+  qt-linguist \
+  qt-demos \
   libqt4-devel \
   libqtwebkit2.2-devel \
   cmake \
