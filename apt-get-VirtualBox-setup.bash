@@ -1,8 +1,17 @@
 #! /bin/bash
+#
+# Copyright (C) 2012 by M. Edward (Ed) Borasky
+#
+# This program is licensed to you under the terms of version 3 of the
+# GNU Affero General Public License. This program is distributed WITHOUT
+# ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING THOSE OF NON-INFRINGEMENT,
+# MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
+# AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
+#
 
 echo "If you haven't already, do 'Devices -> Install Guest Additions'"
 
-# remove existing guest additions
+echo "Removing existing guest additions"
 apt-get remove -y \
   virtualbox-guest-dkms \
   virtualbox-guest-source \
@@ -10,25 +19,9 @@ apt-get remove -y \
   virtualbox-guest-x11
 apt-get autoremove -y
 
-# make sure the whole LXDE desktop is here
-apt-get install -y \
-  firefox \
-  lxde \
-  lxappearance-obconf \
-  lxlauncher \
-  lxpanel-indicator-applet-plugin \
-  lxtask \
-  menu-xdg \
-  obconf \
-  obmenu \
-  openbox \
-  openbox-themes \
-  openbox-xdgmenu \
-  xdg-user-dirs-gtk \
-  xdg-user-dirs \
-  xdg-utils
+echo "Completing LXDE desktop"
+./apt-get-LXDE.bash
 
-# install tools
 echo "Installing basic development tools"
 apt-get install -y \
   make \
@@ -39,7 +32,6 @@ apt-get install -y \
   vim \
   vim-gtk
 
-# install
 echo "Installing guest additions"
 mkdir -p /mnt/cdrom
 mount /dev/sr0 /mnt/cdrom
