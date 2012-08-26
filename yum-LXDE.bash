@@ -33,4 +33,8 @@ yum install -y \
   openbox-libs \
   obconf \
   openbox \
-  obmenu
+  obmenu \
+  libxdg-basedir \
+  xdg-user-dirs \
+  xdg-user-dirs-gtk \
+  xdg-utils
