@@ -12,11 +12,11 @@
 for i in \
   dependencies \
   jabref \
-  calibre-source \
+  calibre \
   lyx \
   bluefish \
   beta-sigil \
-  freemind-beta \
+  beta-freemind \
   epubcheck
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
