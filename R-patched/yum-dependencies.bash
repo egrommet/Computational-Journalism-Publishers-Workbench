@@ -29,6 +29,7 @@ yum install -y \
   fftw-devel \
   gd-devel \
   gsl-devel \
+  atlas-devel \
   libcurl-devel \
   wordnet \
   wordnet-devel \
