@@ -17,6 +17,7 @@ yum install -y \
   lxinput \
   lxmenu-data \
   gpicview \
+  epdfview \
   lxlauncher \
   lxmusic \
   lxpolkit \
