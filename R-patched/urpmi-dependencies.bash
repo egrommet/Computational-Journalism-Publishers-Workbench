@@ -31,6 +31,7 @@ urpme --auto --auto-orphans \
 
 # Packages
 urpmi --auto --no-suggests \
+  libcurl-devel \
   libfftw-devel \
   libgd-devel \
   libgsl-devel \
