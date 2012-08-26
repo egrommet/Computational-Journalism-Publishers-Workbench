@@ -11,6 +11,7 @@
 
 # RStudio
 yum install -y \
+  qdevelop \
   qt-creator \
   qt-assistant \
   qt-demos \
