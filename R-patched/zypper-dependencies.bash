@@ -11,21 +11,15 @@
 
 # R-compiled
 zypper install -y \
-  findutils-locate \
-  epdfview \
-  make \
   gcc-fortran \
   gcc-c++ \
   java-1_7_0-openjdk-devel \
   readline-devel \
-  libXt-devel \
-  libX11-devel \
-  libXmu-devel \
-  pango-devel \
-  cairo-devel \
   tk-devel \
   libtiff-devel \
   texinfo \
+  libXmu-devel \
+  libXScrnSaver-devel \
   libicu-devel
 
 # Packages
@@ -36,6 +30,7 @@ zypper install -y \
   gd-devel \
   gsl-devel \
   libsndfile-devel \
+  wordnet \
   wordnet-devel
 
 # WordNet environment variable
