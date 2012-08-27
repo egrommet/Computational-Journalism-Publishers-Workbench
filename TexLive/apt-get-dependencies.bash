@@ -11,6 +11,4 @@
 
 # TexLive
 apt-get install -y \
-  perl-tk \
-  wget \
   curl
