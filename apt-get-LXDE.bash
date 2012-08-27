@@ -11,6 +11,9 @@
 
 # make sure the whole LXDE desktop is here
 apt-get install -y \
+  lsb \
+  lsb-multimedia \
+  lsb-languages \
   firefox \
   lxde \
   lxappearance-obconf \
