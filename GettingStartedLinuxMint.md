@@ -1,36 +1,36 @@
-## Quick Start - Fedora 17
+## Quick Start - Linux Mint 13 - MATE Desktop
 
 Note: if you get stuck, have a look at the screenshots from an install at
 
-[https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Book/FedoraInstallScreenshots](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Book/FedoraInstallScreenshots).
+[https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Book/LinuxMintScreenshots](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Book/LinuxMintScreenshots)
 
 1. System requirements: You'll need a Windows, Macintosh or Linux desktop/laptop with at least 3 GB of RAM. You will also need reliable wall power and a reliable Internet connection.
 1. Download and install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads).
-1. Download the [Fedora LXDE 32-bit Desktop ISO file](http://download.fedoraproject.org/pub/alt/releases/17/Spins/i686/Fedora-17-i686-Live-LXDE.iso). You do ***not*** need to burn this to a CD or copy it to a USB drive.
-1. Start up Oracle VM VirtualBox. Create a virtual machine with the Fedora Linux operating system, 1536 MB of memory, and a 16 GB virtual hard disk.
+1. Download [Linux Mint 13 "Maya" - MATE no-codecs (32-bit)](http://www.linuxmint.com/edition.php?id=109). You do ***not*** need to burn this to a CD or copy it to a USB drive.
+1. Start up Oracle VM VirtualBox. Create a virtual machine with the Ubuntu operating system (Linux Mint is based on Ubuntu), 1536 MB of memory, and a 16 GB virtual hard disk.
 1. In the virtual machine Display settings, set the display video memory to 128 MB and enable 3D acceleration.
 1. In the virtual machine Storage settings, connect the virtual machine CD drive to the ISO file you downloaded.
-1. Start the virtual machine and install Fedora to it.
-1. When the install is finished, it will ask you to reboot. Instead, shut the machine down, go into the Storage settings and remove the ISO file from the virtual CD drive.
-1. Start the machine. You will go through a brief setup, including the creation of a non-root user.
+1. Start the virtual machine and install Linux Mint to it.
+1. When the install is finished, it will ask you to reboot. During the reboot, it will pause so you can remove the ISO file from the virtual CD drive. When it does, go into the VirtualBox "Devices" menu and select "CD/DVD Devices -> Remove disk from virtual drive." Then press "Enter" and the machine will reboot.
 1. Log in as the non-root user, open a terminal and type
 
     ```
-    $ sudo yum update -y
+    $ sudo apt-get update
+    $ sudo apt-get upgrade -y
     ```
-1. The update will take quite a while. When it has finished, reboot the virtual machine.
+1. The update will take quite a while. When it has finished, reboot the virtual machine again.
 1. When it comes back up, log in again. In the VirtualBox "Devices" menu, select "Install guest additions". Press the ***"Cancel"*** button if you are asked to open the media with the File Manager or run it.
 1. Open a terminal and type
 
     ```
-    $ sudo yum install -y git
+    $ sudo apt-get install -y git
     $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
     $ git checkout v0.4.0
     $ ./run-me-first.bash  
     $ sudo ./VirtualBoxSetup.bash
     ```
-1. The script will install the VirtualBox guest additions. Then the virtual machine will shut down.
+1. The script will install the LXDE desktop and the VirtualBox guest additions. Then the virtual machine will shut down.
 1. After shutdown, go into the machine's Storage settings and disconnect the virtual ISO file with the guest additions.
 1. Take a snapshot of the machine in its present state. If something goes wrong further down the line in the install, you can drop back to this known good state.
 1. Start the machine up again, log in and open a terminal. Type
