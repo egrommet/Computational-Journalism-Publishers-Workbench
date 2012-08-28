@@ -19,3 +19,4 @@ do
   ./cleanup.bash
   popd
 done
+git status
