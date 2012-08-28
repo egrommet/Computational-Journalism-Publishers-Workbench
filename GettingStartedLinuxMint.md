@@ -26,7 +26,7 @@ Note: if you get stuck, have a look at the screenshots from an install at
     $ sudo apt-get install -y git
     $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
-    $ git checkout v0.3.0
+    $ git checkout v0.4.0
     $ ./run-me-first.bash  
     $ sudo ./VirtualBoxSetup.bash
     ```
