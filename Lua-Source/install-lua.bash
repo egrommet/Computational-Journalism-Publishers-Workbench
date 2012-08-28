@@ -12,7 +12,8 @@
 mkdir -p /usr/local/src
 pushd /usr/local/src/
 export WHERE=http://www.lua.org/ftp
-export DIR=lua-5.2.1
+export VERSION=5.1.5
+export DIR=lua-${VERSION}
 export WHAT=${DIR}.tar.gz
 rm -f ${WHAT}; curl ${WHERE}/${WHAT} > ${WHAT}
 rm -fr ${DIR}; tar xf ${WHAT}
