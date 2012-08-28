@@ -26,6 +26,7 @@ Note: if you get stuck, have a look at the screenshots from an install at
     $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
     $ git checkout v0.3.0
+    $ ./run-me-first.bash  
     $ sudo ./VirtualBoxSetup.bash
     ```
 1. The script will install the VirtualBox guest additions. Then the virtual machine will shut down.
@@ -35,7 +36,6 @@ Note: if you get stuck, have a look at the screenshots from an install at
 
     ```
     $ cd Computational-Journalism-Publishers-Workbench  
-    $ ./run-me-first.bash  
     $ sudo ./install-all.bash  
     ```
 1. This will run quite a while. On my dual-core i5 laptop on typical coffee shop wireless, it takes about two hours. It is downloading most of the software over the Internet and compiling much of it from source.
