@@ -16,8 +16,6 @@ yum install -y \
   lxde-icon-theme \
   lxinput \
   lxmenu-data \
-  gpicview \
-  epdfview \
   lxlauncher \
   lxmusic \
   lxpolkit \
