@@ -91,6 +91,7 @@ And seven million Whys!<br>
 
 * [Quick Start - Fedora 17](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
 * [Quick Start - Linux Mint 13](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
+* [Quick Start - Lubuntu 12.04 LTS](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLubuntu.md)
 * [Quick Start - openSUSE 12.2 RC 2](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedopenSUSE.md) - Note: openSUSE 12.2 is still in beta testing. Formal release is scheduled for 2012-09-06.
 
 ## Issue tracker
