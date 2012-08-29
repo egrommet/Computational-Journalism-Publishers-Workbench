@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash -v
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,14 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# recursive cleanup script
-common/cleanup.bash # clean up here first
-
-for i in */cleanup.bash
+for i in LuaJIT
 do
-  j=`echo ${i} | sed 's/cleanup.bash//'`
-  pushd ${j}
-  ./cleanup.bash
-  popd
+  ./install-${i}.bash 2>&1 | tee ${i}.log
 done
-git status

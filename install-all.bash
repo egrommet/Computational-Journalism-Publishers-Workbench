@@ -25,7 +25,8 @@ for i in \
   PDF-Tools \
   Perl-Modules \
   Lua-Source \
-  Redis-Source
+  Redis-Source \
+  LuaJIT
 do
   pushd $i
   ./install-all.bash

@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash -v
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,14 +9,19 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# recursive cleanup script
-common/cleanup.bash # clean up here first
+mkdir -p /usr/local/src
+pushd /usr/local/src/
+export WHERE=http://luajit.org/download
+export VERSION=2.0.0-beta10
+export DIR=LuaJIT-${VERSION}
+export WHAT=${DIR}.tar.gz
+rm -f ${WHAT}; curl ${WHERE}/${WHAT} > ${WHAT}
+rm -fr ${DIR}; tar xf ${WHAT}
 
-for i in */cleanup.bash
-do
-  j=`echo ${i} | sed 's/cleanup.bash//'`
-  pushd ${j}
-  ./cleanup.bash
-  popd
-done
-git status
+pushd ${DIR}
+make
+make install
+ln -sf /usr/local/bin/luajit-2.0.0-beta10 /usr/local/bin/luajit
+popd
+
+popd

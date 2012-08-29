@@ -11,19 +11,13 @@
 
 # R-compiled
 apt-get install -y \
-  mlocate \
   gfortran \
-  g++ \
   openjdk-7-jdk \
   libreadline-gplv2-dev \
-  libxt-dev \
-  libx11-dev \
-  libxmu-dev \
-  libpango1.0-dev \
-  libcairo2-dev \
   tk-dev \
   libtiff4-dev \
   texinfo \
+  libxmu-dev \
   libicu-dev
 
 # Packages
