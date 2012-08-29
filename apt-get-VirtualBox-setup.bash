@@ -39,4 +39,4 @@ mount /dev/sr0 /mnt/cdrom
 
 echo "Shutting down in 15 seconds so you can take a snapshot"
 sleep 15
-shutdown -P now
+shutdown -h -P now
