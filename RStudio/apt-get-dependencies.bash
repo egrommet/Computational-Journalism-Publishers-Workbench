@@ -11,9 +11,21 @@
 
 # RStudio
 apt-get install -y \
+  build-essential \
+  pkg-config \
+  fakeroot \
   cmake \
   libboost-all-dev \
   patch \
   libqtwebkit-dev \
   uuid-dev \
-  ant
+  ant \
+  libssl-dev \
+  libbz2-dev \
+  zlib1g-dev \
+  libpam-dev \
+  libapparmor1  \
+  apparmor-utils \
+  libboost-all-dev \
+  gufw \
+  unzip
