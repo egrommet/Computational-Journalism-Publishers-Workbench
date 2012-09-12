@@ -6,6 +6,6 @@ Terminal=true
 Categories=Development;
 Icon[en_US]=HOME/local/maqetta/Maqetta_Logo_250x76.png
 Name[en_US]=Maqetta Local Server
-Exec=HOME/local/maqetta/maqetta.local.unix.sh
+Exec=HOME/local/maqetta/maqetta.server.sh
 Name=Maqetta Local Server
 Icon=HOME/local/maqetta/Maqetta_Logo_250x76.png

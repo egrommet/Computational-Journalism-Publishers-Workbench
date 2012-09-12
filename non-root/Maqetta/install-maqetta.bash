@@ -12,15 +12,14 @@
 export WHERE=http://maqetta.org/downloads
 export DIR=maqetta
 export \
-  WHAT=`curl -s ${WHERE}/|grep '.zip'|sed 's/^.*href=.//'|sed 's/zip.*/zip/'`
+  WHAT=`curl -s ${WHERE}/|grep '.zip'|head -n 1|sed 's/^.*href=.//'|sed 's/zip.*/zip/'`
 export VERSION=`echo ${WHAT}|sed 's/\.zip//'`
 
 mkdir -p ~/local
 pushd ~/local
 rm -fr ${DIR} ${WHAT}
 wget ${WHERE}/${WHAT}
-mkdir ${DIR}
-unzip -d ${DIR} -n ${WHAT}
+unzip ${WHAT}
 chmod +x ${DIR}/*.sh
 rm -fr ${WHAT}
 popd
