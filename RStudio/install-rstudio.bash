@@ -18,7 +18,7 @@ mkdir -p /usr/local/src
 # get source tarball from Github
 pushd /usr/local/src
   rm -fr rstudio*
-  curl -k -L https://github.com/rstudio/rstudio/tarball/v0.96.330 > rstudio.tgz
+  curl -k -L https://github.com/rstudio/rstudio/tarball/v0.96.331 > rstudio.tgz
   tar xf rstudio.tgz
   pushd rstudio-*
     pushd dependencies/common
@@ -35,6 +35,12 @@ pushd /usr/local/src
       # Desktop
       cmake \
         -DRSTUDIO_TARGET=Desktop \
+	-DCMAKE_BUILD_TYPE=Release ..
+      /usr/bin/time make install
+
+      # Server
+      cmake \
+        -DRSTUDIO_TARGET=Server \
 	-DCMAKE_BUILD_TYPE=Release ..
       /usr/bin/time make install
 
