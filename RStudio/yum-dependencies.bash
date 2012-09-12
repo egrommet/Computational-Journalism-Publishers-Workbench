@@ -16,4 +16,6 @@ yum install -y \
   patch \
   qtwebkit-devel \
   libuuid-devel \
+  openssl-devel \
+  pam-devel \
   ant
