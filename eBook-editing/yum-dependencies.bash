@@ -25,6 +25,7 @@ yum install -y \
   pyicu \
   icu \
   python-dns \
+  python-netifaces \
   ImageMagick-devel \
   sqlite-devel \
   python-imaging-devel \
