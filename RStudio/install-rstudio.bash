@@ -32,15 +32,15 @@ pushd /usr/local/src
     mkdir build
     pushd build
 
-      # Desktop
-      cmake \
-        -DRSTUDIO_TARGET=Desktop \
-	-DCMAKE_BUILD_TYPE=Release ..
-      /usr/bin/time make install
-
       # Server
       cmake \
         -DRSTUDIO_TARGET=Server \
+	-DCMAKE_BUILD_TYPE=Release ..
+      /usr/bin/time make install
+
+      # Desktop
+      cmake \
+        -DRSTUDIO_TARGET=Desktop \
 	-DCMAKE_BUILD_TYPE=Release ..
       /usr/bin/time make install
 
