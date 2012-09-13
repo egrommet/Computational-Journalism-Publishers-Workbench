@@ -14,5 +14,6 @@ zypper install -y \
   libQtWebKit-devel \
   cmake \
   libuuid-devel \
+  pam-devel \
   boost-devel \
   ant
