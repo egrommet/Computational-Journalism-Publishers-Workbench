@@ -22,6 +22,7 @@ apt-get install -y \
 # Calibre
 apt-get install -y \
   python-pyicu \
+  python-netifaces \
   python-dns \
   libmagick++-dev \
   libsqlite3-dev \
