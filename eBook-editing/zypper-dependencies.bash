@@ -26,6 +26,7 @@ zypper install -y \
   libicu-devel \
   python-dnspython \
   ImageMagick-devel \
+  python-netifaces \
   sqlite3-devel \
   python-imaging \
   python-qt4-devel \
