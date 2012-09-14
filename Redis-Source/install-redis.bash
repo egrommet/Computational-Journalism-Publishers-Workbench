@@ -21,6 +21,8 @@ rm -fr ${DIR}; tar xf ${WHAT}
 pushd ${DIR}
 make install
 make test
+kill -9 `ps -ef|grep redis-server|grep -v grep|awk '{print $2}'`
+
 popd
 
 popd
