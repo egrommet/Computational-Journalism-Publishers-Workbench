@@ -9,7 +9,13 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-for i in dependencies rstudio-source rstudio-server rstudio-desktop
-do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
-done
+source /etc/profile
+export PATH=/usr/local/bin:$PATH
+which R
+
+pushd /usr/local/src/rstudio-*/build
+  cmake \
+    -DRSTUDIO_TARGET=Server \
+    -DCMAKE_BUILD_TYPE=Release ..
+  /usr/bin/time make install
+popd
