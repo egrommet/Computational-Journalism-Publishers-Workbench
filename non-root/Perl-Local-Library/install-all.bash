@@ -28,6 +28,12 @@ for i in \
   Net::Twitter \
   Sys::Statistics::Linux \
   Hash::Flatten \
+  Redis \
+  Redis::Hash \
+  Redis::List \
+  RedisDB \
+  RedisDB::Error \
+  RedisDB::Parse::Redis \
   Browser::Open
 do
   cpan ${i} 2>&1 | tee ${i}.log
