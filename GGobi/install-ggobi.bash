@@ -16,8 +16,7 @@ pushd /usr/local/src
 export DIR=ggobi-2.1.9
 export WHAT=${DIR}.tar.bz2
 export WHERE=http://ggobi.org/downloads
-rm -f ${WHAT} 
-wget ${WHERE}/${WHAT}
+curl ${WHERE}/${WHAT} > ${WHAT}
 rm -fr ${DIR}
 tar xf ${WHAT}
 
