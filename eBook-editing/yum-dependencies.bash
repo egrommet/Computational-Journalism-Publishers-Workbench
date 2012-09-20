@@ -44,7 +44,7 @@ yum install -y \
   libicu-devel
 
 # LyX
-yum install \
+yum install -y \
   enchant-devel \
   aspell-devel
 
