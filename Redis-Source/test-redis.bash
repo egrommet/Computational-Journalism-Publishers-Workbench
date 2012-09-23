@@ -9,18 +9,10 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-mkdir -p /usr/local/src
-
-pushd /usr/local/src/
-export WHERE=http://redis.googlecode.com/files
 export VERSION=`curl http://redis.io/download/|grep "2\.6.*tar\.gz"|sed 's/^.*redis-//'|sed 's/\.tar\.gz.*$//'`
-rm -fr redis-*
 export DIR=redis-${VERSION}
-export WHAT=${DIR}.tar.gz
-curl ${WHERE}/${WHAT} > ${WHAT}
-tar xf ${WHAT}
-cd ${DIR}
-make install
-popd
 
-ldconfig
+pushd /usr/local/src/${DIR}
+make test
+kill -9 `ps -ef|grep redis-server|grep -v grep|awk '{print $2}'`
+popd
