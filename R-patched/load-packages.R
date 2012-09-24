@@ -25,7 +25,11 @@ install.packages(
     'lmtest',
     'leaps',
     'effects',
-    'abind'
+    'abind',
+    'tm.plugin.dc',
+    'tm.plugin.mail',
+    'RJSONIO',
+    'quantmod'
   ),
   lib=paste(R.home(), '/library', sep=''),
   repos='http://cran.fhcrc.org'
