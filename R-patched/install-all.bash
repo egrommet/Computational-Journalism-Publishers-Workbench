@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-for i in dependencies R-patched graphviz-devel Rgraphviz packages
+for i in dependencies R-patched graphviz-devel Rgraphviz packages tm.plugins-svn
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
