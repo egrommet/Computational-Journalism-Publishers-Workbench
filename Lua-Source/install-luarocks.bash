@@ -9,7 +9,18 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-for i in dependencies lua luarocks
-do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
-done
+mkdir -p /usr/local/src
+pushd /usr/local/src/
+export WHERE=http://luarocks.org/releases
+export VERSION=2.0.11
+export DIR=luarocks-${VERSION}
+export WHAT=${DIR}.tar.gz
+rm -f ${WHAT}; curl -L ${WHERE}/${WHAT} > ${WHAT}
+rm -fr ${DIR}; tar xf ${WHAT}
+pushd ${DIR}
+./configure --with-lua=/usr/local
+make
+make install
+popd
+
+popd
