@@ -11,6 +11,16 @@
 
 # Make sure whole LXDE desktop is there
 yum install -y \
+  systemtap-initscript \
+  systemtap \
+  systemtap-client \
+  systemtap-devel \
+  systemtap-grapher \
+  systemtap-runtime \
+  systemtap-sdt-devel \
+  systemtap-server \
+  systemtap-testsuite \
+  tuned-utils \
   oprofile \
   oprofile-gui \
   oprofile-jit \
