@@ -18,4 +18,6 @@ apt-get install -y \
   systemtap-runtime \
   systemtap-sdt-dev \
   systemtap-server \
-  blktrace
+  blktrace \
+  sysstat \
+  isag
