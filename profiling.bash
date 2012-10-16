@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,20 +9,13 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# Make sure whole LXDE desktop is there
-yum install -y \
-  systemtap-initscript \
-  systemtap \
-  systemtap-client \
-  systemtap-devel \
-  systemtap-grapher \
-  systemtap-runtime \
-  systemtap-sdt-devel \
-  systemtap-server \
-  systemtap-testsuite \
-  tuned-utils \
-  oprofile \
-  oprofile-gui \
-  oprofile-jit \
-  blktrace \
-  sysstat
+if [ -e "/usr/bin/apt-get" ]
+then
+  ./apt-get-profiling.bash
+elif [ -e "/usr/bin/yum" ]
+then
+  ./yum-profiling.bash
+elif [ -e "/usr/bin/zypper" ]
+then
+  ./zypper-profiling.bash
+fi
