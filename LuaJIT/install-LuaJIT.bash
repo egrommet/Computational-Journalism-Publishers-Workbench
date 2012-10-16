@@ -12,7 +12,7 @@
 mkdir -p /usr/local/src
 pushd /usr/local/src/
 export WHERE=http://luajit.org/download
-export VERSION=2.0.0-beta10
+export VERSION=2.0.0-beta11
 export DIR=LuaJIT-${VERSION}
 export WHAT=${DIR}.tar.gz
 rm -f ${WHAT}; curl ${WHERE}/${WHAT} > ${WHAT}
@@ -21,7 +21,7 @@ rm -fr ${DIR}; tar xf ${WHAT}
 pushd ${DIR}
 make
 make install
-ln -sf /usr/local/bin/luajit-2.0.0-beta10 /usr/local/bin/luajit
+ln -sf /usr/local/bin/luajit-${VERSION} /usr/local/bin/luajit
 popd
 
 popd
