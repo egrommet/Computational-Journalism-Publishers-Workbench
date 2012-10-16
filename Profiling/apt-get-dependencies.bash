@@ -9,13 +9,13 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# Make sure whole LXDE desktop is there
-zypper install -y \
+apt-get install -y \
   systemtap \
-  systemtap-docs \
+  systemtap-client \
+  systemtap-common \
+  systemtap-doc \
+  systemtap-grapher \
   systemtap-runtime \
-  systemtap-sdt-devel \
+  systemtap-sdt-dev \
   systemtap-server \
-  oprofile \
-  oprofile-devel \
   blktrace

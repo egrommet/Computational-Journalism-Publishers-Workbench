@@ -9,7 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# Make sure whole LXDE desktop is there
 yum install -y \
   systemtap-initscript \
   systemtap \
@@ -25,4 +24,4 @@ yum install -y \
   oprofile-gui \
   oprofile-jit \
   blktrace \
-  sysstat
+  sysusage
