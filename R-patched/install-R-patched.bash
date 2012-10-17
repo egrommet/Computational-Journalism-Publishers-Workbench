@@ -11,16 +11,21 @@
 
 source /etc/profile # need to find TexLive
 export WHERE=ftp://ftp.stat.math.ethz.ch/Software/R
-export DIR=R-patched
-export WHAT=${DIR}.tar.bz2
+export WHAT=R-patched.tar.bz2
 
 mkdir -p /usr/local/src
 pushd /usr/local/src
 curl ${WHERE}/${WHAT} > ${WHAT}
-rm -fr ${DIR}
+rm -fr R-patched R-beta
 tar xf ${WHAT}
 
-pushd ${DIR}
+if [ -e "R-beta" ]
+then
+  pushd R-beta
+else
+  pushd R-patched
+fi
+
 export R_PAPERSIZE='letter'
 export CFLAGS='-O2 -pipe -march=native'
 export FFLAGS='-O2 -pipe -march=native'
