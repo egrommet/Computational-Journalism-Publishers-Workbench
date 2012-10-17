@@ -22,6 +22,7 @@ apt-get install -y \
 
 # Packages
 apt-get install -y \
+  subversion \
   libcurl4-openssl-dev \
   freeglut3-dev \
   libfftw3-dev \
