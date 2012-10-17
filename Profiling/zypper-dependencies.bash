@@ -17,4 +17,6 @@ zypper install -y \
   systemtap-server \
   oprofile \
   oprofile-devel \
-  blktrace
+  blktrace \
+  sysstat \
+  sysstat-isag
