@@ -24,4 +24,5 @@ yum install -y \
   oprofile-gui \
   oprofile-jit \
   blktrace \
-  sysusage
+  sysusage \
+  perl-Date-Manip
