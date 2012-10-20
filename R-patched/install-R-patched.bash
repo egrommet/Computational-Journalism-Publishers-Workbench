@@ -19,7 +19,10 @@ curl ${WHERE}/${WHAT} > ${WHAT}
 rm -fr R-patched R-beta
 tar xf ${WHAT}
 
-if [ -e "R-beta" ]
+if [ -e "R-rc" ]
+then
+  pushd R-rc
+elif [ -e "R-beta" ]
 then
   pushd R-beta
 else
