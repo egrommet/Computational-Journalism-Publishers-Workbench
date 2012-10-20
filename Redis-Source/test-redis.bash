@@ -14,5 +14,4 @@ export DIR=redis-${VERSION}
 
 pushd /usr/local/src/${DIR}
 make test
-kill -9 `ps -ef|grep redis-server|grep -v grep|awk '{print $2}'`
 popd
