@@ -14,7 +14,7 @@ iostat -cdmxt -p ALL 2 > iostat.log & # start data collector
 redis-server & # start the server
 sleep 15 # give server time to stabilize
 redis-benchmark -q -n 100000 | tee redis-benchmark.log # run benchmark
-kill -TERM `ps -ef|grep redis-server|grep -v grep|awk '{print $2}'` # stop Redis
+pkill redis-server
 sleep 15 # give server time to shut down
-kill -TERM `ps -ef|grep iostat|grep -v grep|awk '{print $2}'` # stop collector
+pkill iostat
 ../Profiling/parse-iostat.pl iostat.log
