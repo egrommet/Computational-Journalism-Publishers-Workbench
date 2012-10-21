@@ -4,5 +4,5 @@ while true
 do
 sleep 2
 TZ=UTC date +'%Y-%m-%d %H:%M:%S %z' 
-pmap -d `pgrep redis-server`
+pmap -d `pgrep $1`
 done

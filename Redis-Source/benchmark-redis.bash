@@ -11,7 +11,7 @@
 
 rm -f dump.rdb # start with a clean slate
 iostat -cdmxt -p ALL 2 > iostat.log & # start data collector
-../Profiling/log-pmaps.bash > pmaps.log & # process maps
+../Profiling/log-pmaps.bash redis-server > pmaps.log & # process maps
 redis-server & # start the server
 sleep 15 # give server time to stabilize
 redis-benchmark -q -n 100000 | tee redis-benchmark.log # run benchmark
