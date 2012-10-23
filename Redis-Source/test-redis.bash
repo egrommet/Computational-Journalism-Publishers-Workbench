@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-export VERSION=`curl http://redis.io/download/|grep "2\.6.*tar\.gz"|sed 's/^.*redis-//'|sed 's/\.tar\.gz.*$//'`
+export VERSION='2.6.0'
 export DIR=redis-${VERSION}
 
 pushd /usr/local/src/${DIR}

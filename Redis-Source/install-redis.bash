@@ -13,7 +13,7 @@ mkdir -p /usr/local/src
 
 pushd /usr/local/src/
 export WHERE=http://redis.googlecode.com/files
-export VERSION=`curl http://redis.io/download/|grep "2\.6.*tar\.gz"|sed 's/^.*redis-//'|sed 's/\.tar\.gz.*$//'`
+export VERSION='2.6.0'
 rm -fr redis-*
 export DIR=redis-${VERSION}
 export WHAT=${DIR}.tar.gz
