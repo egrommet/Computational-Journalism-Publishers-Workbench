@@ -1,1 +1,1 @@
-slowlog get
+slowlog get 1073741824
