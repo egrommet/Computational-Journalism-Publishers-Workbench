@@ -9,16 +9,17 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-rm -f dump.rdb # start with a clean slate
+./cleanup.bash # start with a clean slate
 iostat -cdmxt -p ALL 2 > iostat.log & # start data collector
 ../Profiling/log-pmaps.bash redis-server > pmaps.log & # process maps
 redis-server ./redis.conf & # start the server
 sleep 15 # give server time to stabilize
-redis-benchmark -q --csv | tee redis-benchmark.csv
+#redis-benchmark -c 50 -n 10000 -q --csv | tee redis-benchmark.csv
+redis-benchmark -c 5 -n 100000 -q --csv | tee redis-benchmark.csv
 redis-cli < slowlog.cmd > slowlog.log
 ./parse-slowlog.pl slowlog.log > slowlog.csv
 pkill redis-server
+pkill log-pmaps
 sleep 15 # give server time to shut down
 pkill iostat
-pkill log-pmaps
 ../Profiling/parse-iostat.pl iostat.log

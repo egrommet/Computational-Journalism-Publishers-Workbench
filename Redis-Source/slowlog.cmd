@@ -1,1 +1,1 @@
-slowlog get 3000000
+slowlog get 16777216
