@@ -9,6 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+export VERSION=`curl -L http://www.rstudio.com/ide/download/server|grep github.*tarball|sed 's/^.*tarball\///'|sed 's/".*$//'`
+
 source /etc/profile
 export PATH=/usr/local/bin:$PATH
 which R
@@ -18,7 +20,7 @@ mkdir -p /usr/local/src
 # get source tarball from Github
 pushd /usr/local/src
   rm -fr rstudio*
-  curl -k -L https://github.com/rstudio/rstudio/tarball/v0.96.331 > rstudio.tgz
+  curl -k -L https://github.com/rstudio/rstudio/tarball/${VERSION} > rstudio.tgz
   tar xf rstudio.tgz
 
   pushd rstudio-*
