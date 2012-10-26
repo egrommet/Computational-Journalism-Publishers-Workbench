@@ -30,7 +30,6 @@ else
 fi
 
 export R_PAPERSIZE='letter'
-export R_INSTALL_TAR=`which tar`
 export CFLAGS='-O2 -pipe -march=native'
 export FFLAGS='-O2 -pipe -march=native'
 export CXXFLAGS='-O2 -pipe -march=native'

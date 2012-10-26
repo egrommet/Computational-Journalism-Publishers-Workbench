@@ -1,6 +1,7 @@
 #! /bin/bash -v
 
 export PATH=${PATH}:/usr/local/bin
+export R_INSTALL_TAR=`which tar`
 mkdir -p /usr/local/src/tm.plugins
 
 pushd /usr/local/src/tm.plugins
