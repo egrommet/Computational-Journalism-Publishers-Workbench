@@ -15,7 +15,7 @@ iostat -cdmxt -p ALL 2 > iostat.log & # start data collector
 redis-server ./redis.conf & # start the server
 sleep 15 # give server time to stabilize
 #redis-benchmark -c 50 -n 10000 -q --csv | tee redis-benchmark.csv
-redis-benchmark -c 10 -n 200000 -q --csv | tee redis-benchmark.csv
+redis-benchmark -c 10 -n 100000 -q --csv | tee redis-benchmark.csv
 redis-cli < slowlog.cmd > slowlog.log
 ./parse-slowlog.pl slowlog.log > slowlog.csv
 pkill redis-server
