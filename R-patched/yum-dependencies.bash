@@ -33,7 +33,8 @@ yum install -y \
   libcurl-devel \
   wordnet \
   wordnet-devel \
-  libsndfile-devel
+  libsndfile-devel \
+  subversion
 
 # WordNet environment variable
 cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
