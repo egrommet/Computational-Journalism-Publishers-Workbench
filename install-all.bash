@@ -24,9 +24,7 @@ for i in \
   eBook-editing \
   PDF-Tools \
   Perl-Modules \
-  Lua-Source \
-  Redis-Source \
-  LuaJIT
+  Redis-Source
 do
   pushd $i
   ./install-all.bash
