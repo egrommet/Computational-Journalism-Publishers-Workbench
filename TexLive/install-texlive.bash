@@ -14,7 +14,6 @@ export WHAT=install-tl-unx.tar.gz
 export HERE=`pwd`
 export MACHINE=`uname -m`
 
-mkdir -p ${HOME}/local/src
 pushd ${HOME}/local/src
 rm -fr install-tl*
 curl -L ${WHERE}/${WHAT} | tar xzf -
@@ -25,4 +24,3 @@ sed "s:\~:${HOME}:" ${HERE}/texlive.profile-${MACHINE} > working.profile
   -profile working.profile
 popd
 cat texlive-${MACHINE}.sh >> ~/.bashrc
-source ~/.bashrc
