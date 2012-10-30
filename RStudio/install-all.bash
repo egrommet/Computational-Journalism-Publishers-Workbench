@@ -9,7 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-for i in dependencies rstudio-source rstudio-server rstudio-desktop
+source ~/.bashrc
+for i in dependencies rstudio-source rstudio-desktop
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done

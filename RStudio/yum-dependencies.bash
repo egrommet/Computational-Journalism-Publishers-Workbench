@@ -10,7 +10,7 @@
 #
 
 # RStudio
-yum install -y \
+sudo yum install -y \
   cmake \
   boost-devel \
   patch \
