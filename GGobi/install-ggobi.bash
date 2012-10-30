@@ -9,9 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source ~/.bashrc # grab TexLive
-mkdir -p ~/local/src
-
 pushd ~/local/src
 export DIR=ggobi-2.1.9
 export WHAT=${DIR}.tar.bz2
