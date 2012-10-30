@@ -9,32 +9,24 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source /etc/profile # grab TexLive
-mkdir -p /usr/local/src
+source ~/.bashrc # grab TexLive
+mkdir -p ~/local/src
 
-pushd /usr/local/src
+pushd ~/local/src
 export DIR=ggobi-2.1.9
 export WHAT=${DIR}.tar.bz2
 export WHERE=http://ggobi.org/downloads
 curl ${WHERE}/${WHAT} > ${WHAT}
 rm -fr ${DIR}
 tar xf ${WHAT}
-
-pushd ${DIR}
+cd ${DIR}
 export CFLAGS='-O2 -pipe -march=native'
 export FFLAGS='-O2 -pipe -march=native'
 export CXXFLAGS='-O2 -pipe -march=native'
 export FCFLAGS='-O2 -pipe -march=native'
-./configure --with-all-plugins
+./configure --with-all-plugins --prefix=${HOME}/local
 /usr/bin/time make 
-make install
 make ggobirc
-mkdir -p /etc/xdg/ggobi
-cp ggobirc /etc/xdg/ggobi/ggobirc
+make install
+cp ~/local/share/applications/ggobi.desktop ~/.local/share/applications
 popd
-
-popd
-cp ggobi.conf /etc/ld.so.conf.d/
-ldconfig
-cp ggobi.sh /etc/profile.d/
-source /etc/profile
