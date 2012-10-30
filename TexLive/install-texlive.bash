@@ -14,6 +14,7 @@ export WHAT=install-tl-unx.tar.gz
 export HERE=`pwd`
 export MACHINE=`uname -m`
 
+mkdir -p ${HOME}/texlive
 mkdir -p ${HOME}/local/src
 pushd ${HOME}/local/src
 rm -fr install-tl*
