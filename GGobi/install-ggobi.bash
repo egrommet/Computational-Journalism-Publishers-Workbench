@@ -25,5 +25,9 @@ export FCFLAGS='-O2 -pipe -march=native'
 /usr/bin/time make 
 make ggobirc
 make install
-cp ~/local/share/applications/ggobi.desktop ~/.local/share/applications
+mkdir -p ~/.local/share/applications
+sed "s:LOCAL:${HOME}/.local/share/pixmaps:" ggobi.desktop \
+  > ~/.local/share/applications/ggobi.desktop
+mkdir -p ~/.local/share/pixmaps
+cp ggobi.png ~/.local/share/pixmaps/
 popd
