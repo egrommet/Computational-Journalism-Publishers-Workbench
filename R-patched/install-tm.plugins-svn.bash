@@ -1,10 +1,9 @@
 #! /bin/bash -v
 
-export PATH=${PATH}:/usr/local/bin
 export R_INSTALL_TAR=`which tar`
-mkdir -p /usr/local/src/tm.plugins
+mkdir -p ${HOME}/local/src/tm.plugins
 
-pushd /usr/local/src/tm.plugins
+pushd ${HOME}/local/src/tm.plugins
 rm -fr sentiment *.tar.gz
 svn checkout svn://scm.r-forge.r-project.org/svnroot/sentiment/
 

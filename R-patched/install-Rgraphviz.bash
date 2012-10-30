@@ -9,8 +9,4 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-xhost +
-source /etc/profile # reload environment variables
-export DISPLAY=:0.0
-export PATH=$PATH:/usr/local/bin
 /usr/bin/time R --no-save --no-restore < load-Rgraphviz.R

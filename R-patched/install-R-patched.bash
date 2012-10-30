@@ -9,14 +9,12 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source /etc/profile # need to find TexLive
 export WHERE=ftp://ftp.stat.math.ethz.ch/Software/R
 export WHAT=R-patched.tar.bz2
 
-mkdir -p /usr/local/src
-pushd /usr/local/src
+pushd ${HOME}/local/src
 curl ${WHERE}/${WHAT} > ${WHAT}
-rm -fr R-patched R-beta
+rm -fr R-patched R-beta R-rc
 tar xf ${WHAT}
 
 if [ -e "R-rc" ]
@@ -34,8 +32,9 @@ export CFLAGS='-O2 -pipe -march=native'
 export FFLAGS='-O2 -pipe -march=native'
 export CXXFLAGS='-O2 -pipe -march=native'
 export FCFLAGS='-O2 -pipe -march=native'
-mkdir -p ~/R/library; export R_LIBS_USER="~/R/library"
+#mkdir -p ~/R/library; export R_LIBS_USER="~/R/library"
 ./configure \
+  --prefix=${HOME}/local \
   --enable-R-profiling \
   --enable-R-shlib \
   --enable-BLAS-shlib \
@@ -57,7 +56,3 @@ make install
 popd
 
 popd
-export MACHINE=`uname -m`
-cp R-patched-${MACHINE}.conf /etc/ld.so.conf.d
-ldconfig
-cp R.sh /etc/profile.d

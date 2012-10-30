@@ -10,7 +10,7 @@
 #
 
 # R-compiled
-zypper install -y \
+sudo zypper install -y \
   gcc-fortran \
   gcc-c++ \
   java-1_7_0-openjdk-devel \
@@ -23,7 +23,7 @@ zypper install -y \
   libicu-devel
 
 # Packages
-zypper install -y \
+sudo zypper install -y \
   libcurl-devel \
   freeglut-devel \
   fftw3-devel \
@@ -34,6 +34,6 @@ zypper install -y \
   wordnet-devel
 
 # WordNet environment variable
-cp wordnet-zypper.sh /etc/profile.d/ # set WordNet home
+sudo cp wordnet-zypper.sh /etc/profile.d/ # set WordNet home
 source /etc/profile
 set|grep WNHOME
