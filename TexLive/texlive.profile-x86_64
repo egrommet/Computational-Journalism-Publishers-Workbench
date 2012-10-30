@@ -2,12 +2,12 @@
 # It will NOT be updated and reflects only the
 # installation profile at installation time.
 selected_scheme scheme-full
-TEXDIR /opt/texlive/2012
+TEXDIR ~/texlive/2012
 TEXMFCONFIG ~/.texlive2012/texmf-config
 TEXMFHOME ~/texmf
-TEXMFLOCAL /opt/texlive/texmf-local
-TEXMFSYSCONFIG /opt/texlive/2012/texmf-config
-TEXMFSYSVAR /opt/texlive/2012/texmf-var
+TEXMFLOCAL ~/texlive/texmf-local
+TEXMFSYSCONFIG ~/texlive/2012/texmf-config
+TEXMFSYSVAR ~/texlive/2012/texmf-var
 TEXMFVAR ~/.texlive2012/texmf-var
 binary_x86_64-linux 1
 collection-basic 1
@@ -106,9 +106,9 @@ option_letter 1
 option_path 0
 option_post_code 1
 option_src 1
-option_sys_bin /usr/local/bin
-option_sys_info /usr/local/share/info
-option_sys_man /usr/local/share/man
+option_sys_bin ~/local/bin
+option_sys_info ~/local/share/info
+option_sys_man ~/local/share/man
 option_w32_multi_user 0
 option_write18_restricted 1
 portable 0
