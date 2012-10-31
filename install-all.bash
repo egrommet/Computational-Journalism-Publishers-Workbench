@@ -13,7 +13,7 @@
 mkdir -p ${HOME}/local/src
 mkdir -p ~/.local/share/applications
 mkdir -p ~/.local/share/pixmaps
-cp bashrc ~/.bashrc
+cat bashrc >> ~/.bashrc
 source ~/.bashrc
 
 # get babysitting out of the way for openSUSE :-(
