@@ -1,11 +1,10 @@
-
 [Desktop Entry]
 Name=freemind
 Comment=Free mind mapping software
-Exec=freemind
+Exec=HOME/local/bin/freemind
 Terminal=false
 Type=Application
-Icon=freemind
+Icon=HOME/.local/share/pixmaps/freemind
 MimeType=application/x-freemind;text/x-troff-mm;
 Categories=Office;
 X-Desktop-File-Install-Version=0.19

@@ -9,9 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-mkdir -p /usr/local/src
-
-pushd /usr/local/src
+pushd ${HOME}/local/src
 rm -fr jabref*
 mkdir -p jabref
 cd jabref
@@ -21,6 +19,6 @@ export WHAT="JabRef-${VERSION}.jar"
 curl -L ${WHERE}/${WHAT} > ${WHAT}
 popd
 
-sed "s/VERSION/${VERSION}/" jabref > /usr/local/bin/jabref
-chmod +x /usr/local/bin/jabref
-ln -sf /usr/local/bin/jabref /usr/local/bin/JabRef
+sed "s/VERSION/${VERSION}/" jabref > ${HOME}/local/bin/jabref
+chmod +x ${HOME}/local/bin/jabref
+ln -sf ${HOME}/local/bin/jabref ${HOME}/local/bin/JabRef

@@ -14,15 +14,14 @@ export VERSION=`curl https://code.google.com/p/calibre-ebook/|grep 'tar.bz2'|hea
 export WHAT=calibre-${VERSION}.tar.xz
 export DIR=calibre
 
-mkdir -p /usr/local/src
-pushd /usr/local/src
+pushd ${HOME}/local/src
 curl -L ${WHERE}/${WHAT} > ${WHAT}
 rm -fr ${DIR}
 tar xf ${WHAT}
 
 pushd ${DIR}
-mkdir -p /usr/local/lib/python2.7/site-packages
-python setup.py install --prefix=/usr/local
+mkdir -p ${HOME}/local/lib/python2.7/site-packages
+python setup.py install --prefix=${HOME}/local
 popd
 
 popd

@@ -9,8 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-mkdir -p /usr/local/src
-pushd /usr/local/src
+pushd ${HOME}/local/src
 export VERSION=`curl http://sourceforge.net/projects/bluefish/files/|grep tar.bz2|head -n 1|sed 's/^.*bluefish-//'|sed 's/.tar.*//'`
 export WHERE=http://downloads.sourceforge.net/project/bluefish/bluefish/${VERSION}
 export DIR=bluefish-${VERSION}
@@ -19,7 +18,7 @@ curl -L ${WHERE}/${WHAT} > ${WHAT}
 rm -fr ${DIR}
 tar xf ${WHAT}
 cd ${DIR}
-./configure
+./configure --prefix=${HOME}/local
 /usr/bin/time make
 make install
 popd

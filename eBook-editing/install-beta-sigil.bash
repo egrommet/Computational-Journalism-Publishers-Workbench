@@ -9,8 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-mkdir -p /usr/local/src
-pushd /usr/local/src
+pushd ${HOME}/local/src
   export SDIR=sigil
   rm -fr ${SDIR}
   git clone https://code.google.com/p/sigil/
@@ -18,7 +17,9 @@ pushd /usr/local/src
   rm -fr ${BDIR}
   mkdir -p ${BDIR}
   pushd ${BDIR}
-    cmake -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Release ../${SDIR}
+    cmake -G "Unix Makefiles" \
+      -DCMAKE_INSTALL_PREFIX=${HOME}/local \
+      -DCMAKE_BUILD_TYPE=Release ../${SDIR}
     /usr/bin/time make
     make install
   popd

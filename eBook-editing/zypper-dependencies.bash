@@ -10,7 +10,7 @@
 #
 
 # Sigil beta
-zypper install -y \
+sudo zypper install -y \
   gtk-recordMyDesktop \
   pitivi \
   intltool \
@@ -20,7 +20,7 @@ zypper install -y \
   hunspell-devel
 
 # Calibre
-zypper install -y \
+sudo zypper install -y \
   icu \
   icu-data \
   libicu-devel \
@@ -43,10 +43,10 @@ zypper install -y \
   chmlib-devel
 
 # LyX
-zypper install -y \
+sudo zypper install -y \
   enchant-devel \
   aspell-devel
 
 # Bluefish
-zypper install -y \
+sudo zypper install -y \
   jing

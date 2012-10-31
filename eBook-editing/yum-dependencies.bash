@@ -10,7 +10,7 @@
 #
 
 # Sigil beta
-yum install -y \
+sudo yum install -y \
   pitivi \
   gtk-recordmydesktop \
   intltool \
@@ -21,7 +21,7 @@ yum install -y \
   hunspell-devel
 
 # Calibre
-yum install -y \
+sudo yum install -y \
   pyicu \
   icu \
   python-dns \
@@ -44,10 +44,10 @@ yum install -y \
   libicu-devel
 
 # LyX
-yum install -y \
+sudo yum install -y \
   enchant-devel \
   aspell-devel
 
 # Bluefish
-yum install -y \
+sudo yum install -y \
   jing

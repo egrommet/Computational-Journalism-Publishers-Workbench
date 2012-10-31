@@ -10,7 +10,7 @@
 #
 
 # Sigil beta
-apt-get install -y \
+sudo apt-get install -y \
   pitivi \
   gtk-recordmydesktop \
   intltool \
@@ -20,7 +20,7 @@ apt-get install -y \
   zlib-bin
 
 # Calibre
-apt-get install -y \
+sudo apt-get install -y \
   python-pyicu \
   python-netifaces \
   python-dns \
@@ -44,10 +44,10 @@ apt-get install -y \
   libicu-dev
 
 # LyX
-apt-get install \
+sudo apt-get install \
   libenchant-dev \
   libaspell-dev
 
 # Bluefish
-apt-get install -y \
+sudo apt-get install -y \
   jing
