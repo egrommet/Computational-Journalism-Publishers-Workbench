@@ -11,6 +11,7 @@
 
 export VERSION=`curl -L http://www.rstudio.com/ide/download/server|grep github.*tarball|sed 's/^.*tarball\///'|sed 's/".*$//'`
 
+echo "Fetching RStudio ${VERSION}"
 export HERE=`pwd` # save pointer to where the hacked files are
 
 # get source tarball from Github
@@ -22,7 +23,7 @@ pushd ${HOME}/local/src
   pushd rstudio-*
 
     pushd dependencies/common
-      for i in gwt dictionaries mathjax
+      for i in gwt dictionaries mathjax boost
       do
         patch -b ./install-$i ${HERE}/install-$i.patch
         /usr/bin/time ./install-$i
