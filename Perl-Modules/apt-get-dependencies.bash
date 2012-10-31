@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-apt-get install -y \
+sudo apt-get install -y \
   libssl-dev \
   libcrypt-ssleay-perl \
   libjson-xs-perl \
