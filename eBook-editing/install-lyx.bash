@@ -25,4 +25,5 @@ pushd ${HOME}/local/src
   popd
   
 popd
-cp lyx.desktop ${HOME}/.local/share/applications/
+sed "s:HOME:${HOME}:" lyx.desktop \
+  > ${HOME}/.local/share/applications/lyx.desktop
