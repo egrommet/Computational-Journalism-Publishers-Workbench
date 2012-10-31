@@ -12,6 +12,6 @@
 export VERSION=`curl http://redis.io/download/|grep '\.tar\.gz'|head -n 1|sed 's/^.*redis-'//|sed 's/\.tar\.gz.*$//'`
 export DIR=redis-${VERSION}
 
-pushd /usr/local/src/${DIR}
+pushd ${HOME}/local/src/${DIR}
 make test
 popd

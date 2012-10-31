@@ -9,9 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-mkdir -p /usr/local/src
-
-pushd /usr/local/src/
+pushd ${HOME}/local/src/
 export WHERE=http://redis.googlecode.com/files
 export VERSION=`curl http://redis.io/download/|grep '\.tar\.gz'|head -n 1|sed 's/^.*redis-'//|sed 's/\.tar\.gz.*$//'`
 rm -fr redis-*
@@ -20,7 +18,5 @@ export WHAT=${DIR}.tar.gz
 curl ${WHERE}/${WHAT} > ${WHAT}
 tar xf ${WHAT}
 cd ${DIR}
-make install
+make PREFIX=${HOME}/local install
 popd
-
-ldconfig
