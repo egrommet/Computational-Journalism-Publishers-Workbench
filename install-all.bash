@@ -11,6 +11,8 @@
 
 # set up stuff everyone needs
 mkdir -p ${HOME}/local/src
+mkdir -p ~/.local/share/applications
+mkdir -p ~/.local/share/pixmaps
 cp bashrc ~/.bashrc
 source ~/.bashrc
 
@@ -28,6 +30,9 @@ for i in \
   eBook-editing \
   PDF-Tools \
   Perl-Modules \
+  Perl-Local-Library \
+  GoogleRefine \
+  Maqetta \
   Redis-Source
 do
   pushd $i
