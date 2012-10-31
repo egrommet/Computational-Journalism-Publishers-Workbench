@@ -10,7 +10,6 @@
 #
 
 # ggobi
-sudo yum remove -y graphviz-devel
 sudo yum install -y \
   gtk2-devel \
   libxml2-devel \

@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,9 +9,15 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# ggobi
-sudo apt-get install -y \
-  libtool \
-  libgtk2.0-dev \
-  libxml2-dev \
-  libltdl-dev
+echo 'Removing graphviz-dev(el)'
+if [ -e "/usr/bin/apt-get" ]
+then
+  sudo apt-get remove -y graphviz-dev
+  sudo apt-get autoremove -y
+elif [ -e "/usr/bin/yum" ]
+then
+  sudo yum remove -y graphviz-devel
+elif [ -e "/usr/bin/zypper" ]
+then
+  sudo zypper remove -y graphviz-devel
+fi

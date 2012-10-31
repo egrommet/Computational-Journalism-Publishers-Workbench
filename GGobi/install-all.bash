@@ -10,7 +10,7 @@
 #
 
 source ~/.bashrc
-for i in dependencies ggobi
+for i in no-graphviz-devel ggobi
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
