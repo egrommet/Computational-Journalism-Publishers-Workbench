@@ -33,6 +33,7 @@ for i in \
   Perl-Local-Library \
   GoogleRefine \
   Maqetta \
+  Profiling \
   Redis-Source
 do
   pushd $i
