@@ -9,8 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+source ~/.bashrc
 for i in \
-  dependencies \
   jabref \
   calibre \
   lyx \

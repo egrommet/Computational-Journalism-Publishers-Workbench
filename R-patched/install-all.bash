@@ -10,7 +10,7 @@
 #
 
 source ~/.bashrc
-for i in dependencies graphviz-devel R-patched Rgraphviz packages tm.plugins-svn
+for i in graphviz-devel R-patched Rgraphviz packages tm.plugins-svn
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done

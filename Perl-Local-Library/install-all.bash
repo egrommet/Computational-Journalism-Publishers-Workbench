@@ -9,6 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+source ~/.bashrc
+
 # clean slate
 rm -fr ~/perl5 ~/.cpan
 mkdir -p ~/perl5 ~/.cpan
