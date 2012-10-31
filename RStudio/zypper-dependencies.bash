@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-zypper install -y \
+sudo zypper install -y \
   patch \
   libQtWebKit-devel \
   cmake \

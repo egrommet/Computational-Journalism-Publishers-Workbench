@@ -10,8 +10,8 @@
 #
 
 # ggobi
-yum remove -y graphviz-devel
-yum install -y \
+sudo yum remove -y graphviz-devel
+sudo yum install -y \
   gtk2-devel \
   libxml2-devel \
   libtool-ltdl-devel

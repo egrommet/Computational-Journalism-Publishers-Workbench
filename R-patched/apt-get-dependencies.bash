@@ -10,7 +10,7 @@
 #
 
 # R-compiled
-apt-get install -y \
+sudo apt-get install -y \
   gfortran \
   openjdk-7-jdk \
   libreadline-gplv2-dev \
@@ -21,7 +21,7 @@ apt-get install -y \
   libicu-dev
 
 # Packages
-apt-get install -y \
+sudo apt-get install -y \
   subversion \
   libcurl4-openssl-dev \
   freeglut3-dev \
@@ -37,7 +37,7 @@ apt-get install -y \
   wordnet-sense-index
 
 # R Java interface is hosed with both Java 6 and 7 -- nuke 6!
-apt-get remove -y \
+sudo apt-get remove -y \
   icedtea-6-jre-cacao \
   icedtea-6-jre-jamvm \
   openjdk-6-dbg \
@@ -49,4 +49,4 @@ apt-get remove -y \
   openjdk-6-jre-lib \
   openjdk-6-jre-zero \
   openjdk-6-source
-apt-get autoremove -y
+sudo apt-get autoremove -y

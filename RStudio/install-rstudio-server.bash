@@ -9,10 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source /etc/profile
-export PATH=/usr/local/bin:$PATH
-which R
-
 pushd /usr/local/src/rstudio-*/build
   cmake \
     -DRSTUDIO_TARGET=Server \

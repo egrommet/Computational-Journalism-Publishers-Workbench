@@ -10,7 +10,7 @@
 #
 
 # R-compiled
-yum install -y \
+sudo yum install -y \
   gcc-gfortran \
   gcc-c++ \
   readline-devel \
@@ -24,7 +24,7 @@ yum install -y \
   libicu-devel
 
 # Packages
-yum install -y \
+sudo yum install -y \
   freeglut-devel \
   fftw-devel \
   gd-devel \
@@ -37,6 +37,6 @@ yum install -y \
   subversion
 
 # WordNet environment variable
-cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
+sudo cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
 source /etc/profile
 set|grep WNHOME

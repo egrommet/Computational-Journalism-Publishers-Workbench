@@ -10,8 +10,8 @@
 #
 
 # ggobi
-zypper remove -y graphviz-devel
-zypper install -y \
+sudo zypper remove -y graphviz-devel
+sudo zypper install -y \
   libtool \
   gtk2-devel \
   libxml2-devel
