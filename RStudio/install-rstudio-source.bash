@@ -23,11 +23,14 @@ pushd ${HOME}/local/src
   pushd rstudio-*
 
     pushd dependencies/common
-      for i in gwt dictionaries mathjax boost
+      for i in gwt dictionaries mathjax
       do
         patch -b ./install-$i ${HERE}/install-$i.patch
         /usr/bin/time ./install-$i
       done
+      echo "Installing updated 'boost' as 'root'"
+      echo "You will need to authenticate"
+      /usr/bin/time ./install-boost
     popd
 
     patch -b src/gwt/build.xml ${HERE}/build.xml.patch
