@@ -22,6 +22,10 @@ then
   ./zypper-repositories.bash
 fi
 
+# cleanup and dependencies
+./cleanup.bash
+./install-dependencies.bash
+
 for i in \
   TexLive \
   GGobi \
