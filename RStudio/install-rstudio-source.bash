@@ -14,7 +14,7 @@ export VERSION=`curl -L http://www.rstudio.com/ide/download/server|grep github.*
 export HERE=`pwd` # save pointer to where the hacked files are
 
 # get source tarball from Github
-pushd ~/local/src
+pushd ${HOME}/local/src
   rm -fr rstudio*
   curl -k -L https://github.com/rstudio/rstudio/tarball/${VERSION} > rstudio.tgz
   tar xf rstudio.tgz

@@ -1,6 +1,6 @@
 [Desktop Entry]
-Exec=/usr/local/lib/rstudio/bin/rstudio %F
-Icon=rstudio.png
+Exec=HOME/local/bin/rstudio %F
+Icon=HOME/.local/share/pixmaps/rstudio.png
 Type=Application
 Terminal=false
 Name=RStudio
