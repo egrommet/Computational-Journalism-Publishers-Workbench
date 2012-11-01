@@ -1,6 +1,7 @@
 #! /bin/bash
 
-yum install -y \
+sudo yum install -y \
+  gmp-devel \
   QuantLib-devel \
   QuantLib-doc \
   QuantLib-test \
