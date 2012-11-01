@@ -14,6 +14,9 @@ export VERSION=`curl -L http://www.rstudio.com/ide/download/server|grep github.*
 echo "Fetching RStudio ${VERSION}"
 export HERE=`pwd` # save pointer to where the hacked files are
 
+# make patch file
+sed "s:HOME:${HOME}:" CMakeLists.txt.patch.base > CMakeLists.txt.patch
+
 # get source tarball from Github
 pushd ${HOME}/local/src
   rm -fr rstudio*
@@ -30,11 +33,12 @@ pushd ${HOME}/local/src
       done
       echo "Installing updated 'boost' as 'root'"
       echo "You will need to authenticate"
-      sudo rm -fr /opt/rstudio-tools
-      sudo cp -a ${HOME}/local/rstudio-tools /opt
+      #sudo rm -fr /opt/rstudio-tools
+      #sudo cp -a ${HOME}/local/rstudio-tools /opt
     popd
 
     patch -b src/gwt/build.xml ${HERE}/build.xml.patch
+    patch -b src/cpp/CMakeLists.txt ${HERE}/CMakeLists.txt.patch
     mkdir build
   popd
 

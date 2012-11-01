@@ -12,7 +12,6 @@
 # RStudio
 sudo yum install -y \
   cmake \
-  boost-devel \
   patch \
   qtwebkit-devel \
   libuuid-devel \

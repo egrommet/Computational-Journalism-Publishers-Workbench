@@ -1,0 +1,11 @@
+--- CMakeLists.txt.orig	2012-11-01 00:17:56.523851806 -0700
++++ CMakeLists.txt	2012-11-01 00:18:33.659364803 -0700
+@@ -113,7 +113,7 @@
+ # UNIX BOOST
+ if(UNIX)
+    # prefer static link to our custom built version
+-   set(RSTUDIO_TOOLS_BOOST /opt/rstudio-tools/boost/boost_1_50_0)
++   set(RSTUDIO_TOOLS_BOOST HOME/local/rstudio-tools/boost/boost_1_50_0)
+    if(EXISTS ${RSTUDIO_TOOLS_BOOST})
+       # find headers
+       set(Boost_USE_STATIC_LIBS ON)
