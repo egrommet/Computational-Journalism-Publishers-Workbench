@@ -25,6 +25,7 @@ sudo yum install -y \
 
 # Packages
 sudo yum install -y \
+  graphviz-devel \
   freeglut-devel \
   fftw-devel \
   gd-devel \

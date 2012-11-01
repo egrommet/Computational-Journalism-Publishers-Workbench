@@ -22,6 +22,7 @@ sudo apt-get install -y \
 
 # Packages
 sudo apt-get install -y \
+  graphviz-dev \
   subversion \
   libcurl4-openssl-dev \
   freeglut3-dev \

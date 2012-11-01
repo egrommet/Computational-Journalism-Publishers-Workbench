@@ -24,6 +24,7 @@ sudo zypper install -y \
 
 # Packages
 sudo zypper install -y \
+  graphviz-devel \
   libcurl-devel \
   freeglut-devel \
   fftw3-devel \

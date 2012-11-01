@@ -10,6 +10,7 @@
 #
 
 echo 'Removing graphviz-dev(el)'
+echo 'You will need to authenticate'
 if [ -e "/usr/bin/apt-get" ]
 then
   sudo apt-get remove -y graphviz-dev
