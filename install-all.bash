@@ -10,7 +10,7 @@
 #
 
 # set up stuff everyone needs
-mkdir -p ${HOME}/local/src
+mkdir -p ~/local/src
 mkdir -p ~/.local/share/applications
 mkdir -p ~/.local/share/pixmaps
 cat bashrc >> ~/.bashrc
