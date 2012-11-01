@@ -14,7 +14,6 @@ update.views(
     'Econometrics',
     'TimeSeries'
   ),
-  lib=paste(R.home(), '/library', sep=''),
   repos='http://cran.fhcrc.org'
 )
 warnings()

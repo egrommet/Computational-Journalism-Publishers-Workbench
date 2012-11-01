@@ -31,7 +31,6 @@ install.packages(
     'RJSONIO',
     'quantmod'
   ),
-  lib=paste(R.home(), '/library', sep=''),
   repos='http://cran.fhcrc.org'
 )
 warnings()
@@ -42,7 +41,6 @@ update.views(
     'Graphics',
     'NaturalLanguageProcessing'
   ),
-  lib=paste(R.home(), '/library', sep=''),
   repos='http://cran.fhcrc.org'
 )
 warnings()

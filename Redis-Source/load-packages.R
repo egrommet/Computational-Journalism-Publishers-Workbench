@@ -11,7 +11,6 @@ install.packages(
   c(
     'doRedis'
   ),
-  lib=paste(R.home(), '/library', sep=''),
   repos='http://cran.fhcrc.org'
 )
 warnings()
