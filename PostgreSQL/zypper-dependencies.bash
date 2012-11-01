@@ -10,11 +10,8 @@
 #
 
 sudo zypper install -y \
-  perl-Crypt-SSLeay \
-  perl-Net-SSLeay \
-  perl-YAML \
-  perl-YAML-Syck \
-  perl-JSON \
-  perl-JSON-XS \
-  perl-PadWalker \
-  perl-local-lib
+  pgadmin3 \
+  postgresql \
+  postgresql-contrib \
+  postgresql-devel \
+  postgresql-docs
