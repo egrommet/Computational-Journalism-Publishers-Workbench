@@ -27,6 +27,7 @@ fi
 ./install-dependencies.bash
 
 for i in \
+  PostgreSQL \
   TexLive \
   GGobi \
   R-patched \
