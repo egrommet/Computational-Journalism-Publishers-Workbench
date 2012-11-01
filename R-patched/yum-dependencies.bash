@@ -11,6 +11,7 @@
 
 # R-compiled
 sudo yum install -y \
+  evince \
   gcc-gfortran \
   gcc-c++ \
   readline-devel \

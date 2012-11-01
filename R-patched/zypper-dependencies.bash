@@ -11,6 +11,7 @@
 
 # R-compiled
 sudo zypper install -y \
+  evince \
   gcc-fortran \
   gcc-c++ \
   java-1_7_0-openjdk-devel \

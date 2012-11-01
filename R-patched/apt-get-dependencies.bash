@@ -11,6 +11,7 @@
 
 # R-compiled
 sudo apt-get install -y \
+  evince \
   gfortran \
   openjdk-7-jdk \
   libreadline-gplv2-dev \
