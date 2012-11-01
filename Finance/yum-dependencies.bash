@@ -2,6 +2,7 @@
 
 sudo yum install -y \
   gmp-devel \
+  mpfr-devel \
   QuantLib-devel \
   QuantLib-doc \
   QuantLib-test \
