@@ -10,7 +10,7 @@
 #
 
 source ~/.bashrc
-for i in packages
+for i in dependencies packages
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
