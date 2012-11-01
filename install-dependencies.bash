@@ -9,16 +9,21 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-for i in */install-dependencies.bash
+for i in \
+  TexLive \
+  R-patched \
+  RStudio \
+  eBook-editing \
+  PDF-Tools \
+  Perl-Modules \
+  Perl-Local-Library \
+  GoogleRefine \
+  Maqetta \
+  Profiling \
+  Redis-Source
 do
-  if [ "${i}" == "common/install-dependencies.bash" ]
-  then
-    echo "skipped"
-  else
-    j=`echo ${i} | sed 's/install-dependencies.bash//'`
-    pushd ${j}
-    ./install-dependencies.bash 2>&1 | tee dependencies.log
-    popd
-  fi
+  pushd $i
+  ./install-dependencies.bash 2>&1 | tee dependencies.log
+  popd
 done
 git status
