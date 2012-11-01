@@ -14,5 +14,3 @@
 # NOTE: changes in this file won't be reflected until after you quit
 # and start a new session
 #
-system('mkdir -p ~/R/library')
-.libPaths(c("~/R/library", .libPaths()))
