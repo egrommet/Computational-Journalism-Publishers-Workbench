@@ -13,7 +13,7 @@ for i in */install-dependencies.bash
 do
   j=`echo ${i} | sed 's/install-dependencies.bash//'`
   pushd ${j}
-  ./install-dependencies.bash
+  ./install-dependencies.bash 2>&1 | tee dependencies.log
   popd
 done
 git status
