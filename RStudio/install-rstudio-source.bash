@@ -31,7 +31,7 @@ pushd ${HOME}/local/src
       echo "Installing updated 'boost' as 'root'"
       echo "You will need to authenticate"
       sudo rm -fr /opt/rstudio-tools
-      sudo ln -s ${HOME}/local/rstudio-tools /opt/rstudio-tools
+      sudo cp -a ${HOME}/local/rstudio-tools /opt
     popd
 
     patch -b src/gwt/build.xml ${HERE}/build.xml.patch
