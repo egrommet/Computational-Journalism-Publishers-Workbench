@@ -10,10 +10,9 @@
 #
 
 sudo apt-get install -y \
-  libssl-dev \
-  libcrypt-ssleay-perl \
-  libjson-xs-perl \
-  libjson-perl \
-  libyaml-syck-perl \
-  libyaml-perl \
-  liblocal-lib-perl
+  postgresql \
+  postgresql-contrib \
+  postgresql-doc \
+  pgadmin3 \
+  pgadmin3-data \
+  postgresql-server-dev-all
