@@ -11,9 +11,14 @@
 
 for i in */install-dependencies.bash
 do
-  j=`echo ${i} | sed 's/install-dependencies.bash//'`
-  pushd ${j}
-  ./install-dependencies.bash 2>&1 | tee dependencies.log
-  popd
+  if [ "${i}" == "common/install-dependencies.bash" ]
+  then
+    echo "skipped"
+  else
+    j=`echo ${i} | sed 's/install-dependencies.bash//'`
+    pushd ${j}
+    ./install-dependencies.bash 2>&1 | tee dependencies.log
+    popd
+  fi
 done
 git status
