@@ -26,6 +26,5 @@ sudo apt-get install -y \
   libpam-dev \
   libapparmor1  \
   apparmor-utils \
-  libboost-all-dev \
   gufw \
   unzip

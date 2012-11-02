@@ -11,6 +11,7 @@
 
 # RStudio
 sudo yum install -y \
+  boost-devel \
   cmake \
   patch \
   qtwebkit-devel \
