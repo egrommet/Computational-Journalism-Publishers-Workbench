@@ -36,6 +36,7 @@ for i in \
   PDF-Tools \
   Perl-Modules \
   Perl-Local-Library \
+  Ruby-Gems \
   GoogleRefine \
   Maqetta
 do
