@@ -11,7 +11,7 @@
 
 source ~/.bashrc
 ./no-graphviz-devel.bash
-for i in ggobi graphviz-devel packages
+for i in dependencies ggobi graphviz-devel packages
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
