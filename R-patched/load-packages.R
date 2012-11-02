@@ -39,6 +39,7 @@ update.views(
   c(
     'ReproducibleResearch',
     'Graphics',
+    'HighPerformanceComputing',
     'NaturalLanguageProcessing'
   ),
   repos='http://cran.fhcrc.org'
