@@ -15,7 +15,7 @@ for i in \
   calibre \
   lyx \
   bluefish \
-  beta-sigil \
+  sigil \
   beta-freemind \
   epubcheck
 do
