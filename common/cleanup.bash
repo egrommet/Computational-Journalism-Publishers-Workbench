@@ -10,3 +10,4 @@
 #
 
 rm -f *.log
+rm -f .R*
