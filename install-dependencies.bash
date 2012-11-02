@@ -11,16 +11,17 @@
 
 for i in \
   TexLive \
+  Profiling \
+  Redis-Source \
   R-patched \
   RStudio \
   eBook-editing \
   PDF-Tools \
   Perl-Modules \
   Perl-Local-Library \
+  Ruby-Gems \
   GoogleRefine \
-  Maqetta \
-  Profiling \
-  Redis-Source
+  Maqetta
 do
   pushd $i
   ./install-dependencies.bash 2>&1 | tee dependencies.log
