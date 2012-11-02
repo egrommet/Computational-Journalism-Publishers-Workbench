@@ -27,6 +27,8 @@ fi
 ./install-dependencies.bash
 
 for i in \
+  Profiling \
+  Redis-Source \
   TexLive \
   R-patched \
   RStudio \
@@ -35,9 +37,7 @@ for i in \
   Perl-Modules \
   Perl-Local-Library \
   GoogleRefine \
-  Maqetta \
-  Profiling \
-  Redis-Source
+  Maqetta
 do
   pushd $i
   ./install-all.bash
