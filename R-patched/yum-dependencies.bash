@@ -36,7 +36,10 @@ sudo yum install -y \
   wordnet \
   wordnet-devel \
   libsndfile-devel \
-  subversion
+  subversion \
+  gtk2-devel \
+  libxml2-devel \
+  libtool-ltdl-devel
 
 # WordNet environment variable
 sudo cp wordnet-yum.sh /etc/profile.d/ # set WordNet home

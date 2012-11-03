@@ -36,7 +36,11 @@ sudo apt-get install -y \
   wordnet-dev \
   wordnet-grind \
   wordnet-gui \
-  wordnet-sense-index
+  wordnet-sense-index \
+  libtool \
+  libgtk2.0-dev \
+  libxml2-dev \
+  libltdl-dev
 
 # R Java interface is hosed with both Java 6 and 7 -- nuke 6!
 sudo apt-get remove -y \

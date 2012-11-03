@@ -33,7 +33,10 @@ sudo zypper install -y \
   gsl-devel \
   libsndfile-devel \
   wordnet \
-  wordnet-devel
+  wordnet-devel \
+  libtool \
+  gtk2-devel \
+  libxml2-devel
 
 # WordNet environment variable
 sudo cp wordnet-zypper.sh /etc/profile.d/ # set WordNet home
