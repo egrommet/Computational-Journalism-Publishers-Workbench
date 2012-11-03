@@ -9,6 +9,12 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+# workaround for build failures on openSUSE
+if [ -e "/usr/bin/zypper" ]
+then
+  unset JAVA_HOME
+fi
+
 pushd ~/local/src/rstudio-*/build
   cmake \
     -DCMAKE_INSTALL_PREFIX=${HOME}/local \
