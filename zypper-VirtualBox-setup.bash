@@ -12,7 +12,7 @@
 echo "If you haven't already, do 'Devices -> Install Guest Additions'"
 
 echo "Removing install DVD repository reference"
-zypper rr 'openSUSE-12.2-1.5'
+zypper rr 'openSUSE-12.2-1.6'
 
 echo "Removing guest tools / additions already installed"
 zypper remove -y virtualbox-guest-kmp-default \
