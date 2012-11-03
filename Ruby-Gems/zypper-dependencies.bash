@@ -10,4 +10,5 @@
 #
 
 sudo zypper install -y \
-  ruby
+  ruby \
+  ruby-devel
