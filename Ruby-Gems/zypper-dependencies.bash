@@ -10,3 +10,4 @@
 #
 
 sudo zypper install -y \
+  ruby
