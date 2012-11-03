@@ -29,7 +29,8 @@ install.packages(
     'tm.plugin.dc',
     'tm.plugin.mail',
     'RJSONIO',
-    'quantmod'
+    'quantmod',
+    'doRedis'
   ),
   repos='http://cran.fhcrc.org'
 )
@@ -39,7 +40,6 @@ update.views(
   c(
     'ReproducibleResearch',
     'Graphics',
-    'HighPerformanceComputing',
     'NaturalLanguageProcessing'
   ),
   repos='http://cran.fhcrc.org'
