@@ -11,9 +11,6 @@
 
 echo "If you haven't already, do 'Devices -> Install Guest Additions'"
 
-echo "Completing LXDE desktop"
-./yum-LXDE.bash
-
 echo "Installing basic development tools"
 yum install -y \
   mlocate \

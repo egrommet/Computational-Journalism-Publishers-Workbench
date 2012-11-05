@@ -21,9 +21,6 @@ zypper remove -y virtualbox-guest-kmp-default \
 zypper remove -y libvmtools0 open-vm-tools open-vm-tools-gui \
   vmware-guest-kmp-default vmware-guest-kmp-desktop vmware-guest-kmp-pae
 
-echo "Completing LXDE Desktop"
-./zypper-LXDE.bash
-
 echo "Installing basic development tools"
 zypper install -y \
   make \

@@ -19,9 +19,6 @@ apt-get remove -y \
   virtualbox-guest-x11
 apt-get autoremove -y
 
-echo "Completing LXDE desktop"
-./apt-get-LXDE.bash
-
 echo "Installing basic development tools"
 apt-get install -y \
   make \
