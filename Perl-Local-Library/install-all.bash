@@ -30,10 +30,7 @@ for i in \
   Net::Twitter \
   Sys::Statistics::Linux \
   Hash::Flatten \
-  AnyEvent::Redis \
   Redis \
-  Redis::Hash \
-  Redis::List \
   Browser::Open
 do
   cpan ${i} 2>&1 | tee ${i}.log
