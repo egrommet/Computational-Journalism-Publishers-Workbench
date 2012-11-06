@@ -1,4 +1,3 @@
-#! /bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,10 +8,10 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-cat gem-home.bash >> ~/.bashrc
-source ~/.bashrc
-mkdir -p ${GEM_HOME}
-for i in rbenv gems
-do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
-done
+pushd ~
+rm -fr .rbenv
+git clone git://github.com/sstephenson/rbenv.git .rbenv
+git clone git://github.com/sstephenson/ruby-build.git .rbenv/plugins/ruby-build
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+popd
