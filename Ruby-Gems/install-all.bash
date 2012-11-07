@@ -9,8 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-cat gem-home.bash >> ~/.bashrc
-source ~/.bashrc
+cat gem-home.bash >> ~/.bash_profile
+../common/source-profiles.bash
 mkdir -p ${GEM_HOME}
 for i in rbenv gems
 do

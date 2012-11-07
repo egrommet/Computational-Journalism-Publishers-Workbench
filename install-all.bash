@@ -13,8 +13,11 @@
 mkdir -p ~/local/src
 mkdir -p ~/.local/share/applications
 mkdir -p ~/.local/share/pixmaps
-cat bashrc >> ~/.bashrc
-source ~/.bashrc
+for i in rc _profile
+do
+  cat bash${i} >> ~/.bash${i}
+done
+common/source_profiles.bash
 
 # get babysitting out of the way for openSUSE :-(
 if [ -e "/usr/bin/zypper" ]

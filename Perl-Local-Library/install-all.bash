@@ -16,6 +16,7 @@ rm -fr ~/perl5 ~/.cpan
 mkdir -p ~/perl5 ~/.cpan
 
 # set environment variables
+echo '##### Perl local::lib #####' >> ~/.bash_profile
 perl -Mlocal::lib >> ~/.bash_profile
 source ~/.bash_profile
 echo "export MANPATH=$MANPATH:$PERL_LOCAL_LIB_ROOT/man" >> ~/.bash_profile

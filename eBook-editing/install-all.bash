@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source ~/.bashrc
+../common/source-profiles.bash
 for i in \
   jabref \
   calibre \

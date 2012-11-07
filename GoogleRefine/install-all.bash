@@ -9,5 +9,5 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source ~/.bashrc
+../common/source-profiles.bash
 ./install-google-refine.bash 2>&1 | tee google-refine.log
