@@ -10,4 +10,6 @@
 #
 
 sudo yum install -y \
-  rubygems
+  ruby-devel \
+  rubygems \
+  rubygems-devel
