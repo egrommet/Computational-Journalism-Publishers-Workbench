@@ -10,7 +10,8 @@
 #
 
 cat gem-home.bash >> ~/.bash_profile
-../common/source-profiles.bash
+source ~/.bashrc
+source ~/.bash_profile
 mkdir -p ${GEM_HOME}
 for i in rbenv gems
 do

@@ -16,8 +16,8 @@ mkdir -p ~/.local/share/pixmaps
 for i in rc _profile
 do
   cat bash${i} >> ~/.bash${i}
+  source bash${i}
 done
-common/source_profiles.bash
 
 # get babysitting out of the way for openSUSE :-(
 if [ -e "/usr/bin/zypper" ]
