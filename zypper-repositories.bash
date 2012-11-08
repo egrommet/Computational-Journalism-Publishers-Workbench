@@ -9,8 +9,9 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "Adding repository as 'root'"
+echo "Adding repositories as 'root'"
 echo "You will need to authenticate"
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.2/Documentation:Tools.repo # Tesseract lives here
+sudo zypper addrepo -cf http://download.opensuse.org/repositories/devel:/languages:/haskell:/next/openSUSE_12.2/devel:languages:haskell:next.repo # Pandoc
 echo "Answer 'a' to 'Do you want to reject the key, trust temporarily, or trust always?' below."
 sudo zypper refresh
