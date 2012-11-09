@@ -18,7 +18,6 @@ sudo zypper install -y \
   readline-devel \
   tk-devel \
   libtiff-devel \
-  texinfo \
   libXmu-devel \
   libXScrnSaver-devel \
   libicu-devel

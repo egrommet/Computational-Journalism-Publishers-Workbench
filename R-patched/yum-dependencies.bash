@@ -19,7 +19,6 @@ sudo yum install -y \
   libXmu-devel \
   java-1.7.0-openjdk-devel \
   tk-devel \
-  texinfo \
   libtiff-devel \
   icu \
   libicu-devel

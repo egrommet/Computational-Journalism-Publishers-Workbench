@@ -17,7 +17,6 @@ sudo apt-get install -y \
   libreadline-gplv2-dev \
   tk-dev \
   libtiff4-dev \
-  texinfo \
   libxmu-dev \
   libicu-dev
 
