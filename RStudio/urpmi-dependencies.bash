@@ -9,19 +9,15 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo 'Removing graphviz-dev(el)'
-echo 'You will need to authenticate'
-if [ -e "/usr/bin/apt-get" ]
-then
-  sudo apt-get remove -y graphviz-dev
-  sudo apt-get autoremove -y
-elif [ -e "/usr/bin/yum" ]
-then
-  sudo yum remove -y graphviz-devel
-elif [ -e "/usr/bin/zypper" ]
-then
-  sudo zypper remove -y graphviz-devel
-elif [ -e "/usr/sbin/urpmi" ]
-then
-  sudo urpme --auto --auto-orphans libgraphviz-devel
-fi
+sudo urpmi --auto \
+  qt-creator \
+  libqt4-devel \
+  libqtwebkit2.2-devel \
+  cmake \
+  libbzip2-devel \
+  libzlib-devel \
+  libuuid-devel \
+  libopenssl-devel \
+  libpam-devel \
+  libboost-devel \
+  ant

@@ -1,4 +1,4 @@
-#!/bin/bash
+#! /bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,18 +9,13 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo 'Installing graphviz-dev(el)'
-echo 'You will need to authenticate'
-if [ -e "/usr/bin/apt-get" ]
-then
-  sudo apt-get install -y graphviz-dev
-elif [ -e "/usr/bin/yum" ]
-then
-  sudo yum install -y graphviz-devel
-elif [ -e "/usr/bin/zypper" ]
-then
-  sudo zypper install -y graphviz-devel
-elif [ -e "/usr/sbin/urpmi" ]
-then
-  sudo urpmi --auto libgraphviz-devel
-fi
+sudo urpmi --auto \
+  perl-devel \
+  perl-Crypt-SSLeay \
+  perl-Net-SSLeay \
+  perl-YAML \
+  perl-YAML-Syck \
+  perl-JSON \
+  perl-JSON-XS \
+  perl-PadWalker \
+  perl-local-lib
