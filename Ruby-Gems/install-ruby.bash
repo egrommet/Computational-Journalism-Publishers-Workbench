@@ -12,6 +12,6 @@
 rbenv rehash
 rbenv install -l # list the menu
 rbenv install 1.9.3-p286
-rbenv local 1.9.3-p286
+rbenv global 1.9.3-p286
 rbenv rehash
 rbenv version
