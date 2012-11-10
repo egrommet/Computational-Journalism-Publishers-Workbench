@@ -26,6 +26,7 @@ sudo urpmi --auto \
 sudo urpmi --auto \
   icu \
   libicu-devel \
+  libchm-devel \
   python-dnspython \
   libmagick-devel \
   libsqlite3-devel \
