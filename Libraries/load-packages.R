@@ -1,4 +1,3 @@
-#! /bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -8,6 +7,15 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-sudo urpmi --auto \
-  ruby-RubyGems \
-  ruby-devel
+install.packages(
+  c(
+    'Rcpp',
+    'RcppArmadillo',
+    'RcppEigen',
+    'RcppGSL',
+    'RUnit',
+    'inline'
+  ),
+  repos='http://cran.fhcrc.org'
+)
+warnings()

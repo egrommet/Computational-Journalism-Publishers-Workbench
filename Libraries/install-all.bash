@@ -8,6 +8,10 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-sudo urpmi --auto \
-  ruby-RubyGems \
-  ruby-devel
+
+source ~/.bashrc
+source ~/.bash_profile
+for i in armadillo eigen packages
+do
+  ./install-${i}.bash 2>&1 | tee ${i}.log
+done

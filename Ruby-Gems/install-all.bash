@@ -13,7 +13,7 @@ cat gem-home.bash >> ~/.bash_profile
 source ~/.bashrc
 source ~/.bash_profile
 mkdir -p ${GEM_HOME}
-for i in rbenv gems
+for i in rbenv ruby gems
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done

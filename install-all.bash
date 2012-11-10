@@ -35,6 +35,7 @@ for i in \
   TexLive \
   R-patched \
   RStudio \
+  Libraries \
   eBook-editing \
   PDF-Tools \
   Perl-Modules \

@@ -8,6 +8,10 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-sudo urpmi --auto \
-  ruby-RubyGems \
-  ruby-devel
+
+rbenv rehash
+rbenv install -l # list the menu
+rbenv install 1.9.3-p286
+rbenv global 1.9.3-p286
+rbenv rehash
+rbenv version
