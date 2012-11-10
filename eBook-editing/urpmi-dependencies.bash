@@ -9,10 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# Pandoc
-sudo urpmi --auto \
-  pandoc
-
 # Sigil
 sudo urpmi --auto \
   gtk-recordmydesktop \
