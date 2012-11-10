@@ -10,7 +10,7 @@
 #
 
 sudo yum install -y \
-  atlas \
   atlas-devel \
-  gsl \
-  gsl-devel
+  gsl-devel \
+  gmp-devel \
+  mpfr-devel
