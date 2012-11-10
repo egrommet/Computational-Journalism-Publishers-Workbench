@@ -9,11 +9,9 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-cat gem-home.bash >> ~/.bash_profile
-source ~/.bashrc
-source ~/.bash_profile
-mkdir -p ${GEM_HOME}
-for i in rbenv ruby gems
-do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
-done
+rbenv rehash
+rbenv install -l # list the menu
+rbenv install 1.9.3-p286
+rbenv local 1.9.3-p286
+rbenv rehash
+rbenv version
