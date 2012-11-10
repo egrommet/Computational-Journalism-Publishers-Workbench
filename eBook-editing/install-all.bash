@@ -17,7 +17,7 @@ for i in \
   lyx \
   bluefish \
   sigil \
-  beta-freemind \
+  freemind \
   epubcheck
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log

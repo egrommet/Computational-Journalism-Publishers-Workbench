@@ -30,3 +30,6 @@ pushd ${HOME}/local/src
   popd
   
 popd
+
+sed "s:HOME:${HOME}:" sigil.desktop > \
+  ${HOME}/.local/share/applications/sigil.desktop

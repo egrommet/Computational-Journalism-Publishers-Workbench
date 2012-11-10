@@ -22,3 +22,6 @@ cd ${DIR}
 /usr/bin/time make
 make install
 popd
+
+sed "s:HOME:${HOME}:" bluefish.desktop > \
+  ${HOME}/.local/share/applications/bluefish.desktop
