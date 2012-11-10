@@ -15,6 +15,7 @@ for i in \
   Redis-Source \
   R-patched \
   RStudio \
+  Libraries \
   eBook-editing \
   PDF-Tools \
   Perl-Modules \
