@@ -12,17 +12,17 @@
 echo "If you haven't already, do 'Devices -> Install Guest Additions'"
 
 echo "Removing install DVD repository reference"
-zypper rr 'openSUSE-12.2-1.6'
+sudo zypper rr 'openSUSE-12.2-1.6'
 
 echo "Removing guest tools / additions already installed"
-zypper remove -y virtualbox-guest-kmp-default \
+sudo zypper remove -y virtualbox-guest-kmp-default \
   virtualbox-guest-kmp-desktop virtualbox-guest-kmp-pae virtualbox-guest-tools \
   virtualbox-guest-x11
-zypper remove -y libvmtools0 open-vm-tools open-vm-tools-gui \
+sudo zypper remove -y libvmtools0 open-vm-tools open-vm-tools-gui \
   vmware-guest-kmp-default vmware-guest-kmp-desktop vmware-guest-kmp-pae
 
 echo "Installing basic development tools"
-zypper install -y \
+sudo zypper install -y \
   make \
   kernel-devel \
   vim-data \
@@ -31,10 +31,10 @@ zypper install -y \
   gcc
 
 echo "Installing guest additions"
-mkdir -p /mnt/cdrom
-mount /dev/sr0 /mnt/cdrom
-/mnt/cdrom/VBoxLinuxAdditions.run
+sudo mkdir -p /mnt/cdrom
+sudo mount /dev/sr0 /mnt/cdrom
+sudo /mnt/cdrom/VBoxLinuxAdditions.run
 
 echo "Shutting down in 15 seconds so you can take a snapshot"
 sleep 15
-shutdown -P now
+sudo /sbin/shutdown -P now

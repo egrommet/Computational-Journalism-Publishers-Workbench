@@ -12,15 +12,15 @@
 echo "If you haven't already, do 'Devices -> Install Guest Additions'"
 
 echo "Removing existing guest additions"
-apt-get remove -y \
+sudo apt-get remove -y \
   virtualbox-guest-dkms \
   virtualbox-guest-source \
   virtualbox-guest-utils \
   virtualbox-guest-x11
-apt-get autoremove -y
+sudo apt-get autoremove -y
 
 echo "Installing basic development tools"
-apt-get install -y \
+sudo apt-get install -y \
   make \
   dkms \
   build-essential \
@@ -30,10 +30,10 @@ apt-get install -y \
   vim-gtk
 
 echo "Installing guest additions"
-mkdir -p /mnt/cdrom
-mount /dev/sr0 /mnt/cdrom
-/mnt/cdrom/VBoxLinuxAdditions.run
+sudo mkdir -p /mnt/cdrom
+sudo mount /dev/sr0 /mnt/cdrom
+sudo /mnt/cdrom/VBoxLinuxAdditions.run
 
 echo "Shutting down in 15 seconds so you can take a snapshot"
 sleep 15
-shutdown -P now
+sudo shutdown -P now
