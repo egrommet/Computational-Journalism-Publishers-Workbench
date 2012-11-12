@@ -1,3 +1,4 @@
+#! /bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -7,3 +8,12 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
+
+sudo urpmi --auto \
+  perl-Date-Manip \
+  systemtap \
+  sysstat \
+  oprofile \
+  oprofile-devel \
+  oprofile-gui \
+  oprofile-jit
