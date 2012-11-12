@@ -10,6 +10,7 @@
 #
 
 sudo zypper install -y \
+  perl-Date-Manip \
   systemtap \
   systemtap-docs \
   systemtap-runtime \
