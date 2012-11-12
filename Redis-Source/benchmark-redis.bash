@@ -9,6 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+source ~/.bash_profile
+source ~/.bashrc
 ./cleanup.bash # start with a clean slate
 iostat -cdmxt -p ALL 2 > iostat.log & # start data collector
 ../Profiling/log-pmaps.bash redis-server > pmaps.log & # process maps
