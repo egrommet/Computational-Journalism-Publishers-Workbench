@@ -10,6 +10,7 @@
 #
 
 sudo apt-get install -y \
+  libdate-manip-perl \
   systemtap \
   systemtap-client \
   systemtap-common \
