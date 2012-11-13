@@ -13,8 +13,9 @@
 for i in */install-dependencies.bash
 do
   j=`echo ${i} | sed 's/install-dependencies.bash//'`
-  if [ "${j}" != "common" ]
+  if [ "${j}" != "common/" ]
   then
+    echo ${j}
     pushd ${j}
     ./install-dependencies.bash 2>&1 | tee dependencies.log
     popd
