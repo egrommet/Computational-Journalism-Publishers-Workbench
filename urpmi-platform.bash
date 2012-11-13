@@ -1,7 +1,5 @@
 #! /bin/bash
 
-echo "If you haven't already, do 'Devices -> Install Guest Additions'"
-
 # remove CD repo - it's not attached any more
 sudo urpmi.removemedia 'Mageia 2 - i586 DVD'
 
@@ -16,12 +14,7 @@ sudo urpmi --auto \
   vim \
   vim-X11
 
-# install
-echo "Installing guest additions"
-sudo mkdir -p /mnt/cdrom
-sudo mount /dev/sr0 /mnt/cdrom
-sudo /mnt/cdrom/VBoxLinuxAdditions.run
+echo "Updating packages"
 
-echo "Shutting down in 15 seconds so you can take a snapshot"
-sleep 15
-sudo shutdown -P now
+echo "Rebooting"
+sudo reboot now

@@ -9,23 +9,11 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-for i in \
-  TexLive \
-  Profiling \
-  Redis-Source \
-  R-patched \
-  RStudio \
-  Libraries \
-  eBook-editing \
-  PDF-Tools \
-  Perl-Modules \
-  Perl-Local-Library \
-  Ruby-Gems \
-  GoogleRefine \
-  Maqetta
+# recursive dependency installer
+for i in */install-dependencies.bash
 do
-  pushd $i
+  j=`echo ${i} | sed 's/install-dependencies.bash//'`
+  pushd ${j}
   ./install-dependencies.bash 2>&1 | tee dependencies.log
   popd
 done
-git status

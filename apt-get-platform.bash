@@ -9,8 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "If you haven't already, do 'Devices -> Install Guest Additions'"
-
 echo "Removing existing guest additions"
 sudo apt-get remove -y \
   virtualbox-guest-dkms \
@@ -29,11 +27,9 @@ sudo apt-get install -y \
   vim \
   vim-gtk
 
-echo "Installing guest additions"
-sudo mkdir -p /mnt/cdrom
-sudo mount /dev/sr0 /mnt/cdrom
-sudo /mnt/cdrom/VBoxLinuxAdditions.run
+echo "Updating packages"
+sudo apt-get update
+sudo apt-get upgrade
 
-echo "Shutting down in 15 seconds so you can take a snapshot"
-sleep 15
-sudo shutdown -P now
+echo "Rebooting"
+sudo reboot now

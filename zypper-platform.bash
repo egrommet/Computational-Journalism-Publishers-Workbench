@@ -9,8 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "If you haven't already, do 'Devices -> Install Guest Additions'"
-
 echo "Adding repositories as 'root'"
 echo "You will need to authenticate"
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.2/Documentation:Tools.repo # Tesseract lives here
@@ -37,11 +35,8 @@ sudo zypper install -y \
   gvim \
   gcc
 
-echo "Installing guest additions"
-sudo mkdir -p /mnt/cdrom
-sudo mount /dev/sr0 /mnt/cdrom
-sudo /mnt/cdrom/VBoxLinuxAdditions.run
+echo "Updating packages"
+sudo zypper update
 
-echo "Shutting down in 15 seconds so you can take a snapshot"
-sleep 15
-sudo /sbin/shutdown -P now
+echo "Rebooting"
+sudo /sbin/reboot now

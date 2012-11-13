@@ -9,14 +9,18 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "If you haven't already, do 'Devices -> Install Guest Additions'"
-sleep 15
-
-echo "Installing guest additions"
-sudo mkdir -p /mnt/cdrom
-sudo mount /dev/sr0 /mnt/cdrom
-sudo /mnt/cdrom/VBoxLinuxAdditions.run
-
-echo "Shutting down in 15 seconds so you can take a snapshot"
-sleep 15
-sudo /sbin/shutdown -P now
+echo 'Installing platform packages"
+echo 'You will need to authenticate'
+if [ -e "/usr/bin/apt-get" ]
+then
+  ./apt-get-platform.bash 2>&1 | tee platform.log
+elif [ -e "/usr/bin/yum" ]
+then
+  ./yum-platform.bash 2>&1 | tee platform.log
+elif [ -e "/usr/bin/zypper" ]
+then
+  ./zypper-platform.bash 2>&1 | tee platform.log
+elif [ -e "/usr/sbin/urpmi" ]
+then
+  ./urpmi-platform.bash 2>&1 | tee platform.log
+fi

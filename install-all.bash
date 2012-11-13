@@ -24,6 +24,7 @@ for i in \
   Profiling \
   Redis-Source \
   TexLive \
+  GGobi \
   R-patched \
   RStudio \
   Libraries \

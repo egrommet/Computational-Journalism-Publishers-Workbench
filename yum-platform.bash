@@ -9,8 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "If you haven't already, do 'Devices -> Install Guest Additions'"
-
 echo "Installing basic development tools"
 sudo yum install -y \
   mlocate \
@@ -21,11 +19,8 @@ sudo yum install -y \
   vim \
   vim-X11
 
-echo "Installing guest additions"
-sudo mkdir -p /mnt/cdrom
-sudo mount /dev/sr0 /mnt/cdrom
-sudo /mnt/cdrom/VBoxLinuxAdditions.run
+echo "Updating packages"
+sudo yum update
 
-echo "Shutting down in 15 seconds so you can take a snapshot"
-sleep 15
-sudo shutdown -P now
+echo "Rebooting"
+sudo reboot now
