@@ -23,5 +23,5 @@ then
   sudo zypper remove -y graphviz-devel
 elif [ -e "/usr/sbin/urpmi" ]
 then
-  sudo urpme --auto --auto-orphans libgraphviz-devel
+  sudo urpme --auto libgraphviz-devel
 fi

@@ -25,7 +25,7 @@ sudo urpmi --auto \
   libicu-devel
 
 # Drop any Java 1.6.0!
-sudo urpme --auto --auto-orphans \
+sudo urpme --auto \
   java-1.6.0-openjdk-devel \
   java-1.6.0-openjdk
 
