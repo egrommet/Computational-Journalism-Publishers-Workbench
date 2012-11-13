@@ -39,4 +39,4 @@ echo "Updating packages"
 sudo zypper update
 
 echo "Rebooting"
-sudo /sbin/reboot now
+sudo /sbin/reboot

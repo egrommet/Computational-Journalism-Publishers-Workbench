@@ -23,4 +23,4 @@ echo "Updating packages"
 sudo yum update
 
 echo "Rebooting"
-sudo reboot now
+sudo reboot

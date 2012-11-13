@@ -32,4 +32,4 @@ sudo apt-get update
 sudo apt-get upgrade
 
 echo "Rebooting"
-sudo reboot now
+sudo reboot

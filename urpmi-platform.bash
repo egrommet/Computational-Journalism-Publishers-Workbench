@@ -17,4 +17,4 @@ sudo urpmi --auto \
 echo "Updating packages"
 
 echo "Rebooting"
-sudo reboot now
+sudo reboot
