@@ -13,17 +13,8 @@
 mkdir -p ~/local/src
 mkdir -p ~/.local/share/applications
 mkdir -p ~/.local/share/pixmaps
-for i in rc _profile
-do
-  cat bash${i} >> ~/.bash${i}
-  source bash${i}
-done
-
-# get babysitting out of the way for openSUSE :-(
-if [ -e "/usr/bin/zypper" ]
-then
-  ./zypper-repositories.bash
-fi
+cat bash_profile >> ~/.bash_profile
+source ~/.bash_profile
 
 # cleanup and dependencies
 ./cleanup.bash
