@@ -15,7 +15,6 @@ sudo apt-get remove -y \
   virtualbox-guest-source \
   virtualbox-guest-utils \
   virtualbox-guest-x11
-sudo apt-get autoremove -y
 
 echo "Installing basic development tools"
 sudo apt-get install -y \
