@@ -10,7 +10,6 @@
 #
 
 sudo apt-get install -y \
-  curl \
   imagemagick \
   imagemagick-doc \
   graphicsmagick \

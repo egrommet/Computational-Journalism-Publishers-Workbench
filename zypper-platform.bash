@@ -28,6 +28,8 @@ sudo zypper remove -y libvmtools0 open-vm-tools open-vm-tools-gui \
 
 echo "Installing basic development tools"
 sudo zypper install -y \
+  curl \
+  wget \
   make \
   kernel-devel \
   vim-data \

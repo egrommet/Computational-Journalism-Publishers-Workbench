@@ -9,6 +9,8 @@ sudo urpme --auto virtualbox-guest-additions
 # install tools
 echo "Installing basic development tools"
 sudo urpmi --auto \
+  curl \
+  wget \
   xrandr \
   dkms \
   vim \

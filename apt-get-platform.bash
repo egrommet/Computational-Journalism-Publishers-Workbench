@@ -18,6 +18,8 @@ sudo apt-get remove -y \
 
 echo "Installing basic development tools"
 sudo apt-get install -y \
+  curl \
+  wget \
   make \
   dkms \
   build-essential \
