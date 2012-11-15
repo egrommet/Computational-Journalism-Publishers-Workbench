@@ -24,7 +24,6 @@ for i in \
   Profiling \
   Redis-Source \
   TexLive \
-  GGobi \
   R-patched \
   RStudio \
   Libraries \
@@ -34,7 +33,9 @@ for i in \
   Perl-Local-Library \
   Ruby-Gems \
   GoogleRefine \
-  Maqetta
+  Maqetta \
+  GGobi \
+  Finance
 do
   pushd $i
   ./install-all.bash
