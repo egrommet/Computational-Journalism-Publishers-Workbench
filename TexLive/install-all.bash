@@ -10,7 +10,7 @@
 #
 
 source ~/.bash_profile
-for i in texlive
+for i in dependencies texlive
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done

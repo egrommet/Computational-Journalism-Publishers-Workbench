@@ -11,6 +11,7 @@
 
 source ~/.bash_profile
 for i in \
+  dependencies \
   jabref \
   calibre \
   lyx \

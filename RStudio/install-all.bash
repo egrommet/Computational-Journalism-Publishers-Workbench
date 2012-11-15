@@ -10,7 +10,7 @@
 #
 
 source ~/.bash_profile
-for i in rstudio-source rstudio-desktop
+for i in dependencies rstudio-source rstudio-desktop
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done

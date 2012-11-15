@@ -10,4 +10,7 @@
 #
 
 source ~/.bash_profile
-./install-google-refine.bash 2>&1 | tee google-refine.log
+for i in dependencies google-refine
+do
+  ./install-${i}.bash 2>&1 | tee ${i}.log
+done

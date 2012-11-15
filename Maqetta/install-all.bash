@@ -10,7 +10,7 @@
 #
 
 source ~/.bash_profile
-for i in maqetta
+for i in dependencies maqetta
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done

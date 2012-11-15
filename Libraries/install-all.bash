@@ -10,7 +10,7 @@
 #
 
 source ~/.bash_profile
-for i in armadillo eigen packages
+for i in dependencies armadillo eigen packages
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done

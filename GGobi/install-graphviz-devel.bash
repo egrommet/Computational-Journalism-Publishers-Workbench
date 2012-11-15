@@ -13,7 +13,7 @@ echo 'Installing graphviz-dev(el)'
 echo 'You will need to authenticate'
 if [ -e "/usr/bin/apt-get" ]
 then
-  sudo apt-get install -y graphviz-dev
+  sudo apt-get install -y libgraphviz-dev
 elif [ -e "/usr/bin/yum" ]
 then
   sudo yum install -y graphviz-devel
