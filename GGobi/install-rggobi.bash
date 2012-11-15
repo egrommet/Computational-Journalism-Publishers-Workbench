@@ -9,4 +9,4 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-/usr/bin/time R --no-save --no-restore < load-rggobi
+/usr/bin/time R --no-save --no-restore < load-rggobi.R
