@@ -9,8 +9,14 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source ~/.bash_profile
-for i in pdq
-do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
-done
+pushd ~/local/src
+export VERSION=5.0.4
+export WHERE=http://downloads.sourceforge.net/project/pdq-qnm-pkg/PDQ%20source/${VERSION}
+export WHAT=pdq-${VERSION}.tar.gz
+curl -L ${WHERE}/${WHAT} > ${WHAT}
+export DIR=pdq
+rm -fr ${DIR}
+tar xf ${WHAT}
+cd ${DIR}
+sudo ./Makeall
+popd
