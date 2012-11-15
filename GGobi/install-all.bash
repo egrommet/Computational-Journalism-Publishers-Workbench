@@ -10,7 +10,7 @@
 #
 
 source ~/.bash_profile
-./no-graphviz-devel.bash
+./no-graphviz-devel.bash 2>&1 | tee no-graphviz-devel.log
 for i in ggobi graphviz-devel
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
