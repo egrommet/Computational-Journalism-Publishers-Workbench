@@ -3,7 +3,7 @@
 1. System requirements: You'll need a Windows, Macintosh or Linux desktop/laptop with at least 3 GB of RAM. You will also need reliable wall power and a reliable Internet connection.
 1. Download and install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 1. Download a [Linux Mint ISO file](http://www.linuxmint.com/oldreleases.php). Either desktop should work, and both 32-bit and 64-bit for either Linux Mint 13 or 14 should work. You do ***not*** need to burn this to a CD or copy it to a USB drive.
-1. Start up Oracle VM VirtualBox. Create a virtual machine with the Fedora Linux operating system, 1536 MB of memory, and a 20 GB virtual hard disk.
+1. Start up Oracle VM VirtualBox. Create a virtual machine with the Linux Mint operating system, 1536 MB of memory, and a 20 GB virtual hard disk.
 1. In the virtual machine Display settings, set the display video memory to 128 MB and enable 3D acceleration.
 1. In the virtual machine Storage settings, connect the virtual machine CD drive to the ISO file you downloaded.
 1. Start the virtual machine and install Linux Mint to it.
