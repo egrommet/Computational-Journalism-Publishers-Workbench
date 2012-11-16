@@ -4,11 +4,11 @@
 1. Download and install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 1. Download a [Fedora Desktop ISO file](https://fedoraproject.org/en/get-fedora-options). Any Fedora 17 desktop should work. You do ***not*** need to burn this to a CD or copy it to a USB drive.
 1. Start up Oracle VM VirtualBox. Create a virtual machine with the Fedora Linux operating system, 1536 MB of memory, and a 20 GB virtual hard disk.
-1. In the virtual machine Display settings, set the display video memory to 128 MB and enable 3D acceleration.
-1. In the virtual machine Storage settings, connect the virtual machine CD drive to the ISO file you downloaded.
+1. In the virtual machine 'Display' settings, set the display video memory to 128 MB and enable 3D acceleration.
+1. In the virtual machine 'Storage' settings, connect the virtual machine CD drive to the ISO file you downloaded.
 1. Start the virtual machine and install Fedora to it.
-1. When the install is finished, it will ask you to reboot. Instead, shut the machine down, go into the 'Storage' settings and remove the ISO file from the virtual CD drive. Then start the virtual machine again.
-1. Start the machine. You will go through a brief setup, including the creation of a non-root user.
+1. When the install is finished, it will ask you to reboot. Instead, shut the machine down, go into the 'Storage' settings and remove the ISO file from the virtual CD drive.
+1. Start the virtual machine again. You will go through a brief setup, including the creation of a non-root user.
 1. Log in as the non-root user you just created. Open a terminal and type
 
     ```
@@ -16,12 +16,14 @@
     $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
     $ ./install-platform.bash
+    $ ./updateos.bash
     ```
-1. The update will take quite a while. The machine will reboot after all the platform components have been installed. 
-1. When it comes back up, log in again. In the VirtualBox 'Devices' menu, select 'Install guest additions'. Press the ***'Cancel'*** button if you are asked to open the media with the File Manager or run it.
+1. The update will take quite a while. After it has finished, reboot the virtual machine.
+1. When the virtual machine comes back up, log in again. In the VirtualBox 'Devices' menu, select 'Install guest additions'. Press the ***'Cancel'*** button if you are asked to open the media with the File Manager or run it.
 1. Open a terminal and type
 
     ```
+    $ cd Computational-Journalism-Publishers-Workbench  
     $ ./VirtualBoxSetup.bash
     ```
 1. The script will install the VirtualBox guest additions. Then the virtual machine will shut down.
