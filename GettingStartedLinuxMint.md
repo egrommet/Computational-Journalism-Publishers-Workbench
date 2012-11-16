@@ -16,7 +16,7 @@
     $ cd Computational-Journalism-Publishers-Workbench  
     $ ./install-platform.bash
     ```
-1. The update will take quite a while. The machine will reboot after all the platform components have been installed. 
+1. The update will take quite a while. At several points in the update, you will be asked about configuration files. Just press 'Enter' on the terminal. The machine will reboot after all the platform components have been installed. 
 1. When it comes back up, log in again. In the VirtualBox "Devices" menu, select "Install guest additions". Press the ***"Cancel"*** button if you are asked to open the media with the File Manager or run it.
 1. Open a terminal and type
 
