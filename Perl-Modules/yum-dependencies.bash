@@ -10,6 +10,7 @@
 #
 
 sudo yum install -y \
+  perl-Net-Twitter \
   perl-YAML \
   perl-YAML-Syck \
   perl-JSON-XS \

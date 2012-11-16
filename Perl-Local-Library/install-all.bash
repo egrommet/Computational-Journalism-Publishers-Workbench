@@ -26,7 +26,6 @@ cpan < config.cpan 2>&1 | tee config.log # do the autoconfig
 for i in \
   CPAN \
   AnyEvent::Twitter::Stream \
-  Net::Twitter \
   Sys::Statistics::Linux \
   Hash::Flatten \
   Redis \
