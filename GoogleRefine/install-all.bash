@@ -10,7 +10,7 @@
 #
 
 source ~/.bash_profile
-for i in dependencies google-refine
+for i in google-refine
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done

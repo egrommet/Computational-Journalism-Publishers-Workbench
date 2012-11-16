@@ -10,7 +10,7 @@
 #
 
 source ~/.bash_profile
-for i in dependencies pdq
+for i in pdq
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done

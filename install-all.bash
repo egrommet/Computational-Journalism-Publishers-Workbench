@@ -17,9 +17,8 @@ cat bashrc >> ~/.bashrc
 cat bash_profile >> ~/.bash_profile
 source ~/.bash_profile
 
-# cleanup and dependencies
+# cleanup
 ./cleanup.bash
-./install-dependencies.bash
 
 for i in \
   Profiling \
