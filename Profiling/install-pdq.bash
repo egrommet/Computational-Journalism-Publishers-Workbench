@@ -9,6 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+export HERE=`pwd`
 pushd ~/local/src
 export VERSION=5.0.4
 export WHERE=http://downloads.sourceforge.net/project/pdq-qnm-pkg/PDQ%20source/${VERSION}
@@ -18,5 +19,6 @@ export DIR=pdq
 sudo rm -fr ${DIR}
 tar xf ${WHAT}
 cd ${DIR}
+patch -b Makeall ${HERE}/Makeall.patch
 sudo ./Makeall
 popd
