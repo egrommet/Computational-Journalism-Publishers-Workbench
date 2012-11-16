@@ -24,7 +24,7 @@
     $ cd Computational-Journalism-Publishers-Workbench  
     $ ./VirtualBoxSetup.bash
     ```
-1. The script will install the VirtualBox guest additions. Then the virtual machine will shut down.
+1. You will be asked if you wish to continue. Answer 'yes'. The script will then install the VirtualBox guest additions. Then the virtual machine will shut down.
 1. After shutdown, go into the machine's Storage settings and disconnect the virtual ISO file with the guest additions.
 1. Take a snapshot of the machine in its present state. If something goes wrong further down the line in the install, you can drop back to this known good state.
 1. Start the machine up again, log in and open a terminal. Type
