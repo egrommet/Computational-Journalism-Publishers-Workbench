@@ -11,4 +11,4 @@
 
 echo "You will be asked to authenticate"
 echo "Updating packages"
-urpmi --auto-update
+sudo urpmi --auto-update
