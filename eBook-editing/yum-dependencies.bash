@@ -9,10 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# Pandoc
-sudo yum install -y \
-  pandoc
-
 # Sigil
 sudo yum install -y \
   pitivi \
