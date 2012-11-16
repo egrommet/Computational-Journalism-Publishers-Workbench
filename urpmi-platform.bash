@@ -15,8 +15,3 @@ sudo urpmi --auto \
   dkms \
   vim \
   vim-X11
-
-echo "Updating packages"
-
-echo "Rebooting"
-sudo reboot

@@ -27,10 +27,3 @@ sudo apt-get install -y \
   gcc \
   vim \
   vim-gtk
-
-echo "Updating packages"
-sudo apt-get update
-sudo apt-get upgrade
-
-echo "Rebooting"
-sudo reboot

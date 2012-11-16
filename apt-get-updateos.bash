@@ -9,14 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "Installing basic development tools"
-sudo yum install -y \
-  curl \
-  wget \
-  mlocate \
-  make \
-  dkms \
-  kernel-devel \
-  gcc \
-  vim \
-  vim-X11
+echo "Updating packages"
+echo "You will be asked to authenticate"
+echo "Press 'Enter' when asked about configuration files"
+sudo apt-get update
+sudo apt-get upgrade

@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,14 +9,16 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "Installing basic development tools"
-sudo yum install -y \
-  curl \
-  wget \
-  mlocate \
-  make \
-  dkms \
-  kernel-devel \
-  gcc \
-  vim \
-  vim-X11
+if [ -e "/usr/bin/apt-get" ]
+then
+  ./apt-get-updateos.bash 2>&1 | tee updateos.log
+elif [ -e "/usr/bin/yum" ]
+then
+  ./yum-updateos.bash 2>&1 | tee updateos.log
+elif [ -e "/usr/bin/zypper" ]
+then
+  ./zypper-updateos.bash 2>&1 | tee updateos.log
+elif [ -e "/usr/sbin/urpmi" ]
+then
+  ./urpmi-updateos.bash 2>&1 | tee updateos.log
+fi

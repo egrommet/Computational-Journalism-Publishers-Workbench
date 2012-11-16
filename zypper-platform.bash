@@ -36,9 +36,3 @@ sudo zypper install -y \
   vim-enhanced \
   gvim \
   gcc
-
-echo "Updating packages"
-sudo zypper update
-
-echo "Rebooting"
-sudo /sbin/reboot
