@@ -15,7 +15,6 @@
     $ sudo yum install -y git  
     $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
-    $ git checkout v1.0.0  
     $ ./install-platform.bash
     ```
 1. The update will take quite a while. The machine will reboot after all the platform components have been installed. 
