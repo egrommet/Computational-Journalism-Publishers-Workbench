@@ -102,6 +102,7 @@ One of the major components, [RStudio](https://github.com/rstudio/rstudio), is l
 ### Linux Distributions
 * [Fedora Project](https://fedoraproject.org/)
 * [Linux Mint](http://linuxmint.com/)
+
 ### Applications / Tools (all are available for Windows, Macintosh and Linux desktops/laptops)
 * [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [TeX Live](http://www.tug.org/texlive/acquire-netinstall.html)
