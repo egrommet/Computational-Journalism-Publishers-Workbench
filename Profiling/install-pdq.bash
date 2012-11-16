@@ -15,7 +15,7 @@ export WHERE=http://downloads.sourceforge.net/project/pdq-qnm-pkg/PDQ%20source/$
 export WHAT=pdq-${VERSION}.tar.gz
 curl -L ${WHERE}/${WHAT} > ${WHAT}
 export DIR=pdq
-rm -fr ${DIR}
+sudo rm -fr ${DIR}
 tar xf ${WHAT}
 cd ${DIR}
 sudo ./Makeall
