@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source ~/.bash_profile
+source ~/.bashrc
 for i in packages
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log

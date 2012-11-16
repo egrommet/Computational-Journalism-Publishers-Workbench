@@ -14,8 +14,7 @@ mkdir -p ~/local/src
 mkdir -p ~/.local/share/applications
 mkdir -p ~/.local/share/pixmaps
 cat bashrc >> ~/.bashrc
-cat bash_profile >> ~/.bash_profile
-source ~/.bash_profile
+source ~/.bashrc
 
 # cleanup
 ./cleanup.bash

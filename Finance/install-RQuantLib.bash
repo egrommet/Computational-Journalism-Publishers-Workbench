@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source ~/.bash_profile
+source ~/.bashrc
 echo 'Installing Linux dependencies'
 echo 'You will need to authenticate'
 if [ -e "/usr/bin/apt-get" ]
