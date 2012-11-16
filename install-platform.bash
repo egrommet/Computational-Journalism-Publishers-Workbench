@@ -25,4 +25,4 @@ then
   ./urpmi-platform.bash 2>&1 | tee platform.log
 fi
 
-./install-dependencies
+./install-dependencies.bash
