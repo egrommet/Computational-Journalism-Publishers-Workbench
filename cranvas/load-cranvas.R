@@ -22,7 +22,7 @@ install.packages(
     'objectSignals',
     'objectProperties',
     'plumbr'
-  )
+  ),
   repos='http://cran.fhcrc.org'
 )
 warnings()
