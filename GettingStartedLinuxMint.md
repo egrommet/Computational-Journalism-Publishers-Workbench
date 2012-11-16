@@ -21,6 +21,7 @@
 1. Open a terminal and type
 
     ```
+    $ cd Computational-Journalism-Publishers-Workbench  
     $ ./VirtualBoxSetup.bash
     ```
 1. The script will install the VirtualBox guest additions. Then the virtual machine will shut down.
