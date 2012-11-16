@@ -11,4 +11,6 @@
 
 echo "Updating packages"
 echo "You will be asked to authenticate"
+sudo yum clean all
+sudo yum check-update
 sudo yum update
