@@ -34,7 +34,6 @@ for i in \
   Ruby-Gems \
   GoogleRefine \
   Maqetta \
-  GGobi \
   Finance
 do
   pushd $i
