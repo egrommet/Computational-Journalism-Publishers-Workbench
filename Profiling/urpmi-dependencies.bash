@@ -11,9 +11,4 @@
 
 sudo urpmi --auto \
   perl-Date-Manip \
-  systemtap \
-  sysstat \
-  oprofile \
-  oprofile-devel \
-  oprofile-gui \
-  oprofile-jit
+  sysstat

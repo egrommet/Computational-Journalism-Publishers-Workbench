@@ -10,19 +10,5 @@
 #
 
 sudo yum install -y \
-  systemtap-initscript \
-  systemtap \
-  systemtap-client \
-  systemtap-devel \
-  systemtap-grapher \
-  systemtap-runtime \
-  systemtap-sdt-devel \
-  systemtap-server \
-  systemtap-testsuite \
-  tuned-utils \
-  oprofile \
-  oprofile-gui \
-  oprofile-jit \
-  blktrace \
-  sysusage \
+  sysstat \
   perl-Date-Manip

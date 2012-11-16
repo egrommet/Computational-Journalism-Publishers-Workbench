@@ -11,13 +11,4 @@
 
 sudo zypper install -y \
   perl-Date-Manip \
-  systemtap \
-  systemtap-docs \
-  systemtap-runtime \
-  systemtap-sdt-devel \
-  systemtap-server \
-  oprofile \
-  oprofile-devel \
-  blktrace \
-  sysstat \
-  sysstat-isag
+  sysstat

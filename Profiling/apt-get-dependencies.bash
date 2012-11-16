@@ -11,14 +11,4 @@
 
 sudo apt-get install -y \
   libdate-manip-perl \
-  systemtap \
-  systemtap-client \
-  systemtap-common \
-  systemtap-doc \
-  systemtap-grapher \
-  systemtap-runtime \
-  systemtap-sdt-dev \
-  systemtap-server \
-  blktrace \
-  sysstat \
-  isag
+  sysstat
