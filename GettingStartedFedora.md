@@ -12,10 +12,10 @@
 1. Log in as the non-root user you just created. Open a terminal and type
 
     ```
-    $ sudo yum install -y git<br>
-    $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench<br>
-    $ cd Computational-Journalism-Publishers-Workbench<br>
-    $ git checkout v1.0.0<br>
+    $ sudo yum install -y git  
+    $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
+    $ cd Computational-Journalism-Publishers-Workbench  
+    $ git checkout v1.0.0  
     $ ./install-platform.bash
     ```
 1. The update will take quite a while. The machine will reboot after all the platform components have been installed. 
@@ -31,7 +31,7 @@
 1. Start the machine up again, log in and open a terminal. Type
 
     ```
-    $ cd Computational-Journalism-Publishers-Workbench<br>
+    $ cd Computational-Journalism-Publishers-Workbench  
     $ ./install-all.bash  
     ```
 1. This will run quite a while. On my dual-core i5 laptop on typical coffee shop wireless, it takes about two hours. It is downloading most of the software over the Internet and compiling much of it from source.
