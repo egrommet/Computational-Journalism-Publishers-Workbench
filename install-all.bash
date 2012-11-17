@@ -9,13 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# set up stuff everyone needs
-mkdir -p ~/local/src
-mkdir -p ~/.local/share/applications
-mkdir -p ~/.local/share/pixmaps
-cat bashrc >> ~/.bashrc
 source ~/.bashrc
-
 for i in \
   Redis-Source \
   TexLive \
