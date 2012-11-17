@@ -17,20 +17,20 @@ cat bashrc >> ~/.bashrc
 source ~/.bashrc
 
 for i in \
-  Profiling \
   Redis-Source \
   TexLive \
   R-patched \
-  RStudio \
+  Shiny \
   Libraries \
+  Finance \
+  RStudio \
   eBook-editing \
   PDF-Tools \
   Perl-Modules \
   Perl-Local-Library \
   Ruby-Gems \
   GoogleRefine \
-  Maqetta \
-  Finance
+  Maqetta
 do
   pushd $i
   ./install-all.bash

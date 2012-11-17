@@ -26,3 +26,6 @@ then
 fi
 
 ./install-dependencies.bash
+pushd Profiling
+./install-all.bash
+popd
