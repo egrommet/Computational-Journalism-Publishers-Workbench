@@ -10,6 +10,7 @@
 #
 
 sudo apt-get install -y \
+  libnet-twitter-perl \
   libssl-dev \
   libcrypt-ssleay-perl \
   libjson-xs-perl \
