@@ -21,6 +21,7 @@ install.packages(
     'tourr',
     'objectSignals',
     'objectProperties',
+    'SearchTrees',
     'plumbr'
   ),
   repos='http://cran.fhcrc.org'
