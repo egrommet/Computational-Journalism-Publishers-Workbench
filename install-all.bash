@@ -16,9 +16,6 @@ mkdir -p ~/.local/share/pixmaps
 cat bashrc >> ~/.bashrc
 source ~/.bashrc
 
-# cleanup
-./cleanup.bash
-
 for i in \
   Profiling \
   Redis-Source \
