@@ -18,7 +18,7 @@ for i in \
   Redis-Source \
   TexLive \
   R-patched \
-  RStudio \
+  RStudio
 do
   pushd ${i}
   ./install-base.bash 2>&1 | tee base.log
