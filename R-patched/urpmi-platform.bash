@@ -30,6 +30,7 @@ sudo urpme --auto \
 
 # Packages
 sudo urpmi --auto --no-suggests \
+  libcurl-devel \
   libgraphviz-devel \
   libfftw-devel \
   libgd-devel \
