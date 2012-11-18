@@ -22,6 +22,8 @@
 
 sudo urpmi --auto --no-suggests \
   libgeos-devel \
+  proj \
   libproj-devel \
+  gdal \
   libgdal-devel \
   libnetcdf-devel
