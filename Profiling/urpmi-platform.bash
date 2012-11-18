@@ -11,4 +11,5 @@
 
 sudo urpmi --auto \
   perl-Date-Manip \
+  libpython-devel \
   sysstat
