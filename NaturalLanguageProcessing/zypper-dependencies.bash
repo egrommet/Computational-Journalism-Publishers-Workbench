@@ -10,6 +10,11 @@
 #
 
 # Packages
-sudo urpmi --auto --no-suggests \
+sudo zypper install -y \
   wordnet \
-  libwordnet-devel
+  wordnet-devel
+
+# WordNet environment variable
+sudo cp wordnet-zypper.sh /etc/profile.d/ # set WordNet home
+source /etc/profile
+set|grep WNHOME

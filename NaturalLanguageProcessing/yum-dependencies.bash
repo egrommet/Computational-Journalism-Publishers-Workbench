@@ -10,6 +10,11 @@
 #
 
 # Packages
-sudo urpmi --auto --no-suggests \
+sudo yum install -y \
   wordnet \
-  libwordnet-devel
+  wordnet-devel
+
+# WordNet environment variable
+sudo cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
+source /etc/profile
+set|grep WNHOME

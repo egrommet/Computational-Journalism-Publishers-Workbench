@@ -10,6 +10,10 @@
 #
 
 # Packages
-sudo urpmi --auto --no-suggests \
+sudo apt-get install -y \
   wordnet \
-  libwordnet-devel
+  wordnet-base \
+  wordnet-dev \
+  wordnet-grind \
+  wordnet-gui \
+  wordnet-sense-index

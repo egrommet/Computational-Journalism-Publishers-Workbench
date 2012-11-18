@@ -1,4 +1,3 @@
-#! /bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -8,8 +7,19 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-
-# Packages
-sudo urpmi --auto --no-suggests \
-  wordnet \
-  libwordnet-devel
+install.packages(
+  c(
+    'tm.plugin.dc',
+    'tm.plugin.mail'
+  ),
+  repos='http://cran.fhcrc.org'
+)
+warnings()
+library(ctv)
+update.views(
+  c(
+    'NaturalLanguageProcessing'
+  ),
+  repos='http://cran.fhcrc.org'
+)
+warnings()

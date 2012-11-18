@@ -9,7 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# Packages
-sudo urpmi --auto --no-suggests \
-  wordnet \
-  libwordnet-devel
+source ~/.bashrc
+for i in packages tm.plugins-svn
+do
+  ./install-${i}.bash 2>&1 | tee ${i}.log
+done
