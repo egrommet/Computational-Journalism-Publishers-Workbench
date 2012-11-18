@@ -21,6 +21,6 @@ for i in \
   RStudio
 do
   pushd ${i}
-  ./install-base.bash 2>&1 | tee base.log
+  ./install-base.bash
   popd
 done
