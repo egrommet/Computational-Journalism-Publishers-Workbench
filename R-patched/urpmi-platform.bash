@@ -21,7 +21,6 @@ sudo urpmi --auto --no-suggests \
   libpango1.0-devel \
   libtk-devel \
   libtiff-devel \
-  texinfo \
   libicu-devel
 
 # Drop any Java 1.6.0!
