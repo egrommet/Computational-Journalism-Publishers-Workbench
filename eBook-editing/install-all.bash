@@ -11,6 +11,7 @@
 
 source ~/.bashrc
 for i in \
+  dependencies \
   jabref \
   calibre \
   lyx \

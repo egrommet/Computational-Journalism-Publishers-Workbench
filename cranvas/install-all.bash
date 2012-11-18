@@ -10,7 +10,7 @@
 #
 
 source ~/.bashrc
-for i in cranvas
+for i in dependencies cranvas
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
