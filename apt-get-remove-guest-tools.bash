@@ -16,3 +16,6 @@ sudo apt-get remove -y \
   virtualbox-guest-source \
   virtualbox-guest-utils \
   virtualbox-guest-x11
+echo "Rebooting in 15 seconds"
+sleep 15
+sudo /sbin/reboot

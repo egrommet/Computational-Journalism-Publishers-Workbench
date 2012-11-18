@@ -16,3 +16,6 @@ sudo zypper remove -y virtualbox-guest-kmp-default \
   virtualbox-guest-x11
 sudo zypper remove -y libvmtools0 open-vm-tools open-vm-tools-gui \
   vmware-guest-kmp-default vmware-guest-kmp-desktop vmware-guest-kmp-pae
+echo "Rebooting in 15 seconds"
+sleep 15
+sudo /sbin/reboot

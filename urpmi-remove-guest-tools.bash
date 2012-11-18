@@ -12,3 +12,6 @@
 echo "Removing guest tools / additions already installed"
 echo "You will need to authenticate"
 sudo urpme --auto virtualbox-guest-additions
+echo "Rebooting in 15 seconds"
+sleep 15
+sudo /sbin/reboot
