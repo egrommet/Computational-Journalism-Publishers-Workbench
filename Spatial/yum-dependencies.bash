@@ -14,5 +14,4 @@ sudo yum install -y \
   proj-devel \
   proj-epsg \
   gdal-devel \
-  gdal-doc \
   netcdf-devel
