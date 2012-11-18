@@ -12,14 +12,15 @@
 source ~/.bashrc
 
 # recursive installer
-for i in */install-base.bash
+for i in \
+  Perl-Local-Library \
+  Ruby-Gems \
+  Redis-Source \
+  TexLive \
+  R-patched \
+  RStudio \
 do
-  j=`echo ${i} | sed 's/install-base.bash//'`
-  if [ "${j}" != "common/" ]
-  then
-    echo ${j}
-    pushd ${j}
-    ./install-base.bash 2>&1 | tee base.log
-    popd
-  fi
+  pushd ${i}
+  ./install-base.bash 2>&1 | tee base.log
+  popd
 done
