@@ -9,18 +9,25 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+# set up stuff everyone needs
+mkdir -p ~/local/src
+mkdir -p ~/.local/share/applications
+mkdir -p ~/.local/share/pixmaps
+cat bashrc >> ~/.bashrc
+source ~/.bashrc
+
 echo 'Installing devtools packages'
 echo 'You will need to authenticate'
 if [ -e "/usr/bin/apt-get" ]
 then
-  ./apt-get-devtools.bash 2>&1 | tee platform.log
+  ./apt-get-devtools.bash 2>&1 | tee devtools.log
 elif [ -e "/usr/bin/yum" ]
 then
-  ./yum-devtools.bash 2>&1 | tee platform.log
+  ./yum-devtools.bash 2>&1 | tee devtools.log
 elif [ -e "/usr/bin/zypper" ]
 then
-  ./zypper-devtools.bash 2>&1 | tee platform.log
+  ./zypper-devtools.bash 2>&1 | tee devtools.log
 elif [ -e "/usr/sbin/urpmi" ]
 then
-  ./urpmi-devtools.bash 2>&1 | tee platform.log
+  ./urpmi-devtools.bash 2>&1 | tee devtools.log
 fi
