@@ -10,7 +10,7 @@
 #
 
 source ~/.bashrc
-for i in packages tm.plugins-svn
+for i in dependencies packages tm.plugins-svn
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
