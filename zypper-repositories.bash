@@ -14,24 +14,3 @@ echo "You will need to authenticate"
 sudo zypper addrepo -cf http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.2/Documentation:Tools.repo # Tesseract lives here
 echo "Answer 'a' to 'Do you want to reject the key, trust temporarily, or trust always?' below."
 sudo zypper refresh
-
-echo "Removing install DVD repository reference"
-sudo zypper rr 'openSUSE-12.2-1.6'
-
-echo "Removing guest tools / additions already installed"
-sudo zypper remove -y virtualbox-guest-kmp-default \
-  virtualbox-guest-kmp-desktop virtualbox-guest-kmp-pae virtualbox-guest-tools \
-  virtualbox-guest-x11
-sudo zypper remove -y libvmtools0 open-vm-tools open-vm-tools-gui \
-  vmware-guest-kmp-default vmware-guest-kmp-desktop vmware-guest-kmp-pae
-
-echo "Installing basic development tools"
-sudo zypper install -y \
-  curl \
-  wget \
-  make \
-  kernel-devel \
-  vim-data \
-  vim-enhanced \
-  gvim \
-  gcc

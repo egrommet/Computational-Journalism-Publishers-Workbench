@@ -16,22 +16,6 @@ mkdir -p ~/.local/share/pixmaps
 cat bashrc >> ~/.bashrc
 source ~/.bashrc
 
-echo 'Installing platform packages'
-echo 'You will need to authenticate'
-if [ -e "/usr/bin/apt-get" ]
-then
-  ./apt-get-platform.bash 2>&1 | tee platform.log
-elif [ -e "/usr/bin/yum" ]
-then
-  ./yum-platform.bash 2>&1 | tee platform.log
-elif [ -e "/usr/bin/zypper" ]
-then
-  ./zypper-platform.bash 2>&1 | tee platform.log
-elif [ -e "/usr/sbin/urpmi" ]
-then
-  ./urpmi-platform.bash 2>&1 | tee platform.log
-fi
-
 ./install-dependencies.bash
 
 # PDQ needs 'root' so we do it here
