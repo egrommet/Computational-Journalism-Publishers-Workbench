@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 export R_INSTALL_TAR=`which tar`
 mkdir -p ${HOME}/local/src/tm.plugins

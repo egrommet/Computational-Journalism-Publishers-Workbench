@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 export WHERE=http://google-refine.googlecode.com/files
 export DIR=google-refine-2.5
 export VERSION=${DIR}-r2407

@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 cd ${HOME}/local/src
 export FILES='http://sourceforge.net/projects/quantlib/files/QuantLib/'
