@@ -25,7 +25,7 @@ sudo urpmi --auto --no-suggests \
   libicu-devel
 
 # Drop any Java 1.6.0!
-sudo urpme --auto \
+sudo urpme --auto --no-suggests \
   java-1.6.0-openjdk-devel \
   java-1.6.0-openjdk
 
@@ -36,6 +36,8 @@ sudo urpmi --auto --no-suggests \
   libgd-devel \
   libgsl-devel \
   libsndfile-devel \
+  wordnet \
+  libwordnet-devel \
   libtool \
   libcairo-devel \
   gtk2-devel \
@@ -43,7 +45,4 @@ sudo urpmi --auto --no-suggests \
   libfreeglut-devel \
   libltdl-devel \
   libcanberra-gtk-devel \
-  libxml2-devel \
-  libgmp-devel \
-  libmpfr-devel \
-  libgsl-devel
+  libxml2-devel

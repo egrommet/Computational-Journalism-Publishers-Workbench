@@ -11,7 +11,7 @@
 
 # install tools
 echo "Installing basic development tools"
-sudo urpmi --auto \
+sudo urpmi --auto --no-suggests \
   curl \
   wget \
   dkms \

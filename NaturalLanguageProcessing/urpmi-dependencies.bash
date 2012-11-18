@@ -36,6 +36,8 @@ sudo urpmi --auto --no-suggests \
   libgd-devel \
   libgsl-devel \
   libsndfile-devel \
+  wordnet \
+  libwordnet-devel \
   libtool \
   libcairo-devel \
   gtk2-devel \
@@ -43,7 +45,4 @@ sudo urpmi --auto --no-suggests \
   libfreeglut-devel \
   libltdl-devel \
   libcanberra-gtk-devel \
-  libxml2-devel \
-  libgmp-devel \
-  libmpfr-devel \
-  libgsl-devel
+  libxml2-devel

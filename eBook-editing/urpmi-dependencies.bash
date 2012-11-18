@@ -10,7 +10,7 @@
 #
 
 # Sigil
-sudo urpmi --auto \
+sudo urpmi --auto --no-suggests \
   gtk-recordmydesktop \
   pitivi \
   intltool \
@@ -19,7 +19,7 @@ sudo urpmi --auto \
   libhunspell-devel
 
 # Calibre
-sudo urpmi --auto \
+sudo urpmi --auto --no-suggests \
   icu \
   libicu-devel \
   libchm-devel \
@@ -42,11 +42,11 @@ sudo urpmi --auto \
   chmlib
 
 # LyX
-sudo urpmi --auto \
+sudo urpmi --auto --no-suggests \
   libenchant-devel \
   libaspell-devel
 
 # Bluefish
-sudo urpmi --auto \
+sudo urpmi --auto --no-suggests \
   gettext-devel \
   jing08
