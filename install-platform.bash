@@ -9,16 +9,17 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# set up stuff everyone needs
-mkdir -p ~/local/src
-mkdir -p ~/.local/share/applications
-mkdir -p ~/.local/share/pixmaps
-cat bashrc >> ~/.bashrc
 source ~/.bashrc
 
-./install-dependencies.bash
-
-# PDQ needs 'root' so we do it here
-pushd Profiling
-./install-all.bash
-popd
+# recursive installer
+for i in */install-platform.bash
+do
+  j=`echo ${i} | sed 's/install-platform.bash//'`
+  if [ "${j}" != "common/" ]
+  then
+    echo ${j}
+    pushd ${j}
+    ./install-platform.bash 2>&1 | tee platform.log
+    popd
+  fi
+done

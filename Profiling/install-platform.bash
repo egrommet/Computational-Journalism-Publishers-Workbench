@@ -9,7 +9,9 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo urpmi --auto \
-  libgmp-devel \
-  libmpfr-devel \
-  libgsl-devel
+source ~/.bashrc
+../common/install-platform.bash
+for i in pdq
+do
+  ./install-${i}.bash 2>&1 | tee ${i}.log
+done

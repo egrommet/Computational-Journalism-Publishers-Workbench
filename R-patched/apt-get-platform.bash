@@ -30,12 +30,6 @@ sudo apt-get install -y \
   libgd2-xpm-dev \
   libgsl0-dev \
   libsndfile1-dev \
-  wordnet \
-  wordnet-base \
-  wordnet-dev \
-  wordnet-grind \
-  wordnet-gui \
-  wordnet-sense-index \
   libtool \
   libgtk2.0-dev \
   libxml2-dev \

@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,8 +9,18 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source ~/.bashrc
-for i in R-patched Rgraphviz packages tm.plugins-svn pdq
-do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
-done
+echo 'Installing Linux dependencies'
+echo 'You will need to authenticate'
+if [ -e "/usr/bin/apt-get" ]
+then
+  ./apt-get-platform.bash
+elif [ -e "/usr/bin/yum" ]
+then
+  ./yum-platform.bash
+elif [ -e "/usr/bin/zypper" ]
+then
+  ./zypper-platform.bash
+elif [ -e "/usr/sbin/urpmi" ]
+then
+  ./urpmi-platform.bash
+fi

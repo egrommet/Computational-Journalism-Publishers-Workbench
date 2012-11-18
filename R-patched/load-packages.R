@@ -9,6 +9,15 @@
 #
 install.packages(
   c(
+    'RSclient',
+    'Rserve',
+    'Rcpp',
+    'RcppArmadillo',
+    'RcppEigen',
+    'RcppGSL',
+    'RUnit',
+    'inline',
+    'Rcmdr',
     'rattle',
     'devtools',
     'testthat',
@@ -26,8 +35,6 @@ install.packages(
     'leaps',
     'effects',
     'abind',
-    'tm.plugin.dc',
-    'tm.plugin.mail',
     'RJSONIO',
     'quantmod',
     'doRedis'
@@ -35,12 +42,21 @@ install.packages(
   repos='http://cran.fhcrc.org'
 )
 warnings()
+install.packages(
+  c(
+    'shiny'
+  ),
+  repos=c(
+    'http://cran.fhcrc.org',
+    'http://rstudio.org/_packages'
+  )
+)
+warnings()
 library(ctv)
 update.views(
   c(
     'ReproducibleResearch',
-    'Graphics',
-    'NaturalLanguageProcessing'
+    'Graphics'
   ),
   repos='http://cran.fhcrc.org'
 )

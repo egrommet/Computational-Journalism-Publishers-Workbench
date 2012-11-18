@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 pushd ${HOME}/local/src
 rm -fr eigen*

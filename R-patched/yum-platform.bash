@@ -32,15 +32,12 @@ sudo yum install -y \
   gsl-devel \
   atlas-devel \
   libcurl-devel \
-  wordnet \
-  wordnet-devel \
   libsndfile-devel \
   subversion \
   gtk2-devel \
   libxml2-devel \
-  libtool-ltdl-devel
-
-# WordNet environment variable
-sudo cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
-source /etc/profile
-set|grep WNHOME
+  libtool-ltdl-devel \
+  atlas-devel \
+  gsl-devel \
+  gmp-devel \
+  mpfr-devel

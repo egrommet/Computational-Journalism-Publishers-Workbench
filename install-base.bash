@@ -1,3 +1,4 @@
+#! /bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -7,13 +8,18 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-install.packages(
-  c(
-    'shiny'
-  ),
-  repos=c(
-    'http://cran.fhcrc.org',
-    'http://rstudio.org/_packages'
-  )
-)
-warnings()
+
+source ~/.bashrc
+
+# recursive installer
+for i in */install-base.bash
+do
+  j=`echo ${i} | sed 's/install-base.bash//'`
+  if [ "${j}" != "common/" ]
+  then
+    echo ${j}
+    pushd ${j}
+    ./install-base.bash 2>&1 | tee base.log
+    popd
+  fi
+done

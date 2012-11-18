@@ -10,7 +10,7 @@
 #
 
 source ~/.bashrc
-for i in armadillo eigen packages
+for i in eigen armadillo R-patched Rgraphviz packages pdq
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done

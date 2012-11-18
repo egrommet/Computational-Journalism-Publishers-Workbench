@@ -9,5 +9,31 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+# R-compiled
 sudo zypper install -y \
+  evince \
+  gcc-fortran \
+  gcc-c++ \
+  java-1_7_0-openjdk-devel \
+  readline-devel \
+  tk-devel \
+  libtiff-devel \
+  libXmu-devel \
+  libXScrnSaver-devel \
+  libicu-devel
+
+# Packages
+sudo zypper install -y \
+  graphviz-devel \
+  libcurl-devel \
+  freeglut-devel \
+  fftw3-devel \
+  gd-devel \
+  gsl-devel \
+  libsndfile-devel \
+  wordnet \
+  wordnet-devel \
+  libtool \
+  gtk2-devel \
+  libxml2-devel \
   gsl-devel

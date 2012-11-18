@@ -1,4 +1,4 @@
-#! /bin/bash -v
+#! /bin/bash
 
 pushd ${HOME}/local/src
 export FILES='http://arma.sourceforge.net/download.html'

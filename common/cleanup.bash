@@ -11,3 +11,5 @@
 
 rm -f *.log
 rm -f .R*
+rm -f *~
+git status
