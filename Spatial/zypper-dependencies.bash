@@ -17,4 +17,7 @@ echo "Answer 'a' to 'Do you want to reject the key, trust temporarily, or trust 
 sudo zypper refresh
 
 sudo zypper install -y \
-  netcdf-devel
+  netcdf-devel \
+  proj \
+  gdal \
+  libgdal-devel
