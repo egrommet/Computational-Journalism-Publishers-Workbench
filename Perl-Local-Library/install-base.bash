@@ -14,12 +14,22 @@ rm -fr ~/perl5 ~/.cpan
 mkdir -p ~/perl5 ~/.cpan
 
 # set environment variables
-echo '##### Perl local::lib #####' >> ~/.bashrc
-perl -Mlocal::lib >> ~/.bashrc
-source ~/.bashrc
-echo "export MANPATH=$MANPATH:$PERL_LOCAL_LIB_ROOT/man" >> ~/.bashrc
-source ~/.bashrc
-set|grep -i PERL
+if [ -f "$HOME/.bash_profile" ]
+then
+  echo '##### Perl local::lib #####' >> ~/.bash_profile
+  perl -Mlocal::lib >> ~/.bash_profile
+  source ~/.bash_profile
+  echo "export MANPATH=$MANPATH:$PERL_LOCAL_LIB_ROOT/man" >> ~/.bash_profile
+  source ~/.bash_profile
+fi
+if [ -f "$HOME/.profile" ]
+then
+  echo '##### Perl local::lib #####' >> ~/.profile
+  perl -Mlocal::lib >> ~/.profile
+  source ~/.profile
+  echo "export MANPATH=$MANPATH:$PERL_LOCAL_LIB_ROOT/man" >> ~/.profile
+  source ~/.profile
+fi
 
 cpan < config.cpan 2>&1 | tee config.log # do the autoconfig
 
