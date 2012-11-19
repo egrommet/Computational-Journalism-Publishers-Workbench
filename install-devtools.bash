@@ -18,6 +18,7 @@ then
     ln -sf $HOME/.profile $HOME/.bash_profile
   fi
 fi
+ls -ltrA $HOME
 
 # set up stuff everyone needs
 if [ -f 
