@@ -9,3 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+sudo apt-get install -y \
+  libproj-dev \
+  libgdal1-dev \
+  libnetcdf-dev
