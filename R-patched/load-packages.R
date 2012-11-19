@@ -13,6 +13,7 @@ install.packages(
     'Rserve',
     'RUnit',
     'inline',
+    'rbenchmark',
     'Rcmdr',
     'rattle',
     'devtools',
