@@ -31,8 +31,6 @@ sudo zypper install -y \
   gd-devel \
   gsl-devel \
   libsndfile-devel \
-  wordnet \
-  wordnet-devel \
   libtool \
   gtk2-devel \
   libxml2-devel \
