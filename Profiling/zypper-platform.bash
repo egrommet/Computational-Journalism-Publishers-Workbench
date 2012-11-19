@@ -10,5 +10,6 @@
 #
 
 sudo zypper install -y \
+  python-devel \
   perl-Date-Manip \
   sysstat
