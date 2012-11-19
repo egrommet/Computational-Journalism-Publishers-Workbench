@@ -10,5 +10,6 @@
 #
 
 sudo apt-get install -y \
+  python-dev \
   libdate-manip-perl \
   sysstat

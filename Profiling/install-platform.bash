@@ -13,5 +13,5 @@ source ~/.bashrc
 ../common/install-platform.bash
 for i in pdq
 do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
+  ./install-${i}.bash
 done
