@@ -11,10 +11,6 @@ install.packages(
   c(
     'RSclient',
     'Rserve',
-    'Rcpp',
-    'RcppArmadillo',
-    'RcppEigen',
-    'RcppGSL',
     'RUnit',
     'inline',
     'Rcmdr',

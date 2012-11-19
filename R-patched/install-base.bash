@@ -10,7 +10,7 @@
 #
 
 source ~/.bashrc
-for i in eigen R-patched Rgraphviz packages pdq
+for i in R-patched Rgraphviz packages pdq
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
