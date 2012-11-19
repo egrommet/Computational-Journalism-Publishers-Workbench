@@ -10,5 +10,6 @@
 #
 
 sudo yum install -y \
+  python-devel \
   sysstat \
   perl-Date-Manip

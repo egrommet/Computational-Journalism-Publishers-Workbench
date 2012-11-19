@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source ~/.bashrc
+source ~/.bash_profile
 
 # recursive installer
 for i in \

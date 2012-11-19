@@ -9,7 +9,17 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-for i in rc _profile
+source ~/.bash_profile
+
+# recursive installer
+for i in */install-all.bash
 do
-  source ~/.bash${i}
+  j=`echo ${i} | sed 's/install-all.bash//'`
+  if [ "${j}" != "common/" ]
+  then
+    echo ${j}
+    pushd ${j}
+    ./install-all.bash
+    popd
+  fi
 done

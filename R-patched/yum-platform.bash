@@ -25,7 +25,6 @@ sudo yum install -y \
 
 # Packages
 sudo yum install -y \
-  armadillo-devel \
   graphviz-devel \
   freeglut-devel \
   fftw-devel \

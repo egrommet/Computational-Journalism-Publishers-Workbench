@@ -23,4 +23,4 @@ sed "s:\~:${HOME}:" ${HERE}/texlive.profile-${MACHINE} > working.profile
   -repository ${WHERE} \
   -profile working.profile
 popd
-cat texlive-${MACHINE}.sh >> ~/.bashrc
+cat texlive-${MACHINE}.sh >> ~/.bash_profile
