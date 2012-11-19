@@ -21,7 +21,6 @@ fi
 ls -ltrA $HOME
 
 # set up stuff everyone needs
-if [ -f 
 mkdir -p ~/local/src
 mkdir -p ~/.local/share/applications
 mkdir -p ~/.local/share/pixmaps
