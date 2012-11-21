@@ -4,3 +4,5 @@ List of tests and how they failed if they did
 * 2012-11-16 21:59 laptop qemu-kvm, Mageia failed to boot up all the way after install
 * 2012-11-16 21:59 laptop qemu-kvm, Ubuntu 12.10 successful through Platform
 * 2012-11-16 23:22 laptop bare metal, Fedora 18 64 bit, cranvas, shiny and GGobi test pass
+* 2012-11-18 15:20 laptop VirtualBox still having problems with Ubuntu 12.10 - dropping back to 12.04
+* 2012-11-18 15:20 laptop VirtualBox still having problems with Linux Mint 14 - dropping back to 13
