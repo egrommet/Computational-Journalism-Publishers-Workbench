@@ -16,4 +16,7 @@ sudo zypper install -y \
   libuuid-devel \
   pam-devel \
   boost-devel \
+  libbz2-devel \
+  zlib-devel \
+  libopenssl-devel \
   ant
