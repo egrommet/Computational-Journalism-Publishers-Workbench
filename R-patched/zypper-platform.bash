@@ -34,4 +34,6 @@ sudo zypper install -y \
   libtool \
   gtk2-devel \
   libxml2-devel \
-  gsl-devel
+  gsl-devel \
+  gmp-devel \
+  mpfr-devel
