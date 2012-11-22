@@ -17,6 +17,7 @@ sudo yum install -y \
   make \
   dkms \
   kernel-devel \
+  kernel-PAE-devel \
   gcc \
   vim \
   vim-X11
