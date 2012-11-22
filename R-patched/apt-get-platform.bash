@@ -22,6 +22,8 @@ sudo apt-get install -y \
 
 # Packages
 sudo apt-get install -y \
+  libgmp-dev \
+  libmpfr-dev \
   graphviz-dev \
   subversion \
   libcurl4-openssl-dev \
