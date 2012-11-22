@@ -11,6 +11,7 @@
 
 # R-compiled
 sudo yum install -y \
+  texinfo \
   evince \
   gcc-gfortran \
   gcc-c++ \
