@@ -9,3 +9,4 @@ List of tests and how they failed if they did
 * 2012-11-21 15:55 laptop VirtualBox Compiz crashes with Ubuntu 12.10 - dropping back to 12.04
 * 2012-11-21 15:55 laptop VirtualBox Linux Mint 14 released and looks good - will release if all installs work
 * 2012-11-21 17:45 laptop VirtualBox Mageia 2 is too big a PITA with guest additions and other stuff - push out to next release
+* 2012-11-21 19:00 laptop VirtualBox Linux Mint 14 is done - needed a dependency
