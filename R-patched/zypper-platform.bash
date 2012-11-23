@@ -11,6 +11,7 @@
 
 # R-compiled
 sudo zypper install -y \
+  texinfo \
   evince \
   gcc-fortran \
   gcc-c++ \

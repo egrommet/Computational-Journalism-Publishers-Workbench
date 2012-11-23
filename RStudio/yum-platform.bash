@@ -18,4 +18,6 @@ sudo yum install -y \
   libuuid-devel \
   openssl-devel \
   pam-devel \
+  bzip2-devel \
+  zlib-devel \
   ant

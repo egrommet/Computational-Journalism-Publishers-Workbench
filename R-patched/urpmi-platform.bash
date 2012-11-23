@@ -11,6 +11,7 @@
 
 # R-compiled
 sudo urpmi --auto --no-suggests \
+  texinfo \
   gcc-gfortran \
   gcc-c++ \
   java-1.7.0-openjdk-devel \

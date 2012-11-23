@@ -13,7 +13,7 @@ source ~/.bash_profile
 
 # recursive installer
 for i in \
-  Perl-Local-Library \
+  Perl-Modules \
   Ruby-Gems \
   Redis-Source \
   TexLive \
