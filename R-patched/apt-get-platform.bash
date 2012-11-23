@@ -13,6 +13,7 @@
 sudo apt-get install -y \
   evince \
   gfortran \
+  texinfo \
   openjdk-7-jdk \
   libreadline-gplv2-dev \
   tk-dev \
