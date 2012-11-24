@@ -3,14 +3,12 @@
 ### What's New?
 
 1. Now builds on the [five most popular Linux distributions](http://distrowatch.com/dwres.php?resource=popularity)
-
     * [Linux Mint 13+](http://linuxmint.com/)
     * [Ubuntu 12.04+](http://www.ubuntu.com/)
     * [Mageia 2+](http://www.mageia.org/en/)
     * [Fedora 17+](https://fedoraproject.org/)
     * [openSUSE 12.2+](https://fedoraproject.org/)
 1. Now works with all major Linux desktops
-
     * [GNOME](http://www.gnome.org/)
     * [KDE](http://www.kde.org/)
     * [XFCE](http://www.xfce.org/)
@@ -20,7 +18,6 @@
     * [Unity](http://unity.ubuntu.com/)
 1. Runs on bare metal or as a guest virtual machine with VirtualBox or Virtual Machine Manager / qemu-kvm hosts
 1. New applications:
-
     * Redis 2.6, Perl, Ruby and R client libraries
     * Ruby Twitter API libraries
     * Shiny R web application framework
