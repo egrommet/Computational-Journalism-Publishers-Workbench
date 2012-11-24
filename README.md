@@ -7,7 +7,7 @@
     * [Ubuntu 12.04+](http://www.ubuntu.com/)
     * [Mageia 2+](http://www.mageia.org/en/)
     * [Fedora 17+](https://fedoraproject.org/)
-    * [openSUSE 12.2+](https://fedoraproject.org/)
+    * [openSUSE 12.2+](http://www.opensuse.org/en/)
 1. Now works with all major Linux desktops
     * [GNOME](http://www.gnome.org/)
     * [KDE](http://www.kde.org/)
