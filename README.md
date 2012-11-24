@@ -34,7 +34,8 @@ And How and Where and Who.<br>
 [(RudyardKipling, from "The Elephant's Child" in Just So Stories).](http://c2.com/cgi/wiki?SixHonestServingMen)
 
 ## Why?
-Independent journalists today work in a world dominated by two trends:
+
+### Independent journalists today work in a world dominated by two trends:
 * Large sets of complex data with stories waiting to be told, and
 * Real-time many-to-many communications platforms
 
