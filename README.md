@@ -116,7 +116,7 @@ One of the major components, [RStudio](https://github.com/rstudio/rstudio), is l
 * [LyX](http://www.lyx.org/Download)
 * [Sigil](http://code.google.com/p/sigil/downloads/list)
 * [Calibre](http://calibre-ebook.com/download)
-* [FreeMind](http://sourceforge.net/projects/freemind/files/freemind/0.9.0/)
+* [FreeMind](http://freemind.sourceforge.net/wiki/index.php/Main_Page)
 * [Bluefish](http://bluefish.openoffice.nl/download.html)
 * [Google Refine](http://code.google.com/p/google-refine/)
 * [Maqetta](http://maqetta.org/)
