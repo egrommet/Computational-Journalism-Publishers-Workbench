@@ -142,7 +142,7 @@ One of the major components, [RStudio](https://github.com/rstudio/rstudio), is l
 * [Maqetta](http://maqetta.org/)
 * [GGobi](http://www.ggobi.org/downloads/)
 
-### CRAN Task Views (Run with Windows, Macintosh and Linux desktops / laptops)
+### CRAN Task Views (most packages available for Windows, Macintosh and Linux desktops / laptops)
 * [Graphics](http://cran.cnr.berkeley.edu/web/views/Graphics.html)
 * [Reproducible Research](http://cran.cnr.berkeley.edu/web/views/ReproducibleResearch.html)
 * [Natural Language Processing](http://cran.cnr.berkeley.edu/web/views/NaturalLanguageProcessing.html)
