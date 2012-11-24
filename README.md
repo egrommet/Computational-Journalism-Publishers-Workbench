@@ -21,6 +21,7 @@
     * Ruby Twitter API libraries
     * Shiny R web application framework
     * cranvas R exploratory data analysis framework
+    * Linux profiling tools and [Pretty Damn Quick (PDQ) Queueing Model Package](http://sourceforge.net/projects/pdq-qnm-pkg/)
 
 ## Quick Start
 * [Quick Start - Fedora 17](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
