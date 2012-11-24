@@ -14,7 +14,7 @@
     * [XFCE](http://www.xfce.org/)
     * [LXDE](http://lxde.org/)
     * [MATE](http://mate-desktop.org/)
-    * [Cinnamon](http://mate-desktop.org/)
+    * [Cinnamon](http://cinnamon.linuxmint.com/)
     * [Unity](http://unity.ubuntu.com/)
 1. Runs on bare metal or as a guest virtual machine with VirtualBox or Virtual Machine Manager / qemu-kvm hosts
 1. New applications:
