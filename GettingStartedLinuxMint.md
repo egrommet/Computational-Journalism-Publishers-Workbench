@@ -19,7 +19,7 @@
     $ ./remove-guest-tools.bash
     ```
 1. The update will take quite a while. At several points in the update, you may be asked about configuration files. Just press 'Enter' on the terminal if this happens.
-1. After the update completes, the virtual machine will reboot. When it comes back up, log in again. In the VirtualBox 'Devices' menu, select 'Install guest additions'. Press the ***"Cancel"*** button if you are asked to open the media with the File Manager or run it.
+1. After the update completes, the virtual machine will reboot. When it comes back up, log in again. In the VirtualBox 'Devices' menu, select 'Install guest additions'. Press the ***'Cancel'*** button if you are asked to open the media with the File Manager or run it.
 1. Open a terminal and type
 
     ```
@@ -37,4 +37,4 @@
     $ ./install-base.bash
     ```
 1. This will run quite a while. On my dual-core i5 laptop on typical coffee shop wireless, it takes about two hours. It is downloading most of the software over the Internet and compiling much of it from source.
-1. Shut down the virtual machine and take another snapshot.
+1. Once the installs are done, shut down the virtual machine and take another snapshot.
