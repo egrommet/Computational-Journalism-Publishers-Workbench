@@ -7,6 +7,7 @@ And How and Where and Who.<br>
 
 ## Why?
 Independent journalists today work in a world dominated by two trends:
+
 * Large sets of complex data with stories waiting to be told, and
 * Real-time many-to-many communications platforms
 
@@ -28,8 +29,7 @@ Independent journalists today work in a world dominated by two trends:
 ## What's in the workbench?
 * ***100 percent open source technologies!***
 * A complete Linux workstation, plus
-* PDF data extraction tools
-* Plus ...
+* [Redis 2.6](http://redis.io), plus
 
 ### Tools for collecting, managing, analyzing and presenting data
 * Numerical
@@ -37,6 +37,7 @@ Independent journalists today work in a world dominated by two trends:
 * Geospatial / mapping
 * Text data
 * Social networks and graphs
+* PDF data extraction tools
 * ***Web page, PDF and eBook creation tools***
 
 ## Who is it for?
@@ -49,6 +50,7 @@ Independent journalists today work in a world dominated by two trends:
 
 ### Robustness
 The components of the Computational Journalism Publishers Workbench are proven technologies in wide use. 
+
 * Tools are crafted by highly-motivated self-regulated communities of experts.
 * Security flaws, functionality defects and performance issues are rapidly found and fixed.
 * Peer review process yields software that is usually more efficient than commercial counterparts.
@@ -90,7 +92,7 @@ And seven million Whys!<br>
 ## Quick Start
 
 * [Quick Start - Fedora 17](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
-* [Quick Start - Linux Mint 13/14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
+* [Quick Start - Linux Mint 14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
 
 ## Issue tracker
 I'm using the [Github issue tracker](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues) on this project, although you can also send me a message if you're a Github member.
@@ -107,9 +109,10 @@ One of the major components, [RStudio](https://github.com/rstudio/rstudio), is l
 * [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [TeX Live](http://www.tug.org/texlive/acquire-netinstall.html)
 * [R Patched](ftp://ftp.stat.math.ethz.ch/Software/R/)
-* [GGobi](http://www.ggobi.org/downloads/)
 * [R Studio](http://rstudio.org/download/)
+* [Shiny](http://www.rstudio.com/shiny/)
 * [R Commander](http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/)
+* [Rattle](http://rattle.togaware.com/)
 * [LyX](http://www.lyx.org/Download)
 * [Sigil](http://code.google.com/p/sigil/downloads/list)
 * [Calibre](http://calibre-ebook.com/download)
@@ -117,3 +120,13 @@ One of the major components, [RStudio](https://github.com/rstudio/rstudio), is l
 * [Bluefish](http://bluefish.openoffice.nl/download.html)
 * [Google Refine](http://code.google.com/p/google-refine/)
 * [Maqetta](http://maqetta.org/)
+* [GGobi](http://www.ggobi.org/downloads/)
+
+### CRAN Task Views (Run with Windows, Macintosh and Linux desktops / laptops)
+* [Graphics](http://cran.cnr.berkeley.edu/web/views/Graphics.html)
+* [Reproducible Research](http://cran.cnr.berkeley.edu/web/views/ReproducibleResearch.html)
+* [Natural Language Processing](http://cran.cnr.berkeley.edu/web/views/NaturalLanguageProcessing.html)
+* [Analysis of Spatial Data](http://cran.cnr.berkeley.edu/web/views/Spatial.html)
+* [Empricial Finance](http://cran.cnr.berkeley.edu/web/views/Finance.html)
+* [Computational Econometrics](http://cran.cnr.berkeley.edu/web/views/Econometrics.html)
+* [Time Series Analysis](http://cran.cnr.berkeley.edu/web/views/TimeSeries.html)
