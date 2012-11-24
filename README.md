@@ -126,9 +126,6 @@ I'm using the [Github issue tracker](https://github.com/znmeb/Computational-Jour
 One of the major components, [RStudio](https://github.com/rstudio/rstudio), is licensed AGPL3 - [Affero GNU Public License, version 3](http://www.gnu.org/licenses/agpl-3.0.txt). So that's the license I'm using for this project.
 
 ## Main upstream projects
-### Linux Distributions
-* [Fedora Project](https://fedoraproject.org/)
-* [Linux Mint](http://linuxmint.com/)
 
 ### Applications / Tools (all are available for Windows, Macintosh and Linux desktops/laptops)
 * [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
