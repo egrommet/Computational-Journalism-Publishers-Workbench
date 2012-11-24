@@ -18,7 +18,7 @@
     $ cd Computational-Journalism-Publishers-Workbench  
     $ ./install-devtools.bash
     ```
-1. In the VirtualBox 'Devices' menu, select 'Install guest additions'. Press the ***"Cancel"*** button if you are asked to open the media with the File Manager or run it.
+1. In the VirtualBox 'Devices' menu, select 'Install guest additions'. Press the ***'Cancel'*** button if you are asked to open the media with the File Manager or run it.
 1. In the terminal, type
 
     ```
