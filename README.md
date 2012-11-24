@@ -1,7 +1,5 @@
 ## Computational Journalism Publishers Workbench 1.0.0 Released!
-
 ### What's New?
-
 1. Now builds on the [five most popular Linux distributions](http://distrowatch.com/dwres.php?resource=popularity)
     * [Linux Mint 13+](http://linuxmint.com/)
     * [Ubuntu 12.04+](http://www.ubuntu.com/)
@@ -22,20 +20,19 @@
     * Ruby Twitter API libraries
     * Shiny R web application framework
     * cranvas R exploratory data analysis framework
-
+## Quick Start
+* [Quick Start - Fedora 17](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
+* [Quick Start - Linux Mint 14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
 ## I Keep Six Honest Serving Men
 I keep six honest serving-men<br>
 (They taught me all I knew);<br>
 Their names are What and Why and When<br>
 And How and Where and Who.<br>
 [(RudyardKipling, from "The Elephant's Child" in Just So Stories).](http://c2.com/cgi/wiki?SixHonestServingMen)
-
 ## Why?
 Independent journalists today work in a world dominated by two trends:
-
 * Large sets of complex data with stories waiting to be told, and
 * Real-time many-to-many communications platforms
-
 ### Large sets of complex data with stories waiting to be told
 * Government data - national, regional, and local
 * Business and financial data
@@ -43,19 +40,16 @@ Independent journalists today work in a world dominated by two trends:
 * Environmental and climate data
 * Social network data
 * And yes - traffic and sports data too
-
 ### Real-time many-to-many communications platforms
 * Hundreds of millions of Facebook and Twitter accounts almost everywhere in the world
 * Millions of active Twitter users
 * Complex patterns of interactions around people, places and events
 * Intricate and changing connection patterns between people
 * ***People break and discuss the news in real time on Twitter.***
-
 ## What's in the workbench?
 * ***100 percent open source technologies!***
 * A complete Linux workstation, plus
 * [Redis 2.6](http://redis.io), plus
-
 ### Tools for collecting, managing, analyzing and presenting data
 * Numerical
 * Financial and economic
@@ -64,33 +58,26 @@ Independent journalists today work in a world dominated by two trends:
 * Social networks and graphs
 * PDF data extraction tools
 * ***Web page, PDF and eBook creation tools***
-
 ## Who is it for?
 * Journalism students: high school, community college and beyond
 * Independent journalists: researchers, reporters, editors, publishers
-
 ## Why 100 percent open source?
 * Open source software is robust.
 * Open source software is low cost.
-
 ### Robustness
 The components of the Computational Journalism Publishers Workbench are proven technologies in wide use. 
-
 * Tools are crafted by highly-motivated self-regulated communities of experts.
 * Security flaws, functionality defects and performance issues are rapidly found and fixed.
 * Peer review process yields software that is usually more efficient than commercial counterparts.
-
 ### Low cost
 * The software in the Computational Journalism Publishers Workbench is freely downloadable without legal restrictions.
 * A wide range of documentation and training material for the tools is available for free on the World-Wide Web.
 * ***Functionality that would cost thousands of dollars in commercial licenses is available for the cost of a download!***
-
 ## I Keep Six Honest Serving Men
 I keep six honest serving-men<br>
 (They taught me all I knew);<br>
 Their names are What and Why and When<br>
 And How and Where and Who.<br>
-
 ### The Rest of the Story
 (Did you know there was more?)
 
@@ -113,20 +100,11 @@ She sends 'em abroad on her own affairs,<br>
 From the second she opens her eyes -<br>
 One million Hows, two million Wheres,<br>
 And seven million Whys!<br>
-
-## Quick Start
-
-* [Quick Start - Fedora 17](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
-* [Quick Start - Linux Mint 14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
-
 ## Issue tracker
 I'm using the [Github issue tracker](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues) on this project, although you can also send me a message if you're a Github member.
-
 ## License
 One of the major components, [RStudio](https://github.com/rstudio/rstudio), is licensed AGPL3 - [Affero GNU Public License, version 3](http://www.gnu.org/licenses/agpl-3.0.txt). So that's the license I'm using for this project.
-
 ## Main upstream projects
-
 ### Applications / Tools (all are available for Windows, Macintosh and Linux desktops/laptops)
 * [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [TeX Live](http://www.tug.org/texlive/acquire-netinstall.html)
@@ -143,7 +121,6 @@ One of the major components, [RStudio](https://github.com/rstudio/rstudio), is l
 * [Google Refine](http://code.google.com/p/google-refine/)
 * [Maqetta](http://maqetta.org/)
 * [GGobi](http://www.ggobi.org/downloads/)
-
 ### CRAN Task Views (Run with Windows, Macintosh and Linux desktops / laptops)
 * [Graphics](http://cran.cnr.berkeley.edu/web/views/Graphics.html)
 * [Reproducible Research](http://cran.cnr.berkeley.edu/web/views/ReproducibleResearch.html)
