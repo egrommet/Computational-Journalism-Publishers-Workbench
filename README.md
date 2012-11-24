@@ -55,7 +55,8 @@ And How and Where and Who.<br>
 * ***People break and discuss the news in real time on Twitter.***
 
 ## What's in the workbench?
-* ***100 percent open source technologies!***
+
+### ***100 percent open source technologies!***
 * A complete Linux workstation, plus
 * [Redis 2.6](http://redis.io), plus
 
