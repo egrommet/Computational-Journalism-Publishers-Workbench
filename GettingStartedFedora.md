@@ -35,4 +35,4 @@
     $ ./install-base.bash
     ```
 1. This will run quite a while. On my dual-core i5 laptop on typical coffee shop wireless, it takes about two hours. It is downloading most of the software over the Internet and compiling much of it from source.
-1. Shut down the virtual machine and take another snapshot.
+1. Once the installs are done, shut down the virtual machine and take another snapshot.
