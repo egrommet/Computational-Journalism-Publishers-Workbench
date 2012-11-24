@@ -1,6 +1,10 @@
 ## Computational Journalism Publishers Workbench 1.0.0 Released!
 
-### What's New?
+## Quick Start
+* [Quick Start - Fedora 17](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
+* [Quick Start - Linux Mint 14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
+
+## What's New?
 1. Now builds on the [five most popular Linux distributions](http://distrowatch.com/dwres.php?resource=popularity)
     * [Linux Mint 13+](http://linuxmint.com/)
     * [Ubuntu 12.04+](http://www.ubuntu.com/)
@@ -17,15 +21,11 @@
     * [Unity](http://unity.ubuntu.com/)
 1. Runs on bare metal or as a guest virtual machine with VirtualBox or Virtual Machine Manager / qemu-kvm hosts
 1. New applications:
-    * Redis 2.6, Perl, Ruby and R client libraries
-    * Ruby Twitter API libraries
-    * Shiny R web application framework
-    * cranvas R exploratory data analysis framework
-    * Linux profiling tools and [Pretty Damn Quick (PDQ) Queueing Model Package](http://sourceforge.net/projects/pdq-qnm-pkg/)
-
-## Quick Start
-* [Quick Start - Fedora 17](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
-* [Quick Start - Linux Mint 14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
+    * Redis 2.6 with Perl, Ruby and R client libraries
+    * Perl, Ruby and R Twitter API libraries
+    * [Shiny](http://www.rstudio.com/shiny/) R application framework
+    * [cranvas](https://github.com/ggobi/cranvas/wiki) R exploratory data analysis framework
+    * Linux profiling tools and [Pretty Damn Quick (PDQ)](http://sourceforge.net/projects/pdq-qnm-pkg/) Queueing Model Package
 
 ## I Keep Six Honest Serving Men
 I keep six honest serving-men<br>
