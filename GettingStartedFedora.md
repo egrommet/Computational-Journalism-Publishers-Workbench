@@ -16,6 +16,7 @@
     $ sudo yum install -y git  
     $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
+    $ git checkout v1.0.0
     $ ./install-devtools.bash
     ```
 1. In the VirtualBox 'Devices' menu, select 'Install guest additions'. Press the ***'Cancel'*** button if you are asked to open the media with the File Manager or run it.
