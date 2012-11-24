@@ -24,6 +24,7 @@
 ## Quick Start
 * [Quick Start - Fedora 17](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
 * [Quick Start - Linux Mint 14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
+
 ## I Keep Six Honest Serving Men
 I keep six honest serving-men<br>
 (They taught me all I knew);<br>
