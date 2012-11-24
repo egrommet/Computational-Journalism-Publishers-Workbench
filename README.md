@@ -20,6 +20,7 @@
     * Ruby Twitter API libraries
     * Shiny R web application framework
     * cranvas R exploratory data analysis framework
+    * 
 ## Quick Start
 * [Quick Start - Fedora 17](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
 * [Quick Start - Linux Mint 14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
