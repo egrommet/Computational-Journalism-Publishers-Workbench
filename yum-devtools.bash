@@ -11,6 +11,7 @@
 
 echo "Installing basic development tools"
 sudo yum install -y \
+  firefox \
   patch \
   curl \
   wget \
