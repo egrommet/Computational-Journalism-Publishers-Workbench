@@ -22,4 +22,5 @@ sudo yum install -y \
   kernel-PAE-devel \
   gcc \
   vim \
-  vim-X11
+  vim-X11 \
+  net-tools
