@@ -13,4 +13,5 @@ ruby --version; gem --version
 gem install \
   redis \
   twitter \
-  tweetstream
+  tweetstream \
+  bundler
