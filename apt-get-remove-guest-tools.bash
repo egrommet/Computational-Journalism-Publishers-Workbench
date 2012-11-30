@@ -12,6 +12,11 @@
 echo "Removing guest tools / additions already installed"
 echo "You will need to authenticate"
 sudo apt-get purge -y \
+  open-vm-dkms \
+  open-vm-toolbox \
+  open-vm-tools \
+  open-vm-tools-dbg \
+  open-vm-tools-dev \
   virtualbox-guest-dkms \
   virtualbox-guest-source \
   virtualbox-guest-utils \
