@@ -36,6 +36,7 @@ sudo yum install -y \
   python-lxml \
   python-dateutil \
   python-cssutils \
+  python-cssselect \
   python-BeautifulSoup \
   podofo \
   podofo-devel \
