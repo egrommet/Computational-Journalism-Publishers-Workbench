@@ -12,6 +12,7 @@
 # install tools
 echo "Installing basic development tools"
 sudo urpmi --auto --no-suggests \
+  git \
   firefox \
   patch \
   curl \
