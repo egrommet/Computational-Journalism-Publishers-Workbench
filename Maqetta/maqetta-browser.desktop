@@ -6,6 +6,6 @@ Terminal=false
 Categories=Development;
 Icon[en_US]=HOME/local/maqetta/Maqetta_Logo_250x76.png
 Name[en_US]=Browse to Maqetta
-Exec=xdg-open 'http://localhost:50000/maqetta'
+Exec=firefox 'http://localhost:50000/maqetta'
 Name=Browse to Maqetta
 Icon=HOME/local/maqetta/Maqetta_Logo_250x76.png
