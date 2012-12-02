@@ -12,7 +12,7 @@
 echo "Installing basic development tools"
 sudo zypper install -y \
   git \
-  firefox \
+  MozillaFirefox \
   patch \
   curl \
   wget \
