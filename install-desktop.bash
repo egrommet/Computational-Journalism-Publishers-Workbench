@@ -9,16 +9,18 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "Installing basic development tools"
-sudo yum install -y \
-  patch \
-  curl \
-  wget \
-  mlocate \
-  make \
-  dkms \
-  kernel-devel \
-  kernel-PAE-devel \
-  gcc \
-  vim \
-  net-tools
+echo 'Installing desktop add-ons'
+echo 'You will need to authenticate'
+if [ -e "/usr/bin/apt-get" ]
+then
+  ./apt-get-desktop.bash 2>&1 | tee desktop.log
+elif [ -e "/usr/bin/yum" ]
+then
+  ./yum-desktop.bash 2>&1 | tee desktop.log
+elif [ -e "/usr/bin/zypper" ]
+then
+  ./zypper-desktop.bash 2>&1 | tee desktop.log
+elif [ -e "/usr/sbin/urpmi" ]
+then
+  ./urpmi-desktop.bash 2>&1 | tee desktop.log
+fi

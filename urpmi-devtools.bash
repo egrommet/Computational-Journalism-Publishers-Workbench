@@ -12,11 +12,8 @@
 # install tools
 echo "Installing basic development tools"
 sudo urpmi --auto --no-suggests \
-  git \
-  firefox \
   patch \
   curl \
   wget \
   dkms \
-  vim \
-  vim-X11
+  vim

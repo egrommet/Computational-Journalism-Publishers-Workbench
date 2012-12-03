@@ -11,14 +11,10 @@
 
 echo "Installing basic development tools"
 sudo zypper install -y \
-  git \
-  firefox \
   patch \
   curl \
   wget \
   make \
   kernel-devel \
-  vim-data \
   vim-enhanced \
-  gvim \
   gcc

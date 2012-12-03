@@ -11,8 +11,6 @@
 
 echo "Installing basic development tools"
 sudo apt-get install -y \
-  git \
-  firefox \
   patch \
   curl \
   wget \
@@ -21,5 +19,4 @@ sudo apt-get install -y \
   build-essential \
   linux-headers-generic \
   gcc \
-  vim \
-  vim-gtk
+  vim

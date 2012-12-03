@@ -9,16 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "Installing basic development tools"
+echo "Installing desktop add-ons"
 sudo yum install -y \
-  patch \
-  curl \
-  wget \
-  mlocate \
-  make \
-  dkms \
-  kernel-devel \
-  kernel-PAE-devel \
-  gcc \
-  vim \
-  net-tools
+  firefox \
+  vim-X11
