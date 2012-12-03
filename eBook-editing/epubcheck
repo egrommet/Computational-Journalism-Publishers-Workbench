@@ -1,2 +1,2 @@
 #! /bin/bash
-java -jar /usr/local/src/epubcheck-3.0b5/epubcheck-3.0b5.jar "$@"
+java -jar $HOME/local/src/epubcheck-3.0b5/epubcheck-3.0b5.jar "$@"
