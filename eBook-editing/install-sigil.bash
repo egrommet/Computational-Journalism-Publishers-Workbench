@@ -13,7 +13,7 @@ pushd ${HOME}/local/src
   export WHERE=http://sigil.googlecode.com/files
   export SDIR=sigil
   rm -fr ${SDIR}; mkdir -p ${SDIR}
-  export VERSION=0.6.0
+  export VERSION=0.6.1
   export WHAT=Sigil-${VERSION}-Code.zip
   curl -k -L ${WHERE}/${WHAT} > ${WHAT}
   cd ${SDIR}
