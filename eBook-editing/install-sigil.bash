@@ -10,10 +10,10 @@
 #
 
 pushd ${HOME}/local/src
+  export VERSION=`curl http://code.google.com/p/sigil/downloads/list|grep Code.zip|head -n 1|sed 's/^.*Sigil-//'|sed 's/-Code\.zip.*$//'`
   export WHERE=http://sigil.googlecode.com/files
   export SDIR=sigil
   rm -fr ${SDIR}; mkdir -p ${SDIR}
-  export VERSION=0.6.1
   export WHAT=Sigil-${VERSION}-Code.zip
   curl -k -L ${WHERE}/${WHAT} > ${WHAT}
   cd ${SDIR}
