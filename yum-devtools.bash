@@ -17,6 +17,7 @@ sudo yum install -y \
   mlocate \
   make \
   dkms \
+  kernel-tools \
   kernel-devel \
   kernel-PAE-devel \
   gcc \
