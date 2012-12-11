@@ -10,6 +10,7 @@
 #
 
 sudo yum install -y \
+  perl-CPAN \
   perl-YAML \
   perl-YAML-Syck \
   perl-JSON-XS \
