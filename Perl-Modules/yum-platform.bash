@@ -11,6 +11,7 @@
 
 sudo yum install -y \
   perl-CPAN \
+  perl-Module-Build \
   perl-YAML \
   perl-YAML-Syck \
   perl-JSON-XS \
