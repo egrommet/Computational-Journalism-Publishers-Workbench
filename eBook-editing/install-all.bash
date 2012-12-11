@@ -12,8 +12,8 @@
 source ~/.bash_profile
 for i in \
   dependencies \
-  jabref \
   calibre \
+  jabref \
   lyx \
   bluefish \
   sigil \

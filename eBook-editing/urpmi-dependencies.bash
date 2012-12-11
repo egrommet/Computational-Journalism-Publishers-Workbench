@@ -18,29 +18,6 @@ sudo urpmi --auto --no-suggests \
   libpcre-devel \
   libhunspell-devel
 
-# Calibre
-sudo urpmi --auto --no-suggests \
-  icu \
-  libicu-devel \
-  libchm-devel \
-  python-dnspython \
-  libmagick-devel \
-  libsqlite3-devel \
-  python-imaging-devel \
-  python-qt4-devel \
-  python-mechanize \
-  xdg-utils \
-  python-lxml \
-  python-dateutil \
-  python-cssutils \
-  python-beautifulsoup \
-  podofo \
-  libpodofo-devel \
-  libwmf-devel \
-  libmtp-devel \
-  python-chm \
-  chmlib
-
 # LyX
 sudo urpmi --auto --no-suggests \
   libenchant-devel \

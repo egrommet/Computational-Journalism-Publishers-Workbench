@@ -20,30 +20,6 @@ sudo yum install -y \
   pcre-tools \
   hunspell-devel
 
-# Calibre
-sudo yum install -y \
-  pyicu \
-  icu \
-  python-dns \
-  python-netifaces \
-  ImageMagick-devel \
-  sqlite-devel \
-  python-imaging-devel \
-  PyQt4-devel \
-  libmtp-devel \
-  python-mechanize \
-  xdg-utils \
-  python-lxml \
-  python-dateutil \
-  python-cssutils \
-  python-cssselect \
-  python-BeautifulSoup \
-  podofo \
-  podofo-devel \
-  libwmf-devel \
-  chmlib-devel \
-  libicu-devel
-
 # LyX
 sudo yum install -y \
   enchant-devel \

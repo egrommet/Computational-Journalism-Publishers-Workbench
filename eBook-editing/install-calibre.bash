@@ -9,19 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-export WHERE=http://calibre-ebook.googlecode.com/files
-export VERSION=`curl https://code.google.com/p/calibre-ebook/|grep 'tar.bz2'|head -n 1|sed 's/^.*calibre-//'|sed 's/-.*$//'`
-export WHAT=calibre-${VERSION}.tar.xz
-export DIR=calibre
-
-pushd ${HOME}/local/src
-curl -L ${WHERE}/${WHAT} > ${WHAT}
-rm -fr ${DIR}
-tar xf ${WHAT}
-
-pushd ${DIR}
-mkdir -p ${HOME}/local/lib/python2.7/site-packages
-python setup.py install --prefix=${HOME}/local
-popd
-
-popd
+# just install upstream binary for now
+echo "Installing upstream binary version of Calibre"
+echo "You will need to authenticate"
+sudo rm -fr /opt/calibre
+sudo python -c "import sys; py3 = sys.version_info[0] > 2; u = __import__('urllib.request' if py3 else 'urllib', fromlist=1); exec(u.urlopen('http://status.calibre-ebook.com/linux_installer').read()); main(install_dir='/opt')"

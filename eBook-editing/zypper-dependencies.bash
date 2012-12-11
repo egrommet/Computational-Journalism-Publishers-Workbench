@@ -19,29 +19,6 @@ sudo zypper install -y \
   pcre-tools \
   hunspell-devel
 
-# Calibre
-sudo zypper install -y \
-  icu \
-  icu-data \
-  libicu-devel \
-  python-dnspython \
-  ImageMagick-devel \
-  python-netifaces \
-  sqlite3-devel \
-  python-imaging \
-  python-qt4-devel \
-  python-mechanize \
-  xdg-utils \
-  python-lxml \
-  python-dateutil \
-  python-cssutils \
-  python-beautifulsoup \
-  podofo \
-  libpodofo-devel \
-  libwmf-devel \
-  libmtp-devel \
-  chmlib-devel
-
 # LyX
 sudo zypper install -y \
   enchant-devel \

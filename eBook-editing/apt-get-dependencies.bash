@@ -19,30 +19,6 @@ sudo apt-get install -y \
   libhunspell-dev \
   zlib-bin
 
-# Calibre
-sudo apt-get install -y \
-  python-pyicu \
-  python-netifaces \
-  python-dns \
-  libmagick++-dev \
-  libsqlite3-dev \
-  python-imaging \
-  python-qt4 \
-  python-qt4-dev \
-  pyqt4-dev-tools \
-  libmtp-dev \
-  python-mechanize \
-  xdg-utils \
-  python-lxml \
-  python-dateutil \
-  python-cssutils \
-  python-beautifulsoup \
-  libpodofo-dev \
-  libpodofo-utils \
-  libwmf-dev \
-  libchm-dev \
-  libicu-dev
-
 # LyX
 sudo apt-get install \
   libenchant-dev \
