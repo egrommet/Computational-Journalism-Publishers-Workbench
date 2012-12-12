@@ -9,6 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+echo "Enabling all repositories"
+sudo yum-config-manager --enablerepo=* --verbose
 echo "Installing basic development tools"
 sudo yum install -y \
   patch \
