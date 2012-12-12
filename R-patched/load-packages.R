@@ -36,7 +36,10 @@ install.packages(
     'quantmod',
     'shiny',
     'markdown',
-    'doRedis'
+    'doRedis',
+    'RcmdrPlugin.TextMining',
+    'tm.plugin.dc',
+    'tm.plugin.mail'
   ),
   repos='http://cran.fhcrc.org'
 )

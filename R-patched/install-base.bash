@@ -10,7 +10,7 @@
 #
 
 source ~/.bash_profile
-for i in R-patched Rgraphviz packages pdq
+for i in R-patched Rgraphviz packages pdq tm.plugins-svn
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
