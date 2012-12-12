@@ -18,6 +18,8 @@ sudo mount /dev/sr0 /mnt/cdrom
 tar xf /mnt/cdrom/VMwareTools-9.2.2-893683.tar.gz
 cd vmware-tools-distrib
 sudo ./vmware-install.pl
+cd ..
+sudo rm -fr vmware-tools-distrib # cleanup!!!
 
 echo "Shutting down in 15 seconds so you can take a snapshot"
 sleep 15
