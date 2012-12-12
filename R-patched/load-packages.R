@@ -25,6 +25,7 @@ install.packages(
     'tuneR',
     'audio',
     'ctv', 
+    'e1071',
     'sem',
     'relimp',
     'multcomp',
