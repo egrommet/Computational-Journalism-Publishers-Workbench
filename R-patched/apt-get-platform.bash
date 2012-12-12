@@ -23,7 +23,6 @@ sudo apt-get install -y \
 
 # Packages
 sudo apt-get install -y \
-  antiword \
   libgmp-dev \
   libmpfr-dev \
   graphviz-dev \

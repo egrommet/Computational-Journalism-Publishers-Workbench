@@ -1,0 +1,11 @@
+--- /home/znmeb/local/src/antiword-0.37/Makefile.Linux	2005-10-29 10:13:15.000000000 -0700
++++ Makefile.Linux	2012-12-12 10:53:19.131749645 -0800
+@@ -33,7 +33,7 @@
+ 	antiword\
+ 	kantiword
+ 
+-LOCAL_INSTALL_DIR = $(HOME)/bin
++LOCAL_INSTALL_DIR = $(HOME)/local/bin
+ LOCAL_RESOURCES_DIR = $(HOME)/.antiword
+ 
+ GLOBAL_INSTALL_DIR = /usr/local/bin

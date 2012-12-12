@@ -26,7 +26,6 @@ sudo yum install -y \
 
 # Packages
 sudo yum install -y \
-  antiword \
   graphviz-devel \
   freeglut-devel \
   fftw-devel \

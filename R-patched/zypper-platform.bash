@@ -25,7 +25,6 @@ sudo zypper install -y \
 
 # Packages
 sudo zypper install -y \
-  antiword \
   graphviz-devel \
   libcurl-devel \
   freeglut-devel \

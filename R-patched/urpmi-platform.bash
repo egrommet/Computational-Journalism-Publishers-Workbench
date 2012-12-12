@@ -31,7 +31,6 @@ sudo urpme --auto \
 
 # Packages
 sudo urpmi --auto --no-suggests \
-  antiword \
   libcurl-devel \
   libgraphviz-devel \
   libfftw-devel \

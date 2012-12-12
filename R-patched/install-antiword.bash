@@ -10,7 +10,17 @@
 #
 
 source ~/.bash_profile
-for i in antiword R-patched Rgraphviz packages pdq tm.plugins-svn
-do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
-done
+export HERE=`pwd`
+
+pushd ~/local/src
+export VERSION=0.37
+export DIR=antiword-${VERSION}
+export WHAT=${DIR}.tar.gz
+export WHERE=http://www.winfield.demon.nl/linux
+curl ${WHERE}/${WHAT} > ${WHAT}
+rm -fr ${DIR}
+tar xf ${WHAT}
+cd ${DIR}
+patch -b Makefile.Linux ${HERE}/Makefile.Linux.patch
+make install
+popd
