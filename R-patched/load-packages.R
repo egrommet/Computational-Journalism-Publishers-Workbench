@@ -38,6 +38,7 @@ install.packages(
     'markdown',
     'doRedis',
     'RcmdrPlugin.TextMining',
+    'tm',
     'tm.plugin.dc',
     'tm.plugin.mail'
   ),
