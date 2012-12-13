@@ -28,7 +28,7 @@
     ```
     $ git clone https://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
-    $ git checkout v1.0.0
+    $ git checkout v1.1.0
     $ ./install-devtools.bash
     $ ./install-desktop.bash
     $ ./remove-guest-tools.bash
