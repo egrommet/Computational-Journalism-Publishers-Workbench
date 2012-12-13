@@ -1,4 +1,4 @@
-## Quick Start - Linux Mint 14 "Nadia" - MATE no-codecs (32-bit)
+## Quick Start - Linux Mint 14 "Nadia" - MATE no-codecs (32-bit) on VirtualBox
 
 1. System requirements: You'll need a Windows, Macintosh or Linux desktop/laptop with at least 3 GB of RAM. You will also need reliable wall power and a reliable Internet connection.
 1. Download and install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads).
