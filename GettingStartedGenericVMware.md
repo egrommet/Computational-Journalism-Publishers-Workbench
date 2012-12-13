@@ -9,6 +9,7 @@
     * [openSUSE 12.1](http://software.opensuse.org/122/en)
     * [Mageia 2](http://www.mageia.org/en/downloads/)
     * [Ubuntu 12.04 and later](http://www.ubuntu.com/download)
+    
 You do ***not*** need to burn this image file to a CD/DVD or copy it to a USB drive.
 1. Start up VMware Player. Press the 'Create a New Virtual Machine' button.
 1. In the first panel, choose 'I will install the operating system later.' and press 'Next'.
