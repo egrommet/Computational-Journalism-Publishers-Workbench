@@ -4,13 +4,11 @@
 1. Download and install [VMware Player](http://www.vmware.com/products/player/).
 1. Download a Linux install ISO image. You do ***not*** need to burn this image file to a CD/DVD or copy it to a USB drive. Supported Linux distributions are currently
 
-```
-[Fedora Linux 17 and 18 Beta](https://fedoraproject.org/)
-[Linux Mint 13 and later](http://www.linuxmint.com/oldreleases.php)
-[openSUSE 12.1](http://software.opensuse.org/122/en)
-[Mageia 2](http://www.mageia.org/en/downloads/)
-[Ubuntu 12.04 and later](http://www.ubuntu.com/download)
-```
+    * [Fedora Linux 17 and 18 Beta](https://fedoraproject.org/)<br>
+    * [Linux Mint 13 and later](http://www.linuxmint.com/oldreleases.php)<br>
+    * [openSUSE 12.1](http://software.opensuse.org/122/en)<br>
+    * [Mageia 2](http://www.mageia.org/en/downloads/)<br>
+    * [Ubuntu 12.04 and later](http://www.ubuntu.com/download)<br>
 1. Start up VMware Player. Press the 'Create a New Virtual Machine' button.
 1. In the first panel, choose 'I will install the operating system later.' and press 'Next'.
 1. Select 'Linux' for the guest operating system. Choose the version in the drop-down menu. For Linux Mint, choose 'Ubuntu' and for Mageia, choose 'Mandriva'. Then press 'Next'.
@@ -28,7 +26,7 @@
 1. Log in as the non-root user you created during the install. Open the distribution's software package installer and install 'git'. Then, open a terminal window and type
 
     ```
-    $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
+    $ git clone https://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
     $ git checkout v1.0.0
     $ ./install-devtools.bash
