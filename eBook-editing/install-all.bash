@@ -10,9 +10,9 @@
 #
 
 source ~/.bash_profile
+./install-dependencies.bash 2>&1 | tee dependencies.log
+./install-calibre.bash
 for i in \
-  dependencies \
-  calibre \
   jabref \
   lyx \
   bluefish \
