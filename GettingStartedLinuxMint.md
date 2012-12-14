@@ -15,7 +15,7 @@
     $ sudo apt-get install -y git  
     $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
-    $ git checkout v1.1.0
+    $ git checkout v1.1.1
     $ ./install-devtools.bash
     $ ./install-desktop.bash
     $ ./remove-guest-tools.bash
