@@ -18,7 +18,7 @@ sudo cpupower frequency-set -r -g performance
 cpupower frequency-info
 sleep 15 # give server time to stabilize
 #redis-benchmark -c 50 -n 10000 -q --csv | tee redis-benchmark.csv
-redis-benchmark -c 5 -n 200000 -q --csv | tee redis-benchmark.csv
+redis-benchmark -c 50 -n 200000 -q --csv | tee redis-benchmark.csv
 redis-cli < slowlog.cmd > slowlog.log
 ./parse-slowlog.pl slowlog.log > slowlog.csv
 pkill redis-server
