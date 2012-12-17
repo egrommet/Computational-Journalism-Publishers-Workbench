@@ -11,4 +11,5 @@
 
 ../common/cleanup.bash
 rm -f dump.rdb
+rm -f appendonly.aof
 rm -f *.csv
