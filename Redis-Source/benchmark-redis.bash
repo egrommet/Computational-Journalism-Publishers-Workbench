@@ -14,11 +14,11 @@ source ~/.bash_profile
 iostat -cdmxt -p ALL 2 > iostat.log & # start data collector
 ../Profiling/log-pmaps.bash redis-server > pmaps.log & # process maps
 redis-server ./redis.conf & # start the server
-sudo cpupower frequency-set -c 0 -r -g performance
+sudo cpupower frequency-set -r -g performance
 cpupower frequency-info
 sleep 15 # give server time to stabilize
 #redis-benchmark -c 50 -n 10000 -q --csv | tee redis-benchmark.csv
-redis-benchmark -c 4 -n 200000 -q --csv | tee redis-benchmark.csv
+redis-benchmark -c 5 -n 200000 -q --csv | tee redis-benchmark.csv
 redis-cli < slowlog.cmd > slowlog.log
 ./parse-slowlog.pl slowlog.log > slowlog.csv
 pkill redis-server
