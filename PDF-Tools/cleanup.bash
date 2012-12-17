@@ -9,6 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-../common/cleanup.bash
 rm -f Michie.pdf
 rm -fr HTML TIFF TEXT
+../common/cleanup.bash
