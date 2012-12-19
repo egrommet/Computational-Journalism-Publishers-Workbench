@@ -9,4 +9,4 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 # Reference: http://www.ilsistemista.net/index.php/virtualization/11-kvm-io-slowness-on-rhel-6.html
-qemu-img create -f vpc $1 $2
+qemu-img create -f vpc -o size=$2 $1
