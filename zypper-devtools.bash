@@ -11,6 +11,7 @@
 
 echo "Installing basic development tools"
 sudo zypper install -y \
+  cpupower \
   patch \
   curl \
   wget \
