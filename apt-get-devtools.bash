@@ -11,6 +11,7 @@
 
 echo "Installing basic development tools"
 sudo apt-get install -y \
+  cpufrequtils \
   patch \
   curl \
   wget \
