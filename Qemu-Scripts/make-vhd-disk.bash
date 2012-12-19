@@ -1,1 +1,0 @@
-make-vpc-disk.bash
