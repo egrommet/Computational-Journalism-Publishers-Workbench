@@ -11,11 +11,11 @@
 
 echo "Adding repositories as 'root'"
 echo "You will need to authenticate"
-sudo zypper addrepo -cf --gpg-auto-import-keys \
+sudo zypper addrepo -cf \
   http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.2/Documentation:Tools.repo # Tesseract lives here
 
 echo "Answer 'a' to 'Do you want to reject the key, trust temporarily, or trust always?' below."
-sudo zypper refresh
+sudo zypper --gpg-auto-import-keys refresh 
 
 sudo zypper install -y \
   ImageMagick \
