@@ -8,5 +8,4 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-sudo ./set-overcommit.bash
-sudo cp 60-redis.conf /etc/sysctl.d/
+echo 1 > /proc/sys/vm/overcommit_memory
