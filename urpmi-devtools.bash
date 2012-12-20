@@ -18,4 +18,4 @@ sudo urpmi --auto --no-suggests \
   wget \
   dkms \
   vim
-sudo urpmi kernel-devel # need manual attention here
+sudo urpmi kernel-desktop-devel kernel-server-devel # need babysitting
