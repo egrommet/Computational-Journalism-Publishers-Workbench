@@ -11,8 +11,8 @@
 
 source ~/.bash_profile
 ./cleanup.bash # start with a clean slate
-iostat -cdmxt -p ALL 2 > iostat.log & # start data collector
-../Profiling/log-pmaps.bash redis-server > pmaps.log & # process maps
+iostat -cdmxt -p ALL 1 > iostat.log & # start data collector
+../Profiling/log-pmaps.bash 1 redis-server > pmaps.log & # process maps
 redis-server ./redis.conf & # start the server
 
 if [ -e "/usr/bin/yum" ] # oprofile code currently only on Fedora!!!!
