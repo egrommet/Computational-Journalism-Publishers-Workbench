@@ -19,10 +19,14 @@ if [ -e "/usr/bin/yum" ] # oprofile code currently only on Fedora!!!!
 then
   export PID=`pgrep redis-server`
   export KERNEL=`uname -r`
-  operf --vmlinux=/usr/lib/debug/lib/modules/${KERNEL}/vmlinux --pid=${PID} &
+  operf \
+    --events CPU_CLK_UNHALTED:150000:0:1:1 \
+    --lazy-conversion \
+    --vmlinux=/usr/lib/debug/lib/modules/${KERNEL}/vmlinux \
+    --pid=${PID} &
 fi
 
-if [ -e "/usr/bin/apt-get" ]
+if [ -e "/usr/bin/apt-get" ] # Linux Mint / Ubuntu have cpufreq, not cpupower
 then
   sudo cpufreq-set -r -g performance
   cpufreq-info
@@ -31,6 +35,7 @@ else
   cpupower frequency-info
 fi
 
+echo 'Waiting 15 seconds for Redis server to start up'
 sleep 15 # give server time to stabilize
 
 # default params
@@ -40,6 +45,8 @@ redis-cli < slowlog.cmd > slowlog.log
 ./parse-slowlog.pl slowlog.log > slowlog.csv
 pkill redis-server
 pkill log-pmaps
+
+echo 'Waiting 15 seconds for Redis server to shut down'
 sleep 15 # give server time to shut down
 pkill iostat
 ../Profiling/parse-iostat.pl iostat.log
@@ -47,12 +54,12 @@ pkill iostat
 if [ -e "/usr/bin/yum" ] # oprofile code currently only on Fedora!!!!
 then
   pkill --signal SIGINT operf
-  opreport --accumulated --debug-info --sort sample \
+  echo 'Waiting 15 seconds for operf to shut down'
+  sleep 15
+  opreport --accumulated --debug-info --symbols --sort sample \
     -o opreport.txt
-  opreport --accumulated --debug-info --sort sample \
-    --symbols -o opreport-symbols.txt
-  opreport --accumulated --debug-info --sort sample \
+  opreport --accumulated --debug-info --symbols --sort sample \
     --callgraph -o opreport-callgraph.txt
-  opreport --accumulated --debug-info --sort sample \
+  opreport --accumulated --debug-info --symbols --sort sample \
     --details -o opreport-details.txt
 fi
