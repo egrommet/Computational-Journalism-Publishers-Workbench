@@ -12,6 +12,7 @@
 sudo yum install -y \
   oprofile-gui \
   oprofile-jit \
+  kernel-debuginfo \
   python-devel \
   sysstat \
   perl-Date-Manip \

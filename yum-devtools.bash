@@ -11,7 +11,7 @@
 
 echo "Enabling repositories"
 sudo yum-config-manager --enable \*
-sudo yum-config-manager --disable \*debuginfo\*
+sudo yum-config-manager --enable \*debuginfo\*
 sudo yum-config-manager --disable \*source\*
 yum repolist all
 
