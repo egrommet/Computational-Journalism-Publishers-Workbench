@@ -47,5 +47,12 @@ pkill iostat
 if [ -e "/usr/bin/yum" ] # oprofile code currently only on Fedora!!!!
 then
   pkill --signal SIGINT operf
-  opreport > oprofile-report.txt
+  opreport --accumulated --debug-info --sort sample \
+    -o opreport.txt
+  opreport --accumulated --debug-info --sort sample \
+    --symbols -o opreport-symbols.txt
+  opreport --accumulated --debug-info --sort sample \
+    --callgraph -o opreport-callgraph.txt
+  opreport --accumulated --debug-info --sort sample \
+    --details -o opreport-details.txt
 fi

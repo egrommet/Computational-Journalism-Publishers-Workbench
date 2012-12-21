@@ -13,4 +13,5 @@ rm -f dump.rdb
 rm -f appendonly.aof
 rm -f *.csv
 rm -fr oprofile*
+rm -f opreport*txt
 ../common/cleanup.bash
