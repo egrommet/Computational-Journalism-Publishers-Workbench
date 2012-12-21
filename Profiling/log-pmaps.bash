@@ -2,7 +2,7 @@
 
 while true
 do
-sleep 2
+sleep $1
 TZ=UTC date +'%Y-%m-%d %H:%M:%S %z' 
-pmap -d `pgrep $1`
+pmap -d `pgrep $2`
 done
