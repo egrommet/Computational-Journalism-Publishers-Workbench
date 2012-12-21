@@ -14,6 +14,14 @@ source ~/.bash_profile
 iostat -cdmxt -p ALL 2 > iostat.log & # start data collector
 ../Profiling/log-pmaps.bash redis-server > pmaps.log & # process maps
 redis-server ./redis.conf & # start the server
+
+if [ -e "/usr/bin/yum" ] # oprofile code currently only on Fedora!!!!
+then
+  export PID=`pgrep redis-server`
+  export KERNEL=`uname -r`
+  operf --vmlinux=/usr/lib/debug/lib/modules/${KERNEL}/vmlinux --pid=${PID} &
+fi
+
 if [ -e "/usr/bin/apt-get" ]
 then
   sudo cpufreq-set -r -g performance
@@ -22,7 +30,10 @@ else
   sudo cpupower frequency-set -r -g performance
   cpupower frequency-info
 fi
+
 sleep 15 # give server time to stabilize
+
+# default params
 #redis-benchmark -c 50 -n 10000 -q --csv | tee redis-benchmark.csv
 redis-benchmark -c 50 -n 100000 -q --csv | tee redis-benchmark.csv
 redis-cli < slowlog.cmd > slowlog.log
@@ -32,3 +43,9 @@ pkill log-pmaps
 sleep 15 # give server time to shut down
 pkill iostat
 ../Profiling/parse-iostat.pl iostat.log
+
+if [ -e "/usr/bin/yum" ] # oprofile code currently only on Fedora!!!!
+then
+  pkill --signal SIGINT operf
+  opreport > oprofile-report.txt
+fi
