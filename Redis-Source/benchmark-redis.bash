@@ -20,7 +20,7 @@ then
   export PID=`pgrep redis-server`
   export KERNEL=`uname -r`
   operf \
-    --events CPU_CLK_UNHALTED:150000:0:1:1 \
+    --events CPU_CLK_UNHALTED:200000:0:1:1 \
     --lazy-conversion \
     --vmlinux=/usr/lib/debug/lib/modules/${KERNEL}/vmlinux \
     --pid=${PID} &
