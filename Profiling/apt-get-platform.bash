@@ -15,3 +15,6 @@ sudo apt-get install -y \
   python-dev \
   libdate-manip-perl \
   sysstat
+
+# install the (huge) kernel debug symbols package
+./apt-get-vmlinux.bash
