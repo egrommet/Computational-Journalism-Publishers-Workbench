@@ -9,6 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+source ~/.bash_profile
+pushd ~/local/src
 export VERSION=`uname -r`
 export MACHINE=`uname -m`
 export WHERE=http://ddebs.ubuntu.com/pool/main/l/linux
@@ -22,3 +24,4 @@ wget ${WHERE}/${WHAT}
 sudo dpkg --install ${WHAT}
 sudo updatedb
 locate vmlinux
+popd
