@@ -10,6 +10,8 @@
 #
 
 sudo apt-get install -y \
+  oprofile \
+  oprofile-gui \
   python-dev \
   libdate-manip-perl \
   sysstat
