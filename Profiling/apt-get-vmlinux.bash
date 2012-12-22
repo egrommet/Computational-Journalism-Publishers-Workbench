@@ -20,3 +20,5 @@ else
 fi
 wget ${WHERE}/${WHAT}
 sudo dpkg --install ${WHAT}
+sudo updatedb
+locate vmlinux
