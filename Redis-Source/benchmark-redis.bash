@@ -19,10 +19,12 @@ if [ -e "/usr/bin/yum" ] # oprofile code currently only on Fedora!!!!
 then
   export PID=`pgrep redis-server`
   export KERNEL=`uname -r`
+  export VMLINUX=`locate vmlinux|grep debug|grep ${KERNEL}`
+
   operf \
     --events CPU_CLK_UNHALTED:200000:0:1:1 \
     --lazy-conversion \
-    --vmlinux=/usr/lib/debug/lib/modules/${KERNEL}/vmlinux \
+    --vmlinux=${VMLINUX} \
     --pid=${PID} &
 fi
 
