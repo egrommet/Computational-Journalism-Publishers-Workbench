@@ -18,6 +18,6 @@ sudo yum install -y \
   perl-Date-Manip \
   perl-ExtUtils-MakeMaker
 
-# vmlinux is now found in
-# /usr/lib/debug/lib/modules/*/vmlinux
+sudo updatedb
+locate vmlinux
 
