@@ -11,6 +11,11 @@
 
 echo "Installing basic development tools"
 sudo apt-get install -y \
+  fdutils \
+  linux-doc \
+  linux-source \
+  linux-tools \
+  linux-image-generic \
   cpufrequtils \
   patch \
   curl \
