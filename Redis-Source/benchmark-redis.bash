@@ -15,7 +15,7 @@ iostat -cdmxt -p ALL 1 > iostat.log & # start data collector
 ../Profiling/log-pmaps.bash 1 redis-server > pmaps.log & # process maps
 redis-server ./redis.conf & # start the server
 
-if [ -e "/usr/bin/yum" ] # oprofile code currently only on Fedora!!!!
+if [ -e "/usr/bin/yum" || -e "/usr/bin/apt-get" ] # Fedora, Ubuntu or Linux Mint
 then
   export PID=`pgrep redis-server`
   export KERNEL=`uname -r`
@@ -53,7 +53,7 @@ sleep 15 # give server time to shut down
 pkill iostat
 ../Profiling/parse-iostat.pl iostat.log
 
-if [ -e "/usr/bin/yum" ] # oprofile code currently only on Fedora!!!!
+if [ -e "/usr/bin/yum" || -e "/usr/bin/apt-get" ] # Fedora, Ubuntu or Linux Mint
 then
   pkill --signal SIGINT operf
   echo 'Waiting 15 seconds for operf to shut down'
