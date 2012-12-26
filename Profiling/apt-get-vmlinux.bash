@@ -9,10 +9,12 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+source ~/.bash_profile
+pushd ~/local/src
 export VERSION=`uname -r`
 export MACHINE=`uname -m`
 export WHERE=http://ddebs.ubuntu.com/pool/main/l/linux
-if [ "${MACHINE}" != "amd64" ]
+if [ "${MACHINE}" != "x86_64" ]
 then
   export WHAT=`curl ${WHERE}/|grep i386|grep ${VERSION}|sed 's/^.*href="//'|sed 's/".*$//'`
 else
@@ -22,3 +24,4 @@ wget ${WHERE}/${WHAT}
 sudo dpkg --install ${WHAT}
 sudo updatedb
 locate vmlinux
+popd

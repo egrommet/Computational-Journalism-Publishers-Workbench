@@ -11,9 +11,9 @@
 
 export HERE=`pwd`
 pushd ~/local/src
-export VERSION=5.0.4
+export VERSION=6.0
 export WHERE=http://downloads.sourceforge.net/project/pdq-qnm-pkg/PDQ%20source/${VERSION}
-export WHAT=pdq-${VERSION}.tar.gz
+export WHAT=PDQ-${VERSION}.tar.gz
 curl -L ${WHERE}/${WHAT} > ${WHAT}
 export DIR=pdq
 sudo rm -fr ${DIR}
