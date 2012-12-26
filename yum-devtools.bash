@@ -13,7 +13,6 @@ echo "Enabling repositories"
 sudo yum-config-manager --enable \*
 sudo yum-config-manager --enable \*debuginfo\*
 sudo yum-config-manager --disable \*source\*
-yum repolist all
 
 echo "Installing basic development tools"
 sudo yum install -y \
