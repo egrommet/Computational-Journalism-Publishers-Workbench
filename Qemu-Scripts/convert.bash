@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash -v
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -8,9 +8,8 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-for i in vmdk vdi vpc
-do
-  echo "sudo qmeu-img convert -O ${i} $1.qcow2 $1.${i}"
-  sudo qemu-img convert -O ${i} $1.qcow2 $1.${i}
-done
+/usr/bin/time sudo qemu-img convert -O vmdk -o compat6 $1.qcow2 $1.vmdk
+/usr/bin/time sudo qemu-img convert -O vdi $1.qcow2 $1.vdi
+/usr/bin/time sudo qemu-img convert -O vpc $1.qcow2 $1.vpc
+qemu-info $1.*
 ls -l $1.*
