@@ -19,8 +19,11 @@ redis-server ./redis.conf & # start the server
 if [ -e "/usr/bin/yum" -o -e "/usr/bin/apt-get" ]
 then
   export PID=`pgrep redis-server`
+  echo "PID=${PID}"
   export KERNEL=`uname -r`
+  echo "KERNEL=${KERNEL}"
   export VMLINUX=`locate vmlinux|grep debug|grep ${KERNEL}`
+  echo "VMLINUX=${VMLINUX}"
 
   operf \
     --events CPU_CLK_UNHALTED:200000:0:1:1 \
