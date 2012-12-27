@@ -16,7 +16,6 @@ sudo yum-config-manager --disable \*source\*
 
 echo "Installing basic development tools"
 sudo yum install -y \
-  powertop \
   patch \
   curl \
   wget \
