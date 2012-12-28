@@ -15,6 +15,9 @@ iostat -cdmxt -p ALL 1 > iostat.log & # start data collector
 ../Profiling/log-pmaps.bash 1 redis-server > pmaps.log & # process maps
 redis-server ./redis.conf & # start the server
 
+echo 'Waiting 15 seconds for Redis server to start up'
+sleep 15 # give server time to stabilize
+
 # Fedora, Ubuntu or Linux Mint
 if [ -e "/usr/bin/yum" -o -e "/usr/bin/apt-get" ]
 then
@@ -40,9 +43,6 @@ else
   sudo cpupower frequency-set -r -g performance
   cpupower frequency-info
 fi
-
-echo 'Waiting 15 seconds for Redis server to start up'
-sleep 15 # give server time to stabilize
 
 # default params
 #redis-benchmark -c 50 -n 10000 -q --csv | tee redis-benchmark.csv
