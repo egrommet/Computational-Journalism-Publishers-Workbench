@@ -8,8 +8,10 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-for i in qcow2 vdi vpc
+export FROM=qcow2
+for i in vmdk vdi vpc
 do
-  /usr/bin/time qemu-img convert -O ${i} $1.vmdk $1.${i}
-  qemu-info $1.${i}
+  echo "/usr/bin/time qemu-img convert -O ${i} $1.${FROM} $1.${i}"
+  /usr/bin/time qemu-img convert -O ${i} $1.${FROM} $1.${i}
+  qemu-img info $1.${i}
 done
