@@ -10,11 +10,6 @@
 #
 
 sudo apt-get install -y \
-  oprofile \
-  oprofile-gui \
   python-dev \
   libdate-manip-perl \
   sysstat
-
-# install the (huge) kernel debug symbols package
-./apt-get-vmlinux.bash

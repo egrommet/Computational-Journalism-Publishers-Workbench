@@ -10,14 +10,7 @@
 #
 
 sudo yum install -y \
-  oprofile-gui \
-  oprofile-jit \
-  kernel-debuginfo \
   python-devel \
   sysstat \
   perl-Date-Manip \
   perl-ExtUtils-MakeMaker
-
-sudo updatedb
-locate vmlinux
-
