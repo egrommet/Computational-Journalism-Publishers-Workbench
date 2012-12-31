@@ -10,6 +10,9 @@
 #
 
 sudo yum install -y \
+  python-mechanize \
+  rubygem-mechanize \
+  perl-WWW-Mechanize \
   ImageMagick \
   ImageMagick-doc \
   GraphicsMagick \
