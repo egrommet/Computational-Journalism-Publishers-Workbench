@@ -10,6 +10,10 @@
 #
 
 sudo apt-get install -y \
+  libwww-mechanize-gzip-perl \
+  libwww-mechanize-perl \
+  python-mechanize \
+  ruby-mechanize \
   imagemagick \
   imagemagick-doc \
   graphicsmagick \
