@@ -11,6 +11,8 @@
 
 echo "Installing basic development tools"
 sudo zypper install -y \
+  findutils-locate \
+  command-not-found \
   cpupower \
   patch \
   curl \
