@@ -13,11 +13,16 @@ echo "Adding repositories as 'root'"
 echo "You will need to authenticate"
 sudo zypper addrepo -cf \
   http://download.opensuse.org/repositories/Documentation:/Tools/openSUSE_12.2/Documentation:Tools.repo # Tesseract lives here
+sudo zypper addrepo -cf \
+  http://download.opensuse.org/repositories/devel:/languages:/ruby:/extensions/openSUSE_12.2/devel:languages:ruby:extensions.repo # Ruby Mechanize
 
 echo "Answer 'a' to 'Do you want to reject the key, trust temporarily, or trust always?' below."
 sudo zypper --gpg-auto-import-keys refresh 
 
 sudo zypper install -y \
+  perl-WWW-Mechanize \
+  python-mechanize \
+  rubygem-mechanize \
   ImageMagick \
   ImageMagick-doc \
   ImageMagick-extra \
