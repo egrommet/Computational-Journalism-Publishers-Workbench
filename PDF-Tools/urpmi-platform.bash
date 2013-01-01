@@ -10,6 +10,10 @@
 #
 
 sudo urpmi --auto --no-suggests \
+  python-mechanize \
+  ruby-mechanize \
+  perl-WWW-Mechanize \
+  perl-WWW-Mechanize-GZip \
   imagemagick \
   imagemagick-doc \
   graphicsmagick \
