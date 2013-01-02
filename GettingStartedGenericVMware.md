@@ -23,12 +23,13 @@
 1. Install Linux to the virtual machine as described in the documentation for the Linux distribution.
 1. When the install is finished, it will ask you to reboot. Reboot the system.
 1. Log in as the non-root user you created during the install. Open the distribution's software update application and install all the required updates. ***Do not skip this step!*** The update will take quite a while. At several points in the update, you may be asked about configuration files. Just press 'Enter' if this happens. When the software update finishes, ***reboot the virtual machine even if it didn't ask you to do so.***
+1. 'bash completion': The terminal application on Linux puts you in a program called the 'Bourne Again SHell (bash)'. This has a nifty feature called 'bash completion'. You can type the first part of a command or file name and press the 'Tab' key, and 'bash' will type the rest for you! If there's more than one possibility, you'll see them listed. Try it on the 'cd' command given below.
 1. Log in as the non-root user you created during the install. Open the distribution's software package installer and install 'git'. Then, open a terminal window and type
 
     ```
     $ git clone https://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
-    $ git checkout v1.1.1
+    $ git checkout v1.2.0
     $ ./install-devtools.bash
     $ ./install-desktop.bash
     $ ./remove-guest-tools.bash

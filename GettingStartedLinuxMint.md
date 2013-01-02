@@ -9,13 +9,14 @@
 1. Start the virtual machine and install Linux Mint to it.
 1. When the install is finished, it will ask you to reboot. The system will pause during the reboot and ask you to remove the ISO file from the virtual CD drive. Do 'Devices -> CD/DVD Devices -> Remove disk from virtual drive' and then press 'Enter'.
 1. Log in as the non-root user you created during the install. Open the 'Software Update' application and install all the required updates. The update will take quite a while. At several points in the update, you may be asked about configuration files. Just press 'Enter' if this happens. When it finishes, reboot the virtual machine even if it didn't ask you to do so.
+1. 'bash completion': The terminal application on Linux puts you in a program called the 'Bourne Again SHell (bash)'. This has a nifty feature called 'bash completion'. You can type the first part of a command or file name and press the 'Tab' key, and 'bash' will type the rest for you! If there's more than one possibility, you'll see them listed. Try it on the 'cd' command given below.
 1. Log in as the non-root user you created during the install. Open a terminal and type
 
     ```
     $ sudo apt-get install -y git  
     $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
-    $ git checkout v1.1.1
+    $ git checkout v1.2.0
     $ ./install-devtools.bash
     $ ./install-desktop.bash
     $ ./remove-guest-tools.bash

@@ -1,4 +1,4 @@
-## Quick Start - Fedora 17 "Beefy Miracle" / Fedora 18 "Spherical Cow" on VirtualBox
+## Quick Start - Fedora 17 "Beefy Miracle" on VirtualBox
 
 1. System requirements: You'll need a Windows, Macintosh or Linux desktop/laptop with at least 3 GB of RAM. You will also need reliable wall power and a reliable Internet connection.
 1. Download and install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads).
@@ -10,13 +10,14 @@
 1. When the install is finished, it will ask you to reboot. Instead of rebooting, power off the virtual machine. Once the machine has shut down, go into the 'Settings -> Storage' menu and remove the ISO file from the virtual CD/DVD drive. Then start the virtual machine up again.
 1. You will need to do some more setup. On the first setup screen, press the 'Forward' button. Press 'Forward' again on the second screen. On the third screen, create a user and add the user to the Administrators group, then press 'Forward'. On the 'Date and Time' screen, check the box labelled 'Synchronize date and time over the network' and press 'Forward'. On the final screen, just press 'Finish'. You will get an annoying dialog asking you if you are sure. Press 'No, do not send'.
 1. Log in as the non-root user you created during the install. Open the 'Software Update' application and install all the required updates. This will take some time. When it finishes, reboot the virtual machine even if it didn't ask you to do so.
+1. 'bash completion': The terminal application on Linux puts you in a program called the 'Bourne Again SHell (bash)'. This has a nifty feature called 'bash completion'. You can type the first part of a command or file name and press the 'Tab' key, and 'bash' will type the rest for you! If there's more than one possibility, you'll see them listed. Try it on the 'cd' command given below.
 1. When the virtual machine comes back up, log in again. Open a terminal and type
 
     ```
     $ sudo yum install -y git  
     $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
-    $ git checkout v1.1.1
+    $ git checkout v1.2.0
     $ ./install-devtools.bash
     $ ./install-desktop.bash
     ```

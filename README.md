@@ -1,16 +1,17 @@
-## Computational Journalism Publishers Workbench 1.0.0 Released!
+## Computational Journalism Publishers Workbench 1.2.0 Released!
 
 ## Quick Start
 * [Quick Start - Fedora 17](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
 * [Quick Start - Linux Mint 14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
+* [Quick Start - Generic VMware](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md)
 
 ## What's New?
 1. Now builds on the [five most popular Linux distributions](http://distrowatch.com/dwres.php?resource=popularity)
     * [Linux Mint 13+](http://linuxmint.com/)
     * [Ubuntu 12.04+](http://www.ubuntu.com/)
-    * [Mageia 2+](http://www.mageia.org/en/)
+    * [Mageia 2](http://www.mageia.org/en/)
     * [Fedora 17+](https://fedoraproject.org/)
-    * [openSUSE 12.2+](http://www.opensuse.org/en/)
+    * [openSUSE 12.2](http://www.opensuse.org/en/)
 1. Now works with all major Linux desktops
     * [GNOME](http://www.gnome.org/)
     * [KDE](http://www.kde.org/)
@@ -19,7 +20,7 @@
     * [MATE](http://mate-desktop.org/)
     * [Cinnamon](http://cinnamon.linuxmint.com/)
     * [Unity](http://unity.ubuntu.com/)
-1. Runs on bare metal or as a guest virtual machine with VirtualBox or Virtual Machine Manager / qemu-kvm hosts
+1. Runs on bare metal or as a guest virtual machine with VirtualBox, VMware Player / Workstation, Virtual Machine Manager / qemu-kvm or Windows 8 Pro Client Hyper-V hosts
 1. New applications:
     * Redis 2.6 with Perl, Ruby and R client libraries
     * Perl, Ruby and R Twitter API libraries
