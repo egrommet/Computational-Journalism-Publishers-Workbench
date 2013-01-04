@@ -13,10 +13,10 @@ source ~/.bash_profile
 ./cleanup.bash # start with a clean slate
 iostat -cdmxt -p ALL 1 > iostat.log & # start data collector
 ../Profiling/log-pmaps.bash 1 redis-server > pmaps.log & # process maps
-redis-server ./redis.conf & # start the server
+/usr/bin/time redis-server ./redis.conf & # start the server
 
 echo 'Waiting 15 seconds for Redis server to start up'
-sleep 15 # give server time to stabilize
+sleep 15
 
 # Fedora, Ubuntu or Linux Mint
 if [ -e "/usr/bin/yum" -o -e "/usr/bin/apt-get" ]
@@ -33,6 +33,8 @@ then
     --lazy-conversion \
     --vmlinux=${VMLINUX} \
     --pid=${PID} &
+  echo 'Waiting 15 seconds for operf to start up'
+  sleep 15
 fi
 
 if [ -e "/usr/bin/apt-get" ] # Linux Mint / Ubuntu have cpufreq, not cpupower
@@ -45,10 +47,15 @@ else
 fi
 
 # default params
-#redis-benchmark -c 50 -n 10000 -q --csv | tee redis-benchmark.csv
-redis-benchmark -c 50 -n 100000 -P 1000 -q --csv | tee redis-benchmark.csv
-redis-cli < slowlog.cmd > slowlog.log
-./parse-slowlog.pl slowlog.log > slowlog.csv
+#redis-benchmark -c 50 -n 10000 -P 1 -q --csv >> redis-benchmark.csv
+for i in 1 2 3 4 5 6 7 8 9 10
+do
+  echo "Begin Pass ${i}"
+  redis-benchmark -c 50 -n 10000 -P 1 -q --csv >> redis-benchmark.csv
+  redis-cli < flushall.cmd
+  echo "End Pass ${i}"
+done
+
 pkill redis-server
 pkill log-pmaps
 
