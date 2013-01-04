@@ -48,12 +48,16 @@ fi
 
 # default params
 #redis-benchmark -c 50 -n 10000 -P 1 -q --csv >> redis-benchmark.csv
-for i in 1 2 3 4 5 6 7 8 9 10
+for j in 0 1 2
 do
-  echo "Begin Pass ${i}"
-  redis-benchmark -c 50 -n 20000 -P 200 -q --csv >> redis-benchmark.csv
-  redis-cli < flushall.cmd
-  echo "End Pass ${i}"
+  for i in 0 1 2 3 4 5 6 7 8 9
+  do
+    echo "Begin Pass ${j}${i}"
+    /usr/bin/time redis-benchmark -c 50 -n 20000 -P 200 -q --csv \
+      >> redis-benchmark.csv
+    redis-cli < flushall.cmd
+    echo "End Pass ${j}${i}"
+  done
 done
 
 pkill redis-server
