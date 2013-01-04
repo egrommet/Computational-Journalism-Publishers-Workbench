@@ -15,8 +15,8 @@ iostat -cdmxt -p ALL 1 > iostat.log & # start data collector
 ../Profiling/log-pmaps.bash 1 redis-server > pmaps.log & # process maps
 /usr/bin/time redis-server ./redis.conf & # start the server
 
-echo 'Waiting 15 seconds for Redis server to start up'
-sleep 15
+echo 'Waiting 5 seconds for Redis server to start up'
+sleep 5
 
 # Fedora, Ubuntu or Linux Mint
 if [ -e "/usr/bin/yum" -o -e "/usr/bin/apt-get" ]
@@ -33,8 +33,8 @@ then
     --lazy-conversion \
     --vmlinux=${VMLINUX} \
     --pid=${PID} &
-  echo 'Waiting 15 seconds for operf to start up'
-  sleep 15
+  echo 'Waiting 5 seconds for operf to start up'
+  sleep 5
 fi
 
 if [ -e "/usr/bin/apt-get" ] # Linux Mint / Ubuntu have cpufreq, not cpupower
@@ -51,7 +51,7 @@ fi
 for i in 1 2 3 4 5 6 7 8 9 10
 do
   echo "Begin Pass ${i}"
-  redis-benchmark -c 50 -n 10000 -P 1 -q --csv >> redis-benchmark.csv
+  redis-benchmark -c 50 -n 20000 -P 200 -q --csv >> redis-benchmark.csv
   redis-cli < flushall.cmd
   echo "End Pass ${i}"
 done
@@ -59,8 +59,8 @@ done
 pkill redis-server
 pkill log-pmaps
 
-echo 'Waiting 15 seconds for Redis server to shut down'
-sleep 15 # give server time to shut down
+echo 'Waiting 5 seconds for Redis server to shut down'
+sleep 5 # give server time to shut down
 pkill iostat
 ../Profiling/parse-iostat.pl iostat.log
 
@@ -68,8 +68,8 @@ pkill iostat
 if [ -e "/usr/bin/yum" -o -e "/usr/bin/apt-get" ]
 then
   pkill --signal SIGINT operf
-  echo 'Waiting 15 seconds for operf to shut down'
-  sleep 15
+  echo 'Waiting 5 seconds for operf to shut down'
+  sleep 5
   opreport --accumulated --debug-info --symbols --sort sample \
     -o opreport.txt
   opreport --accumulated --debug-info --symbols --sort sample \
