@@ -46,7 +46,7 @@ fi
 
 # default params
 #redis-benchmark -c 50 -n 10000 -q --csv | tee redis-benchmark.csv
-redis-benchmark -c 50 -n 100000 -q --csv | tee redis-benchmark.csv
+redis-benchmark -c 50 -n 100000 -P 1000 -q --csv | tee redis-benchmark.csv
 redis-cli < slowlog.cmd > slowlog.log
 ./parse-slowlog.pl slowlog.log > slowlog.csv
 pkill redis-server
