@@ -1,0 +1,11 @@
+--- /home/znmeb/local/src/redis-2.6.7/src/redis-benchmark.c	2013-01-05 18:33:14.386759215 -0800
++++ ./redis-benchmark.c	2013-01-05 18:35:42.663927555 -0800
+@@ -335,7 +335,7 @@
+         }
+         printf("%.2f requests per second\n\n", reqpersec);
+     } else if (config.csv) {
+-        printf("\"%s\",\"%d\",\"%d\",\"%.3f\"\n", config.title, 
++        printf("\"%s\",\"%d\",\"%lld\",\"%.3f\"\n", config.title, 
+             config.requests_finished, config.totlatency, reqpersec);
+     } else {
+         printf("%s: %.2f requests per second\n", config.title, reqpersec);

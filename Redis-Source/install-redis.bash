@@ -9,6 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+export HERE=`pwd`
 pushd ${HOME}/local/src/
 export WHERE=http://redis.googlecode.com/files
 export VERSION=`curl http://redis.io/download/|grep '\.tar\.gz'|head -n 1|sed 's/^.*redis-'//|sed 's/\.tar\.gz.*$//'`
@@ -18,5 +19,6 @@ export WHAT=${DIR}.tar.gz
 curl ${WHERE}/${WHAT} > ${WHAT}
 tar xf ${WHAT}
 cd ${DIR}
+patch -b src/redis-benchmark.c ${HERE}/redis-benchmark.patch
 make PREFIX=${HOME}/local install
 popd
