@@ -11,9 +11,5 @@
 
 echo "Installing desktop add-ons"
 sudo yum install -y \
-  lightdm \
-  system-switch-displaymanager \
-  system-switch-displaymanager-gnome \
   firefox \
   vim-X11
-sudo system-switch-displaymanager lightdm
