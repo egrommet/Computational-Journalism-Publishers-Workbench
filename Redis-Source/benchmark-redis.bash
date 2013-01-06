@@ -48,13 +48,21 @@ fi
 
 # default params
 #redis-benchmark -c 50 -n 10000 -P 1 -q --csv >> redis-benchmark.csv
-for j in 0 1
+for j in 0
 do
   for i in 0 1 2 3 4 5 6 7 8 9
   do
     echo "Begin Pass ${j}${i}"
-    /usr/bin/time redis-benchmark -c 50 -n 2500000 -P 200 -q --csv \
+    /usr/bin/time redis-benchmark -c 50 -n 2000000 -P 200 -q --csv \
       -t ping,set,get,incr,lpush,lpop,sadd,spop \
+      >> redis-benchmark.csv
+    redis-cli < flushall.cmd
+    /usr/bin/time redis-benchmark -c 50 -n 50000 -P 200 -q --csv \
+      -t lrange \
+      >> redis-benchmark.csv
+    redis-cli < flushall.cmd
+    /usr/bin/time redis-benchmark -c 50 -n 1000000 -P 200 -q --csv \
+      -t mset \
       >> redis-benchmark.csv
     redis-cli < flushall.cmd
     echo "End Pass ${j}${i}"
