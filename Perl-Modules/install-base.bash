@@ -25,6 +25,8 @@ cpan < config.cpan 2>&1 | tee config.log # do the autoconfig
 for i in \
   CPAN \
   Module::Install \
+  Module::Install::Repository \
+  Module::Install::AutoManifest \
   Carp::Clan \
   Net::Twitter \
   AnyEvent::Twitter::Stream \

@@ -16,7 +16,6 @@ rm -fr Net-Twitter
 git clone git://github.com/semifor/Net-Twitter.git
 cd Net-Twitter
 git checkout api-v1.1
-patch -b Makefile.PL ${HERE}/Makefile.PL.patch
 perl Makefile.PL
 make
 make test
