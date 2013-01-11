@@ -16,4 +16,7 @@ git clone git://github.com/semifor/Net-Twitter.git
 cd Net-Twitter
 git checkout api-v1.1
 perl Makefile.PL
+make
+make test
+make install
 popd
