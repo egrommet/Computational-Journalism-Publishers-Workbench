@@ -48,7 +48,7 @@ fi
 
 # default params
 #redis-benchmark -c 50 -n 10000 -P 1 -q --csv >> redis-benchmark.csv
-for j in 0
+for j in 0 1 2
 do
   for i in 0 1 2 3 4 5 6 7 8 9
   do
