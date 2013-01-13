@@ -11,6 +11,7 @@
 
 # Packages
 sudo yum install -y \
+  python-nltk \
   wordnet \
   wordnet-devel
 
