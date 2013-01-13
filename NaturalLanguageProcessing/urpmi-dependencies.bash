@@ -11,5 +11,6 @@
 
 # Packages
 sudo urpmi --auto --no-suggests \
+  python-nltk \
   wordnet \
   libwordnet-devel
