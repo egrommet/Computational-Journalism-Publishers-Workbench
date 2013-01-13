@@ -11,6 +11,7 @@
 
 # Packages
 sudo apt-get install -y \
+  python-nltk \
   wordnet \
   wordnet-base \
   wordnet-dev \
