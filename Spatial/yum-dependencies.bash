@@ -10,6 +10,15 @@
 #
 
 sudo yum install -y \
+  qgis \
+  qgis-devel \
+  qgis-grass \
+  qgis-mapserver \
+  qgis-python \
+  postgis-docs \
+  postgis-utils \
+  pgRouting \
+  postgis \
   geos-devel \
   proj-devel \
   proj-epsg \
