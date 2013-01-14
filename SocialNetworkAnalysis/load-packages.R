@@ -1,0 +1,19 @@
+install.packages(c(
+  'latentnet', 
+  'degreenet', 
+  'abind', 
+  'shapes',
+  'network',
+  'numDeriv',
+  'sna',
+  'networksis',
+  'igraphtosonia',
+  'relevent',
+  'hergm',
+  'SparseM',
+  'igraph'),
+  repos=c(
+    'http://ftp.osuosl.org/pub/cran'
+  )
+)
+warnings()
