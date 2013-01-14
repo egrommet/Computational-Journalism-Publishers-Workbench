@@ -18,7 +18,4 @@ then
 elif [ -e "/usr/bin/zypper" ]
 then
   ./zypper-updateos.bash 2>&1 | tee updateos.log
-elif [ -e "/usr/sbin/urpmi" ]
-then
-  ./urpmi-updateos.bash 2>&1 | tee updateos.log
 fi

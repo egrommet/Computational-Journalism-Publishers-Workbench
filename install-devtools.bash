@@ -39,7 +39,4 @@ then
 elif [ -e "/usr/bin/zypper" ]
 then
   ./zypper-devtools.bash 2>&1 | tee devtools.log
-elif [ -e "/usr/sbin/urpmi" ]
-then
-  ./urpmi-devtools.bash 2>&1 | tee devtools.log
 fi

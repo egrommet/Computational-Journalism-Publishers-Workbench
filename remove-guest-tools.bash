@@ -18,7 +18,4 @@ then
 elif [ -e "/usr/bin/zypper" ]
 then
   ./zypper-remove-guest-tools.bash
-elif [ -e "/usr/sbin/urpmi" ]
-then
-  ./urpmi-remove-guest-tools.bash
 fi

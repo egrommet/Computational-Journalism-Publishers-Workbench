@@ -20,7 +20,4 @@ then
 elif [ -e "/usr/bin/zypper" ]
 then
   ./zypper-platform.bash
-elif [ -e "/usr/sbin/urpmi" ]
-then
-  ./urpmi-platform.bash
 fi

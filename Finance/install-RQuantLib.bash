@@ -21,9 +21,6 @@ then
 elif [ -e "/usr/bin/zypper" ]
 then
   ./zypper-quantlib.bash
-elif [ -e "/usr/sbin/urpmi" ]
-then
-  ./urpmi-quantlib.bash
 fi
 
 /usr/bin/time R --no-save --no-restore < load-RQuantLib.R

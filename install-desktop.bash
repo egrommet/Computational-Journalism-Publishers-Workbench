@@ -20,7 +20,4 @@ then
 elif [ -e "/usr/bin/zypper" ]
 then
   ./zypper-desktop.bash 2>&1 | tee desktop.log
-elif [ -e "/usr/sbin/urpmi" ]
-then
-  ./urpmi-desktop.bash 2>&1 | tee desktop.log
 fi

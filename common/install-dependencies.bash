@@ -20,7 +20,4 @@ then
 elif [ -e "/usr/bin/zypper" ]
 then
   ./zypper-dependencies.bash
-elif [ -e "/usr/sbin/urpmi" ]
-then
-  ./urpmi-dependencies.bash
 fi
