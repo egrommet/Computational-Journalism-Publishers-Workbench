@@ -12,13 +12,6 @@
 sudo apt-get install -y \
   pgadmin3 \
   postgis \
-  qgis \
-  qgis-api-doc \
-  qgis-mapserver \
-  qgis-plugin-grass \
-  qgis-providers \
-  mapserver-doc \
   libproj-dev \
   libgdal1-dev \
   libnetcdf-dev
-  python-qgis \
