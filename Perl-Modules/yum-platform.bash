@@ -10,6 +10,7 @@
 #
 
 sudo yum install -y \
+  perl-Padre \
   perl-CPAN \
   perl-Module-Build \
   perl-YAML \
