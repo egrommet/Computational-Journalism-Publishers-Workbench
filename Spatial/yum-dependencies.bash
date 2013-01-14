@@ -15,6 +15,7 @@ sudo yum install -y \
   qgis-grass \
   qgis-mapserver \
   qgis-python \
+  pgadmin3 \
   postgis-docs \
   postgis-utils \
   pgRouting \
