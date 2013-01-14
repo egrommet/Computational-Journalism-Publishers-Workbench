@@ -11,13 +11,15 @@
 
 echo "Adding repositories as 'root'"
 echo "You will need to authenticate"
-sudo zypper addrepo -cf --gpg-auto-import-keys \
+sudo zypper addrepo -cf \
   http://download.opensuse.org/repositories/Application:/Geo/openSUSE_12.2/Application:Geo.repo # gdal and friends
 
 echo "Answer 'a' to 'Do you want to reject the key, trust temporarily, or trust always?' below."
 sudo zypper --gpg-auto-import-keys refresh
 
 sudo zypper install -y \
+  postgis \
+  pgadmin3 \
   netcdf-devel \
   proj \
   gdal \
