@@ -10,12 +10,6 @@
 #
 
 sudo yum install -y \
-  qgis \
-  qgis-devel \
-  qgis-grass \
-  qgis-mapserver \
-  qgis-python \
-  mapserver \
   pgadmin3 \
   postgis-docs \
   postgis-utils \
