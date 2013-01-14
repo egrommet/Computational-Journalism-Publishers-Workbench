@@ -10,6 +10,7 @@
 #
 
 sudo urpmi --auto --no-suggests \
+  padre \
   perl-devel \
   perl-Crypt-SSLeay \
   perl-Net-SSLeay \
