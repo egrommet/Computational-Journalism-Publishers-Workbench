@@ -16,6 +16,7 @@ sudo apt-get install -y \
   qgis-mapserver \
   qgis-plugin-grass \
   qgis-providers \
+  mapserver-doc \
   libproj-dev \
   libgdal1-dev \
   libnetcdf-dev
