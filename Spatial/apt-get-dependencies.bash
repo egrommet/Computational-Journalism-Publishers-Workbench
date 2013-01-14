@@ -10,6 +10,13 @@
 #
 
 sudo apt-get install -y \
+  postgis \
+  qgis \
+  qgis-api-doc \
+  qgis-mapserver \
+  qgis-plugin-grass \
+  qgis-providers \
   libproj-dev \
   libgdal1-dev \
   libnetcdf-dev
+  python-qgis \
