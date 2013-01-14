@@ -21,6 +21,12 @@
 #
 
 sudo urpmi --auto --no-suggests \
+  pgadmin3 \
+  postgis \
+  mapserver \
+  qgis \
+  qgis-grass \
+  qgis-python \
   libgeos-devel \
   proj \
   libproj-devel \
