@@ -15,7 +15,4 @@ then
 elif [ -e "/usr/bin/yum" ]
 then
   ./yum-remove-guest-tools.bash
-elif [ -e "/usr/bin/zypper" ]
-then
-  ./zypper-remove-guest-tools.bash
 fi

@@ -17,7 +17,4 @@ then
 elif [ -e "/usr/bin/yum" ]
 then
   ./yum-platform.bash
-elif [ -e "/usr/bin/zypper" ]
-then
-  ./zypper-platform.bash
 fi

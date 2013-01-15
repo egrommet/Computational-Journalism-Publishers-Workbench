@@ -17,7 +17,4 @@ then
 elif [ -e "/usr/bin/yum" ]
 then
   ./yum-dependencies.bash
-elif [ -e "/usr/bin/zypper" ]
-then
-  ./zypper-dependencies.bash
 fi
