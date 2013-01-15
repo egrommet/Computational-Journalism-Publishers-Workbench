@@ -9,6 +9,7 @@
 #
 install.packages(
   c(
+    'RPostgreSQL',
     'RSclient',
     'Rserve',
     'RUnit',
