@@ -11,6 +11,7 @@
 
 echo "Installing basic development tools"
 sudo zypper install -y \
+  bash-completion \
   findutils-locate \
   command-not-found \
   cpupower \

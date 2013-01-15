@@ -14,6 +14,7 @@ sudo zypper install -y \
   postgresql \
   postgresql-contrib \
   postgresql-devel \
+  postgresql-docs \
   postgresql-plperl \
   postgresql-plpython \
   postgresql-server
