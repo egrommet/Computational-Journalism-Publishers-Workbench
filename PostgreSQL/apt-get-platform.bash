@@ -12,8 +12,9 @@
 sudo apt-get install -y \
   pgadmin3 \
   postgresql \
+  postgresql-client \
   postgresql-contrib \
-  postgresql-devel \
+  postgresql-doc \
   postgresql-plperl \
   postgresql-plpython \
-  postgresql-server
+  postgresql-server-dev-all
