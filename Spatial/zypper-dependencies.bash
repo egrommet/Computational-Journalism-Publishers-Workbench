@@ -19,7 +19,6 @@ sudo zypper --gpg-auto-import-keys refresh
 
 sudo zypper install -y \
   postgis \
-  pgadmin3 \
   netcdf-devel \
   proj \
   gdal \

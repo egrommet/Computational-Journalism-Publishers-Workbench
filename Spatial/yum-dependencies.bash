@@ -10,7 +10,6 @@
 #
 
 sudo yum install -y \
-  pgadmin3 \
   postgis-docs \
   postgis-utils \
   pgRouting \

@@ -10,7 +10,6 @@
 #
 
 sudo apt-get install -y \
-  pgadmin3 \
   postgis \
   libproj-dev \
   libgdal1-dev \
