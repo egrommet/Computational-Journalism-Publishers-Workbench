@@ -11,9 +11,7 @@
 
 # Packages
 sudo yum install -y \
-  rasqal \
   raptor \
-  redland \
   python-nltk \
   wordnet \
   wordnet-devel

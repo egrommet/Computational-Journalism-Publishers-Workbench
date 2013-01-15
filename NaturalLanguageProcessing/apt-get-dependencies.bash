@@ -11,13 +11,9 @@
 
 # Packages
 sudo apt-get install -y \
-  libraptor1-doc \
-  libraptor1-dev \
-  raptor-utils \
-  librasqal3-dev \
-  librasqal3-doc \
-  rasqal-utils \
-  redland-utils \
+  libraptor2-doc \
+  libraptor2-dev \
+  raptor2-utils \
   python-nltk \
   wordnet \
   wordnet-base \
