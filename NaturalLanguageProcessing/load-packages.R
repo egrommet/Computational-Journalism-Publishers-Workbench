@@ -12,7 +12,7 @@ install.packages(
   c(
     'RDF',
     'rrdf'
-  )
+  ),
   repos='http://cran.fhcrc.org'
 )
 warnings()
