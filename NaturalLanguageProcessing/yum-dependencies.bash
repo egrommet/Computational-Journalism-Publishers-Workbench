@@ -11,6 +11,7 @@
 
 # Packages
 sudo yum install -y \
+  raptor2 \
   raptor2-devel \
   python-nltk \
   wordnet \
