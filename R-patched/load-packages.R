@@ -10,6 +10,10 @@
 install.packages(
   c(
     'RPostgreSQL',
+    'filehash',
+    'filehashSQLite',
+    'RSQLite',
+    'RSQLite.extfuns',
     'RSclient',
     'Rserve',
     'RUnit',
