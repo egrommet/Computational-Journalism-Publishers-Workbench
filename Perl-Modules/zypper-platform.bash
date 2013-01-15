@@ -9,7 +9,16 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+echo "Adding repositories as 'root'"
+echo "You will need to authenticate"
+sudo zypper addrepo -cf \
+  http://download.opensuse.org/repositories/home:/illuusio/openSUSE_12.2/home:illuusio.repo # Padre
+
+echo "Answer 'a' to 'Do you want to reject the key, trust temporarily, or trust always?' below."
+sudo zypper --gpg-auto-import-keys refresh
+
 sudo zypper install -y \
+  padre \
   perl-Crypt-SSLeay \
   perl-Net-SSLeay \
   perl-YAML \
