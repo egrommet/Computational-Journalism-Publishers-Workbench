@@ -1,6 +1,5 @@
 install.packages(c(
   'latentnet', 
-  'degreenet', 
   'abind', 
   'shapes',
   'network',
