@@ -14,12 +14,6 @@ sudo yum install -y \
   rasqal \
   raptor \
   redland \
-  redland-virtuoso \
-  virtuoso-opensource \
-  virtuoso-opensource-apps \
-  virtuoso-opensource-conductor \
-  virtuoso-opensource-doc \
-  virtuoso-opensource-utils \
   python-nltk \
   wordnet \
   wordnet-devel
