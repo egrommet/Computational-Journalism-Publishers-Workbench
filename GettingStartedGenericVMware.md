@@ -4,14 +4,11 @@
 1. Download and install [VMware Player](http://www.vmware.com/products/player/).
 1. Download a Linux install ISO image. You do ***not*** need to burn this image file to a CD/DVD or copy it to a USB drive. Supported Linux distributions are currently
 
-    * [Fedora Linux 17 and 18 Beta](https://fedoraproject.org/)<br>
-    * [Linux Mint 13 and later](http://www.linuxmint.com/oldreleases.php)<br>
-    * [openSUSE 12.1](http://software.opensuse.org/122/en)<br>
-    * [Mageia 2](http://www.mageia.org/en/downloads/)<br>
-    * [Ubuntu 12.04 and later](http://www.ubuntu.com/download)<br>
+    * [Fedora Linux 18](https://fedoraproject.org/)<br>
+    * [Linux Mint 14](http://www.linuxmint.com/oldreleases.php)<br>
 1. Start up VMware Player. Press the 'Create a New Virtual Machine' button.
 1. In the first panel, choose 'I will install the operating system later.' and press 'Next'.
-1. Select 'Linux' for the guest operating system. Choose the version in the drop-down menu. For Linux Mint, choose 'Ubuntu' and for Mageia, choose 'Mandriva'. Then press 'Next'.
+1. Select 'Linux' for the guest operating system. Choose the version in the drop-down menu. For Linux Mint, choose 'Ubuntu'. Then press 'Next'.
 1. Choose a name for the virtual machine and press 'Next'.
 1. In the 'Disk Size' menu, create a 20 GB virtual hard drive and press 'Next'.
 1. In the next panel, just press 'Finish'. Press 'Close' in the final panel.
@@ -29,7 +26,7 @@
     ```
     $ git clone https://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
-    $ git checkout v1.2.0
+    $ git checkout v1.5.0
     $ ./install-devtools.bash
     $ ./install-desktop.bash
     $ ./remove-guest-tools.bash
