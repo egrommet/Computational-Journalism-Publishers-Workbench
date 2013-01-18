@@ -1,0 +1,38 @@
+---
+layout: page
+title: "Computational Journalism Publishers Workbench: Main Upstream Projects"
+date: 2012-11-25 19:43
+comments: true
+sharing: true
+footer: true
+---
+## Applications / Tools (all are available for Windows, Macintosh and Linux desktops/laptops)
+* [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [TeX Live](http://www.tug.org/texlive/acquire-netinstall.html)
+* [R Patched](ftp://ftp.stat.math.ethz.ch/Software/R/)
+* [R Studio](http://rstudio.org/download/)
+* [Shiny](http://www.rstudio.com/shiny/)
+* [R Commander](http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/)
+* [Rattle](http://rattle.togaware.com/)
+* [PostgreSQL](http://www.postgresql.org/)
+* [LyX](http://www.lyx.org/Download)
+* [Sigil](http://code.google.com/p/sigil/downloads/list)
+* [Calibre](http://calibre-ebook.com/download)
+* [FreeMind](http://freemind.sourceforge.net/wiki/index.php/Main_Page)
+* [Bluefish](http://bluefish.openoffice.nl/download.html)
+* [Google Refine](http://code.google.com/p/google-refine/)
+* [Maqetta](http://maqetta.org/)
+* [GGobi](http://www.ggobi.org/downloads/)
+* [Python Natural Language Toolkit](http://nltk.org/)
+* [WordNet](http://wordnet.princeton.edu/)
+* [Python NetworkX](http://networkx.lanl.gov/index.html)
+* [PostGIS](http://postgis.refractions.net/)
+
+## CRAN Task Views (most packages available for Windows, Macintosh and Linux desktops / laptops)
+* [Graphics](http://cran.cnr.berkeley.edu/web/views/Graphics.html)
+* [Reproducible Research](http://cran.cnr.berkeley.edu/web/views/ReproducibleResearch.html)
+* [Natural Language Processing](http://cran.cnr.berkeley.edu/web/views/NaturalLanguageProcessing.html)
+* [Analysis of Spatial Data](http://cran.cnr.berkeley.edu/web/views/Spatial.html)
+* [Empricial Finance](http://cran.cnr.berkeley.edu/web/views/Finance.html)
+* [Computational Econometrics](http://cran.cnr.berkeley.edu/web/views/Econometrics.html)
+* [Time Series Analysis](http://cran.cnr.berkeley.edu/web/views/TimeSeries.html)
