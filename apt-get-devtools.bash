@@ -15,7 +15,6 @@ sudo apt-get install -y \
   linux-doc \
   linux-source \
   linux-tools \
-  linux-image-generic \
   cpufrequtils \
   patch \
   curl \
@@ -23,6 +22,5 @@ sudo apt-get install -y \
   make \
   dkms \
   build-essential \
-  linux-headers-generic \
   gcc \
   vim
