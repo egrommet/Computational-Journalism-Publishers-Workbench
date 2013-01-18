@@ -1,17 +1,11 @@
-## Computational Journalism Publishers Workbench 1.2.0 Released!
+## Computational Journalism Publishers Workbench 1.5.0 Released!
 
 ## Quick Start
-* [Quick Start - Fedora 17](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
-* [Quick Start - Linux Mint 14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
 * [Quick Start - Generic VMware](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md)
+* [Quick Start - Fedora 18](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
+* [Quick Start - Linux Mint 14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
 
 ## What's New?
-1. Now builds on the [five most popular Linux distributions](http://distrowatch.com/dwres.php?resource=popularity)
-    * [Linux Mint 13+](http://linuxmint.com/)
-    * [Ubuntu 12.04+](http://www.ubuntu.com/)
-    * [Mageia 2](http://www.mageia.org/en/)
-    * [Fedora 17+](https://fedoraproject.org/)
-    * [openSUSE 12.2](http://www.opensuse.org/en/)
 1. Now works with all major Linux desktops
     * [GNOME](http://www.gnome.org/)
     * [KDE](http://www.kde.org/)
