@@ -1,7 +1,7 @@
 ## Computational Journalism Publishers Workbench 1.5.0 Released!
 
 ## Quick Start
-* [Quick Start - Generic VMware](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md)
+* [Quick Start - Fedora 18 or Linux Mint 14 on VMware Player](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md)
 * [Quick Start - Fedora 18](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
 * [Quick Start - Linux Mint 14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
 
