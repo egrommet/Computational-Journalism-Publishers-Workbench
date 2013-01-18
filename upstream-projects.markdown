@@ -1,11 +1,3 @@
----
-layout: page
-title: "Computational Journalism Publishers Workbench: Main Upstream Projects"
-date: 2012-11-25 19:43
-comments: true
-sharing: true
-footer: true
----
 ## Applications / Tools (all are available for Windows, Macintosh and Linux desktops/laptops)
 * [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [TeX Live](http://www.tug.org/texlive/acquire-netinstall.html)
