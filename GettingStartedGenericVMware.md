@@ -3,7 +3,6 @@
 1. System requirements: You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***There is no free VMware Player for Macintosh!*** You will also need reliable wall power and a reliable Internet connection.
 1. Download and install [VMware Player](http://www.vmware.com/products/player/).
 1. Download a Linux install ISO image. You do ***not*** need to burn this image file to a CD/DVD or copy it to a USB drive. Supported Linux distributions are currently
-
     * [Fedora Linux 18](https://fedoraproject.org/)<br>
     * [Linux Mint 14](http://www.linuxmint.com/oldreleases.php)<br>
 1. Start up VMware Player. Press the 'Create a New Virtual Machine' button.
