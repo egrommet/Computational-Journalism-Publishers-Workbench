@@ -10,22 +10,37 @@
 #
 
 sudo apt-get install -y \
-  gdal \
-  gdal-devel \
-  gdal-doc \
-  geos \
-  geos-devel \
+  dans-gdal-scripts \
+  gdal-bin \
+  libgdal-dev \
+  libgdal-doc \
+  qlandkartegt \
+  libgeos-dev \
+  libgeos-doc \
   grass \
-  netcdf-devel \
+  grass-dev \
+  grass-dev-doc \
+  grass-doc \
+  grass-gui \
+  libnetcdf-dev \
+  netcdf-bin \
+  netcdf-doc \
   osm2pgsql \
-  pgRouting \
   postgis \
-  postgis-docs \
-  postgis-utils \
-  proj \
-  proj-devel \
-  proj-epsg \
+  imposm \
+  proj-bin \
+  proj-data \
+  proj-ps-doc \
+  libproj-dev \
+  gpx2shp \
+  libqgis-dev \
   qgis \
-  qgis-grass \
-  spatialite-gui \
-  spatialite-tools
+  qgis-api-doc \
+  qgis-mapserver \
+  qgis-plugin-grass \
+  qgis-providers \
+  librasterlite-dev \
+  libspatialite-dev \
+  rasterlite-bin \
+  spatialite-bin \
+  spatialite-gui
