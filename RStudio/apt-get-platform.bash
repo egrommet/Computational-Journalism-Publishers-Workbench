@@ -10,8 +10,6 @@
 #
 
 source ~/.bash_profile
-
-# RStudio
 sudo apt-get install -y \
   build-essential \
   pkg-config \
