@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /bin/bash -v
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -8,5 +8,6 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
+
 sudo ./set-overcommit.bash
 sudo cp 60-redis.conf /etc/sysctl.d/
