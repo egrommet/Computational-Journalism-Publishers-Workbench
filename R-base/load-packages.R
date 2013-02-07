@@ -43,7 +43,6 @@ install.packages(
     'shiny',
     'markdown',
     'doRedis',
-    'RcmdrPlugin.TextMining',
     'tm',
     'tm.plugin.dc',
     'tm.plugin.mail'
