@@ -10,7 +10,7 @@
 #
 
 source ~/.bash_profile
-for i in dependencies packages extras
+for i in dependencies packages
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
