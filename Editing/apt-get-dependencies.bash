@@ -9,21 +9,55 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# Sigil
+# Editing packages
 sudo apt-get install -y \
-  pitivi \
+  audacity \
+  audacity-manual \
+  blender \
+  bluefish \
+  calibre \
+  cinepaint \
+  dia \
+  dia-gnomeDIAicons \
+  entangle \
+  fontforge \
+  fontmatrix \
+  freemind \
+  gimp \
+  gimp-data-extras \
+  gimp-devel-tools \
+  gimp-fourier-plugin \
+  gimp-help \
+  gimp-help-browser \
+  gimp-lqr-plugin \
+  gimp-resynthesizer \
+  GREYCstoration \
+  GREYCstoration-gimp \
   gtk-recordmydesktop \
+  ImageMagick \
+  inkscape \
+  inkscape-docs \
+  inkscape-sozi \
+  inkscape-view \
   intltool \
-  libxerces-c-dev \
-  libpcre3-dev \
-  libhunspell-dev \
-  zlib-bin
-
-# LyX
-sudo apt-get install \
-  libenchant-dev \
-  libaspell-dev
-
-# Bluefish
-sudo apt-get install -y \
-  jing
+  jabref \
+  jing \
+  lyx \
+  mypaint \
+  nautilus-image-converter \
+  openclipart \
+  optipng \
+  pinta \
+  pitivi \
+  postr \
+  python-django \
+  python-django-doc \
+  rawtherapee \
+  scribus \
+  scribus-doc \
+  shotwell \
+  sigil \
+  synfig \
+  ufraw \
+  ufraw-gimp \
+  xsane-gimp
