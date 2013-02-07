@@ -9,6 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+source ~/.bash_profile
 rm -f *.log
 rm -f .R*
 rm -f *~
