@@ -9,8 +9,15 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# R-compiled
+# RKWard and GGobi from distro!
 sudo apt-get install -y \
+  rkward \
+  ggobi
+
+# Headers for package building
+sudo apt-get install -y \
+  antiword \
+  ggobi-dev \
   evince \
   gfortran \
   texinfo \
