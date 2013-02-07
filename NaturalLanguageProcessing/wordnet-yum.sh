@@ -1,1 +1,1 @@
-wordnet-zypper.sh
+export WNHOME=/usr/share/wordnet-3.0
