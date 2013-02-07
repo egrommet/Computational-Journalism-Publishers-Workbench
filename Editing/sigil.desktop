@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Sigil
-Comment=ePUB file editor
-Exec=sigil
-Icon=HOME/local/share/pixmaps/sigil.png
-Categories=Office;FileTools;Qt;Viewer;TextTools;TextEditor;Utility;
-MimeType=application/epub+zip;

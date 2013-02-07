@@ -10,15 +10,7 @@
 #
 
 source ~/.bash_profile
-./install-dependencies.bash 2>&1 | tee dependencies.log
-./install-calibre.bash
-for i in \
-  jabref \
-  lyx \
-  bluefish \
-  sigil \
-  freemind \
-  epubcheck
+for i in dependencies
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done

@@ -1,2 +1,0 @@
-#! /bin/bash
-java -jar ${HOME}/local/src/jabref/JabRef-VERSION.jar "$@"
