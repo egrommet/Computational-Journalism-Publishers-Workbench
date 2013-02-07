@@ -31,7 +31,6 @@ pushd ${HOME}/local/src
     popd
 
     patch -b src/gwt/build.xml ${HERE}/build.xml.patch
-    patch -b src/cpp/CMakeLists.txt ${HERE}/CMakeLists.txt.patch
     mkdir build
   popd
 
