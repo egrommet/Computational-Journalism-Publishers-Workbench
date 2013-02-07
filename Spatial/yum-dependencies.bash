@@ -10,12 +10,22 @@
 #
 
 sudo yum install -y \
-  postgis-docs \
-  postgis-utils \
+  gdal \
+  gdal-devel \
+  gdal-doc \
+  geos \
+  geos-devel \
+  grass \
+  netcdf-devel \
+  osm2pgsql \
   pgRouting \
   postgis \
-  geos-devel \
+  postgis-docs \
+  postgis-utils \
+  proj \
   proj-devel \
   proj-epsg \
-  gdal-devel \
-  netcdf-devel
+  qgis \
+  qgis-grass \
+  spatialite-gui \
+  spatialite-tools
