@@ -11,5 +11,7 @@
 
 echo "Installing desktop add-ons"
 sudo apt-get install -y \
+  xchat \
+  pidgin \
   firefox \
   vim-gtk

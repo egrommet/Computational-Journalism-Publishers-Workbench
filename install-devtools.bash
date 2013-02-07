@@ -18,7 +18,6 @@ then
     ln -sf $HOME/.profile $HOME/.bash_profile
   fi
 fi
-ls -ltrA $HOME
 
 # set up stuff everyone needs
 mkdir -p ~/local/src
@@ -26,7 +25,9 @@ mkdir -p ~/.local/share/applications
 mkdir -p ~/.local/share/pixmaps
 cat bashrc >> ~/.bashrc
 cat bash_profile >> ~/.bash_profile
+cat Rprofile >> ~/.Rprofile
 source ~/.bash_profile
+ls -ltrA $HOME
 
 echo 'Installing devtools packages'
 echo 'You will need to authenticate'

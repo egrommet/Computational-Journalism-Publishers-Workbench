@@ -9,23 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo yum install -y \
-  gdal \
-  gdal-devel \
-  gdal-doc \
-  geos \
-  geos-devel \
-  grass \
-  netcdf-devel \
-  osm2pgsql \
-  pgRouting \
-  postgis \
-  postgis-docs \
-  postgis-utils \
-  proj \
-  proj-devel \
-  proj-epsg \
-  qgis \
-  qgis-grass \
-  spatialite-gui \
-  spatialite-tools
+source ~/.bash_profile
+for i in dependencies
+do
+  ./install-${i}.bash 2>&1 | tee ${i}.log
+done

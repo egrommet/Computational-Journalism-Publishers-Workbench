@@ -16,8 +16,7 @@ for i in \
   Perl-Modules \
   Ruby-Gems \
   Redis-Source \
-  TexLive \
-  R-patched \
+  R-base \
   RStudio
 do
   pushd ${i}
