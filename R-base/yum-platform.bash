@@ -16,6 +16,7 @@ sudo yum install -y \
 
 # Headers for package building
 sudo yum install -y \
+  R-devel \
   antiword \
   ggobi-devel \
   texinfo \
