@@ -9,11 +9,13 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source ~/.bash_profile
-pushd ~/local/src/rstudio-*/build
-  cmake \
-    -DRSTUDIO_TARGET=Desktop \
-    -DCMAKE_BUILD_TYPE=Release ..
-  /usr/bin/time make
-  sudo make install
-popd
+sudo useradd -r rstudio-server
+sudo cp /usr/local/lib/rstudio-server/extras/pam/rstudio /etc/pam.d
+sudo cp /usr/local/lib/rstudio-server/extras/init.d/redhat/rstudio-server /etc/init.d
+sudo chmod +x /etc/init.d/rstudio-server
+sudo /sbin/chkconfig --add rstudio-server
+sudo ln -f -s /usr/local/lib/rstudio-server/bin/rstudio-server /usr/sbin/rstudio-server
+sudo rstudio-server start
+
+echo "Open TCP port 8787"
+firewall-config

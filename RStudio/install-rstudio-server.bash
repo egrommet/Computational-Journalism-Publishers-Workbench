@@ -12,7 +12,7 @@
 source ~/.bash_profile
 pushd ~/local/src/rstudio-*/build
   cmake \
-    -DRSTUDIO_TARGET=Desktop \
+    -DRSTUDIO_TARGET=Server \
     -DCMAKE_BUILD_TYPE=Release ..
   /usr/bin/time make
   sudo make install

@@ -9,11 +9,12 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source ~/.bash_profile
-pushd ~/local/src/rstudio-*/build
-  cmake \
-    -DRSTUDIO_TARGET=Desktop \
-    -DCMAKE_BUILD_TYPE=Release ..
-  /usr/bin/time make
-  sudo make install
-popd
+echo 'Configuring RStudio Server'
+echo 'You will need to authenticate'
+if [ -e "/usr/bin/apt-get" ]
+then
+  ./apt-get-configure-server.bash
+elif [ -e "/usr/bin/yum" ]
+then
+  ./yum-configure-server.bash
+fi

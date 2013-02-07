@@ -9,6 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+source ~/.bash_profile
+
 # RStudio
 sudo apt-get install -y \
   build-essential \
