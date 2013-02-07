@@ -11,5 +11,6 @@
 
 # Packages
 sudo apt-get install -y \
+  python3-networkx \
   python-networkx \
   python-networkx-doc
