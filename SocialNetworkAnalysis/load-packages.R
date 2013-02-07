@@ -1,5 +1,6 @@
 install.packages(c(
   'statnet',
+  'ergm.userterms',
   'latentnet', 
   'abind', 
   'shapes',
