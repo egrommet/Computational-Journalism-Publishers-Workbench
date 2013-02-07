@@ -14,9 +14,6 @@ export VERSION=`curl -L http://www.rstudio.com/ide/download/server|grep github.*
 echo "Fetching RStudio ${VERSION}"
 export HERE=`pwd` # save pointer to where the hacked files are
 
-# make patch file
-sed "s:HOME:${HOME}:" CMakeLists.txt.patch.base > CMakeLists.txt.patch
-
 # get source tarball from Github
 pushd ${HOME}/local/src
   rm -fr rstudio*
@@ -26,7 +23,7 @@ pushd ${HOME}/local/src
   pushd rstudio-*
 
     pushd dependencies/common
-      for i in gwt dictionaries mathjax boost
+      for i in gwt dictionaries mathjax
       do
         patch -b ./install-$i ${HERE}/install-$i.patch
         /usr/bin/time ./install-$i
