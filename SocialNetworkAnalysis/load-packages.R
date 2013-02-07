@@ -1,4 +1,5 @@
 install.packages(c(
+  'statnet',
   'latentnet', 
   'abind', 
   'shapes',
