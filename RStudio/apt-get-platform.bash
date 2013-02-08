@@ -15,7 +15,7 @@ sudo apt-get install -y \
   pkg-config \
   fakeroot \
   cmake \
-  libboost-all-dev \
+  libboost1.50-all-dev \
   patch \
   libqtwebkit-dev \
   uuid-dev \
