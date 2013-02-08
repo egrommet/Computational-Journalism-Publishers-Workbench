@@ -17,13 +17,17 @@ sudo apt-get install -y \
 # Headers for package building
 sudo apt-get install -y \
   antiword \
-  ggobi-dev \
   evince \
   gfortran \
   texinfo \
   openjdk-7-jdk \
   libreadline-gplv2-dev \
-  tk-dev \
+  tcl8.5 \
+  tk8.5 \
+  tcl8.5-dev \
+  tk8.5-dev \
+  tcl8.5-doc \
+  tk8.5-doc \
   libtiff4-dev \
   libxmu-dev \
   libicu-dev
