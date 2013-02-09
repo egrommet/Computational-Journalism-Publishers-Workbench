@@ -10,5 +10,5 @@
 #
 
 ./install-platform.bash
-./install-all-options.bash
 ./install-base.bash
+./install-all-options.bash
