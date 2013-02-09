@@ -14,6 +14,15 @@ sudo apt-get install -y \
   rkward \
   ggobi
 
+# MOAR R
+sudo apt-get install -y \
+  r-base-dev \
+  r-doc-html \
+  r-doc-info \
+  r-doc-pdf \
+  r-base-html \
+  r-mathlib
+
 # Headers for package building
 sudo apt-get install -y \
   antiword \
@@ -21,7 +30,6 @@ sudo apt-get install -y \
   gfortran \
   texinfo \
   openjdk-7-jdk \
-  libreadline-gplv2-dev \
   tcl8.5 \
   tk8.5 \
   tcl8.5-dev \
