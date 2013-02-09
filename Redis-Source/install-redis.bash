@@ -20,8 +20,7 @@ curl ${WHERE}/${WHAT} > ${WHAT}
 tar xf ${WHAT}
 cd ${DIR}
 patch -b src/redis-benchmark.c ${HERE}/redis-benchmark.patch
-#make PREFIX=${HOME}/local install
-make install
+make
 make test
 sudo make install
 popd
