@@ -12,33 +12,29 @@
 # Editing packages
 sudo apt-get install -y \
   audacity \
-  audacity-manual \
   blender \
   bluefish \
   calibre \
-  cinepaint \
   dia \
-  dia-gnomeDIAicons \
-  entangle \
   fontforge \
   fontmatrix \
   freemind \
   gimp \
+  gimp-data \
   gimp-data-extras \
-  gimp-devel-tools \
-  gimp-fourier-plugin \
-  gimp-help \
-  gimp-help-browser \
-  gimp-lqr-plugin \
+  gimp-help-en \
   gimp-resynthesizer \
-  GREYCstoration \
-  GREYCstoration-gimp \
+  gimp-gmic \
+  create-resources \
+  gimp-gap \
+  gimp-ufraw \
+  gmic \
+  gmic-zart \
   gtk-recordmydesktop \
-  ImageMagick \
+  imagemagick \
+  imagemagick-doc \
   inkscape \
-  inkscape-docs \
-  inkscape-sozi \
-  inkscape-view \
+  sozi \
   intltool \
   jabref \
   jing \
@@ -56,8 +52,5 @@ sudo apt-get install -y \
   scribus \
   scribus-doc \
   shotwell \
-  sigil \
   synfig \
-  ufraw \
-  ufraw-gimp \
-  xsane-gimp
+  ufraw
