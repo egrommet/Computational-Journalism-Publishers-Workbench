@@ -27,5 +27,3 @@ sudo yum install -y \
   libreoffice-writer2latex \
   libreoffice-writer2xhtml \
   libreoffice-xsltfilter \
-  ooo2gd \
-  openoffice.org-diafilter

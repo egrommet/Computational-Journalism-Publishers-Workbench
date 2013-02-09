@@ -10,22 +10,26 @@
 #
 
 sudo apt-get install -y \
+  libreoffice-base \
+  libreoffice-calc \
+  libreoffice-draw \
   libreoffice-emailmerge \
-  libreoffice-graphicfilter \
-  libreoffice-headless \
+  libreoffice-gtk \
+  libreoffice-help-en-us \
   libreoffice-impress \
-  libreoffice-langpack-en \
   libreoffice-math \
   libreoffice-nlpsolver \
   libreoffice-ogltrans \
-  libreoffice-opensymbol-fonts \
   libreoffice-pdfimport \
   libreoffice-presentation-minimizer \
-  libreoffice-presenter-screen \
-  libreoffice-report-builder \
+  libreoffice-presenter-console \
+  libreoffice-writer \
+  libreoffice \
+  libreoffice-dmaths \
+  libreoffice-filter-mobiledev \
+  libreoffice-gtk3 \
+  libreoffice-sdbc-postgresql \
+  libreoffice-templates \
   libreoffice-wiki-publisher \
   libreoffice-writer2latex \
   libreoffice-writer2xhtml \
-  libreoffice-xsltfilter \
-  ooo2gd \
-  openoffice.org-diafilter
