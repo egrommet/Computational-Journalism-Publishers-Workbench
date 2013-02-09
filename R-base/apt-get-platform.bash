@@ -50,17 +50,3 @@ sudo apt-get install -y \
   libltdl-dev \
   libatlas-dev \
   liblapack-dev
-
-# R Java interface is hosed with both Java 6 and 7 -- nuke 6!
-sudo apt-get remove -y \
-  icedtea-6-jre-cacao \
-  icedtea-6-jre-jamvm \
-  openjdk-6-dbg \
-  openjdk-6-demo \
-  openjdk-6-doc \
-  openjdk-6-jdk \
-  openjdk-6-jre \
-  openjdk-6-jre-headless \
-  openjdk-6-jre-lib \
-  openjdk-6-jre-zero \
-  openjdk-6-source
