@@ -47,7 +47,8 @@ sudo apt-get install -y \
   libtool \
   libgtk2.0-dev \
   libxml2-dev \
-  libltdl-dev
+  libltdl-dev \
+  libatlas-dev
 
 # R Java interface is hosed with both Java 6 and 7 -- nuke 6!
 sudo apt-get remove -y \
