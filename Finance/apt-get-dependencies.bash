@@ -10,6 +10,4 @@
 #
 
 sudo apt-get install -y \
-  libquantlib0-dev  \
-  quantlib-examples  \
-  quantlib-refman-html
+  r-cran-rquantlib
