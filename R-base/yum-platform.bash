@@ -14,6 +14,12 @@ sudo yum install -y \
   rkward \
   ggobi
 
+# unixODBC
+sudo yum install -y \
+  unixODBC \
+  unixODBC-devel \
+  unixODBC-gui-qt
+
 # Headers for package building
 sudo yum install -y \
   R-devel \
