@@ -9,6 +9,7 @@
 #
 install.packages(
   c(
+    'RODBC',
     'RPostgreSQL',
     'filehash',
     'filehashSQLite',
