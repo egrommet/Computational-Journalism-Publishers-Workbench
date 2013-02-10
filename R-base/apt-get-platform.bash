@@ -51,7 +51,6 @@ sudo apt-get install -y \
   libmpfr-dev \
   graphviz-dev \
   subversion \
-  libcurl4-openssl-dev \
   freeglut3-dev \
   libfftw3-dev \
   libgd2-xpm-dev \
