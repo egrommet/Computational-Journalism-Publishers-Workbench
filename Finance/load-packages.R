@@ -13,11 +13,11 @@ install.packages(
     'TSdata',
     'TSPostgreSQL',
     'TSSQLite',
+    'TSodbc',
     'TShistQuote',
     'TSgetSymbol',
     'TSxls',
-    'TSzip',
-    'TSpadi'
+    'TSzip'
   ),
   repos='http://cran.fhcrc.org'
 )
