@@ -1,7 +1,16 @@
-#! /bin/bash -v
+#! /bin/bash
+#
+# Copyright (C) 2012 by M. Edward (Ed) Borasky
+#
+# This program is licensed to you under the terms of version 3 of the
+# GNU Affero General Public License. This program is distributed WITHOUT
+# ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING THOSE OF NON-INFRINGEMENT,
+# MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
+# AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
+#
 
 mkdir -p ~/local/src
-cd ~/local/src
+pushd ~/local/src
 export FILES='http://sourceforge.net/projects/quantlib/files/QuantLib/'
 export VERSION=`curl -s ${FILES}|grep tar\.gz|head -n 1|sed 's/^.*QuantLib-//'|sed 's/\.tar\.gz.*$//'`
 echo $VERSION
@@ -17,6 +26,7 @@ autoreconf --verbose
 ./configure
 /usr/bin/time make
 sudo make install
-cd ..
+popd
 
+sudo cp quantlib.conf /etc/ld.so.conf.d/
 sudo /sbin/ldconfig
