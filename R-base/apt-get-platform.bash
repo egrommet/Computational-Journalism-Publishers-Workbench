@@ -23,6 +23,11 @@ sudo apt-get install -y \
   r-base-html \
   r-mathlib
 
+# unixODBC
+sudo apt-get install -y \
+  unixodbc \
+  unixodbc-dev \
+  unixodbc-bin
 # Headers for package building
 sudo apt-get install -y \
   antiword \
