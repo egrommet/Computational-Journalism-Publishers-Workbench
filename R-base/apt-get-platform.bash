@@ -28,8 +28,10 @@ sudo apt-get install -y \
   unixodbc \
   unixodbc-dev \
   unixodbc-bin
+
 # Headers for package building
 sudo apt-get install -y \
+  libcurl4-gnutls-dev \
   antiword \
   evince \
   gfortran \
