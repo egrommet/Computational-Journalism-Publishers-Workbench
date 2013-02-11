@@ -14,7 +14,6 @@ source ~/.bash_profile
 # recursive installer
 for i in \
   Perl-Modules \
-  Ruby-Gems \
   Redis-Source \
   R-base \
   RStudio
