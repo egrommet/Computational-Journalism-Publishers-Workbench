@@ -14,6 +14,7 @@ sudo yum install -y \
   openmpi-devel
 
 # make sure ld can find libraries
+echo "Updating 'locate' database - may take some time"
 sudo updatedb
 export LIB=`locate openmpi|grep libmpi.so$|sed 's;/libmpi.so;;'`
 echo ${LIB} > openmpi.conf 

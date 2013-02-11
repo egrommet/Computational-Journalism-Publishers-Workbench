@@ -10,3 +10,9 @@
 #
 
 sudo apt-get install -y \
+  openmpi-bin \
+  openmpi-checkpoint \
+  openmpi-doc
+
+echo "Updating 'locate' database - may take some time"
+sudo updatedb
