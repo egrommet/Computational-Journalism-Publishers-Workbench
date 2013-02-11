@@ -11,3 +11,4 @@
 
 # Packages
 sudo apt-get install -y \
+  couchdb
