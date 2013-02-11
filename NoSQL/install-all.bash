@@ -9,12 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "Installing desktop add-ons"
-sudo yum install -y \
-  firefox \
-  vim-X11 \
-  xchat \
-  pidgin \
-  aria2 \
-  vim-enhanced \
-  powertop
+source ~/.bash_profile
+for i in dependencies packages
+do
+  ./install-${i}.bash 2>&1 | tee ${i}.log
+done

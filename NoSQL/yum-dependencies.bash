@@ -9,26 +9,11 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "Enabling repositories"
-sudo yum-config-manager --enable \*
-sudo yum-config-manager --enable \*debuginfo\*
-sudo yum-config-manager --disable \*source\*
-sudo yum-config-manager --disable \*testing\*
-
-echo "Installing basic development tools"
+# Packages
 sudo yum install -y \
-  patch \
-  curl \
-  wget \
-  mlocate \
-  make \
-  dkms \
-  kernel-tools \
-  kernel-devel \
-  kernel-PAE-devel \
-  gcc \
-  vim \
-  net-tools \
-  git-all \
-  git-annex \
-  git-annex-docs
+  couchdb \
+  riak \
+  libmongodb \
+  mongodb \
+  mongodb-devel \
+  mongodb-server
