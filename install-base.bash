@@ -13,8 +13,8 @@ source ~/.bash_profile
 
 # recursive installer
 for i in \
-  Perl-Modules \
   Redis-Source \
+  Perl-Modules \
   R-base \
   RStudio
 do
