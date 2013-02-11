@@ -12,7 +12,6 @@
 source ~/.bash_profile
 
 # find libraries and includes
-sudo updatedb
 export LIB=`locate openmpi|grep libmpi.so$|sed 's;/libmpi.so;;'`
 export INCLUDE=`locate openmpi|grep mpi.h$|sed 's;/mpi.h;;'`
 export ARGS="--with-Rmpi-include=${INCLUDE} --with-Rmpi-libpath=${LIB} --with-Rmpi-type=OPENMPI"
