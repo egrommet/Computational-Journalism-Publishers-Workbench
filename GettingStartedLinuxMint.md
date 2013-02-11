@@ -3,7 +3,7 @@
 1. System requirements: You'll need a Windows, Macintosh or Linux desktop/laptop with at least 3 GB of RAM. You will also need reliable wall power and a reliable Internet connection.
 1. Download and install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 1. Download the [Linux Mint 14 "Nadia" - MATE no-codecs (32-bit) ISO file](http://www.linuxmint.com/edition.php?id=123). You do ***not*** need to burn this to a CD or copy it to a USB drive.
-1. Start up Oracle VM VirtualBox. Create a virtual machine with the Linux Mint operating system, 1536 MB of memory, and a 20 GB virtual hard disk.
+1. Start up Oracle VM VirtualBox. Create a virtual machine with the Linux Mint operating system, 1536 MB of memory, and a 32 GB virtual hard disk.
 1. In the virtual machine 'Display' settings, set the display video memory to 128 MB and enable 3D acceleration.
 1. In the virtual machine 'Storage' settings, connect the virtual machine CD drive to the ISO file you downloaded.
 1. Start the virtual machine and install Linux Mint to it.
@@ -16,7 +16,7 @@
     $ sudo apt-get install -y git  
     $ git clone http://github.com/znmeb/Computational-Journalism-Publishers-Workbench  
     $ cd Computational-Journalism-Publishers-Workbench  
-    $ git checkout v1.5.0
+    $ git checkout v1.6.0
     $ ./install-devtools.bash
     $ ./install-desktop.bash
     $ ./remove-guest-tools.bash

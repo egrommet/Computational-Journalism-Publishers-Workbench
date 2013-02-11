@@ -1,9 +1,9 @@
-## Computational Journalism Publishers Workbench 1.5.0 Released!
+## Computational Journalism Publishers Workbench 1.6.0 Released!
 
 ## Quick Start
-* [Quick Start - Fedora 18 or Linux Mint 14 on VMware Player](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md)
-* [Quick Start - Fedora 18](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
-* [Quick Start - Linux Mint 14](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
+* [Quick Start - Fedora, Linux Mint or Ubuntu on VMware Player](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md)
+* [Quick Start - Fedora 18 on VirtualBox](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
+* [Quick Start - Linux Mint 14 on VirtualBox](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
 
 ## What's New?
 1. Now works with all major Linux desktops
@@ -21,6 +21,11 @@
     * [Shiny](http://www.rstudio.com/shiny/) R application framework
     * [cranvas](https://github.com/ggobi/cranvas/wiki) R exploratory data analysis framework
     * Linux profiling tools and [Pretty Damn Quick (PDQ)](http://sourceforge.net/projects/pdq-qnm-pkg/) Queueing Model Package
+    * [RKWard](http://rkward.sourceforge.net/) R language IDE
+    * Node.js
+    * CouchDB
+    * Riak (Fedora only)
+    * MongoDB (Fedora only)
 
 ## I Keep Six Honest Serving Men
 I keep six honest serving-men<br>
@@ -134,7 +139,6 @@ One of the major components, [RStudio](https://github.com/rstudio/rstudio), is l
 * [FreeMind](http://freemind.sourceforge.net/wiki/index.php/Main_Page)
 * [Bluefish](http://bluefish.openoffice.nl/download.html)
 * [Google Refine](http://code.google.com/p/google-refine/)
-* [Maqetta](http://maqetta.org/)
 * [GGobi](http://www.ggobi.org/downloads/)
 
 ### CRAN Task Views (most packages available for Windows, Macintosh and Linux desktops / laptops)
