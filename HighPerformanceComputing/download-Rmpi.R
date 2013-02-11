@@ -1,0 +1,10 @@
+download.packages(
+  c(
+    'Rmpi'
+  ),
+  repos=c(
+    'http://ftp.osuosl.org/pub/cran'
+  ),
+  destdir='.'
+)
+warnings()
