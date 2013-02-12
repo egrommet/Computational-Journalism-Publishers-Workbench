@@ -44,4 +44,6 @@ sudo apt-get install -y \
   libspatialite-dev \
   rasterlite-bin \
   spatialite-bin \
-  spatialite-gui
+  spatialite-gui \
+  libboost1.50-all-dev \
+  libboost1.50-doc
