@@ -10,7 +10,7 @@
 #
 
 sudo yum install -y \
-  libtool-ltdl \
-  libtool-ltdl-devel \
-  libtool
-./install-quantlib.bash 2>&1 | tee quantlib.log
+  QuantLib-devel \
+  QuantLib-doc \
+  QuantLib-test \
+  QuantLib
