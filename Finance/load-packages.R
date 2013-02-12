@@ -18,8 +18,7 @@ install.packages(
     'TSgetSymbol',
     'TSxls',
     'TSzip'
-  ),
-  repos='http://cran.fhcrc.org'
+  )
 )
 warnings()
 library(ctv)
@@ -28,7 +27,6 @@ update.views(
     'Finance',
     'Econometrics',
     'TimeSeries'
-  ),
-  repos='http://cran.fhcrc.org'
+  )
 )
 warnings()

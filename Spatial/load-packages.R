@@ -15,14 +15,12 @@ install.packages(
     'UScensus2000cdp',
     'UScensus2000tract',
     'UScensus2010'
-  ),
-  repos='http://cran.fhcrc.org'
+  )
 )
 library(ctv)
 update.views(
   c(
     'Spatial'
-  ),
-  repos='http://cran.fhcrc.org'
+  )
 )
 warnings()

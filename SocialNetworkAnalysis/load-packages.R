@@ -12,9 +12,6 @@ install.packages(c(
   'relevent',
   'hergm',
   'SparseM',
-  'igraph'),
-  repos=c(
-    'http://ftp.osuosl.org/pub/cran'
-  )
+  'igraph')
 )
 warnings()

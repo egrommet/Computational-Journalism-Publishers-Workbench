@@ -11,15 +11,13 @@ install.packages(
   c(
     'RDF',
     'rrdf'
-  ),
-  repos='http://cran.fhcrc.org'
+  )
 )
 warnings()
 library(ctv)
 update.views(
   c(
     'NaturalLanguageProcessing'
-  ),
-  repos='http://cran.fhcrc.org'
+  )
 )
 warnings()
