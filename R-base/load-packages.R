@@ -43,7 +43,6 @@ install.packages(
     'quantmod',
     'shiny',
     'markdown',
-    'doRedis',
     'tm',
     'tm.plugin.dc',
     'tm.plugin.mail'
