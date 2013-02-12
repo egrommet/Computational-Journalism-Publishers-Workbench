@@ -15,6 +15,84 @@ sudo yum install -y \
   rkward \
   ggobi
 
+# R packages from distro
+  R-abind \
+  R-acepack \
+  R-affy \
+  R-affydata \
+  R-affyio \
+  R-ALL \
+  R-AnnotationDbi \
+  R-biglm \
+  R-bigmemory \
+  R-bigmemory-devel \
+  R-Biobase \
+  R-BiocGenerics \
+  R-biomaRt \
+  R-Biostrings \
+  R-Biostrings-devel \
+  R-bitops \
+  R-BSgenome \
+  R-BufferedMatrix \
+  R-BufferedMatrix-devel \
+  R-BufferedMatrixMethods \
+  R-car \
+  R-caTools \
+  R-combinat \
+  R-core \
+  R-DBI \
+  R-devel \
+  R-DynDoc \
+  R-fibroEset \
+  R-GeneR \
+  R-GenomicFeatures \
+  R-GenomicRanges \
+  R-hdf5 \
+  R-hgu133acdf \
+  R-hgu95av2cdf \
+  R-hgu95av2probe \
+  R-IRanges \
+  R-IRanges-devel \
+  R-java \
+  R-java-devel \
+  R-lmtest \
+  R-maanova \
+  R-mAr \
+  R-msm \
+  R-multcomp \
+  R-multtest \
+  R-mvtnorm \
+  R-nws \
+  R-pls \
+  R-preprocessCore \
+  R-preprocessCore-devel \
+  R-qcc \
+  R-qtl \
+  R-qvalue \
+  R-Rcompression \
+  R-RCurl \
+  R-rlecuyer \
+  R-RM2 \
+  R-ROC \
+  R-RODBC \
+  R-RScaLAPACK \
+  R-Rsolid \
+  R-Rsolid-devel \
+  R-RSQLite \
+  R-rtracklayer \
+  R-RUnit \
+  R-sciplot \
+  R-statmod \
+  R-systemfit \
+  R-timeDate \
+  R-tkWidgets \
+  R-waveslim \
+  R-wavethresh \
+  R-widgetTools \
+  R-XML \
+  R-xtable \
+  R-zoo
+
 # unixODBC
 ../common/authenticate.bash
 sudo yum install -y \
@@ -25,7 +103,6 @@ sudo yum install -y \
 # Headers for package building
 ../common/authenticate.bash
 sudo yum install -y \
-  R-devel \
   antiword \
   ggobi-devel \
   texinfo \
@@ -52,7 +129,5 @@ sudo yum install -y \
   gtk2-devel \
   libxml2-devel \
   libtool-ltdl-devel \
-  atlas-devel \
-  gsl-devel \
   gmp-devel \
   mpfr-devel
