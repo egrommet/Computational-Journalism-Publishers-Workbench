@@ -10,7 +10,7 @@
 #
 
 echo "Updating packages"
-echo "You will be asked to authenticate"
-echo "Press 'Enter' when asked about configuration files"
+common/authenticate.bash
+echo "Press 'Enter' to accept defaults if asked about configuration files"
 sudo apt-get update
 sudo apt-get upgrade

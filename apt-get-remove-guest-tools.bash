@@ -10,7 +10,7 @@
 #
 
 echo "Removing guest tools / additions already installed"
-echo "You will need to authenticate"
+common/authenticate.bash
 sudo apt-get purge -y \
   open-vm-dkms \
   open-vm-toolbox \
@@ -21,6 +21,3 @@ sudo apt-get purge -y \
   virtualbox-guest-source \
   virtualbox-guest-utils \
   virtualbox-guest-x11
-echo "Rebooting in 15 seconds"
-sleep 15
-sudo /sbin/reboot

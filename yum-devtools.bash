@@ -10,12 +10,14 @@
 #
 
 echo "Enabling repositories"
+common/authenticate.bash
 sudo yum-config-manager --enable \*
 sudo yum-config-manager --enable \*debuginfo\*
 sudo yum-config-manager --disable \*source\*
 sudo yum-config-manager --disable \*testing\*
 
 echo "Installing basic development tools"
+common/authenticate.bash
 sudo yum install -y \
   patch \
   curl \

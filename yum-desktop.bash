@@ -10,6 +10,7 @@
 #
 
 echo "Installing desktop add-ons"
+common/authenticate.bash
 sudo yum install -y \
   firefox \
   vim-X11 \

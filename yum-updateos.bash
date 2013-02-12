@@ -10,5 +10,5 @@
 #
 
 echo "Updating packages"
-echo "You will be asked to authenticate"
+common/authenticate.bash
 sudo yum update
