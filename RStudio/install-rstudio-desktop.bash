@@ -15,5 +15,6 @@ pushd ~/local/src/rstudio-*/build
     -DRSTUDIO_TARGET=Desktop \
     -DCMAKE_BUILD_TYPE=Release ..
   /usr/bin/time make
+  ../common/authenticate.bash
   sudo make install
 popd
