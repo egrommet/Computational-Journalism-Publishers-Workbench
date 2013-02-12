@@ -42,10 +42,7 @@ install.packages(
     'RJSONIO',
     'quantmod',
     'shiny',
-    'markdown',
-    'tm',
-    'tm.plugin.dc',
-    'tm.plugin.mail'
+    'markdown'
   )
 )
 warnings()

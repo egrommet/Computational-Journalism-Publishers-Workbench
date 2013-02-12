@@ -10,7 +10,10 @@
 install.packages(
   c(
     'RDF',
-    'rrdf'
+    'rrdf',
+    'tm',
+    'tm.plugin.dc',
+    'tm.plugin.mail'
   )
 )
 warnings()

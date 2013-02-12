@@ -10,7 +10,7 @@
 #
 
 source ~/.bash_profile
-for i in packages tm.plugins-svn
+for i in packages
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
