@@ -12,7 +12,6 @@
 source ~/.bash_profile
 
 for i in \
-  Redis-Source \
   R-base \
   RStudio
 do
