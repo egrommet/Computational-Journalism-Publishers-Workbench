@@ -12,8 +12,7 @@
 source ~/.bash_profile
 
 for i in \
-  R-base \
-  RStudio
+  R-base
 do
   pushd ${i}
   ./install-base.bash
