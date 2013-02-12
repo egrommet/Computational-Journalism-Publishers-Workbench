@@ -11,6 +11,7 @@
 
 ../common/authenticate.bash
 sudo yum install -y \
+  boost-devel \
   gdal \
   gdal-devel \
   gdal-doc \
