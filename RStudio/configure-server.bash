@@ -10,7 +10,6 @@
 #
 
 echo 'Configuring RStudio Server'
-echo 'You will need to authenticate'
 if [ -e "/usr/bin/apt-get" ]
 then
   ./apt-get-configure-server.bash

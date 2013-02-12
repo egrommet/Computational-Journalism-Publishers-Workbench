@@ -27,5 +27,4 @@ sudo apt-get install -y \
   libapparmor1  \
   apparmor-utils \
   gufw \
-  unzip \
-  firestarter
+  unzip
