@@ -30,7 +30,6 @@ source ~/.bash_profile
 ls -ltrA $HOME
 
 echo 'Installing devtools packages'
-echo 'You will need to authenticate'
 if [ -e "/usr/bin/apt-get" ]
 then
   ./apt-get-devtools.bash 2>&1 | tee devtools.log
