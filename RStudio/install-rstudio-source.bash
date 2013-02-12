@@ -17,7 +17,7 @@ export HERE=`pwd` # save pointer to where the hacked files are
 
 # get source tarball from Github
 pushd ${HOME}/local/src
-  sudo rm -fr rstudio*
+  rm -fr rstudio*
   curl -k -L https://github.com/rstudio/rstudio/tarball/${VERSION} > rstudio.tgz
   tar xf rstudio.tgz
 
