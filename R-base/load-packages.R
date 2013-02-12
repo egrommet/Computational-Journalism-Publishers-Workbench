@@ -47,8 +47,7 @@ install.packages(
     'tm',
     'tm.plugin.dc',
     'tm.plugin.mail'
-  ),
-  repos='http://cran.fhcrc.org'
+  )
 )
 warnings()
 library(ctv)
@@ -56,7 +55,6 @@ update.views(
   c(
     'ReproducibleResearch',
     'Graphics'
-  ),
-  repos='http://cran.fhcrc.org'
+  )
 )
 warnings()
