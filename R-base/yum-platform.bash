@@ -16,6 +16,8 @@ sudo yum install -y \
   ggobi
 
 # R packages from distro
+../common/authenticate.bash
+sudo yum install -y \
   R-abind \
   R-acepack \
   R-affy \
