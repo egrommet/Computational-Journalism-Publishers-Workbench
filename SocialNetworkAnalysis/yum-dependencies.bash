@@ -12,5 +12,4 @@
 # Packages
 sudo yum install -y \
   python-networkx \
-  python-networkx-doc \
-  python3-networkx
+  python-networkx-doc
