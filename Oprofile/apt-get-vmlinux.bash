@@ -21,6 +21,7 @@ else
   export WHAT=`curl ${WHERE}/|grep amd64|grep ${VERSION}|sed 's/^.*href="//'|sed 's/".*$//'`
 fi
 wget ${WHERE}/${WHAT}
+../common/authenticate.bash
 sudo dpkg --install ${WHAT}
 sudo updatedb
 locate vmlinux

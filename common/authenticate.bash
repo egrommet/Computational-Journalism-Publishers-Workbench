@@ -9,13 +9,5 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-../common/authenticate.bash
-sudo apt-get install -y \
-  oprofile \
-  oprofile-gui \
-  python-dev \
-  libdate-manip-perl \
-  sysstat
-
-# install the (huge) kernel debug symbols package
-./apt-get-vmlinux.bash
+echo "You will need to authenticate"
+sleep 3

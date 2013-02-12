@@ -10,17 +10,20 @@
 #
 
 # RKWard and GGobi from distro!
+../common/authenticate.bash
 sudo yum install -y \
   rkward \
   ggobi
 
 # unixODBC
+../common/authenticate.bash
 sudo yum install -y \
   unixODBC \
   unixODBC-devel \
   unixODBC-gui-qt
 
 # Headers for package building
+../common/authenticate.bash
 sudo yum install -y \
   R-devel \
   antiword \
@@ -36,10 +39,7 @@ sudo yum install -y \
   tk-devel \
   libtiff-devel \
   icu \
-  libicu-devel
-
-# Packages
-sudo yum install -y \
+  libicu-devel \
   graphviz-devel \
   freeglut-devel \
   fftw-devel \

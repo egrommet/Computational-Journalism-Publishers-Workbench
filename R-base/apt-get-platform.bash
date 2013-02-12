@@ -10,11 +10,13 @@
 #
 
 # RKWard and GGobi from distro!
+../common/authenticate.bash
 sudo apt-get install -y \
   rkward \
   ggobi
 
 # MOAR R
+../common/authenticate.bash
 sudo apt-get install -y \
   r-base-dev \
   r-doc-html \
@@ -24,12 +26,14 @@ sudo apt-get install -y \
   r-mathlib
 
 # unixODBC
+../common/authenticate.bash
 sudo apt-get install -y \
   unixodbc \
   unixodbc-dev \
   unixodbc-bin
 
 # Headers for package building
+../common/authenticate.bash
 sudo apt-get install -y \
   libcurl4-gnutls-dev \
   antiword \
@@ -45,10 +49,7 @@ sudo apt-get install -y \
   tk8.5-doc \
   libtiff4-dev \
   libxmu-dev \
-  libicu-dev
-
-# Packages
-sudo apt-get install -y \
+  libicu-dev \
   libgmp-dev \
   libmpfr-dev \
   graphviz-dev \

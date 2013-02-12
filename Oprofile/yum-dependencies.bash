@@ -9,6 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+../common/authenticate.bash
 sudo yum install -y \
   oprofile-gui \
   oprofile-jit \
@@ -18,5 +19,6 @@ sudo yum install -y \
   perl-Date-Manip \
   perl-ExtUtils-MakeMaker
 
+../common/authenticate.bash
 sudo updatedb
 locate vmlinux

@@ -9,6 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+../common/authenticate.bash
 sudo yum install -y \
   libreoffice-emailmerge \
   libreoffice-graphicfilter \
