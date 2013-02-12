@@ -9,8 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo 'Installing Linux dependencies'
-echo 'You will need to authenticate'
+echo 'Installing Linux platform packages'
 if [ -e "/usr/bin/apt-get" ]
 then
   ./apt-get-platform.bash
