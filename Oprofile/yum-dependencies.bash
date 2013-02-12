@@ -20,5 +20,5 @@ sudo yum install -y \
   perl-ExtUtils-MakeMaker
 
 ../common/authenticate.bash
+echo "Updating 'locate' database - this will take some time
 sudo updatedb
-locate vmlinux

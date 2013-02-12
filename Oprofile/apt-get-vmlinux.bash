@@ -23,6 +23,7 @@ fi
 wget ${WHERE}/${WHAT}
 ../common/authenticate.bash
 sudo dpkg --install ${WHAT}
+
+echo "Updating 'locate' database - this will take some time
 sudo updatedb
-locate vmlinux
 popd
