@@ -15,3 +15,7 @@
 #
 system('mkdir -p ~/.rkward/library')
 .libPaths(c("~/.rkward/library", .libPaths()))
+options(repos=c(
+  CRAN="http://ftp.osuosl.org/pub/cran",
+  BioCsoft="http://www.bioconductor.org/packages/2.11/bioc"
+))
