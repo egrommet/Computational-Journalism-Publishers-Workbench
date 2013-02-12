@@ -11,6 +11,7 @@
 
 ../common/authenticate.bash
 sudo yum install -y \
+  boost-devel \
   QuantLib-devel \
   QuantLib-doc \
   QuantLib-test \
