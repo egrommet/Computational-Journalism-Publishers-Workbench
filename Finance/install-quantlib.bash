@@ -25,6 +25,7 @@ cd ${DIR}
 autoreconf --verbose
 ./configure
 /usr/bin/time make
+../common/authenticate.bash
 sudo make install
 popd
 
