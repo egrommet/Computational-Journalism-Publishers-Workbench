@@ -11,8 +11,6 @@
 
 ../common/authenticate.bash
 sudo apt-get install -y \
-  libboost1.50-all-dev \
-  libboost1.50-doc \
   libltdl-dev \
   libtool
 ./install-quantlib.bash 2>&1 | tee quantlib.log

@@ -25,3 +25,12 @@ sudo apt-get install -y \
   build-essential \
   gcc \
   vim
+
+# Boost, cmake and Qt
+common/authenticate.bash
+sudo apt-get install -y \
+  cmake \
+  libboost1.50-all-dev \
+  libboost1.50-doc \
+  qt4-dev \
+  libqtwebkit-dev

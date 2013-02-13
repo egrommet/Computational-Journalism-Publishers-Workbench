@@ -14,9 +14,6 @@ sudo apt-get install -y \
   build-essential \
   pkg-config \
   fakeroot \
-  cmake \
-  libboost1.50-all-dev \
-  patch \
   libqtwebkit-dev \
   uuid-dev \
   ant \

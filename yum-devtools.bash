@@ -34,3 +34,11 @@ sudo yum install -y \
   git-all \
   git-annex \
   git-annex-docs
+
+# Boost, cmake and Qt
+../common/authenticate.bash
+sudo yum install -y \
+  boost-devel \
+  cmake \
+  qt-devel \
+  qtwebkit-devel

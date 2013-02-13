@@ -11,10 +11,6 @@
 
 ../common/authenticate.bash
 sudo yum install -y \
-  boost-devel \
-  cmake \
-  patch \
-  qtwebkit-devel \
   libuuid-devel \
   openssl-devel \
   pam-devel \
