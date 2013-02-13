@@ -18,7 +18,7 @@ install.packages(
   )
 )
 library(ctv)
-update.views(
+install.views(
   c(
     'Spatial'
   )

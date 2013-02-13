@@ -47,7 +47,7 @@ install.packages(
 )
 warnings()
 library(ctv)
-update.views(
+install.views(
   c(
     'ReproducibleResearch',
     'Graphics'
