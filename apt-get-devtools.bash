@@ -32,5 +32,5 @@ sudo apt-get install -y \
   cmake \
   libboost1.50-all-dev \
   libboost1.50-doc \
-  qt4-dev \
+  qt4-dev-tools \
   libqtwebkit-dev
