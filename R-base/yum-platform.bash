@@ -12,6 +12,7 @@
 # RKWard and GGobi from distro!
 ../common/authenticate.bash
 sudo yum install -y \
+  R-devel \
   rkward \
   ggobi
 
