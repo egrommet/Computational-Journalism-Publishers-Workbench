@@ -36,7 +36,7 @@ sudo yum install -y \
   git-annex-docs
 
 # Boost, cmake and Qt
-../common/authenticate.bash
+common/authenticate.bash
 sudo yum install -y \
   boost-devel \
   cmake \
