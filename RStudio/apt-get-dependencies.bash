@@ -14,7 +14,6 @@ sudo apt-get install -y \
   build-essential \
   pkg-config \
   fakeroot \
-  libqtwebkit-dev \
   uuid-dev \
   ant \
   libssl-dev \
