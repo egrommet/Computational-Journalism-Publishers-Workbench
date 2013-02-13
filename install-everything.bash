@@ -9,6 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+./install-devtools.bash
+./install-desktop.bash
 ./install-platform.bash
 ./install-base.bash
 ./install-all-options.bash
