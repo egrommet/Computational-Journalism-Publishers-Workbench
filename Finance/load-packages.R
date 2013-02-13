@@ -22,7 +22,7 @@ install.packages(
 )
 warnings()
 library(ctv)
-install.views(
+update.views(
   c(
     'Finance',
     'Econometrics',
