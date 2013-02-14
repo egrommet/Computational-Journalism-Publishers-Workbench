@@ -12,6 +12,13 @@
 echo "Installing desktop add-ons"
 common/authenticate.bash
 sudo apt-get install -y \
+  obconf \
+  obmenu \
+  openbox \
+  openbox-dev \
+  openbox-themes \
+  openbox-xdgmenu \
+  fbpanel \
   xchat \
   pidgin \
   firefox \
