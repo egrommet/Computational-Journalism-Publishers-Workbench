@@ -45,10 +45,8 @@ sudo apt-get install -y \
   graphviz-dev \
   subversion \
   freeglut3-dev \
-  libfftw3-dev \
   libgd2-xpm-dev \
   libgsl0-dev \
-  libsndfile1-dev \
   libtool \
   libgtk2.0-dev \
   libxml2-dev \

@@ -42,12 +42,10 @@ sudo yum install -y \
   libicu-devel \
   graphviz-devel \
   freeglut-devel \
-  fftw-devel \
   gd-devel \
   gsl-devel \
   atlas-devel \
   libcurl-devel \
-  libsndfile-devel \
   subversion \
   gtk2-devel \
   libxml2-devel \
