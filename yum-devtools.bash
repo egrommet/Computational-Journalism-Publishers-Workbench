@@ -31,6 +31,7 @@ sudo yum install -y \
   gcc \
   vim \
   net-tools \
+  git-cola \
   git-all \
   git-annex \
   git-annex-docs
