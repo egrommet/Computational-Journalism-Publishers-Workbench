@@ -19,7 +19,7 @@ install.packages(
     'filehashSQLite',
     'forecast',
     'ggplot2',
-    'hexbin,'
+    'hexbin',
     'Hmisc',
     'inline',
     'knitr',
