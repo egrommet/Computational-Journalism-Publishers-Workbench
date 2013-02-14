@@ -9,45 +9,59 @@
 #
 install.packages(
   c(
-    'RODBC',
-    'RPostgreSQL',
+    'abind',
+    'codetools',
+    'ctv', 
+    'devtools',
+    'e1071',
+    'effects',
     'filehash',
     'filehashSQLite',
-    'RSQLite',
-    'RSQLite.extfuns',
-    'RSclient',
-    'Rserve',
-    'RUnit',
+    'forecast',
+    'ggplot2',
+    'hexbin,'
+    'Hmisc',
     'inline',
+    'knitr',
+    'leaps',
+    'lmtest',
+    'lubridate',
+    'mapproj',
+    'maps,'
+    'maptools',
+    'markdown',
+    'multcomp',
+    'nlme',
+    'plyr',
+    'qcc',
+    'quantmod',
+    'quantreg',
+    'R2SWF',
+    'randomForest',
+    'rattle',
     'rbenchmark',
     'Rcmdr',
-    'rattle',
-    'devtools',
-    'testthat',
-    'roxygen2',
-    'twitteR',
-    'rJava',
-    'ctv', 
-    'e1071',
-    'sem',
+    'Rcpp',
     'relimp',
-    'multcomp',
-    'lmtest',
-    'leaps',
-    'effects',
-    'abind',
+    'reshape2',
+    'rgl',
+    'rJava',
     'RJSONIO',
-    'quantmod',
+    'RODBC',
+    'roxygen2',
+    'RPostgreSQL',
+    'RSclient',
+    'Rserve',
+    'RSQLite',
+    'RSQLite.extfuns',
+    'RUnit',
+    'sem',
     'shiny',
-    'markdown'
-  )
-)
-warnings()
-library(ctv)
-update.views(
-  c(
-    'ReproducibleResearch',
-    'Graphics'
+    'sqldf',
+    'stringr',
+    'testthat',
+    'twitteR',
+    'XML'
   )
 )
 warnings()
