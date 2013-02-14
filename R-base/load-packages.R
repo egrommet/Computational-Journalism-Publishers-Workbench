@@ -44,6 +44,7 @@ install.packages(
     'Rcpp',
     'relimp',
     'reshape2',
+    'rggobi',
     'rgl',
     'rJava',
     'RJSONIO',
