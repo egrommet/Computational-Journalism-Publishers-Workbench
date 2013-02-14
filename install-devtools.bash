@@ -9,26 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# make sure stuff works on Ubuntu :-(
-if [ -f "$HOME/.profile" ]
-then
-  if [ ! -f "$HOME/.bash_profile" ]
-  then
-    echo ".profile exists but .bash_profile doesn't -- making symlink!"
-    ln -sf $HOME/.profile $HOME/.bash_profile
-  fi
-fi
-
-# set up stuff everyone needs
-mkdir -p ~/local/src
-mkdir -p ~/.local/share/applications
-mkdir -p ~/.local/share/pixmaps
-cat bashrc >> ~/.bashrc
-cat bash_profile >> ~/.bash_profile
-cat Rprofile >> ~/.Rprofile
-source ~/.bash_profile
-ls -ltrA $HOME
-
 echo 'Installing devtools packages'
 if [ -e "/usr/bin/apt-get" ]
 then
