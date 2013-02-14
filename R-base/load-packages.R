@@ -27,7 +27,7 @@ install.packages(
     'lmtest',
     'lubridate',
     'mapproj',
-    'maps,'
+    'maps',
     'maptools',
     'markdown',
     'multcomp',
