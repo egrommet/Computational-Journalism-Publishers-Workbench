@@ -24,6 +24,7 @@ sudo apt-get install -y \
 sudo apt-get install -y \
   tcl-dev \
   tk-dev \
+  bwidget \
   freeglut3-dev \
   openjdk-7-jdk \
   libgtk2.0-dev \
