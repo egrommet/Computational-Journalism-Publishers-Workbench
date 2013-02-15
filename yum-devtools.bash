@@ -12,7 +12,6 @@
 echo "Installing basic development tools"
 common/authenticate.bash
 sudo yum install -y \
-  kernel-tools \
   vim \
   git \
   git-gui \

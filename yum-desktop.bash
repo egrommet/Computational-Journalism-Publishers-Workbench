@@ -18,4 +18,5 @@ sudo yum install -y \
   pidgin \
   aria2 \
   vim-enhanced \
-  powertop
+  powertop \
+  kernel-tools
