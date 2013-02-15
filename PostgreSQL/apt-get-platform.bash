@@ -15,7 +15,6 @@ sudo apt-get install -y \
   postgresql \
   postgresql-client \
   postgresql-contrib \
-  postgresql-server-dev-all \
   postgresql-doc \
   postgresql-plperl \
   postgresql-plpython
