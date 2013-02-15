@@ -13,13 +13,28 @@
 ../common/authenticate.bash
 sudo apt-get install -y \
   rkward \
-  ggobi \
-  ggobi-dev
+  ggobi
 
 # unixODBC
 ../common/authenticate.bash
 sudo apt-get install -y \
   unixodbc \
   unixodbc-bin \
-  unixodbc-dev \
-  freeglut2-dev
+  unixodbc-dev
+
+# R Commander
+../common/authenticate.bash
+sudo apt-get install -y \
+  freeglut3-dev
+
+# Rattle
+../common/authenticate.bash
+sudo apt-get install -y \
+  openjdk-7-jdk \
+  libgtk2.0-dev \
+  libxml2-dev
+
+# Force Boost 1.50 (RStudio won't work with older)
+../common/authenticate.bash
+sudo apt-get install -y \
+  libboost1.50-all-dev
