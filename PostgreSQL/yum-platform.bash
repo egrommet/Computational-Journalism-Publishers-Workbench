@@ -14,7 +14,6 @@ sudo yum install -y \
   pgadmin3 \
   postgresql \
   postgresql-contrib \
-  postgresql-devel \
   postgresql-docs \
   postgresql-plperl \
   postgresql-plpython \
