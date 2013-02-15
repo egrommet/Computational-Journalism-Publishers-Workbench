@@ -10,20 +10,17 @@
 #
 
 # RKWard and GGobi from distro!
-../common/authenticate.bash
 sudo apt-get install -y \
   rkward \
   ggobi
 
 # unixODBC
-../common/authenticate.bash
 sudo apt-get install -y \
   unixodbc \
   unixodbc-bin \
   unixodbc-dev
 
 # R Commander, Rattle and JGR/Deducer
-../common/authenticate.bash
 sudo apt-get install -y \
   freeglut3-dev \
   openjdk-7-jdk \
@@ -31,6 +28,5 @@ sudo apt-get install -y \
   libxml2-dev
 
 # Force Boost 1.50 (RStudio won't work with older)
-../common/authenticate.bash
 sudo apt-get install -y \
   libboost1.50-all-dev

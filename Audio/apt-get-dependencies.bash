@@ -9,7 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-../common/authenticate.bash
 sudo apt-get install -y \
   libfftw3-dev \
   libsndfile1-dev

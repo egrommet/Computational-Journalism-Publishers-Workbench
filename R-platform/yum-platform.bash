@@ -10,7 +10,6 @@
 #
 
 # RKWard and GGobi from distro!
-../common/authenticate.bash
 sudo yum install -y \
   R-devel \
   rkward \
@@ -18,7 +17,6 @@ sudo yum install -y \
   ggobi-devel
 
 # Compilers
-../common/authenticate.bash
 sudo yum install -y \
   make \
   gcc \
@@ -26,14 +24,12 @@ sudo yum install -y \
   gcc-gfortran
 
 # unixODBC
-../common/authenticate.bash
 sudo yum install -y \
   unixODBC \
   unixODBC-devel \
   unixODBC-gui-qt
 
 # R Commander, Rattle and JGR/Deducer
-../common/authenticate.bash
 sudo yum install -y \
   freeglut-devel \
   libXt-devel \
@@ -42,6 +38,5 @@ sudo yum install -y \
   libxml2-devel
 
 # Force Boost 1.50 (RStudio won't work with older)
-../common/authenticate.bash
 sudo yum install -y \
   boost-devel

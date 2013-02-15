@@ -10,7 +10,6 @@
 #
 
 # Packages
-../common/authenticate.bash
 sudo yum install -y \
   raptor2 \
   raptor2-devel \
@@ -19,7 +18,6 @@ sudo yum install -y \
   wordnet-devel
 
 # WordNet environment variable
-../common/authenticate.bash
 sudo cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
 source /etc/profile
 set|grep WNHOME
