@@ -18,9 +18,7 @@
 
 install.packages(
   c(
-  'statnet',
-  'twitteR',
-  'streamR'
+    'statnet'
   ),
   dependencies=TRUE
 )
