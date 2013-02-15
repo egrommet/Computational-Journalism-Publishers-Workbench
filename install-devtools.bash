@@ -10,6 +10,8 @@
 #
 
 echo 'Installing devtools packages'
+echo "You will need to authenticate"
+sleep 4
 if [ -e "/usr/bin/apt-get" ]
 then
   ./apt-get-devtools.bash 2>&1 | tee devtools.log
