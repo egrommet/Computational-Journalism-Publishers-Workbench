@@ -19,37 +19,4 @@ sudo apt-get install -y \
 ../common/authenticate.bash
 sudo apt-get install -y \
   unixodbc \
-  unixodbc-dev \
   unixodbc-bin
-
-# Headers for package building
-../common/authenticate.bash
-sudo apt-get install -y \
-  libcurl4-gnutls-dev \
-  antiword \
-  evince \
-  gfortran \
-  texinfo \
-  openjdk-7-jdk \
-  tcl8.5 \
-  tk8.5 \
-  tcl8.5-dev \
-  tk8.5-dev \
-  tcl8.5-doc \
-  tk8.5-doc \
-  libtiff4-dev \
-  libxmu-dev \
-  libicu-dev \
-  libgmp-dev \
-  libmpfr-dev \
-  graphviz-dev \
-  subversion \
-  freeglut3-dev \
-  libgd2-xpm-dev \
-  libgsl0-dev \
-  libtool \
-  libgtk2.0-dev \
-  libxml2-dev \
-  libltdl-dev \
-  libatlas-dev \
-  liblapack-dev
