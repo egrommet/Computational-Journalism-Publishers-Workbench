@@ -12,30 +12,6 @@
 echo "Installing basic development tools"
 common/authenticate.bash
 sudo apt-get install -y \
+  vim \
   git-cola \
-  git-doc \
-  git-man \
-  git-all \
-  git-annex \
-  fdutils \
-  linux-doc \
-  linux-source \
-  linux-tools \
-  cpufrequtils \
-  patch \
-  curl \
-  wget \
-  make \
-  dkms \
-  build-essential \
-  gcc \
-  vim
-
-# Boost, cmake and Qt
-common/authenticate.bash
-sudo apt-get install -y \
-  cmake \
-  libboost1.50-all-dev \
-  libboost1.50-doc \
-  qt4-dev-tools \
-  libqtwebkit-dev
+  git-annex
