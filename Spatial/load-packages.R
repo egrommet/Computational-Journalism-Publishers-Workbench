@@ -15,3 +15,14 @@ update.views(
   )
 )
 warnings()
+install.packages(
+  c(
+    'acs',
+    'UScensus2000blkgrp',
+    'UScensus2000cdp',
+    'UScensus2000tract',
+    'UScensus2010'
+  ),
+  dependencies=TRUE
+)
+warnings()
