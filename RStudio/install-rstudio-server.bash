@@ -15,6 +15,8 @@ pushd ~/local/src/rstudio-*/build
     -DRSTUDIO_TARGET=Server \
     -DCMAKE_BUILD_TYPE=Release ..
   /usr/bin/time make
-  ../common/authenticate.bash
+  echo "Installing RStudio Server"
+  echo "You will need to authenticate"
+  sleep 4
   sudo make install
 popd

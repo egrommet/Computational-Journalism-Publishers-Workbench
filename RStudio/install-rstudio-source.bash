@@ -17,7 +17,9 @@ export HERE=`pwd` # save pointer to where the hacked files are
 
 # get source tarball from Github
 pushd ${HOME}/local/src
-  ../common/authenticate.bash
+  echo "Removing old RStudio source code"
+  echo "You will need to authenticate"
+  sleep 4
   sudo rm -fr rstudio*
   curl -k -L https://github.com/rstudio/rstudio/tarball/${VERSION} > rstudio.tgz
   tar xf rstudio.tgz
