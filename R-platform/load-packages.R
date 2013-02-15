@@ -1,4 +1,3 @@
-#! /bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,25 +8,10 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# RKWard and GGobi from distro!
-sudo apt-get install -y \
-  rkward \
-  ggobi
-
-# unixODBC
-sudo apt-get install -y \
-  unixodbc \
-  unixodbc-bin \
-  unixodbc-dev
-
-# R Commander, Rattle and JGR/Deducer
-sudo apt-get install -y \
-  tcl-dev \
-  tk-dev \
-  bwidget \
-  freeglut3-dev \
-  openjdk-7-jdk \
-  libgtk2.0-dev \
-  libxml2-dev
-
-./install-packages.bash 2>&1 | tee packages.log
+install.packages(
+  c(
+    'ctv'
+  ),
+  dependencies=TRUE
+)
+warnings()

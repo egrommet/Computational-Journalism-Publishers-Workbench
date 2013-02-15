@@ -36,3 +36,5 @@ sudo yum install -y \
   java-1.7.0-openjdk-devel \
   gtk2-devel \
   libxml2-devel
+
+./install-packages.bash 2>&1 | tee packages.log
