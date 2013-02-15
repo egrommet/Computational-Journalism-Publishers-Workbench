@@ -22,14 +22,10 @@ sudo apt-get install -y \
   unixodbc-bin \
   unixodbc-dev
 
-# R Commander
+# R Commander, Rattle and JGR/Deducer
 ../common/authenticate.bash
 sudo apt-get install -y \
-  freeglut3-dev
-
-# Rattle
-../common/authenticate.bash
-sudo apt-get install -y \
+  freeglut3-dev \
   openjdk-7-jdk \
   libgtk2.0-dev \
   libxml2-dev
