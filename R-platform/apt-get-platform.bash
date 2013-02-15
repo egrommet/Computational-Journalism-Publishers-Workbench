@@ -29,7 +29,3 @@ sudo apt-get install -y \
   openjdk-7-jdk \
   libgtk2.0-dev \
   libxml2-dev
-
-# Force Boost 1.50 (RStudio won't work with older)
-sudo apt-get install -y \
-  libboost1.50-all-dev

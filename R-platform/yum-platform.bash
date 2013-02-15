@@ -36,7 +36,3 @@ sudo yum install -y \
   java-1.7.0-openjdk-devel \
   gtk2-devel \
   libxml2-devel
-
-# Force Boost 1.50 (RStudio won't work with older)
-sudo yum install -y \
-  boost-devel
