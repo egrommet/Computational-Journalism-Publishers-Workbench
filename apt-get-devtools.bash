@@ -17,3 +17,11 @@ sudo apt-get install -y \
   gitk \
   curl \
   libcurl4-gnutls-dev
+
+# Boost, cmake and Qt
+sudo apt-get install -y \
+  cmake \
+  libboost1.50-all-dev \
+  libboost1.50-doc \
+  qt4-dev \
+  libqtwebkit-dev

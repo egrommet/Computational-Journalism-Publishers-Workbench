@@ -15,3 +15,10 @@ sudo yum install -y \
   git \
   git-gui \
   gitk
+
+# Boost, cmake and Qt
+sudo yum install -y \
+  boost-devel \
+  cmake \
+  qt-devel \
+  qtwebkit-devel
