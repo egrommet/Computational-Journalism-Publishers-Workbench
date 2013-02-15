@@ -18,4 +18,5 @@ sudo ln -f -s /usr/local/lib/rstudio-server/bin/rstudio-server \
 sudo rstudio-server start
 
 echo "Open TCP port 8787"
+sleep 4
 gufw
