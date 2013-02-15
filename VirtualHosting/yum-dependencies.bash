@@ -15,9 +15,6 @@ sudo yum install -y \
   qemu-kvm \
   virt-manager \
   virt-viewer \
-  guestfs-browser \
-  libguestfs-tools \
-  python-libguestfs \
   virt-top \
   libvirt-daemon-driver-qemu \
   libvirt-daemon-qemu
