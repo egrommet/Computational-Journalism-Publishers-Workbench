@@ -12,12 +12,6 @@
 echo "Installing desktop add-ons"
 common/authenticate.bash
 sudo yum install -y \
-  openbox-devel \
-  obapps \
-  obconf \
-  obmenu \
-  openbox \
-  fbpanel \
   firefox \
   vim-X11 \
   xchat \
