@@ -22,6 +22,8 @@ sudo apt-get install -y \
 
 # R Commander, Rattle and JGR/Deducer
 sudo apt-get install -y \
+  tcl-dev \
+  tk-dev \
   freeglut3-dev \
   openjdk-7-jdk \
   libgtk2.0-dev \
