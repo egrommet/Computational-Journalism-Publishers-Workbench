@@ -10,22 +10,14 @@
 #
 
 sudo yum install -y \
-  gdal \
-  gdal-devel \
-  gdal-doc \
-  geos \
-  geos-devel \
-  grass \
-  netcdf-devel \
-  osm2pgsql \
-  pgRouting \
-  postgis \
-  postgis-docs \
-  postgis-utils \
-  proj \
-  proj-devel \
-  proj-epsg \
-  qgis \
-  qgis-grass \
-  spatialite-gui \
-  spatialite-tools
+  python-virtinst \
+  libvirt \
+  qemu-kvm \
+  virt-manager \
+  virt-viewer \
+  guestfs-browser \
+  libguestfs-tools \
+  python-libguestfs \
+  virt-top \
+  libvirt-daemon-driver-qemu \
+  libvirt-daemon-qemu
