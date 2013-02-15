@@ -19,19 +19,8 @@
 install.packages(
   c(
   'statnet',
-  'ergm.userterms',
-  'latentnet', 
-  'abind', 
-  'shapes',
-  'network',
-  'numDeriv',
-  'sna',
-  'networksis',
-  'igraphtosonia',
-  'relevent',
-  'hergm',
-  'SparseM',
-  'igraph')
+  'twitteR',
+  'streamR'
   ),
   dependencies=TRUE
 )
