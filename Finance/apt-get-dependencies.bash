@@ -10,6 +10,8 @@
 #
 
 sudo apt-get install -y \
+  libgmp-dev \
+  libmpfr-dev \
   libltdl-dev \
   libtool
 if [ -e "/etc/ld.so.conf.d/quantlib.conf" ]
