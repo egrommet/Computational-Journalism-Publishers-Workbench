@@ -10,7 +10,6 @@
 
 install.packages(
   c(
-    'ctv',
     'Rcmdr',
     'rattle',
     'twitteR',
