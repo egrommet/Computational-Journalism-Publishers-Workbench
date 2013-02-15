@@ -14,7 +14,9 @@ sudo yum install -y \
   vim \
   git \
   git-gui \
-  gitk
+  gitk \
+  curl \
+  libcurl-devel
 
 # Boost, cmake and Qt
 sudo yum install -y \
