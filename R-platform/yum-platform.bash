@@ -31,6 +31,9 @@ sudo yum install -y \
 
 # R Commander, Rattle and JGR/Deducer
 sudo yum install -y \
+  tcl-devel \
+  tk-devel \
+  bwidget \
   freeglut-devel \
   libXt-devel \
   java-1.7.0-openjdk-devel \
