@@ -10,6 +10,7 @@
 
 install.packages(
   c(
+    'RJSONIO',
     'RDF',
     'rrdf',
     'tm',
