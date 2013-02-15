@@ -17,4 +17,5 @@ sudo apt-get install -y \
   firefox \
   cpufrequtils \
   powertop \
+  laptop-mode-tools \
   vim-gtk
