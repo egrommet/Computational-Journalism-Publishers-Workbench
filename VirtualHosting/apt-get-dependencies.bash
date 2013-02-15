@@ -10,3 +10,12 @@
 #
 
 sudo apt-get install -y \
+  virtinst \
+  libvirt-bin \
+  qemu-kvm \
+  qemu-utils \
+  qemu-kvm-spice \
+  virt-manager \
+  virt-viewer \
+  virt-top \
+  virt-goodies
