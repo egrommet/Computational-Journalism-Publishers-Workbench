@@ -16,7 +16,7 @@ install.packages(
     'tm.plugin.dc',
     'tm.plugin.mail'
   ),
-  dependencies=TRUE
+  dependencies=NA
 )
 warnings()
 library(ctv)
