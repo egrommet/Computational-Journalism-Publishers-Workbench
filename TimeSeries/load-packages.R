@@ -20,7 +20,7 @@ install.packages(
     'TSxls',
     'TSzip'
   ),
-  dependencies=TRUE
+  dependencies=NA
 )
 warnings()
 library(ctv)
