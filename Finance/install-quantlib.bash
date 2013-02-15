@@ -25,7 +25,9 @@ cd ${DIR}
 autoreconf --verbose
 ./configure
 /usr/bin/time make
-../common/authenticate.bash
+echo "Installing QuantLib"
+echo "You will need to authenticate"
+sleep 4
 sudo make install
 popd
 
