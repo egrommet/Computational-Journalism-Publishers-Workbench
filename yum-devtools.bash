@@ -14,4 +14,6 @@ common/authenticate.bash
 sudo yum install -y \
   kernel-tools \
   vim \
-  git-cola
+  git \
+  git-gui \
+  gitk
