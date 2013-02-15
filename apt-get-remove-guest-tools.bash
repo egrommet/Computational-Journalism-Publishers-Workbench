@@ -10,7 +10,6 @@
 #
 
 echo "Removing guest tools / additions already installed"
-common/authenticate.bash
 sudo apt-get purge -y \
   open-vm-dkms \
   open-vm-toolbox \

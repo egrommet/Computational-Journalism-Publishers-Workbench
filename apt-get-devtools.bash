@@ -10,7 +10,6 @@
 #
 
 echo "Installing basic development tools"
-common/authenticate.bash
 sudo apt-get install -y \
   vim \
   git \

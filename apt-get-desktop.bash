@@ -10,7 +10,6 @@
 #
 
 echo "Installing desktop add-ons"
-common/authenticate.bash
 sudo apt-get install -y \
   xchat \
   pidgin \

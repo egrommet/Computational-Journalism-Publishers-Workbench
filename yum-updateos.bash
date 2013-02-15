@@ -10,5 +10,4 @@
 #
 
 echo "Updating packages"
-common/authenticate.bash
 sudo yum update
