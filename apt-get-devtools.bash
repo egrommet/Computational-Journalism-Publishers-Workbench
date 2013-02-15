@@ -14,4 +14,6 @@ sudo apt-get install -y \
   vim \
   git \
   git-gui \
-  gitk
+  gitk \
+  curl \
+  libcurl4-gnutls-dev
