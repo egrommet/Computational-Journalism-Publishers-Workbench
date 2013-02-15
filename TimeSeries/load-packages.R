@@ -7,6 +7,7 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
+
 install.packages(
   c(
     'TScompare',
@@ -18,7 +19,8 @@ install.packages(
     'TSgetSymbol',
     'TSxls',
     'TSzip'
-  )
+  ),
+  dependencies=TRUE
 )
 warnings()
 library(ctv)

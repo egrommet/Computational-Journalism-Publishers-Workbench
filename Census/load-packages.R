@@ -15,6 +15,7 @@ install.packages(
     'UScensus2000cdp',
     'UScensus2000tract',
     'UScensus2010'
-  )
+  ),
+  dependencies=TRUE
 )
 warnings()
