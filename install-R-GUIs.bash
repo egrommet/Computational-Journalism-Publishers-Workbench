@@ -14,6 +14,6 @@ for i in \
   R-GUIs
 do
   pushd ${i}
-  ./install-all.bash
+  ./install-R-GUIs.bash
   popd
 done
