@@ -9,7 +9,8 @@
 #
 install.packages(
   c(
-    'Rcmdr'
+    'Rcmdr',
+    'rattle'
   ),
   dependencies=TRUE
 )
