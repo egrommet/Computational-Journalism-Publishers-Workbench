@@ -10,4 +10,4 @@
 #
 
 echo "You will need to authenticate"
-sleep 3
+sleep 4
