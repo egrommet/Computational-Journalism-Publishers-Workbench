@@ -10,11 +10,10 @@
 #
 
 source ~/.bash_profile
-
 for i in \
-  R-base
+  R-GUIs
 do
   pushd ${i}
-  ./install-base.bash
+  ./install-all.bash
   popd
 done
