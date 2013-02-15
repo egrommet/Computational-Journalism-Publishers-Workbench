@@ -16,4 +16,5 @@ sudo apt-get install -y \
   postgresql-contrib \
   postgresql-doc \
   postgresql-plperl \
-  postgresql-plpython
+  postgresql-plpython \
+  libpq-dev
