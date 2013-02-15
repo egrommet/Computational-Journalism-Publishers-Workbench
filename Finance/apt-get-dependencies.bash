@@ -12,4 +12,10 @@
 sudo apt-get install -y \
   libltdl-dev \
   libtool
-./install-quantlib.bash 2>&1 | tee quantlib.log
+if [ -e "/etc/ld.so.conf.d/quantlib.conf" ]
+then
+  echo 'QuantLib is already installed!'
+  sleep 4
+else
+  ./install-quantlib.bash 2>&1 | tee quantlib.log
+fi
