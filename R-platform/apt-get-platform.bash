@@ -13,10 +13,13 @@
 ../common/authenticate.bash
 sudo apt-get install -y \
   rkward \
-  ggobi
+  ggobi \
+  ggobi-dev
 
 # unixODBC
 ../common/authenticate.bash
 sudo apt-get install -y \
   unixodbc \
-  unixodbc-bin
+  unixodbc-bin \
+  unixodbc-dev \
+  freeglut2-dev
