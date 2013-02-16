@@ -24,7 +24,12 @@ sudo apt-get install -y \
   libboost1.50-all-dev \
   libboost1.50-doc \
   libqt4-dev \
-  libqtwebkit-dev
+  libqt4-dev-bin \
+  libqtwebkit-dev \
+  qt4-dev-tools \
+  qdevelop \
+  qt-sdk \
+  qtcreator
 
 # Numeric libraries
 sudo apt-get install -y \
