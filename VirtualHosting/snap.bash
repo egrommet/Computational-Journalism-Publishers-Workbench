@@ -10,3 +10,4 @@
 #
 
 sudo qemu-img snapshot -c $1 $2
+sudo qemu-img snapshot -l $2
