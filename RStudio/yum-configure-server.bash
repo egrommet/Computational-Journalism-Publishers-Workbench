@@ -20,3 +20,6 @@ sudo rstudio-server start
 echo "Open TCP port 8787"
 sleep 4
 firewall-config
+
+# Test it
+firefox localhost:8787
