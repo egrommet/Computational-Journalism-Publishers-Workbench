@@ -10,6 +10,8 @@
 #
 
 sudo apt-get install -y \
+  spice-client \
+  spice-client-gtk \
   virtinst \
   libvirt-bin \
   qemu-kvm \
