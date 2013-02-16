@@ -10,14 +10,25 @@
 #
 
 sudo apt-get install -y \
+  gir1.2-spice-client-glib-2.0 \
+  gir1.2-spice-client-gtk-2.0 \
+  gir1.2-spice-client-gtk-3.0 \
+  libspice-client-glib-2.0-1 \
+  libspice-client-gtk-2.0-1 \
+  libspice-client-gtk-3.0-1 \
+  libspice-protocol-dev \
+  libspice-server1 \
+  libvirt-bin \
+  python-spice-client-gtk \
+  qemu-kvm \
+  qemu-kvm-spice \
+  qemu-utils \
   spice-client \
   spice-client-gtk \
+  spice-vdagent \
+  virt-goodies \
   virtinst \
-  libvirt-bin \
-  qemu-kvm \
-  qemu-utils \
-  qemu-kvm-spice \
   virt-manager \
-  virt-viewer \
   virt-top \
-  virt-goodies
+  virt-viewer \
+  xserver-xorg-video-qxl
