@@ -26,7 +26,6 @@ sudo yum install -y \
   qt-devel \
   qtwebkit-devel \
   qdevelop \
-  code-editor \
   ctags
 
 # Numeric libraries
