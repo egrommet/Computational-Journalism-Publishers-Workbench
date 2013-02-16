@@ -11,6 +11,8 @@
 
 # Packages
 sudo yum install -y \
+  subversion \
+  gsl-devel \
   raptor2 \
   raptor2-devel \
   python-nltk \
