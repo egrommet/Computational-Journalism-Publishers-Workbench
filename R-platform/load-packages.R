@@ -10,7 +10,10 @@
 
 install.packages(
   c(
-    'ctv'
+    'ctv',
+    'RJSONIO',
+    'twitteR',
+    'streamR'
   ),
   dependencies=TRUE
 )

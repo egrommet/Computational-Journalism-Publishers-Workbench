@@ -11,9 +11,7 @@
 install.packages(
   c(
     'Rcmdr',
-    'rattle',
-    'twitteR',
-    'streamR'
+    'rattle'
   ),
   dependencies=TRUE
 )
