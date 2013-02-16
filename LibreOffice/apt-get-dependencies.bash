@@ -28,8 +28,7 @@ sudo apt-get install -y \
   libreoffice-dmaths \
   libreoffice-filter-mobiledev \
   libreoffice-gtk3 \
-  libreoffice-sdbc-postgresql \
   libreoffice-templates \
   libreoffice-wiki-publisher \
   libreoffice-writer2latex \
-  libreoffice-writer2xhtml \
+  libreoffice-writer2xhtml

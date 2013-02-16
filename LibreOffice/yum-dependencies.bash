@@ -26,4 +26,4 @@ sudo yum install -y \
   libreoffice-wiki-publisher \
   libreoffice-writer2latex \
   libreoffice-writer2xhtml \
-  libreoffice-xsltfilter \
+  libreoffice-xsltfilter
