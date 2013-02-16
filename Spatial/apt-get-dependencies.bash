@@ -10,7 +10,6 @@
 #
 
 sudo apt-get install -y \
-  libgsl0-dev \
   dans-gdal-scripts \
   gdal-bin \
   libgdal-dev \

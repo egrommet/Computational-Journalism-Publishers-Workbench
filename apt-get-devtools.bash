@@ -25,3 +25,9 @@ sudo apt-get install -y \
   libboost1.50-doc \
   libqt4-dev \
   libqtwebkit-dev
+
+# Numeric libraries
+sudo apt-get install -y \
+  libgsl0-dev \
+  libgmp-dev \
+  libmpfr-dev

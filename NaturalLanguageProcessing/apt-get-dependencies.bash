@@ -11,7 +11,6 @@
 
 sudo apt-get install -y \
   subversion \
-  libgsl0-dev \
   libraptor2-doc \
   libraptor2-dev \
   raptor2-utils \

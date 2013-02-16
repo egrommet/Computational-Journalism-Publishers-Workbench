@@ -10,9 +10,6 @@
 #
 
 sudo yum install -y \
-  gmp-devel \
-  gsl-devel \
-  mpfr-devel \
   QuantLib-devel \
   QuantLib-doc \
   QuantLib-test \

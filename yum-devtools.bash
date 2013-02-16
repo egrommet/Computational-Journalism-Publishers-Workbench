@@ -24,3 +24,9 @@ sudo yum install -y \
   cmake \
   qt-devel \
   qtwebkit-devel
+
+# Numeric libraries
+sudo yum install -y \
+  gsl-devel \
+  gmp-devel \
+  mpfr-devel
