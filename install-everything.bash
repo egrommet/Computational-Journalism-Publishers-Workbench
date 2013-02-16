@@ -12,5 +12,4 @@
 ./install-devtools.bash
 ./install-desktop.bash
 ./install-platform.bash
-./install-R-GUIs.bash
 ./install-all-options.bash
