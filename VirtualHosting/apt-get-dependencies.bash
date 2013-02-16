@@ -32,3 +32,7 @@ sudo apt-get install -y \
   virt-top \
   virt-viewer \
   xserver-xorg-video-qxl
+
+echo "Add Virtual Machine Manager users to the 'libvirtd' group!"
+sleep 4
+sudo vim /etc/group
