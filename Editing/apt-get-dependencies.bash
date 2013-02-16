@@ -42,7 +42,6 @@ sudo apt-get install -y \
   nautilus-image-converter \
   openclipart \
   optipng \
-  pandoc \
   pinta \
   pitivi \
   postr \

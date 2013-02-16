@@ -46,8 +46,6 @@ sudo yum install -y \
   nautilus-image-converter \
   openclipart \
   optipng \
-  pandoc \
-  pandoc-pdf \
   pinta \
   pitivi \
   postr \
