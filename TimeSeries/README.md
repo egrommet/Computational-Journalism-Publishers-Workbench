@@ -1,4 +1,4 @@
-# [Time Series Task View](http://cran.r-project.org/web/views/TimeSeries.html)
+# [CRAN Task View: Time Series Analysis](http://cran.r-project.org/web/views/TimeSeries.html)
 
 ## Usage:
 
