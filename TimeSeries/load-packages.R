@@ -8,21 +8,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-install.packages(
-  c(
-    'TScompare',
-    'TSdata',
-    'TSPostgreSQL',
-    'TSSQLite',
-    'TSodbc',
-    'TShistQuote',
-    'TSgetSymbol',
-    'TSxls',
-    'TSzip'
-  ),
-  dependencies=NA
-)
-warnings()
 library(ctv)
 update.views(
   c(
