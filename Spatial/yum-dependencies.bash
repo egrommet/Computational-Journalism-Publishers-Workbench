@@ -10,6 +10,7 @@
 #
 
 sudo yum install -y \
+  gsl-devel \
   gdal \
   gdal-devel \
   gdal-doc \
