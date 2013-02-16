@@ -22,8 +22,12 @@ sudo yum install -y \
 sudo yum install -y \
   boost-devel \
   cmake \
+  qt-creator \
   qt-devel \
-  qtwebkit-devel
+  qtwebkit-devel \
+  qdevelop \
+  code-editor \
+  ctags
 
 # Numeric libraries
 sudo yum install -y \
