@@ -8,6 +8,13 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+library(ctv)
+update.views(
+  c(
+    'NaturalLanguageProcessing'
+  )
+)
+warnings()
 install.packages(
   c(
     'RJSONIO',
@@ -18,12 +25,5 @@ install.packages(
     'tm.plugin.mail'
   ),
   dependencies=NA
-)
-warnings()
-library(ctv)
-update.views(
-  c(
-    'NaturalLanguageProcessing'
-  )
 )
 warnings()
