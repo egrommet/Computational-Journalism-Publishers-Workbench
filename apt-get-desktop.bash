@@ -11,6 +11,8 @@
 
 echo "Installing desktop add-ons"
 sudo apt-get install -y \
+  gpointing-device-settings \
+  aria2 \
   xchat \
   pidgin \
   firefox \
