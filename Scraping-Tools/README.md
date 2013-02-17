@@ -6,6 +6,7 @@
 
 	./install-all.bash
 	./test-pdf-extract.bash
+1. [Open an issue on Github](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new) if you have any questions or problems.
 
 ## Upstream Projects
 * [Tesseract Optical Character Recognition Engine](https://code.google.com/p/tesseract-ocr/)

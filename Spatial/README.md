@@ -5,9 +5,8 @@
 1. Open a terminal and type
 
 	./install-all.bash
-
-2. When the run completes, examine file 'packages.log' for errors. There should be no messages of the form 'ERROR:'. You can ignore this warning: 'In update.views(c("Spatial")) : The following packages are not available: RPyGeo
-'. [Open an issue on Github](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new) if you have any questions or problems.
+1. When the run completes, examine file 'packages.log' for errors. There should be no messages of the form 'ERROR:'. You can ignore this warning: 'In update.views(c("Spatial")) : The following packages are not available: RPyGeo'.
+1. [Open an issue on Github](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new) if you have any questions or problems.
 
 ## Upstream Projects
 * [GDAL - Geospatial Data Abstraction Library](http://www.gdal.org/)
