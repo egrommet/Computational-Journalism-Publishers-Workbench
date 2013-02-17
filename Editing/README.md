@@ -1,4 +1,4 @@
-# R GUIs
+# Editing Tools
 
 ## Usage
 
