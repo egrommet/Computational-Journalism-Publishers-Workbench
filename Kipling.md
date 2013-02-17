@@ -5,7 +5,7 @@ Their names are What and Why and When<br>
 And How and Where and Who.<br>
 
 ## The Rest of the Story
-(Did you know there was more?)
+_(Did you know there was more?)_
 
 I send them over land and sea,<br>
 I send them east and west;<br>
