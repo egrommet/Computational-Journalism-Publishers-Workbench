@@ -28,3 +28,4 @@
 
 ## Suggested Reading
 * [Crafting Digital Media, by Daniel James](http://j.mp/12TTnxM)
+* [The Functional Art by Alberto Cairo](http://j.mp/YoTobU)
