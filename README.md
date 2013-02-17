@@ -1,4 +1,6 @@
 ## [Quick Start](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md)
+## [What's New?](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/WhatsNew.md)
+## [Road Map](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/RoadMap.md)
 
 ## Why?
 
