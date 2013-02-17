@@ -11,3 +11,6 @@
 ## Upstream Projects
 * [WordNet](http://wordnet.princeton.edu/)
 * [Python Natural Language Toolkit (NLTK)](http://nltk.org/)
+
+## Suggested Reading
+* [Natural Language Processing with Python by Steven Bird, Ewan Klein, Edward Loper](http://j.mp/Xhc0cs)

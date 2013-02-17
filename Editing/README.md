@@ -27,4 +27,4 @@
 * [Sigil EPUB Editor](https://code.google.com/p/sigil/)
 
 ## Suggested Reading
-[Crafting Digital Media, by Daniel James](http://j.mp/12TTnxM)
+* [Crafting Digital Media, by Daniel James](http://j.mp/12TTnxM)
