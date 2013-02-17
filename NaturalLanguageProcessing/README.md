@@ -10,4 +10,4 @@
 
 ## Upstream Projects
 * [WordNet](http://wordnet.princeton.edu/)
-* [Python Natural Language Toolkit (NLTK)](http://trac.osgeo.org/geos/)
+* [Python Natural Language Toolkit (NLTK)](http://nltk.org/)
