@@ -25,3 +25,6 @@
 * [Django Web Framework](https://www.djangoproject.com/)
 * [Scribus Desktop Publishing](http://scribus.net/canvas/Scribus)
 * [Sigil EPUB Editor](https://code.google.com/p/sigil/)
+
+## Suggested Reading
+[Crafting Digital Media, by Daniel James](http://j.mp/12TTnxM)
