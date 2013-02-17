@@ -11,3 +11,7 @@
 ## Upstream Projects
 * [statnet: Software tools for the Statistical Analysis of Network Data](http://cran.r-project.org/web/packages/statnet/index.html)
 * [Python NetworkX](http://networkx.github.com/)
+
+# Suggested Reading
+* [Mining the Social Web by Matthew A. Russell](http://j.mp/14Z4vME)
+* [Social Network Analysis for Startups by Maksim Tsvetovat, Alexander Kouznetsov](http://j.mp/Zj7MHh)
