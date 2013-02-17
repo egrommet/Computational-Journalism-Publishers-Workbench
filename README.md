@@ -1,3 +1,5 @@
+## [Quick Start]()
+
 ## Why?
 
 ### Independent journalists today work in a world dominated by two trends:
