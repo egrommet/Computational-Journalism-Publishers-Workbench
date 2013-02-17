@@ -11,6 +11,7 @@
 
 echo "Installing desktop add-ons"
 sudo yum install -y \
+  yumex \
   firefox \
   vim-X11 \
   xchat \
