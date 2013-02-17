@@ -1,4 +1,4 @@
-# [CRAN Task View: Analysis of Spatial Data](http://cran.r-project.org/web/views/Spatial.html)
+# RStudio
 
 ## Usage
 
