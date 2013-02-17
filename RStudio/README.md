@@ -13,3 +13,6 @@
 
 ## Upstream Projects
 * [RStudio](http://www.rstudio.com/)
+
+## Suggested Reading
+* [Learning RStudio for R Statistical Computing by Mark van der Loo, Edwin de Jonge](http://j.mp/14Z5k8d)
