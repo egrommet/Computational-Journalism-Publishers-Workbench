@@ -1,4 +1,4 @@
-## [Quick Start]()
+## [Quick Start](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md)
 
 ## Why?
 
