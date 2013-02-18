@@ -40,7 +40,7 @@ The terminal application on Linux puts you in a program called the 'Bourne Again
 1. Remove any existing guest tools. Some Linux distributions install them for you, but you need to use the ones that match the version of VMware you're using to host the virtual machine. Open a terminal and type
 
 	```
-	cd Computational-*
+	cd ~/Computational-*
 	./remove-guest-tools.bash
 	```
 1. After the guest tool removal completes, go to the VMware Player 'Virtual Machine' menu, select 'Install VMware Tools...'. Press the 'Install' button.
