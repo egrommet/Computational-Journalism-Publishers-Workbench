@@ -1,4 +1,6 @@
 ## Quick Start
-* [Quick Start - Fedora, Linux Mint or Ubuntu on VMware Player](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md)
-* [Quick Start - Fedora 18 on VirtualBox](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md)
-* [Quick Start - Linux Mint 14 on VirtualBox](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md)
+
+## [Getting Started - VMware Player Hosting](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedVMware.md)
+## [Getting Started - Oracle VM VirtualBox Hosting](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedVirtualBox.md)
+## [Installing the Computatational Journalism Publishers Workbench Platform](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/InstallingThePlatform.md)
+## [Installing the Computatational Journalism Publishers Workbench Options](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/InstallingOptions.md)
