@@ -29,7 +29,8 @@ sudo apt-get install -y \
   qt4-dev-tools \
   qdevelop \
   qt-sdk \
-  qtcreator
+  qtcreator \
+  phonon-backend-gstreamer
 
 # Numeric libraries
 sudo apt-get install -y \
