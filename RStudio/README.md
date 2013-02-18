@@ -4,7 +4,9 @@
 
 1. Open a terminal and type
 
-	./install-RStudio.bash
+	```
+	./install-all.bash
+	```
 1. This will run quite a while. It is downloading RStudio and some fairly large helper tools and compiling the whole thing.
 1. When it completes the installation, it will open a platform-specific firewall settings tool. 
 	* On Fedora, you will need to go to the 'Ports' tab. For both 'Runtime Configuration' and 'Persistent Configuration', open port 8787 for the TCP protocol.

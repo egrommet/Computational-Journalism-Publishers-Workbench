@@ -10,6 +10,15 @@
 
 install.packages(
   c(
+    'ggplot2',
+    'knitr',
+    'markdown',
+    'reshape2',
+    'RODBC',
+    'RSQLite',
+    'RSQLite.extfuns',
+    'reshapeGUI',
+    'rggobi',
     'ctv',
     'RJSONIO',
     'twitteR',
