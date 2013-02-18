@@ -10,6 +10,13 @@
 
 install.packages(
   c(
+    'ggplot2',
+    'knitr',
+    'markdown',
+    'reshape2',
+    'sqldf',
+    'reshapeGUI',
+    'rggobi',
     'ctv',
     'RJSONIO',
     'twitteR',
