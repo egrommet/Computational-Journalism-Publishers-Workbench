@@ -1,4 +1,4 @@
-## Installing the Computatational Journalism Publishers Workbench Options
+## Installing Options
 
 To install an option, start the virtual machine, log in and open a terminal. Then type
 ```
