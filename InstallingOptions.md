@@ -2,7 +2,7 @@
 
 To install an option, start the virtual machine, log in and open a terminal. Then type
 ```
-cd Computational-*
+cd ~/Computational-*
 cd <option-directory>
 ./install-all.bash  
 ```
