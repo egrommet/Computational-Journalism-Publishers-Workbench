@@ -6,7 +6,7 @@ cd Computational-*
 cd <option-directory>
 ./install-all.bash  
 ```
-where ```<option-directory``` is the name of the option. Options roughly correspond to CRAN Task Views - collections of software for a topic.
+where ```<option-directory``` is the name of the option. Options roughly correspond to CRAN Task Views - collections of software for a topic. However, some options are Linux-only, like [Editing](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Editing/README.md), and some, like [NaturalLanguageProcessing](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/NaturalLanguageProcessing/README.md) and [Spatial](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Spatial/README.md), contain both a task view and Linux end-user software.
 
 The currently available options are:
 * [Audio](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Audio/README.md)
