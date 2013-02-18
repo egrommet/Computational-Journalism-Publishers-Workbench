@@ -45,3 +45,4 @@ The terminal application on Linux puts you in a program called the 'Bourne Again
 	```
 1. You may be asked if you wish to continue. If this happens, answer 'yes'. The script will then install the VirtualBox guest additions. Then the virtual machine will shut down.
 1. After shutdown, go into the machine's 'Storage' settings and disconnect the virtual ISO file with the guest additions.
+## [Next Step: Installing the Computatational Journalism Publishers Workbench Platform](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/InstallingThePlatform.md)
