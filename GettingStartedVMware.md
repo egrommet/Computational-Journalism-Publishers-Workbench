@@ -1,4 +1,4 @@
-## Quick Start - VMware Player Hosting
+## Getting Started - VMware Player Hosting
 
 ### System requirements
 You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***There is no free VMware Player for Macintosh!*** You will also need reliable wall power and a reliable Internet connection.

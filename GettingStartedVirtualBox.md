@@ -1,15 +1,4 @@
-1. Take a snapshot of the machine in its present state. If something goes wrong further down the line in the install, you can drop back to this known good state.
-1. Start the machine up again, log in and open a terminal. Type
-
-    ```
-    $ cd Computational-Journalism-Publishers-Workbench  
-    $ ./install-platform.bash  
-    $ ./install-base.bash
-    ```
-1. This will run quite a while. On my dual-core i5 laptop on typical coffee shop wireless, it takes about two hours. It is downloading most of the software over the Internet and compiling much of it from source.
-1. Once the installs are done, shut down the virtual machine and take another snapshot.
-================================================================
-## Quick Start - Oracle VM VirtualBox Hosting
+## Getting Started - Oracle VM VirtualBox Hosting
 
 ### System requirements
 You'll need a Windows, Linux or Macintosh desktop/laptop with at least 3 GB of RAM. You will also need reliable wall power and a reliable Internet connection.
