@@ -51,3 +51,4 @@ The terminal application on Linux puts you in a program called the 'Bourne Again
 	```
 1. You will be asked a number of questions. In all cases, just press 'Enter' and accept the default. After the guest tools are installed, the virtual machine will shut down and VMware Player will close.
 1. After shutdown, go into the virtual machine's 'CD/DVD' settings and disconnect the virtual ISO file with the VMware Tools.
+## [Next Step: Installing the Computatational Journalism Publishers Workbench Platform](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/InstallingThePlatform.md)
