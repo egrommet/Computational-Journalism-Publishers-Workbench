@@ -3,7 +3,7 @@ The software in the Computational Journalism Publishers Workbench is divided int
 
 To install the platform, start the virtual machine, log in and open a terminal. Type
 ```
-cd Computational-*
+cd ~/Computational-*
 ./setup-environment.bash
 ./install-platform.bash  
 ```
