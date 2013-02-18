@@ -33,7 +33,7 @@ The terminal application on Linux puts you in a program called the 'Bourne Again
 1. Remove any existing guest tools. Some Linux distributions install them for you, but you need to use the ones that match the version of VirtualBox you're using to host the virtual machine. Open a terminal and type
 
 	```
-	cd Computational-*
+	cd ~/Computational-*
 	./remove-guest-tools.bash
 	```
 1. After the guest tool removal completes, go to the VirtualBox 'Devices' menu. Select 'Install guest additions'. Press the ***'Cancel'*** button if you get a dialog asking you to open the media with the File Manager or run it.
