@@ -17,6 +17,8 @@
 * [RJSONIO: Serialize R objects to JSON, JavaScript Object Notation](http://cran.r-project.org/web/packages/RJSONIO/index.html)
 * [twitteR: R based Twitter client](http://cran.r-project.org/web/packages/twitteR/index.html)
 * [streamR: Access to Twitter Streaming API via R](http://cran.r-project.org/web/packages/streamR/index.html)
+* [ggplot2](http://docs.ggplot2.org/current/)
+* [knitr: Elegant, flexible and fast dynamic report generation with R](http://yihui.name/knitr/)
 
 ## Suggested Reading
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)
