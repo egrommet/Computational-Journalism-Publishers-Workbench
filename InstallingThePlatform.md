@@ -9,4 +9,4 @@ cd Computational-*
 ```
 This will run quite a while. On my dual-core i5 laptop on typical coffee shop wireless, it takes about an hour. It is downloading the platform software over the Internet and compiling some of it from source.
 
-To verify that the platform installed correctly, go into the desktop menu and make sure GGobi and RKWard are present and can be started. For more information, the the [R-platform README.md file](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/R-platform/README.md).
+To verify that the platform installed correctly, go into the desktop menu and make sure GGobi and RKWard are present and can be started. For more information, see the [R-platform README.md file](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/R-platform/README.md).
