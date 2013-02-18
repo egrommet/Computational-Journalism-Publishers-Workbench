@@ -20,3 +20,4 @@
 
 ## Suggested Reading
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)
+* [ggplot2: Elegant Graphics for Data Analysis by Hadley Wickham](http://j.mp/XoQc0G)
