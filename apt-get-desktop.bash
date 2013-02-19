@@ -19,4 +19,5 @@ sudo apt-get install -y \
   cpufrequtils \
   powertop \
   laptop-mode-tools \
-  vim-gtk
+  vim-gtk \
+  gifw
