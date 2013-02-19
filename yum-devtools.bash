@@ -25,6 +25,7 @@ sudo yum install -y \
   make \
   gcc \
   gcc-c++ \
+  gcc-gfortran \
   cmake \
   rpmdevtools \
   libuuid-devel \
@@ -34,7 +35,7 @@ sudo yum install -y \
   pam-devel \
   boost-devel \
   pango-devel \
-  java-1.7.0-openjdk  \
+  java-1.7.0-openjdk-devel \
   ant \
   xml-commons-apis
 

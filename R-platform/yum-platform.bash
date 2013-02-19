@@ -16,13 +16,6 @@ sudo yum install -y \
   ggobi \
   ggobi-devel
 
-# Compilers
-sudo yum install -y \
-  make \
-  gcc \
-  gcc-c++ \
-  gcc-gfortran
-
 # unixODBC
 sudo yum install -y \
   unixODBC \
@@ -36,7 +29,6 @@ sudo yum install -y \
   bwidget \
   freeglut-devel \
   libXt-devel \
-  java-1.7.0-openjdk-devel \
   gtk2-devel \
   libxml2-devel
 
