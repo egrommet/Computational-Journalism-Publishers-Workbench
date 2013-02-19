@@ -30,7 +30,8 @@ sudo apt-get install -y \
   qdevelop \
   qt-sdk \
   qtcreator \
-  phonon-backend-gstreamer
+  phonon-backend-gstreamer \
+  libphonon-dev
 
 # Numeric libraries
 sudo apt-get install -y \
