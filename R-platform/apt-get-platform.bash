@@ -26,7 +26,6 @@ sudo apt-get install -y \
   tk-dev \
   bwidget \
   freeglut3-dev \
-  openjdk-7-jdk \
   libgtk2.0-dev \
   libxml2-dev
 
