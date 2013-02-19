@@ -18,20 +18,25 @@ sudo apt-get install -y \
   curl \
   libcurl4-gnutls-dev
 
-# Boost, cmake and Qt
+# Needed to build RStudio
 sudo apt-get install -y \
-  cmake \
   libboost1.50-all-dev \
-  libboost1.50-doc \
-  libqt4-dev \
-  libqt4-dev-bin \
   libqtwebkit-dev \
-  qt4-dev-tools \
-  qdevelop \
-  qt-sdk \
-  qtcreator \
-  phonon-backend-gstreamer \
-  libphonon-dev
+  build-essential \
+  pkg-config \
+  fakeroot \
+  cmake \
+  uuid-dev \
+  libssl-dev \
+  libbz2-dev \
+  zlib1g-dev \
+  libpam-dev \
+  libapparmor1 \
+  apparmor-utils \
+  libpango1.0-dev \
+  openjdk-7-jdk \
+  ant \
+  unzip
 
 # Numeric libraries
 sudo apt-get install -y \

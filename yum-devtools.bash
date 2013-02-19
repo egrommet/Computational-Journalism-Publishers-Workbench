@@ -18,15 +18,25 @@ sudo yum install -y \
   curl \
   libcurl-devel
 
-# Boost, cmake and Qt
+
+# Needed to build RStudio
 sudo yum install -y \
-  boost-devel \
-  cmake \
-  qt-creator \
-  qt-devel \
   qtwebkit-devel \
-  qdevelop \
-  ctags
+  make \
+  gcc \
+  gcc-c++ \
+  cmake \
+  rpmdevtools \
+  libuuid-devel \
+  openssl-devel \
+  bzip2-devel \
+  zlib-devel \
+  pam-devel \
+  boost-devel \
+  pango-devel \
+  java-1.7.0-openjdk  \
+  ant \
+  xml-commons-apis
 
 # Numeric libraries
 sudo yum install -y \
