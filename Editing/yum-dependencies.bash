@@ -53,7 +53,6 @@ sudo yum install -y \
   python-django-doc \
   rawtherapee \
   scribus \
-  scribus-doc \
   shotwell \
   sigil \
   synfig \
