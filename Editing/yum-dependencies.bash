@@ -10,6 +10,8 @@
 #
 
 sudo yum install -y \
+  alsa-plugins-pulseaudio \
+  alsa-utils \
   audacity \
   audacity-manual \
   blender \
@@ -18,6 +20,7 @@ sudo yum install -y \
   cinepaint \
   dia \
   dia-gnomeDIAicons \
+  digikam \
   entangle \
   fontforge \
   fontmatrix \
@@ -32,13 +35,19 @@ sudo yum install -y \
   gimp-resynthesizer \
   GREYCstoration \
   GREYCstoration-gimp \
+  gstreamer-plugins-bad-free \
+  gstreamer-plugins-espeak \
+  gstreamer-plugins-good \
+  gthumb \
   gtk-recordmydesktop \
+  hugin \
   ImageMagick \
   inkscape \
   inkscape-docs \
   inkscape-sozi \
   inkscape-view \
   intltool \
+  istanbul \
   jabref \
   jing \
   lyx \
@@ -46,9 +55,14 @@ sudo yum install -y \
   nautilus-image-converter \
   openclipart \
   optipng \
+  PackageKit-gstreamer-plugin \
   pinta \
   pitivi \
+  pngcrush \
   postr \
+  pulseaudio \
+  pulseaudio-module-x11 \
+  pulseaudio-utils \
   python-django \
   python-django-doc \
   rawtherapee \
