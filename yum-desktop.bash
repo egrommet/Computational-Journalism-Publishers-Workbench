@@ -11,6 +11,11 @@
 
 echo "Installing desktop add-ons"
 sudo yum install -y \
+  obapps \
+  obconf \
+  obmenu \
+  openbox \
+  fbpanel \
   yumex \
   firefox \
   vim-X11 \
