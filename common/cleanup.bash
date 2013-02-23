@@ -10,6 +10,6 @@
 #
 
 rm -f *.log
-rm -f .R*
+rm -fr .R*
 rm -f *~
 git status
