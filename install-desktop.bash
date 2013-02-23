@@ -19,3 +19,6 @@ elif [ -e "/usr/bin/yum" ]
 then
   ./yum-desktop.bash 2>&1 | tee desktop.log
 fi
+
+# Configure OpenBox/fbpanel
+./config-openbox.bash
