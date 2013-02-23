@@ -15,6 +15,8 @@ sudo apt-get install -y \
   bluefish \
   calibre \
   dia \
+  dia-shapes \
+  dia2code \
   fontforge \
   fontmatrix \
   freemind \
@@ -52,4 +54,5 @@ sudo apt-get install -y \
   scribus-doc \
   shotwell \
   synfig \
-  ufraw
+  ufraw \
+  ufraw-batch
