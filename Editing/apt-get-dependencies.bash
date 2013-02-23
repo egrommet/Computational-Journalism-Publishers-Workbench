@@ -10,33 +10,37 @@
 #
 
 sudo apt-get install -y \
+  alsa-utils \
   audacity \
   blender \
   bluefish \
   calibre \
+  create-resources \
   dia \
-  dia-shapes \
   dia2code \
+  dia-shapes \
   fontforge \
   fontmatrix \
   freemind \
   gimp \
   gimp-data \
   gimp-data-extras \
+  gimp-gap \
+  gimp-gmic \
   gimp-help-en \
   gimp-resynthesizer \
-  gimp-gmic \
-  create-resources \
-  gimp-gap \
   gimp-ufraw \
   gmic \
   gmic-zart \
+  gstreamer0.10-packagekit \
+  gthumb \
   gtk-recordmydesktop \
+  hugin \
   imagemagick \
   imagemagick-doc \
   inkscape \
-  sozi \
   intltool \
+  istanbul \
   jabref \
   jing \
   lyx \
@@ -46,13 +50,18 @@ sudo apt-get install -y \
   optipng \
   pinta \
   pitivi \
+  pngcrush \
   postr \
+  pulseaudio \
+  pulseaudio-module-x11 \
+  pulseaudio-utils \
   python-django \
   python-django-doc \
   rawtherapee \
   scribus \
   scribus-doc \
   shotwell \
+  sozi \
   synfig \
   ufraw \
   ufraw-batch
