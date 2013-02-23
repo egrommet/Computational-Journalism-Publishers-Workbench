@@ -11,6 +11,12 @@
 
 echo "Installing desktop add-ons"
 sudo apt-get install -y \
+  obconf \
+  obmenu \
+  openbox \
+  openbox-themes \
+  openbox-xdgmenu \
+  fbpanel \
   gpointing-device-settings \
   aria2 \
   xchat \
@@ -20,4 +26,4 @@ sudo apt-get install -y \
   powertop \
   laptop-mode-tools \
   vim-gtk \
-  gifw
+  gufw
