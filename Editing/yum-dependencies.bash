@@ -20,7 +20,6 @@ sudo yum install -y \
   cinepaint \
   dia \
   dia-gnomeDIAicons \
-  digikam \
   entangle \
   fontforge \
   fontmatrix \
