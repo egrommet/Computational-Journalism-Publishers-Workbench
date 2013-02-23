@@ -1,5 +1,10 @@
 ## What's New?
 
+### Release 2.3.0
+1. I've added support for the [Openbox window manager](http://openbox.org/) and the [fbpanel panel](http://fbpanel.sourceforge.net/). On a limited environment - older systems with limited RAM or 32-bit machines, for example - this provides a workable desktop with menus, a taskbar, workspaces, a network applet and a clock.
+1. I've added the [Padre Perl Application Development and Refactoring Environment](http://padre.perlide.org/). I still do enough work in Perl that I find this useful.
+
+### Release 2.0.0
 1. Bare metal support: I'm now testing on 64-bit machines with both Linux Mint 14 and Fedora 18. You'll need an Intel or AMD 64-bit machine with at least 4 GB of RAM. Both Fedora 18 and Linux Mint 14 have excellent installation documentation.
 1. Virtual hosting on bare metal: I've included scripts to install the Virtual Machine Manager and the kernel virtual machine hypervisor. See the [Virtual Hosting README.md](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/VirtualHosting/README.md).
 1. Massive refactoring: I removed a number of packages that I wasn't using, and added many more optional end-user tools from the Linux repositories. See the README.md files in the directories for the major components.
