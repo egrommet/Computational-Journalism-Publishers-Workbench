@@ -16,7 +16,8 @@ sudo apt-get install -y \
   git-gui \
   gitk \
   curl \
-  libcurl4-gnutls-dev
+  libcurl4-gnutls-dev \
+  padre
 
 # Needed to build RStudio
 sudo apt-get install -y \

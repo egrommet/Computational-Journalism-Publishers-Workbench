@@ -16,7 +16,8 @@ sudo yum install -y \
   git-gui \
   gitk \
   curl \
-  libcurl-devel
+  libcurl-devel \
+  perl-Padre
 
 
 # Needed to build RStudio
