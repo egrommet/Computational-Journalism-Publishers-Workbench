@@ -27,4 +27,6 @@ cat bashrc >> ~/.bashrc
 cat bash_profile >> ~/.bash_profile
 cat Rprofile >> ~/.Rprofile
 source ~/.bash_profile
-ls -ltrA $HOME
+
+# Configure OpenBox/fbpanel
+./config-openbox.bash

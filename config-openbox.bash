@@ -10,4 +10,6 @@
 #
 
 mkdir -p ~/.config/openbox
-cp autostart.sh ~/.config/openbox
+cp autostart.sh ~/.config/openbox/
+mkdir -p ~/.config/fbpanel
+cp default ~/.config/fbpanel/
