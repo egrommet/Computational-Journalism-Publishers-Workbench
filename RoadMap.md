@@ -1,5 +1,12 @@
 ## Road Map
 
+### Release 2.3.0
+1. The only major additional options I have planned for the workbench are
+	* Restoring Redis (built from source), and 
+	* Adding Shiny, including Shiny Server.
+1. Synchronization with [CompJournoStick](https://github.com/znmeb/CompJournoStick) is a work in progress. The major features are in place, but I have quite a bit of "plumbing" I want to get done before I do another release. The biggest piece of this is integrating R code from CRAN as RPMs. Fedora has a tool that automates a huge part of this, called [R2spec](https://fedoraproject.org/wiki/Packaging:R). This is a good bit of effort and it won't port easily to the Debian/Ubuntu/Linux Mint world, but for CompJournoStick I consider it mandatory. I'd also like to package RStudio but that may be too much for this round.
+
+### Release 2.0.0
 1. Now that this release is done, I'll be revising the [CompJournoStick](https://github.com/znmeb/CompJournoStick) code to draw from this repository in constructing media. That way, the bill of materials for the stick will be the same as the Fedora version of this workbench.
 1. I'm backing the [For Journalism](http://www.kickstarter.com/projects/gotoplanb/for-journalism) project on Kickstarter. I'm tracking their materials and will be adding software to this project and CompJournoStick to run all of their code.
 1. I've looked at openSUSE 12.3 and there are some critical tools missing from their repositories. So I will not be supporting openSUSE going forward.
