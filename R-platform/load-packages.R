@@ -10,18 +10,17 @@
 
 install.packages(
   c(
+    'devtools',
     'shiny',
     'ggplot2',
     'knitr',
     'markdown',
-    'reshape2',
     'RODBC',
     'RSQLite',
     'RSQLite.extfuns',
     'reshapeGUI',
     'rggobi',
     'ctv',
-    'RJSONIO',
     'twitteR',
     'streamR',
     'Rcmdr',
