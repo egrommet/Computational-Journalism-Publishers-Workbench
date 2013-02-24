@@ -27,7 +27,13 @@ install.packages(
     'Rcmdr',
     'rattle',
     'JGR',
-    'Deducer'
+    'Deducer',
+    'RcmdrPlugin.temis',
+    'tm',
+    'tm.plugin.dc',
+    'tm.plugin.mail',
+    'tm.plugin.webmining',
+    'tm.plugin.sentiment'
   ),
   dependencies=TRUE
 )

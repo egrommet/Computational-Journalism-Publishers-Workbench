@@ -18,10 +18,7 @@ warnings()
 install.packages(
   c(
     'RDF',
-    'rrdf',
-    'tm',
-    'tm.plugin.dc',
-    'tm.plugin.mail'
+    'rrdf'
   ),
   dependencies=NA
 )
