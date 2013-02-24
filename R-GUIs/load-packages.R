@@ -11,7 +11,9 @@
 install.packages(
   c(
     'Rcmdr',
-    'rattle'
+    'rattle',
+    'JGR',
+    'Deducer'
   ),
   dependencies=TRUE
 )
