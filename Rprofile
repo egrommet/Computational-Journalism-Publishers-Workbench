@@ -18,5 +18,6 @@ system('mkdir -p ~/.rkward/library')
 options(repos=c(
   CRAN="http://ftp.osuosl.org/pub/cran",
   BioCsoft="http://www.bioconductor.org/packages/2.11/bioc",
+  Omegahat="http://www.omegahat.org/R" ,
   'R-Forge'="http://R-Forge.R-project.org" 
 ))
