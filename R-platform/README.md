@@ -22,6 +22,10 @@
 * [ggplot2](http://docs.ggplot2.org/current/)
 * [knitr: Elegant, flexible and fast dynamic report generation with R](http://yihui.name/knitr/)
 * [Shiny](http://www.rstudio.com/shiny/)
+* [The R Commander: A Basic-Statistics GUI for R](http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/)
+* [Rattle: A Graphical User Interface for Data Mining using R ](http://rattle.togaware.com/)
+* [JGR - Java GUI for R](http://www.rforge.net/JGR/)
+* [Deducer - An R Graphical User Interface (GUI) for Everyone](http://www.deducer.org/pmwiki/index.php?n=Main.DeducerManual?from=Main.HomePage)
 
 ## Suggested Reading
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)

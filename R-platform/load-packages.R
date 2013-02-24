@@ -23,7 +23,11 @@ install.packages(
     'ctv',
     'RJSONIO',
     'twitteR',
-    'streamR'
+    'streamR',
+    'Rcmdr',
+    'rattle',
+    'JGR',
+    'Deducer'
   ),
   dependencies=TRUE
 )
