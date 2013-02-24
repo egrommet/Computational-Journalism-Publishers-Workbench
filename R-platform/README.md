@@ -21,6 +21,7 @@
 * [streamR: Access to Twitter Streaming API via R](http://cran.r-project.org/web/packages/streamR/index.html)
 * [ggplot2](http://docs.ggplot2.org/current/)
 * [knitr: Elegant, flexible and fast dynamic report generation with R](http://yihui.name/knitr/)
+* [Shiny](http://www.rstudio.com/shiny/)
 
 ## Suggested Reading
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)
