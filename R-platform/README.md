@@ -7,7 +7,7 @@
 	```
 	./install-platform.bash
 	```
-1. When the run completes, examine file 'packages.log' for errors. There should be no messages of the form 'ERROR:'. 'warnings' should be 'NULL'.
+1. When the run completes, examine file 'packages.log' for errors. The 'Rmpi' package currently fails to build. You can ignore this warning: 'In install.packages(c("devtools", "shiny", "ggplot2",  ... : installation of package ‘Rmpi’ had non-zero exit status'
 1. [Open an issue on Github](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new) if you have any questions or problems.
 
 ## Upstream Projects
