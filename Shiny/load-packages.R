@@ -12,7 +12,6 @@ install.packages(
   c(
     'shiny'
   ),
-  repos='http://ftp.osuosl.org/pub/cran',
   dependencies=TRUE
 )
 warnings()

@@ -10,5 +10,7 @@
 #
 
 source ~/.bash_profile
-./install-nodejs.bash 2>&1 | tee nodejs.log
-sudo -H ./install-packages.bash 2>&1 | tee packages.log
+for i in nodejs packages
+do
+  ./install-${i}.bash 2>&1 | tee ${i}.log
+done
