@@ -1,0 +1,1 @@
+../common/no-yum-dependencies.bash
