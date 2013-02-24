@@ -32,9 +32,4 @@ sudo yum install -y \
   gtk2-devel \
   libxml2-devel
 
-# Rmpi
-sudo yum install -y \
-  openmpi-devel
-
-./install-Rmpi.bash 2>&1 | tee Rmpi.log
 ./install-packages.bash 2>&1 | tee packages.log

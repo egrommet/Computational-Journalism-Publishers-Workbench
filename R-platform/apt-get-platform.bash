@@ -29,9 +29,4 @@ sudo apt-get install -y \
   libgtk2.0-dev \
   libxml2-dev
 
-# Rmpi
-sudo apt-get install -y \
-  libopenmpi-dev
-
-./install-Rmpi.bash 2>&1 | tee Rmpi.log
 ./install-packages.bash 2>&1 | tee packages.log
