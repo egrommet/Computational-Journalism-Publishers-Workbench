@@ -15,4 +15,13 @@
 * [Python Mechanize](http://wwwsearch.sourceforge.net/mechanize/)
 * [Ruby Mechanize](http://mechanize.rubyforge.org/)
 * [Perl WWW::Mechanize](http://search.cpan.org/~jesse/WWW-Mechanize-1.72/)
-* [Poppler PDF Rendering / Extraction](http://search.cpan.org/~jesse/WWW-Mechanize-1.72/)
+* [Poppler PDF Rendering / Extraction](http://poppler.freedesktop.org/)
+* [ImageMagick](http://www.imagemagick.org/script/index.php)
+* [GraphicsMagick Image Processing System](http://www.graphicsmagick.org/)
+* [PDFtk](http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
+* [Ghostscript](http://pages.cs.wisc.edu/~ghost/)
+* [DocSplit](http://documentcloud.github.com/docsplit/)
+
+## Suggested Reading
+* [Scraping for Journalists by Paul Bradshaw](https://leanpub.com/scrapingforjournalists)
+* [PDF Hacks by Sid Steward](http://j.mp/XWIqbI)

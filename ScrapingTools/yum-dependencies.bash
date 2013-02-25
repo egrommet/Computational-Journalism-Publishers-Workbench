@@ -17,6 +17,18 @@ sudo yum install -y \
   ImageMagick \
   ImageMagick-doc \
   GraphicsMagick \
+  baekmuk-ttf-fonts-ghostscript \
+  ghostscript-chinese \
+  ghostscript-chinese-zh_CN \
+  ghostscript-chinese-zh_TW \
+  ghostscript-doc \
+  ghostscript-fonts \
+  ghostscript \
+  ghostscript-gtk \
+  pdfchain \
+  pdftk \
+  poppler \
+  poppler-data \
   poppler-utils \
   tesseract \
   tesseract-devel \
@@ -55,3 +67,5 @@ sudo yum install -y \
   tesseract-langpack-tur \
   tesseract-langpack-ukr \
   tesseract-langpack-vie
+
+./install-docsplit-gem.bash
