@@ -19,6 +19,7 @@
 * [ImageMagick](http://www.imagemagick.org/script/index.php)
 * [GraphicsMagick Image Processing System](http://www.graphicsmagick.org/)
 * [PDFtk](http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
+* [PDF Chain](http://pdfchain.sourceforge.net/)
 * [Ghostscript](http://pages.cs.wisc.edu/~ghost/)
 * [Doc⚡split](http://documentcloud.github.com/docsplit/)
 
