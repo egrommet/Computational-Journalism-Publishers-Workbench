@@ -17,6 +17,15 @@ sudo apt-get install -y \
   imagemagick \
   imagemagick-doc \
   graphicsmagick \
+  ghostscript \
+  ghostscript-doc \
+  ghostscript-x \
+  gsfonts \
+  gsfonts-x11 \
+  gv \
+  pdfchain \
+  pdftk \
+  poppler-data \
   poppler-utils \
   tesseract-ocr \
   tesseract-ocr-afr \
@@ -85,3 +94,5 @@ sudo apt-get install -y \
   tesseract-ocr-tur \
   tesseract-ocr-ukr \
   tesseract-ocr-vie
+
+./install-docsplit-gem.bash
