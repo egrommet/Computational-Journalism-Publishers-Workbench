@@ -1,5 +1,11 @@
 ## Road Map
 
+### Release 2.4.0
+1. Redis 2.6 will be in the next release for sure. It almost made it into 2.4.0, but I wanted to start a weekly release schedule on Mondays and it wasn't quite ready.
+1. There's a distinct possibility I'll be putting Meteor in the next release. There's an inaugural meetup of a Portland, Oregon Meteor group and once I get some ideas of how it fits into computational journalism, I'll be adding it.
+1. I'm also looking at Riak again. Basho, the company that makes Riak, has a lab here in Portland now and I know two of the developers.
+1. I did test a bit on Debian 'Wheezy'. I had some display issues with it running as a qemu-kvm guest; GNOME 3 comes up in fallback mode and doesn't seem to be able to get into the full GNOME shell. That's not a show-stopper; the intent is that the workbench should work with any Linux desktop. But if you have your heart set on the full GNOME 3 experience you might be disappointed.
+
 ### Release 2.3.0
 1. The only major additional options I have planned for the workbench are
 	* Restoring Redis (built from source), and 
