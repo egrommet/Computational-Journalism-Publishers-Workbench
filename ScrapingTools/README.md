@@ -20,7 +20,7 @@
 * [GraphicsMagick Image Processing System](http://www.graphicsmagick.org/)
 * [PDFtk](http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/)
 * [Ghostscript](http://pages.cs.wisc.edu/~ghost/)
-* [DocSplit](http://documentcloud.github.com/docsplit/)
+* [Doc⚡split](http://documentcloud.github.com/docsplit/)
 
 ## Suggested Reading
 * [Scraping for Journalists by Paul Bradshaw](https://leanpub.com/scrapingforjournalists)
