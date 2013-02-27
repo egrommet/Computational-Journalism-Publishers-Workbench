@@ -29,6 +29,6 @@ sudo apt-get install -y \
   libgtk2.0-dev \
   libxml2-dev
 
-./install-packages.bash
+./install-packages.bash 2>&1 | tee packages.log
 ./install-rstudio-source.bash
 ./install-rstudio-desktop.bash

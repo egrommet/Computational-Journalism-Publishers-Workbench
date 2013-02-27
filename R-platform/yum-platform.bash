@@ -32,6 +32,6 @@ sudo yum install -y \
   gtk2-devel \
   libxml2-devel
 
-./install-packages.bash
+./install-packages.bash 2>&1 | tee packages.log
 ./install-rstudio-source.bash
 ./install-rstudio-desktop.bash
