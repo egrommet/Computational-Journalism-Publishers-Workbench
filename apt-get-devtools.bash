@@ -16,6 +16,8 @@ sudo apt-get install -y \
   git-gui \
   gitk \
   curl \
+  wget \
+  lynx \
   libcurl4-gnutls-dev \
   padre
 

@@ -16,6 +16,8 @@ sudo yum install -y \
   git-gui \
   gitk \
   curl \
+  wget \
+  lynx \
   libcurl-devel \
   perl-Padre
 
