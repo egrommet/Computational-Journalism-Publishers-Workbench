@@ -12,7 +12,6 @@ install.packages(
   c(
     'doRedis'
   ),
-  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()

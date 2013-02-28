@@ -13,7 +13,6 @@ update.views(
   c(
     'NaturalLanguageProcessing'
   ),
-  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()
@@ -22,7 +21,6 @@ install.packages(
     'RDF',
     'rrdf'
   ),
-  destdir='~/rpmbuild/SOURCES',
   dependencies=NA
 )
 warnings()

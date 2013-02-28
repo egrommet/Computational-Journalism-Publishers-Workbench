@@ -13,7 +13,6 @@ update.views(
   c(
     'Finance'
   ),
-  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()

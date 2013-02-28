@@ -21,7 +21,6 @@ fi
 
 # set up stuff everyone needs
 mkdir -p ~/local/src
-mkdir -p ~/rpmbuild/SOURCES
 mkdir -p ~/.local/share/applications
 mkdir -p ~/.local/share/pixmaps
 cat bashrc >> ~/.bashrc

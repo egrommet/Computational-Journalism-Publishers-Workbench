@@ -12,7 +12,6 @@ install.packages(
   c(
     'RPostgreSQL'
   ),
-  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()

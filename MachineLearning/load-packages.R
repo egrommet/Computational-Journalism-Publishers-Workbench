@@ -13,7 +13,6 @@ update.views(
   c(
     'MachineLearning'
   ),
-  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()

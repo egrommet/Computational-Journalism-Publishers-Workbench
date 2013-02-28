@@ -13,7 +13,6 @@ update.views(
   c(
     'TimeSeries'
   ),
-  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()

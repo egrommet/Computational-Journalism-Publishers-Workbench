@@ -12,7 +12,6 @@ install.packages(
   c(
     'statnet'
   ),
-  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()

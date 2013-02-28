@@ -13,7 +13,6 @@ update.views(
   c(
     'Graphics'
   ),
-  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()
