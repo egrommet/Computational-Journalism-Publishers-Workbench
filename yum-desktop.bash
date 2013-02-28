@@ -21,7 +21,6 @@ sudo yum install -y \
   vim-X11 \
   xchat \
   pidgin \
-  aria2 \
   vim-enhanced \
   powertop \
   kernel-tools
