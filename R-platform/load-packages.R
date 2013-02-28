@@ -34,7 +34,7 @@ install.packages(
     'tm.plugin.webmining',
     'tm.plugin.sentiment'
   ),
-  destdir='~/local/src/R-packages',
+  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()

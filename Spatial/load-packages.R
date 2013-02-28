@@ -13,7 +13,7 @@ update.views(
   c(
     'Spatial'
   ),
-  destdir='~/local/src/R-packages',
+  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()
@@ -25,7 +25,7 @@ install.packages(
     'UScensus2000tract',
     'UScensus2010'
   ),
-  destdir='~/local/src/R-packages',
+  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()

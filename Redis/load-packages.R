@@ -12,7 +12,7 @@ install.packages(
   c(
     'doRedis'
   ),
-  destdir='~/local/src/R-packages',
+  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()

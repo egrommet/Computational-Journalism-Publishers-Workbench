@@ -13,7 +13,7 @@ update.views(
   c(
     'ReproducibleResearch'
   ),
-  destdir='~/local/src/R-packages',
+  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()

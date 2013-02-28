@@ -15,7 +15,7 @@ install.packages(
     'signal',
     'audio'
   ),
-  destdir='~/local/src/R-packages',
+  destdir='~/rpmbuild/SOURCES',
   dependencies=TRUE
 )
 warnings()
