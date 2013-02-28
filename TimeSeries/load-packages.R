@@ -12,6 +12,8 @@ library(ctv)
 update.views(
   c(
     'TimeSeries'
-  )
+  ),
+  destdir='~/local/src/R-packages',
+  dependencies=TRUE
 )
 warnings()

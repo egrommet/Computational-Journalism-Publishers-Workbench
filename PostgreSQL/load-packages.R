@@ -12,6 +12,7 @@ install.packages(
   c(
     'RPostgreSQL'
   ),
+  destdir='~/local/src/R-packages',
   dependencies=TRUE
 )
 warnings()

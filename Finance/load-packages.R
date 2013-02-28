@@ -12,6 +12,8 @@ library(ctv)
 update.views(
   c(
     'Finance'
-  )
+  ),
+  destdir='~/local/src/R-packages',
+  dependencies=TRUE
 )
 warnings()

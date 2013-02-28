@@ -12,6 +12,8 @@ library(ctv)
 update.views(
   c(
     'Econometrics'
-  )
+  ),
+  destdir='~/local/src/R-packages',
+  dependencies=TRUE
 )
 warnings()

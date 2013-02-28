@@ -12,7 +12,9 @@ library(ctv)
 update.views(
   c(
     'NaturalLanguageProcessing'
-  )
+  ),
+  destdir='~/local/src/R-packages',
+  dependencies=TRUE
 )
 warnings()
 install.packages(
@@ -20,6 +22,7 @@ install.packages(
     'RDF',
     'rrdf'
   ),
+  destdir='~/local/src/R-packages',
   dependencies=NA
 )
 warnings()

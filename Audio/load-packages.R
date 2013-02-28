@@ -15,6 +15,7 @@ install.packages(
     'signal',
     'audio'
   ),
+  destdir='~/local/src/R-packages',
   dependencies=TRUE
 )
 warnings()
