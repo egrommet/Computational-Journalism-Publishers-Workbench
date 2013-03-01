@@ -18,6 +18,7 @@
 * [twitteR: R based Twitter client](http://cran.r-project.org/web/packages/twitteR/index.html)
 * [streamR: Access to Twitter Streaming API via R](http://cran.r-project.org/web/packages/streamR/index.html)
 * [tm - Text Mining Package](http://cran.r-project.org/web/packages/tm/index.html)
+* [tm.sentiment - Sentiment Analysis Plugin](https://r-forge.r-project.org/projects/sentiment/)
 * [ggplot2](http://docs.ggplot2.org/current/)
 * [knitr: Elegant, flexible and fast dynamic report generation with R](http://yihui.name/knitr/)
 * [markdown: Markdown rendering for R](http://cran.r-project.org/web/packages/markdown/index.html)
