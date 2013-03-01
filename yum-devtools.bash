@@ -9,12 +9,9 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "Installing basic development tools"
 sudo yum install -y \
   vim \
   git \
-  git-gui \
-  gitk \
   curl \
   wget \
   lynx \
@@ -22,28 +19,16 @@ sudo yum install -y \
   libcurl-devel \
   perl-Padre
 
-# Needed to build RStudio
+# Needed to install guest tools on virtual machines
 sudo yum install -y \
-  qtwebkit-devel \
   make \
   gcc \
   gcc-c++ \
-  gcc-gfortran \
-  cmake \
-  rpmdevtools \
-  libuuid-devel \
-  openssl-devel \
-  bzip2-devel \
-  zlib-devel \
-  pam-devel \
-  boost-devel \
-  pango-devel \
-  java-1.7.0-openjdk-devel \
-  ant \
-  xml-commons-apis
+  gcc-gfortran
 
 # Numeric libraries
 sudo yum install -y \
   gsl-devel \
   gmp-devel \
-  mpfr-devel
+  mpfr-devel \
+  atlas-devel
