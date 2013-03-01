@@ -8,10 +8,6 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-
-source ~/.bash_profile
-for i in dependencies rstudio-server
-do
-  ./install-${i}.bash 2>&1 | tee ${i}.log
-done
-./configure-server.bash
+sudo yum install -y \
+  openssl-devel \
+  pam-devel
