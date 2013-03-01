@@ -13,7 +13,6 @@ update.views(
   c(
     'Graphics'
   ),
-  destdir='~/local/src/R-packages',
   dependencies=TRUE
 )
 warnings()

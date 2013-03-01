@@ -16,16 +16,11 @@ sudo yum install -y \
   git-gui \
   gitk \
   curl \
+  wget \
+  lynx \
+  aria2 \
   libcurl-devel \
   perl-Padre
-
-# Special goodies for Fedora :-)
-sudo yum install -y \
-  @development-tools \
-  fedora-packager \
-  fedora-review \
-  mock \
-  R2spec
 
 # Needed to build RStudio
 sudo yum install -y \

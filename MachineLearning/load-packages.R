@@ -13,7 +13,6 @@ update.views(
   c(
     'MachineLearning'
   ),
-  destdir='~/local/src/R-packages',
   dependencies=TRUE
 )
 warnings()

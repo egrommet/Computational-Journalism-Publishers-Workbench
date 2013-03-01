@@ -13,7 +13,6 @@ update.views(
   c(
     'ReproducibleResearch'
   ),
-  destdir='~/local/src/R-packages',
   dependencies=TRUE
 )
 warnings()

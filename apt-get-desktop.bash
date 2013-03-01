@@ -18,7 +18,6 @@ sudo apt-get install -y \
   openbox-xdgmenu \
   fbpanel \
   gpointing-device-settings \
-  aria2 \
   xchat \
   pidgin \
   firefox \

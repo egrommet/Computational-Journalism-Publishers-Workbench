@@ -12,7 +12,6 @@ install.packages(
   c(
     'doRedis'
   ),
-  destdir='~/local/src/R-packages',
   dependencies=TRUE
 )
 warnings()
