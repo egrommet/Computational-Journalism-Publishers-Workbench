@@ -35,3 +35,4 @@
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)
 * [ggplot2: Elegant Graphics for Data Analysis by Hadley Wickham](http://j.mp/XoQc0G)
 * [Learning RStudio for R Statistical Computing by Mark van der Loo, Edwin de Jonge](http://j.mp/14Z5k8d)
+* [Lean Analytics by Alistair Croll and Benjamin Yoskovitz](http://j.mp/13u0X6T)
