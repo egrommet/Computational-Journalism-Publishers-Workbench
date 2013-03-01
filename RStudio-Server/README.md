@@ -1,4 +1,4 @@
-# RStudio
+# RStudio Server
 
 ## Usage
 
@@ -7,7 +7,7 @@
 	```
 	./install-all.bash
 	```
-1. This will run quite a while. It is downloading RStudio and some fairly large helper tools and compiling the whole thing.
+1. This will run quite a while. It is compiling the parts of RStudio Server that were'nt compiled when RStudio Desktop was built in R-platform.
 1. When it completes the installation, it will open a platform-specific firewall settings tool. 
 	* On Fedora, you will need to go to the 'Ports' tab. For both 'Runtime Configuration' and 'Persistent Configuration', open port 8787 for the TCP protocol.
 	* On Linux Mint / Ubuntu, press the 'Unlock' button and authenticate. Set the Firewall Status to "On". Then, press the '+' button to enter the dialog for adding rules.
