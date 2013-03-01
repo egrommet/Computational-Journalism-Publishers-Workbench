@@ -1,1 +1,1 @@
-../common/no-dependencies.bash
+../common/install-dependencies.bash
