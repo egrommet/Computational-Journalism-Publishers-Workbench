@@ -48,6 +48,7 @@ sudo apt-get install -y \
   nautilus-image-converter \
   openclipart \
   optipng \
+  pandoc \
   pinta \
   pitivi \
   pngcrush \
@@ -64,4 +65,5 @@ sudo apt-get install -y \
   sozi \
   synfig \
   ufraw \
-  ufraw-batch
+  ufraw-batch \
+  texlive-xetex
