@@ -12,7 +12,6 @@
 
 ## Upstream Projects
 * [The R Project for Statistical Computing](http://www.r-project.org/)
-* [RKWard R IDE/GUI](http://rkward.sourceforge.net/)
 * [GGobi Data visualization system](http://www.ggobi.org/)
 * [unixODBC](http://www.unixodbc.org/)
 * [ctv: CRAN Task Views](http://cran.r-project.org/web/packages/ctv/index.html)
