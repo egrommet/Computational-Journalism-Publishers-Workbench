@@ -23,4 +23,6 @@ sudo yum install -y \
   pidgin \
   vim-enhanced \
   powertop \
-  kernel-tools
+  kernel-tools \
+  gitk \
+  git-gui
