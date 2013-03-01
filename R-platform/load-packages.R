@@ -10,29 +10,20 @@
 
 install.packages(
   c(
-    'devtools',
-    'shiny',
-    'ggplot2',
-    'knitr',
-    'markdown',
-    'RODBC',
-    'RSQLite',
-    'RSQLite.extfuns',
-    'reshapeGUI',
-    'rggobi',
-    'ctv',
-    'twitteR',
-    'streamR',
     'Rcmdr',
-    'rattle',
-    'JGR',
-    'Deducer',
     'RcmdrPlugin.temis',
-    'tm',
     'tm.plugin.dc',
     'tm.plugin.mail',
     'tm.plugin.webmining',
-    'tm.plugin.sentiment'
+    'tm.plugin.sentiment',
+    'streamR',
+    'rattle',
+    'reshapeGUI',
+    'devtools',
+    'shiny',
+    'knitr',
+    'markdown',
+    'ctv'
   ),
   dependencies=TRUE
 )
