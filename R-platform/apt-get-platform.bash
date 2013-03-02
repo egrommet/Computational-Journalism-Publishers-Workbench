@@ -9,9 +9,13 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# RKWard and GGobi from distro!
+# R and GGobi from distro!
 sudo apt-get install -y \
-  rkward \
+  r-base \
+  r-base-core \
+  r-base-dev \
+  r-base-html \
+  r-recommended \
   ggobi
 
 # unixODBC
@@ -22,6 +26,7 @@ sudo apt-get install -y \
 
 # R Commander, Rattle and JGR/Deducer
 sudo apt-get install -y \
+  openjdk-7-jdk \
   tcl-dev \
   tk-dev \
   bwidget \
@@ -29,6 +34,15 @@ sudo apt-get install -y \
   libgtk2.0-dev \
   libxml2-dev
 
+# GUIs and packages
 ./install-packages.bash 2>&1 | tee packages.log
+
+# RStudio
 ./install-rstudio-source.bash
+sudo apt-get install -y \
+  cmake \
+  libboost1.50-all-dev \
+  libqtwebkit-dev \
+  uuid-dev \
+  ant
 ./install-rstudio-desktop.bash
