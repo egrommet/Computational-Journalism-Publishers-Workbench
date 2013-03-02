@@ -14,4 +14,3 @@ for i in dependencies rstudio-server
 do
   ./install-${i}.bash 2>&1 | tee ${i}.log
 done
-./configure-server.bash
