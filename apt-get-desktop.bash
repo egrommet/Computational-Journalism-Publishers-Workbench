@@ -25,4 +25,6 @@ sudo apt-get install -y \
   powertop \
   laptop-mode-tools \
   vim-gtk \
+  git-gui \
+  gitk \
   gufw
