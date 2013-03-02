@@ -10,6 +10,10 @@
 #
 
 sudo apt-get install -y \
+  proj-bin \
+  proj-data \
+  proj-ps-doc \
+  libproj-dev \
   dans-gdal-scripts \
   gdal-bin \
   libgdal-dev \
