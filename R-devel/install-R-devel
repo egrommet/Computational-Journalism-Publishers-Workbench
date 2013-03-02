@@ -1,0 +1,68 @@
+#! /bin/bash
+#
+# Copyright (C) 2012 by M. Edward (Ed) Borasky
+#
+# This program is licensed to you under the terms of version 3 of the
+# GNU Affero General Public License. This program is distributed WITHOUT
+# ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING THOSE OF NON-INFRINGEMENT,
+# MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
+# AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
+#
+
+export WHERE=ftp://ftp.stat.math.ethz.ch/Software/R
+export WHAT=R-devel.tar.bz2
+export HERE=`pwd`
+
+pushd ${HOME}/local/src
+curl ${WHERE}/${WHAT} > ${WHAT}
+rm -fr R-patched R-beta R-rc R-devel
+tar xf ${WHAT}
+
+# pick the directory
+if [ -e "R-rc" ]
+then
+  pushd R-rc
+elif [ -e "R-beta" ]
+then
+  pushd R-beta
+elif [ -e "R-patched" ]
+then
+  pushd R-patched
+else
+  pushd R-devel
+fi
+
+# update recommended packages
+tools/rsync-recommended
+
+# configure
+./configure --help > ${HERE}/configure-help.txt
+export R_PAPERSIZE='letter'
+#mkdir -p ~/R/library; export R_LIBS_USER="~/R/library"
+./configure \
+  --prefix=${HOME}/local \
+  --enable-R-profiling \
+  --enable-R-shlib \
+  --enable-BLAS-shlib \
+  --enable-lto \
+  --enable-byte-compiled-packages \
+  --enable-openmp \
+  --enable-largefile \
+  --enable-nls \
+  --with-readline \
+  --with-tcltk \
+  --with-cairo \
+  --with-libpng \
+  --with-jpeglib \
+  --with-libtiff \
+  --with-system-xz \
+  --with-recommended-packages \
+  --with-ICU \
+  --with-x \
+  2>&1 | tee ${HERE}/configure.log
+/usr/bin/time make
+make install
+popd
+
+popd
+
