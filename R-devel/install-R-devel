@@ -60,7 +60,7 @@ export R_PAPERSIZE='letter'
   --with-ICU \
   --with-x \
   2>&1 | tee ${HERE}/configure.log
-/usr/bin/time make
+/usr/bin/time make 2>&1 | tee ${HERE}/make.log
 make install
 popd
 
