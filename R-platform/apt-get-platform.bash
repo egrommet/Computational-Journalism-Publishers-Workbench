@@ -24,7 +24,13 @@ sudo apt-get install -y \
   unixodbc-bin \
   unixodbc-dev
 
-# R Commander, Rattle and JGR/Deducer
+# Numeric libraries
+sudo apt-get install -y \
+  libgsl0-dev \
+  libgmp-dev \
+  libmpfr-dev
+
+# GUI tools
 sudo apt-get install -y \
   openjdk-7-jdk \
   tcl-dev \
@@ -37,8 +43,10 @@ sudo apt-get install -y \
 # GUIs and packages
 ./install-packages.bash 2>&1 | tee packages.log
 
-# RStudio
+# RStudio source
 ./install-rstudio-source.bash
+
+# RStudio Desktop
 sudo apt-get install -y \
   cmake \
   libboost1.50-all-dev \

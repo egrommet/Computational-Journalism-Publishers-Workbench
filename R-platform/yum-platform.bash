@@ -16,15 +16,22 @@ sudo yum install -y \
   ggobi \
   ggobi-devel
 
-# R Commander
+# unixODBC
 sudo yum install -y \
-  freeglut-devel \
   unixODBC \
   unixODBC-devel \
   unixODBC-gui-qt
 
-# Cairo
+# Numeric libraries
 sudo yum install -y \
+  gsl-devel \
+  gmp-devel \
+  mpfr-devel \
+  atlas-devel
+
+# GUI tools
+sudo yum install -y \
+  freeglut-devel \
   libXt-devel
 
 # GUIs and packages
@@ -35,7 +42,7 @@ sudo yum install -y \
   patch
 ./install-rstudio-source.bash
 
-# RStudio desktop
+# RStudio Desktop
 sudo yum install -y \
   boost-devel \
   libuuid-devel \
