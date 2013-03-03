@@ -1,5 +1,11 @@
 ## Road Map
 
+### Release 2.5.0
+1. The next release will probably have Riak, built from source. I need to dig into what it can do and how that's relevant to computational journalism, and the best way to do that is to deploy it.
+1. Django and Rails will be options in some future release. I'm holding off until the course materials for [For Journalism](https://www.djangoproject.com/) start to take shape. The plan is that those courses will run "out of the box" on the workbench. Meanwhile, please join me in backing For Journalism.
+1. I'm planning to add [Beancounter](http://search.cpan.org/~edd/beancounter_0.8.10/) as a PostgreSQL test case. I'm hoping to get this into 2.6.0.
+1. The Perl modules / local::lib infrastructure will be back as an option. Again, I'm not sure which release this will be in.
+
 ### Release 2.4.0
 1. Redis 2.6 will be in the next release for sure. It almost made it into 2.4.0, but I wanted to start a weekly release schedule on Mondays and it wasn't quite ready.
 1. There's a distinct possibility I'll be putting Meteor in the next release. There's an inaugural meetup of a Portland, Oregon Meteor group and once I get some ideas of how it fits into computational journalism, I'll be adding it.
