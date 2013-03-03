@@ -31,6 +31,7 @@ sudo yum install -y \
 
 # GUI tools
 sudo yum install -y \
+  bwidget \
   freeglut-devel \
   libXt-devel
 
