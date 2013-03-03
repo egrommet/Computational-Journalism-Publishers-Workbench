@@ -9,5 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "Updating packages"
-sudo yum update
+echo "Update packages with yumex"
+sleep 4
+yumex
