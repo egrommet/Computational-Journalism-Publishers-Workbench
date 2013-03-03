@@ -16,8 +16,7 @@ sudo yum install -y \
   wget \
   lynx \
   aria2 \
-  libcurl-devel \
-  perl-Padre
+  libcurl-devel
 
 # Needed to install guest tools on virtual machines
 sudo yum install -y \

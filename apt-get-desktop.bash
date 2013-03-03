@@ -27,4 +27,5 @@ sudo apt-get install -y \
   vim-gtk \
   git-gui \
   gitk \
-  gufw
+  gufw \
+  padre

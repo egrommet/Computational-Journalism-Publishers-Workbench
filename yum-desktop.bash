@@ -25,4 +25,5 @@ sudo yum install -y \
   powertop \
   kernel-tools \
   gitk \
-  git-gui
+  git-gui \
+  perl-Padre

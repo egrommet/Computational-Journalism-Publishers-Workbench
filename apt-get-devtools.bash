@@ -17,5 +17,4 @@ sudo apt-get install -y \
   wget \
   lynx \
   aria2 \
-  libcurl4-gnutls-dev \
-  padre
+  libcurl4-gnutls-dev
