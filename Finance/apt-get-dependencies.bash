@@ -12,6 +12,9 @@
 sudo apt-get install -y \
   libltdl-dev \
   libtool
+
+# the Quantlib in Linux Mint 14 / Ubuntu 12.10 has a dependency problem with Boost 1.50
+# so we install QuantLib from source
 if [ -e "/etc/ld.so.conf.d/quantlib.conf" ]
 then
   echo 'QuantLib is already installed!'
