@@ -2,6 +2,7 @@
 
 ### Download a Linux install ISO image
 You do ***not*** need to burn this image file to a CD/DVD or copy it to a USB drive for virtual machine installs. Supported Linux distributions are currently
+
     * [Fedora 18](https://fedoraproject.org/en/get-fedora)<br>
     * [Linux Mint 14](http://www.linuxmint.com/download.php)<br>
     * [Ubuntu 12.10](http://www.ubuntu.com/download)<br>
