@@ -25,10 +25,3 @@ sudo yum install -y \
   gcc \
   gcc-c++ \
   gcc-gfortran
-
-# Numeric libraries
-sudo yum install -y \
-  gsl-devel \
-  gmp-devel \
-  mpfr-devel \
-  atlas-devel

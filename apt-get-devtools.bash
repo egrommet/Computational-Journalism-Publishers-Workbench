@@ -19,9 +19,3 @@ sudo apt-get install -y \
   aria2 \
   libcurl4-gnutls-dev \
   padre
-
-# Numeric libraries
-sudo apt-get install -y \
-  libgsl0-dev \
-  libgmp-dev \
-  libmpfr-dev
