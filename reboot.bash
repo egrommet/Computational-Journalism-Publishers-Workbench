@@ -9,8 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-./setup-environment.bash
-./remove-guest-tools.bash
-./install-devtools.bash
-./updateos.bash
-./reboot.bash
+echo "Rebooting in 15 seconds"
+echo "You will need to authenticate"
+sleep 15
+sudo reboot
