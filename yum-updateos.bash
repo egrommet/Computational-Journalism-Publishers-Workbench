@@ -11,5 +11,5 @@
 
 echo 'Updating packages'
 sudo yum clean all
-sudo rm -f `find /var/cache/yum/ -name 'timedhosts'`
+sudo rm -f `find /var/cache/yum/ -name 'timedhosts*'`
 sudo /usr/bin/time yum update -y
