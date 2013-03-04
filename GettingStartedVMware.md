@@ -31,6 +31,8 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 ### [Run the 'before-snapshot.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-before-snapshotbash-script)
 
 ### Install VMware tools
+1. In the 'Virtual Machine' menu, select 'Removable Devices' and disconnect any ISO images that may still be connected. Select 'Yes' to over-ride the lock if asked.
+1. In the 'Virtual Machine' menu, select 'Install VMware Tools'. If you get a 'Question' dialog box, press 'Install'. If you get a dialog box asking if you want to open removable media in a file manager, press 'Cancel'.
 1. Open a terminal and type
 
 	```
