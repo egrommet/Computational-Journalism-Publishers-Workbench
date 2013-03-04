@@ -26,5 +26,7 @@ cd ~/Computational-*
 ./before-snapshot.bash
 ```
 Depending on how long it has been since the ISO file was released, this step can take some time. It is updating all the packages that have changed since release.
-On Fedora, the system will place you into a GUI tool called 'YumEx' to update the software.
-The system will reboot.
+
+On Fedora, the system will place you into a GUI tool called 'YumEx' to update the software. After you authenticate, you should see a list of packages. Press 'Select All' and then 'Apply'. Press 'OK' when YumEx shows the 'Transaction Result' and the system will be updated.
+
+Once the updates are installed, the system will reboot.
