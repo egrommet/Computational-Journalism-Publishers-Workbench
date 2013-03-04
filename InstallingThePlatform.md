@@ -1,5 +1,5 @@
 ## Installing the Computatational Journalism Publishers Workbench Platform
-The software in the Computational Journalism Publishers Workbench is divided into two groups. The first, called the 'Platform', consists of R, the RKWard R GUI/IDE, the GGobi visual exploratory analysis package and the tools necessary to install R packages and task views. The second, called the 'Options', are collections of software for a given type of analysis or task. Most of the options roughly correspond to [CRAN Task Views](http://cran.r-project.org/web/views/).
+The software in the Computational Journalism Publishers Workbench is divided into two groups. The first, called the 'Platform', consists of R, the GGobi visual exploratory analysis package, the tools necessary to install R packages and task views, and the RStudio Desktop. The second, called the 'Options', are collections of software for a given type of analysis or task. Most of the options roughly correspond to [CRAN Task Views](http://cran.r-project.org/web/views/).
 
 To install the platform, start the virtual machine, log in and open a terminal. Type
 ```
