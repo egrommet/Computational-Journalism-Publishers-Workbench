@@ -7,8 +7,14 @@
 	```
 	./install-all.bash
 	```
-1. This will run quite a while. It is compiling the parts of RStudio Server that were'nt compiled when RStudio Desktop was built in R-platform.
-1. When it completes the installation, it will open a platform-specific firewall settings tool. 
+1. This will run quite a while. It is compiling the parts of RStudio Server that weren't compiled when RStudio Desktop was built in R-platform.
+1. When it completes the installation, you will need to run a configuration script to use RStudio Server. ***This will allow both local users on your desktop and remote users on your LAN to access RStudio Server. If that's not what you want, don't do this!*** When you're ready to deploy the server, open a terminal and type
+
+	```
+	cd ~/Computational-*/RStudioServer
+	./configure-server.bash
+	```
+This will open a platform-specific firewall settings tool. 
 	* On Fedora, you will need to go to the 'Ports' tab. For both 'Runtime Configuration' and 'Persistent Configuration', open port 8787 for the TCP protocol.
 	* On Linux Mint / Ubuntu, press the 'Unlock' button and authenticate. Set the Firewall Status to "On". Then, press the '+' button to enter the dialog for adding rules.
 		* Go to the 'Simple' tab.
