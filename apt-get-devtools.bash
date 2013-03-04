@@ -17,4 +17,5 @@ sudo apt-get install -y \
   wget \
   lynx \
   aria2 \
+  make \
   libcurl4-gnutls-dev
