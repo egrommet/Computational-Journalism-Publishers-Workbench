@@ -9,14 +9,13 @@
 1. I've added [Pandoc](http://www.johnmacfarlane.net/pandoc/) to the [Editing](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Editing/README.md) pseudo-task view.
 1. I've removed [Django](https://www.djangoproject.com/) from the Editing pseudo-task view. It will return as an option in a future release.
 1. I've refactored the installation scripts. There is a new script, 'before-snapshot.bash', that does all the steps to set up a virtual machine after a Linux install. The "Really Quick Start" process is now:
-	* Create a virtual machine.
+	* Create a virtual machine with your favorite virtual desktop tool. I've tested with Virtual Machine Manager / qemu-kvm, Oracle VM VirtualBox, VMware Workstation / Player and Windows 8 Pro Client Hyper-V.
 	* Install Fedora 18, Linux Mint 14 or Ubuntu 12.10.
-	* Download/unpack the workbench scripts from Github to your home directory.
-	* Run "before-snapshot.bash".
-	* Reboot.
-	* Run "VMware-setup.bash" or "VirtualBox-setup.bash". There may be a way to automate this decision but I haven't found a reliable way yet.
-	* Shut down and take a snapshot.
-	* Reboot and run "install-platform.bash".
+	* Download/unpack the workbench scripts from Github to your home directory on the virtual machine.
+	* Run "before-snapshot.bash". The virtual machine will reboot.
+	* Run "VMware-setup.bash" on VMware hosts or "VirtualBox-setup.bash" on VirtualBox hosts. There may be a way to automate this decision but I haven't found a reliable way yet.
+	* The virtual machine will shut down. If your virtualizer allows it, take a snapshot.
+	* Start the virtual machine up and run "install-platform.bash".
 
 ### Release 2.4.0
 1. I've moved the R GUIs - R Commander, Rattle, JGR and Deducer - into the R platform install scripts. That means that once you've installed the platform, you have five of the six common R GUIs. RStudio is still an option, however, because of the lengthy process of building it from source.
