@@ -5,7 +5,7 @@
 1. I've made RStudio Desktop part of the platform. RStudio Server is still optional.
 1. The RStudio Server install script no longer automatically configures the server. You have to run the script manually.
 1. I've added installation of [Redis](http://redis.io/) as an option.
-1. I've added installation of [Node.js](http://nodejs.org/) and [CoffeeScript](http://coffeescript.org/) as an option.
+1. I've added installation of [Node.js](http://nodejs.org/) and [CoffeeScript](http://coffeescript.org/) as an option. Some [motivation for CoffeeScript](http://ashkenas.com/literate-coffeescript/).
 1. I've added [Pandoc](http://www.johnmacfarlane.net/pandoc/) to the [Editing](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Editing/README.md) pseudo-task view.
 1. I've removed [Django](https://www.djangoproject.com/) from the Editing pseudo-task view. It will return as an option in a future release.
 1. I've refactored the installation scripts. There is a new script, 'before-snapshot.bash', that does all the steps to set up a virtual machine after a Linux install. The "Really Quick Start" process is now:
