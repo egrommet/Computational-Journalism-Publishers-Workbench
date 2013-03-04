@@ -18,12 +18,13 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 1. Set the virtual machine memory to 1536 MB.
 1. In the virtual machine 'CD/DVD' settings, connect the virtual machine CD drive to the ISO file you downloaded.
 1. Press the 'Save' button.
+1. Start the virtual machine.
 
-### [Install Linux](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#install-linux).
+### [Install Linux](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#install-linux)
 
-### [Download and unpack the scripts](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#download-and-unpack-the-scripts).
+### [Download and unpack the scripts](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#download-and-unpack-the-scripts)
 
-### [Run the 'before-snapshot.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-before-snapshotbash-script).
+### [Run the 'before-snapshot.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-before-snapshotbash-script)
 
 ### Install VMware tools
 The terminal application on Linux puts you in a program called the 'Bourne Again SHell (bash)'. This has a nifty feature called 'bash completion'. You can type the first part of a command or file name and press the 'Tab' key, and 'bash' will type the rest for you! If there's more than one possibility, you'll see them listed. Try it on the commands given below!
