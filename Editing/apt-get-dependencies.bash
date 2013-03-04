@@ -56,8 +56,6 @@ sudo apt-get install -y \
   pulseaudio \
   pulseaudio-module-x11 \
   pulseaudio-utils \
-  python-django \
-  python-django-doc \
   rawtherapee \
   scribus \
   scribus-doc \
