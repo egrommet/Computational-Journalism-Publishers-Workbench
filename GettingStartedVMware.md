@@ -22,17 +22,11 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 1. In the virtual machine 'CD/DVD' settings, connect the virtual machine CD drive to the ISO file you downloaded.
 1. Press the 'Save' button.
 
-### Install Linux
-1. Press the 'Play virtual machine' button.
-1. Install Linux to the virtual machine as described in the documentation for the Linux distribution.
-1. When the install is finished, it will ask you to reboot. Reboot the system.
-1. During the install, you created a non-root user with adminstrative privileges. Log in as as that non-root user. ***Open the distribution's software update application and install all the required updates. Do not skip this step!***
+### [Install Linux](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#install-linux).
 
-The update may take quite a while. At several points in the update, you may be asked about configuration files. Just press 'Enter' if this happens. When the software update finishes, ***reboot the virtual machine even if it didn't ask you to do so.***
+### [Download and unpack the scripts](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#download-and-unpack-the-scripts).
 
-### Download and unpack the scripts
-1. After the reboot, log in and start the browser. Browse to the [Github tags page](http://j.mp/CompJournBench). Download the most recent 'Source code (zip)' archive file. 
-1. Open the archive with the Archive Manager and press the 'Extract' button on the upper right. In the file selection dialog, pick your home directory and press the 'Extract' button on the lower right.
+### [Run the 'before-snapshot.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-before-snapshotbash-script).
 
 ### Install VMware tools
 The terminal application on Linux puts you in a program called the 'Bourne Again SHell (bash)'. This has a nifty feature called 'bash completion'. You can type the first part of a command or file name and press the 'Tab' key, and 'bash' will type the rest for you! If there's more than one possibility, you'll see them listed. Try it on the commands given below!
