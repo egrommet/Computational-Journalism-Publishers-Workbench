@@ -16,3 +16,4 @@
 
 ## Suggested Reading
 * [Natural Language Processing with Python by Steven Bird, Ewan Klein, Edward Loper](http://j.mp/Xhc0cs)
+* [WordNet: An Electronic Lexical Database by Christiane Fellbaum and George Miller](http://j.mp/12n7qkQ)

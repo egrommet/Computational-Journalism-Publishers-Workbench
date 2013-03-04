@@ -23,8 +23,8 @@
 * [Inkscape Scalable Vector Graphics Editor](http://inkscape.org/)
 * [LyX Document Processor](http://www.lyx.org/)
 * [OCAL Open Clip Art Library](https://openclipart.org/)
+* [Pandoc](http://www.johnmacfarlane.net/pandoc/)
 * [PiTiVi Video Editor](http://www.pitivi.org/)
-* [Django Web Framework](https://www.djangoproject.com/)
 * [Scribus Desktop Publishing](http://scribus.net/canvas/Scribus)
 * [Sigil EPUB Editor](https://code.google.com/p/sigil/)
 
@@ -32,3 +32,4 @@
 * [Crafting Digital Media, by Daniel James](http://j.mp/12TTnxM)
 * [The Functional Art by Alberto Cairo](http://j.mp/YoTobU)
 * [The Book of GIMP by Olivier Lecarme, Karine Delvare](http://j.mp/XWOyR8)
+* [Markdown By Example by Tim Steinbach](https://leanpub.com/markdown)

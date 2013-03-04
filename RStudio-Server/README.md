@@ -24,3 +24,4 @@
 
 ## Suggested Reading
 * [Learning RStudio for R Statistical Computing by Mark van der Loo, Edwin de Jonge](http://j.mp/14Z5k8d)
+* [Getting Started with RStudio by John Verzani](http://j.mp/XQsgSb)
