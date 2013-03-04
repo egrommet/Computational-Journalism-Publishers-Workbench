@@ -19,7 +19,7 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 1. In the 'Disk Size' menu, create a 32 GB virtual hard drive and press 'Next'.
 1. In the next panel, just press 'Finish'. Press 'Close' in the final panel.
 1. Next, go into the 'Edit virtual machine settings' menu.
-1. Set the virtual machine memory to 1536 MB.
+1. Set the virtual machine memory to 1536 MB or more.
 1. In the virtual machine 'CD/DVD' settings, connect the virtual machine CD drive to the ISO file you downloaded.
 1. Press the 'Save' button.
 1. Start the virtual machine.
