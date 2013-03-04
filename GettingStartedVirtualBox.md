@@ -5,7 +5,7 @@ You'll need a Windows, Linux or Macintosh desktop/laptop with at least 3 GB of R
 
 ### Download the software
 1. Download and install [Oracle VM VirtualBox](https://www.virtualbox.org/wiki/Downloads).
-1. [Download a Linux install ISO image](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#download-a-linux-install-iso-image].
+1. [Download a Linux install ISO image](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#download-a-linux-install-iso-image).
 
 ### Create a virtual machine
 1. Start up Oracle VM VirtualBox. Create a virtual machine with the Linux operating system, 1536 MB of memory, and a 32 GB virtual hard disk.
