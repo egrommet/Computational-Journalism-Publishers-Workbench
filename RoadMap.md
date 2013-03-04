@@ -1,6 +1,7 @@
 ## Road Map
 
 ### Release 2.5.0
+1. Next release cutesy release code name: 'a veiled threat'.
 1. The next release will probably have Riak, built from source. I need to dig into what it can do and how that's relevant to computational journalism, and the best way to do that is to deploy it. Meanwhile, read [Seven Databases in Seven Weeks by Eric Redmond and Jim R. Wilson](http://j.mp/Xycr5A) and imagine the possibilities.
 1. Django and Rails will be options in some future release. I'm holding off until the course materials for [For Journalism](http://kck.st/10XiAfn) start to take shape. The plan is that those courses will run "out of the box" on the workbench. Meanwhile, please [join me in backing For Journalism](http://kck.st/10XiAfn).
 1. I'm planning to add [Beancounter](http://search.cpan.org/~edd/beancounter_0.8.10/) as a PostgreSQL test case. I'm hoping to get this into 2.6.0.
