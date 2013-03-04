@@ -1,4 +1,4 @@
-# Web Scraping / PDF Extraction Tools
+# [RKWard R IDE/GUI](http://rkward.sourceforge.net/)
 
 ## Usage
 
@@ -6,7 +6,6 @@
 
 	```
 	./install-all.bash
-	./test-pdf-extract.bash
 	```
 1. [Open an issue on Github](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new) if you have any questions or problems.
 
