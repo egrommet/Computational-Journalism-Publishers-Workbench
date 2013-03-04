@@ -22,7 +22,7 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 1. Set the virtual machine memory to 1536 MB or more.
 1. In the virtual machine 'CD/DVD' settings, connect the virtual machine CD drive to the ISO file you downloaded.
 1. Press the 'Save' button.
-1. Start the virtual machine with the 'Play Virtual Machine' button.
+1. Start the virtual machine with the 'Play virtual machine' button.
 
 ### [Install Linux](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#install-linux)
 
