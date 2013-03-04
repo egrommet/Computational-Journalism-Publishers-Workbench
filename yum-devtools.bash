@@ -10,7 +10,7 @@
 #
 
 sudo yum clean all
-sudo rm -i `find /var/cache/yum/ -name 'timedhosts'`
+sudo rm `find /var/cache/yum/ -name 'timedhosts'`
 sudo yum install -y \
   vim \
   git \
