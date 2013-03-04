@@ -27,8 +27,6 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 ### [Run the 'before-snapshot.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-before-snapshotbash-script)
 
 ### Install VMware tools
-The terminal application on Linux puts you in a program called the 'Bourne Again SHell (bash)'. This has a nifty feature called 'bash completion'. You can type the first part of a command or file name and press the 'Tab' key, and 'bash' will type the rest for you! If there's more than one possibility, you'll see them listed. Try it on the commands given below!
-
 1. Remove any existing guest tools. Some Linux distributions install them for you, but you need to use the ones that match the version of VMware you're using to host the virtual machine. Open a terminal and type
 
 	```
