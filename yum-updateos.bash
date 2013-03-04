@@ -10,8 +10,6 @@
 #
 
 echo 'Updating packages'
-echo "You will need to authenticate"
-sleep 4
 sudo yum clean all
-sudo rm -i `find /var/cache/yum/ -name 'timedhosts'`
-sudo yum update
+sudo rm -f `find /var/cache/yum/ -name 'timedhosts'`
+sudo /usr/bin/time yum update -y
