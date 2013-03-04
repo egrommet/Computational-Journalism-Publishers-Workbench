@@ -5,10 +5,7 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 
 ### Download the software
 1. Download and install [VMware Player](http://www.vmware.com/products/player/).
-1. Download a Linux install ISO image. You do ***not*** need to burn this image file to a CD/DVD or copy it to a USB drive. Supported Linux distributions are currently
-    * [Fedora 18](https://fedoraproject.org/en/get-fedora)<br>
-    * [Linux Mint 14](http://www.linuxmint.com/download.php)<br>
-    * [Ubuntu 12.10](http://www.ubuntu.com/download)<br>
+1. [Download a Linux install ISO image](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#download-a-linux-install-iso-image).
 
 ### Create a virtual machine
 1. Start up VMware Player. Press the 'Create a New Virtual Machine' button.
