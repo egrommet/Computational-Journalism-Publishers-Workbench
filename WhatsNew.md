@@ -1,7 +1,7 @@
 ## What's New?
 
 ### Release 2.5.0
-1. Cutesy release code names: Ubuntu's got 'em, Fedora's got 'em, even ***R*** has them now. But - sadly - the Computational Journalism Publishers' Workbench never thought to start that tradition. So here goes: the 'theme' is punchlines to jokes/riddles. For 2.5.0, the cutesy release code name is 'I was talking to the duck'
+1. Cutesy release code names: Ubuntu's got 'em, Fedora's got 'em, even ***R*** has them now. But - sadly - the Computational Journalism Publishers' Workbench never thought to start that tradition. So here goes: the 'theme' is punchlines to jokes/riddles. For 2.5.0, the cutesy release code name is 'I was talking to the duck!'
 1. I've made [RKWard](http://rkward.sourceforge.net/) an option rather than having it as a standard part of the platform.
 1. I've made RStudio Desktop part of the platform. RStudio Server is still optional.
 1. The RStudio Server install script no longer automatically configures the server. You have to run the script manually.
