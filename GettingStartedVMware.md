@@ -27,16 +27,10 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 ### [Run the 'before-snapshot.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-before-snapshotbash-script)
 
 ### Install VMware tools
-1. Remove any existing guest tools. Some Linux distributions install them for you, but you need to use the ones that match the version of VMware you're using to host the virtual machine. Open a terminal and type
+1. Open a terminal and type
 
 	```
 	cd ~/Computational-*
-	./remove-guest-tools.bash
-	```
-1. After the guest tool removal completes, go to the VMware Player 'Virtual Machine' menu, select 'Install VMware Tools...'. Press the 'Install' button.
-1. In the terminal, type
-
-	```
 	./VMwareSetup.bash
 	```
 1. You will be asked a number of questions. In all cases, just press 'Enter' and accept the default. After the guest tools are installed, the virtual machine will shut down and VMware Player will close.
