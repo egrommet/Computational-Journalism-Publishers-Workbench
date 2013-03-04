@@ -8,8 +8,11 @@ You'll need a Windows, Linux or Macintosh desktop/laptop with at least 3 GB of R
 1. [Download a Linux install ISO image](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#download-a-linux-install-iso-image).
 
 ### Create a virtual machine
-1. Start up Oracle VM VirtualBox. Create a virtual machine with the Linux operating system, 1536 MB of memory, and a 32 GB virtual hard disk.
-	* For the operating system type, choose 'Fedora' for Fedora, 'Ubuntu' for either Ubuntu or Linux Mint.
+1. Start up Oracle VM VirtualBox. Create a virtual machine with the Linux operating system, 1536 MB of memory or more, and a 32 GB virtual hard disk. For the operating system type
+	* For 32-bit Linux Mint or Ubuntu, choose 'Ubuntu'.
+	* For 64-bit Linux Mint or Ubuntu, choose 'Ubuntu 64-bit'.
+	* For 32-bit Fedora, choose 'Fedora'.
+	* For 64-bit Fedora, choose 'Fedora 64-bit'.
 1. In the virtual machine 'Display' settings, set the display video memory to 128 MB and enable 3D acceleration.
 1. In the virtual machine 'Storage' settings, connect the virtual machine CD drive to the ISO file you downloaded.
 1. Start the virtual machine.

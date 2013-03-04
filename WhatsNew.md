@@ -5,17 +5,17 @@
 1. I've made RStudio Desktop part of the platform. RStudio Server is still optional.
 1. The RStudio Server install script no longer automatically configures the server. You have to run the script manually.
 1. I've added installation of [Redis](http://redis.io/) as an option.
-1. I've added installation of [Node.js](http://nodejs.org/) and [CoffeeScript](http://coffeescript.org/) as an option. Some [motivation for CoffeeScript](http://ashkenas.com/literate-coffeescript/).
+1. I've added installation of [Node.js](http://nodejs.org/) and [CoffeeScript](http://coffeescript.org/) as an option. Some motivation for CoffeeScript: [Journo & Literate CoffeeScript](http://ashkenas.com/literate-coffeescript/).
 1. I've added [Pandoc](http://www.johnmacfarlane.net/pandoc/) to the [Editing](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Editing/README.md) pseudo-task view.
 1. I've removed [Django](https://www.djangoproject.com/) from the Editing pseudo-task view. It will return as an option in a future release.
-1. I've refactored the installation scripts. There is a new script, 'before-snapshot.bash', that does all the steps to set up a virtual machine after a Linux install. The "Really Quick Start" process is now:
+1. I've refactored the installation scripts. There is a new script, 'before-snapshot.bash', that does nearly all the steps to set up a virtual machine after a Linux install. The 'Really Quick Start' process is now:
 	* Create a virtual machine with your favorite virtual desktop tool. I've tested with Virtual Machine Manager / qemu-kvm, Oracle VM VirtualBox, VMware Workstation / Player and Windows 8 Pro Client Hyper-V.
 	* Install Fedora 18, Linux Mint 14 or Ubuntu 12.10.
 	* Download/unpack the workbench scripts from Github to your home directory on the virtual machine.
-	* Run "before-snapshot.bash". The virtual machine will reboot.
-	* Run "VMware-setup.bash" on VMware hosts or "VirtualBox-setup.bash" on VirtualBox hosts. There may be a way to automate this decision but I haven't found a reliable way yet.
+	* Run 'before-snapshot.bash'. The virtual machine will reboot.
+	* Run 'VMware-setup.bash' on VMware hosts or 'VirtualBox-setup.bash' on VirtualBox hosts. There may be a way to automate this decision but I haven't found a reliable way yet.
 	* The virtual machine will shut down. If your virtualizer allows it, take a snapshot.
-	* Start the virtual machine up and run "install-platform.bash".
+	* Start the virtual machine up and run 'install-platform.bash'.
 
 ### Release 2.4.0
 1. I've moved the R GUIs - R Commander, Rattle, JGR and Deducer - into the R platform install scripts. That means that once you've installed the platform, you have five of the six common R GUIs. RStudio is still an option, however, because of the lengthy process of building it from source.

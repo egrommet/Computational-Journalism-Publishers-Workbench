@@ -1,3 +1,4 @@
+## Latest release: 2.4.0, 2013-02-25
 ## [Quick Start](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md)
 ## [What's New?](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/WhatsNew.md)
 ## [Road Map](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/RoadMap.md)
@@ -34,7 +35,7 @@
 * Geospatial / mapping
 * Natural language, text data
 * Social networks and graphs
-* PDF data extraction tools
+* Web scraping and PDF data extraction tools
 * Digital media creation and editing tools
 
 ## Who is it for?
