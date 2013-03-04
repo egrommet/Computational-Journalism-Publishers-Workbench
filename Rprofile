@@ -14,10 +14,10 @@
 # and start a new session
 #
 system('mkdir -p ~/.rkward/library')
-.libPaths(c("~/.rkward/library", .libPaths()))
+.libPaths(c('~/.rkward/library', .libPaths()))
 options(repos=c(
-  CRAN="http://ftp.osuosl.org/pub/cran",
-  BioCsoft="http://www.bioconductor.org/packages/2.11/bioc",
-  Omegahat="http://www.omegahat.org/R" ,
-  'R-Forge'="http://R-Forge.R-project.org" 
+  CRAN='http://cran.cnr.Berkeley.edu',
+  BioCsoft='http://www.bioconductor.org/packages/2.11/bioc',
+  Omegahat='http://www.omegahat.org/R' ,
+  'R-Forge'='http://R-Forge.R-project.org' 
 ))
