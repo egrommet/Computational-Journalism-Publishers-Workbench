@@ -12,4 +12,4 @@
 
 ## Suggested Reading
 [Redis in Action by Josiah L. Carlson](http://j.mp/YzIEJE)
-[Seven Databases in Seven Weeks by Eric Redmond, Jim R. Wilson](http://j.mp/Xycr5A)
+[Seven Databases in Seven Weeks by Eric Redmond and Jim R. Wilson](http://j.mp/Xycr5A)
