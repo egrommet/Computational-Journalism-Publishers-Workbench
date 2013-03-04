@@ -10,7 +10,11 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 ### Create a virtual machine
 1. Start up VMware Player. Press the 'Create a New Virtual Machine' button.
 1. In the first panel, choose 'I will install the operating system later.' and press 'Next'.
-1. Select 'Linux' for the guest operating system. Choose the version in the drop-down menu. For Linux Mint, choose 'Ubuntu'. Then press 'Next'.
+1. Select 'Linux' for the guest operating system. Choose the version in the drop-down menu.
+	* For 32-bit Linux Mint or Ubuntu, choose 'Ubuntu'. Then press 'Next'.
+	* For 64-bit Linux Mint or Ubuntu, choose 'Ubuntu 64-bit'. Then press 'Next'.
+	* For 32-bit Fedora, choose 'Fedora'. Then press 'Next'.
+	* For 64-bit Fedora, choose 'Fedora 64-bit'. Then press 'Next'.
 1. Choose a name for the virtual machine and press 'Next'.
 1. In the 'Disk Size' menu, create a 32 GB virtual hard drive and press 'Next'.
 1. In the next panel, just press 'Finish'. Press 'Close' in the final panel.
