@@ -13,9 +13,10 @@ export WHERE=ftp://ftp.stat.math.ethz.ch/Software/R
 export WHAT=R-devel.tar.bz2
 export HERE=`pwd`
 
+mkdir -p ${HOME}/local/src
 pushd ${HOME}/local/src
+rm -fr R-* # ditch all versions of R past!
 curl ${WHERE}/${WHAT} > ${WHAT}
-rm -fr R-patched R-beta R-rc R-devel
 tar xf ${WHAT}
 
 # pick the directory
