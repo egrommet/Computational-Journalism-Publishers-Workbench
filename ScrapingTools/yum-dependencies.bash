@@ -25,11 +25,23 @@ sudo yum install -y \
   ghostscript-fonts \
   ghostscript \
   ghostscript-gtk \
+  pdf-tools \
   pdfchain \
+  pdfcrack \
+  pdfedit \
+  pdfgrep \
+  pdfjam \
+  pdfmerge \
+  pdfmod \
+  pdfresurrect \
+  pdfshuffler \
   pdftk \
   poppler \
   poppler-data \
   poppler-utils \
+  perl-Text-PDF \
+  rubygem-pdf-reader \
+  rubygem-pdf-reader-doc \
   tesseract \
   tesseract-devel \
   tesseract-langpack-bul \
