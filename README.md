@@ -1,4 +1,4 @@
-## Latest release: 2.5.0, 2013-03-04, 'I was talking to the duck!'
+## Latest release: 2.5.0, 2013-03-04, cutesy release code name 'I was talking to the duck!'
 ## [Quick Start](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md)
 ## [What's New?](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/WhatsNew.md)
 ## [Road Map](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/RoadMap.md)
