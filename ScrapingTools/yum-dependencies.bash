@@ -10,36 +10,51 @@
 #
 
 sudo yum install -y \
-  python-mechanize \
-  rubygem-mechanize \
-  perl-WWW-Mechanize \
-  perl-WWW-Mechanize-GZip \
-  ImageMagick \
-  ImageMagick-doc \
-  GraphicsMagick \
+  apvlv \
   baekmuk-ttf-fonts-ghostscript \
+  diffpdf \
+  ghostscript \
   ghostscript-chinese \
   ghostscript-chinese-zh_CN \
   ghostscript-chinese-zh_TW \
   ghostscript-doc \
   ghostscript-fonts \
-  ghostscript \
   ghostscript-gtk \
-  pdf-tools \
+  GraphicsMagick \
+  htmldoc \
+  ImageMagick \
+  ImageMagick-doc \
+  mupdf \
   pdfchain \
   pdfcrack \
   pdfedit \
   pdfgrep \
-  pdfjam \
   pdfmerge \
   pdfmod \
   pdfresurrect \
   pdfshuffler \
   pdftk \
+  pdf-tools \
+  perl-PDF-API2 \
+  perl-PDF-Create \
+  perl-PDF-Haru \
+  perl-PDF-Reuse \
+  perl-Text-PDF \
+  perl-WWW-Mechanize \
+  perl-WWW-Mechanize-GZip \
+  podofo \
   poppler \
   poppler-data \
   poppler-utils \
-  perl-Text-PDF \
+  pstoedit \
+  pyPdf \
+  pypoppler \
+  python-mechanize \
+  python-poppler-qt4 \
+  python-reportlab \
+  qpdf \
+  qpdf-doc \
+  rubygem-mechanize \
   rubygem-pdf-reader \
   rubygem-pdf-reader-doc \
   tesseract \
@@ -78,6 +93,8 @@ sudo yum install -y \
   tesseract-langpack-tgl \
   tesseract-langpack-tur \
   tesseract-langpack-ukr \
-  tesseract-langpack-vie
+  tesseract-langpack-vie \
+  texlive-pdfjam \
+  texlive-pdfjam-doc
 
 ./install-docsplit-gem.bash
