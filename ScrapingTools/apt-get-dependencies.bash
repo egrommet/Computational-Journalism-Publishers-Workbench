@@ -10,23 +10,53 @@
 #
 
 sudo apt-get install -y \
-  libwww-mechanize-gzip-perl \
-  libwww-mechanize-perl \
-  python-mechanize \
-  ruby-mechanize \
-  imagemagick \
-  imagemagick-doc \
-  graphicsmagick \
+  apvlv \
+  comparepdf \
+  diffpdf \
   ghostscript \
   ghostscript-doc \
   ghostscript-x \
+  gpdftext \
+  graphicsmagick \
   gsfonts \
   gsfonts-x11 \
+  gtk-vector-screenshot \
   gv \
+  htmldoc \
+  imagemagick \
+  imagemagick-doc \
+  libwww-mechanize-gzip-perl \
+  libwww-mechanize-perl \
+  mupdf \
+  mupdf-tools \
   pdfchain \
+  pdfcrack \
+  pdfgrep \
+  pdfjam \
+  pdfminer-data \
+  pdfmod \
+  pdfresurrect \
+  pdfsam \
+  pdfshuffler \
   pdftk \
   poppler-data \
   poppler-utils \
+  pstoedit \
+  pstotext \
+  python-mechanize \
+  python-pdfminer \
+  python-pdfrw \
+  python-pdftools \
+  python-pypdf \
+  python-reportlab \
+  python-reportlab-accel \
+  python-reportlab-doc \
+  qpdf \
+  ruby-mechanize \
+  ruby-pdf-inspector \
+  ruby-pdf-reader \
+  ruby-prawn \
+  ruby-prawn-doc \
   tesseract-ocr \
   tesseract-ocr-afr \
   tesseract-ocr-ara \
