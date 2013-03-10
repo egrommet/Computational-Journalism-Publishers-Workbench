@@ -19,7 +19,8 @@ sudo apt-get install -y \
 sudo apt-get install -y \
   libgsl0-dev \
   libgmp-dev \
-  libmpfr-dev
+  libmpfr-dev \
+  libatlas-dev
 
 # GUI tools
 sudo apt-get install -y \
