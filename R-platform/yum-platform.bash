@@ -9,13 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# R and GGobi from distro!
-sudo yum install -y \
-  R \
-  R-devel \
-  ggobi \
-  ggobi-devel
-
 # unixODBC
 sudo yum install -y \
   unixODBC \

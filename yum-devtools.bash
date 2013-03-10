@@ -27,3 +27,10 @@ sudo yum install -y \
   gcc \
   gcc-c++ \
   gcc-gfortran
+
+# R and GGobi from distro!
+sudo yum install -y \
+  R \
+  R-devel \
+  ggobi \
+  ggobi-devel
