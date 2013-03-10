@@ -19,3 +19,12 @@ sudo apt-get install -y \
   aria2 \
   make \
   libcurl4-gnutls-dev
+
+# R and GGobi from distro!
+sudo apt-get install -y \
+  r-base \
+  r-base-core \
+  r-base-dev \
+  r-base-html \
+  r-recommended \
+  ggobi
