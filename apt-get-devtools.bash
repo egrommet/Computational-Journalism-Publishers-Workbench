@@ -18,7 +18,8 @@ sudo apt-get install -y \
   lynx \
   aria2 \
   make \
-  libcurl4-gnutls-dev
+  libcurl4-gnutls-dev \
+  openjdk-7-jdk
 
 # R and GGobi from distro!
 sudo apt-get install -y \

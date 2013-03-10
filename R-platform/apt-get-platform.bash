@@ -23,7 +23,6 @@ sudo apt-get install -y \
 
 # GUI tools
 sudo apt-get install -y \
-  openjdk-7-jdk \
   tcl-dev \
   tk-dev \
   bwidget \
