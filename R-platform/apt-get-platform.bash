@@ -9,15 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-# R and GGobi from distro!
-sudo apt-get install -y \
-  r-base \
-  r-base-core \
-  r-base-dev \
-  r-base-html \
-  r-recommended \
-  ggobi
-
 # unixODBC
 sudo apt-get install -y \
   unixodbc \
