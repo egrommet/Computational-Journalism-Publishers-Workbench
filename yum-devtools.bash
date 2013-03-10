@@ -25,6 +25,9 @@ sudo yum install -y \
 sudo yum install -y \
   make \
   gcc \
+
+# Needed for packages
+  java-1.7.0-openjdk-devel \
   gcc-c++ \
   gcc-gfortran
 
