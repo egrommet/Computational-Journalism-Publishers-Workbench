@@ -27,6 +27,5 @@ sudo apt-get install -y \
   r-base-core \
   r-base-dev \
   r-base-html \
-  r-recommended \
   ggobi \
   r-cran-rggobi
