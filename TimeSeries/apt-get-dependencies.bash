@@ -10,4 +10,5 @@
 #
 
 sudo apt-get install -y \
+  jags \
   libfftw3-dev
