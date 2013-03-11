@@ -16,6 +16,6 @@ install.packages(
     'signal',
     'audio'
   ),
-  dependencies=NA
+  dependencies=TRUE
 )
 warnings()

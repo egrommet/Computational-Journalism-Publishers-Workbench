@@ -14,6 +14,6 @@ update.views(
   c(
     'TimeSeries'
   ),
-  dependencies=NA
+  dependencies=TRUE
 )
 warnings()

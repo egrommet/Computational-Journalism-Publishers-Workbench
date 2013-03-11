@@ -14,6 +14,6 @@ update.views(
   c(
     'Finance'
   ),
-  dependencies=NA
+  dependencies=TRUE
 )
 warnings()

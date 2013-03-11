@@ -14,6 +14,6 @@ update.views(
   c(
     'ReproducibleResearch'
   ),
-  dependencies=NA
+  dependencies=TRUE
 )
 warnings()

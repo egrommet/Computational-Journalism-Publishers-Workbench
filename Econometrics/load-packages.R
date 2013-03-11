@@ -14,6 +14,6 @@ update.views(
   c(
     'Econometrics'
   ),
-  dependencies=NA
+  dependencies=TRUE
 )
 warnings()

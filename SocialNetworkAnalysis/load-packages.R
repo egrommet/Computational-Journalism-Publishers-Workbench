@@ -13,6 +13,6 @@ install.packages(
   c(
     'statnet'
   ),
-  dependencies=NA
+  dependencies=TRUE
 )
 warnings()

@@ -14,6 +14,6 @@ update.views(
   c(
     'MachineLearning'
   ),
-  dependencies=NA
+  dependencies=TRUE
 )
 warnings()

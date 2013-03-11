@@ -13,6 +13,6 @@ install.packages(
   c(
     'doRedis'
   ),
-  dependencies=NA
+  dependencies=TRUE
 )
 warnings()

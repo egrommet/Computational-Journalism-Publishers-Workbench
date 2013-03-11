@@ -14,7 +14,7 @@ update.views(
   c(
     'NaturalLanguageProcessing'
   ),
-  dependencies=NA
+  dependencies=TRUE
 )
 warnings()
 install.packages(
@@ -22,6 +22,6 @@ install.packages(
     'RDF',
     'rrdf'
   ),
-  dependencies=NA
+  dependencies=TRUE
 )
 warnings()
