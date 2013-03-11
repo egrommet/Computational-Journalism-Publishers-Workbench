@@ -13,8 +13,13 @@ source ~/.bash_profile
 ../common/install-platform.bash # OS-level packages
 
 sudo mkdir -p `R RHOME`/site-library # make a place for our stuff
-cp Rprofile ~/.Rprofile # prepend site library and define repositories
 
 ./install-packages.bash 2>&1 | tee packages.log
-./install-rstudio-source.bash 2>&1 | tee source.log
-./install-rstudio-desktop.bash 2>&1 | tee desktop.log
+echo "Installing RStudio source code"
+echo "You will need to authenticate"
+sleep 4
+sudo ./install-rstudio-source.bash 2>&1 | tee source.log
+echo "Installing RStudio Desktop"
+echo "You will need to authenticate"
+sleep 4
+sudo ./install-rstudio-desktop.bash 2>&1 | tee desktop.log
