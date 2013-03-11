@@ -20,10 +20,5 @@ then
 fi
 
 # set up stuff everyone needs
-mkdir -p ~/local/src
-mkdir -p ~/.local/share/applications
-mkdir -p ~/.local/share/pixmaps
 cat bashrc >> ~/.bashrc
-cat bash_profile >> ~/.bash_profile
-cat Rprofile >> ~/.Rprofile
 source ~/.bash_profile
