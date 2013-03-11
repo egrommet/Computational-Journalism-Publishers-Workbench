@@ -13,6 +13,7 @@ source ~/.bash_profile
 ../common/install-platform.bash # OS-level packages
 
 sudo mkdir -p `R RHOME`/site-library # make a place for our stuff
+cp ../common/Rprofile ~/.Rprofile
 
 ./install-packages.bash 2>&1 | tee packages.log
 echo "Installing RStudio source code"
