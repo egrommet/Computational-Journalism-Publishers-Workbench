@@ -10,4 +10,4 @@
 #
 
 source ~/.bash_profile
-/usr/bin/time R --no-save --no-restore < load-packages.R
+sudo /usr/bin/time R --no-save --no-restore < load-packages.R

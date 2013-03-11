@@ -28,13 +28,9 @@ sudo yum install -y \
   freeglut-devel \
   libXt-devel
 
-# GUIs and packages
-./install-packages.bash 2>&1 | tee packages.log
-
 # RStudio source
 sudo yum install -y \
   patch
-./install-rstudio-source.bash
 
 # RStudio Desktop
 sudo yum install -y \
@@ -44,4 +40,3 @@ sudo yum install -y \
   qtwebkit-devel \
   ant \
   cmake
-./install-rstudio-desktop.bash

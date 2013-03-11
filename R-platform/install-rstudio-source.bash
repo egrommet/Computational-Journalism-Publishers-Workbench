@@ -16,26 +16,27 @@ echo "Fetching RStudio ${VERSION}"
 export HERE=`pwd` # save pointer to where the hacked files are
 
 # get source tarball from Github
-pushd ${HOME}/local/src
-  echo "Removing old RStudio source code"
-  echo "You will need to authenticate"
-  sleep 4
+echo "Installing RStudio source code"
+echo "You will need to authenticate"
+sleep 4
+sudo mkdir -p /usr/local/src
+pushd /usr/local/src
   sudo rm -fr rstudio*
-  curl -k -L https://github.com/rstudio/rstudio/tarball/${VERSION} > rstudio.tgz
-  tar xf rstudio.tgz
+  sudo curl -k -L https://github.com/rstudio/rstudio/tarball/${VERSION} > rstudio.tgz
+  sudo tar xf rstudio.tgz
 
   pushd rstudio-*
 
     pushd dependencies/common
       for i in gwt dictionaries mathjax
       do
-        patch -b ./install-$i ${HERE}/install-$i.patch
-        /usr/bin/time ./install-$i
+        sudo patch -b ./install-$i ${HERE}/install-$i.patch
+        sudo /usr/bin/time ./install-$i
       done
     popd
 
-    patch -b src/gwt/build.xml ${HERE}/build.xml.patch
-    mkdir build
+    sudo patch -b src/gwt/build.xml ${HERE}/build.xml.patch
+    sudo mkdir build
   popd
 
 popd

@@ -31,12 +31,6 @@ sudo apt-get install -y \
   libgtk2.0-dev \
   libxml2-dev
 
-# GUIs and packages
-./install-packages.bash 2>&1 | tee packages.log
-
-# RStudio source
-./install-rstudio-source.bash
-
 # RStudio Desktop
 sudo apt-get install -y \
   cmake \
@@ -44,4 +38,3 @@ sudo apt-get install -y \
   libqtwebkit-dev \
   uuid-dev \
   ant
-./install-rstudio-desktop.bash

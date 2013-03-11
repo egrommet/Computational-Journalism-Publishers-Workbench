@@ -13,8 +13,7 @@
 # NOTE: changes in this file won't be reflected until after you quit
 # and start a new session
 #
-system('mkdir -p ~/.rkward/library')
-.libPaths(c('~/.rkward/library', .libPaths()))
+.libPaths(c(paste(R.home(), '/', 'site-library', sep=''), .libPaths()))
 options(repos=c(
   CRAN='http://cran.cnr.Berkeley.edu',
   BioCsoft='http://www.bioconductor.org/packages/2.11/bioc',
