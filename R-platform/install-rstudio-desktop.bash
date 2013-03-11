@@ -11,12 +11,8 @@
 
 source ~/.bash_profile
 pushd /usr/local/src/rstudio-*/build
-  echo "Installing RStudio Desktop"
-  echo "You will need to authenticate"
-  sleep 4
-  sudo cmake \
+  cmake \
     -DRSTUDIO_TARGET=Desktop \
     -DCMAKE_BUILD_TYPE=Release ..
-  sudo /usr/bin/time make
-  sudo make install
+  /usr/bin/time make install
 popd

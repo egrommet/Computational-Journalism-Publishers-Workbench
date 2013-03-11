@@ -19,24 +19,24 @@ export HERE=`pwd` # save pointer to where the hacked files are
 echo "Installing RStudio source code"
 echo "You will need to authenticate"
 sleep 4
-sudo mkdir -p /usr/local/src
+mkdir -p /usr/local/src
 pushd /usr/local/src
-  sudo rm -fr rstudio*
-  sudo curl -k -L https://github.com/rstudio/rstudio/tarball/${VERSION} > rstudio.tgz
-  sudo tar xf rstudio.tgz
+  rm -fr rstudio*
+  curl -k -L https://github.com/rstudio/rstudio/tarball/${VERSION} > rstudio.tgz
+  tar xf rstudio.tgz
 
   pushd rstudio-*
 
     pushd dependencies/common
       for i in gwt dictionaries mathjax
       do
-        sudo patch -b ./install-$i ${HERE}/install-$i.patch
-        sudo /usr/bin/time ./install-$i
+        patch -b ./install-$i ${HERE}/install-$i.patch
+        /usr/bin/time ./install-$i
       done
     popd
 
-    sudo patch -b src/gwt/build.xml ${HERE}/build.xml.patch
-    sudo mkdir build
+    patch -b src/gwt/build.xml ${HERE}/build.xml.patch
+    mkdir build
   popd
 
 popd
