@@ -28,4 +28,5 @@ sudo yum install -y \
   qgis \
   qgis-grass \
   spatialite-gui \
-  spatialite-tools
+  spatialite-tools \
+  postgresql-devel

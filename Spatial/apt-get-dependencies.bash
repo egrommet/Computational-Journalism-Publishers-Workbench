@@ -43,4 +43,5 @@ sudo apt-get install -y \
   libspatialite-dev \
   rasterlite-bin \
   spatialite-bin \
-  spatialite-gui
+  spatialite-gui \
+  libpq-dev
