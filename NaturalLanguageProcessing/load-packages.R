@@ -14,7 +14,7 @@ update.views(
   c(
     'NaturalLanguageProcessing'
   ),
-  dependencies=TRUE
+  dependencies=NA
 )
 warnings()
 install.packages(

@@ -13,6 +13,6 @@ install.packages(
   c(
     'RPostgreSQL'
   ),
-  dependencies=TRUE
+  dependencies=NA
 )
 warnings()

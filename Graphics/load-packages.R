@@ -14,6 +14,6 @@ update.views(
   c(
     'Graphics'
   ),
-  dependencies=TRUE
+  dependencies=NA
 )
 warnings()

@@ -14,7 +14,7 @@ update.views(
   c(
     'Spatial'
   ),
-  dependencies=TRUE
+  dependencies=NA
 )
 warnings()
 install.packages(
@@ -25,6 +25,6 @@ install.packages(
     'UScensus2000tract',
     'UScensus2010'
   ),
-  dependencies=TRUE
+  dependencies=NA
 )
 warnings()
