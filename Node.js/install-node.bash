@@ -15,6 +15,7 @@ pushd ${DIR}
 make
 sudo make install
 sudo npm install -g coffee-script
+sudo npm install -g shiny-server
 sudo /sbin/ldconfig
 popd
 
