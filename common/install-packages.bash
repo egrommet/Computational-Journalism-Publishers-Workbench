@@ -10,4 +10,7 @@
 #
 
 source ~/.bash_profile
+echo "Installing R packages in site library"
+echo "You will need to authenticate"
+sleep 4
 sudo /usr/bin/time R --no-save --no-restore < load-packages.R
