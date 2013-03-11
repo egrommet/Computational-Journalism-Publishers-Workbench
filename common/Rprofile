@@ -14,11 +14,9 @@
 # and start a new session
 #
 .libPaths(c(paste(R.home(), '/', 'site-library', sep=''), .libPaths()))
-.libPaths()
 options(repos=c(
   CRAN='http://cran.cnr.Berkeley.edu',
   BioCsoft='http://www.bioconductor.org/packages/2.11/bioc',
   Omegahat='http://www.omegahat.org/R' ,
   'R-Forge'='http://R-Forge.R-project.org' 
 ))
-options()$repos
