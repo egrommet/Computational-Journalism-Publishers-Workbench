@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "Removing guest tools / additions already installed"
+common/authenticate.bash "Removing guest tools / additions already installed"
 sudo apt-get purge -y \
   open-vm-dkms \
   open-vm-toolbox \

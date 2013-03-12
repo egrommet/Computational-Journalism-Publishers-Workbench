@@ -9,6 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+common/authenticate.bash 'Installing developer tools'
 sudo yum clean all
 sudo rm `find /var/cache/yum/ -name 'timedhosts*'`
 sudo yum install -y \

@@ -12,7 +12,7 @@
 echo "If you haven't already, do 'VM -> Install VMware Tools'"
 sleep 15
 
-echo "Installing guest additions"
+common/authenticate.bash "Installing guest additions"
 sudo mkdir -p /mnt/cdrom
 sudo mount /dev/sr0 /mnt/cdrom
 tar xf /mnt/cdrom/VMwareTools-9.2.2-893683.tar.gz

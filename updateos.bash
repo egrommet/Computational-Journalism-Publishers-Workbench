@@ -9,9 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo 'Updating operating system'
-echo "You will need to authenticate"
-sleep 4
 if [ -e "/usr/bin/apt-get" ]
 then
   ./apt-get-updateos.bash 2>&1 | tee updateos.log

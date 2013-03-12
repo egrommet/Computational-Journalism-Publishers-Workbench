@@ -12,7 +12,7 @@
 echo "If you haven't already, do 'Devices -> Install Guest Additions'"
 sleep 15
 
-echo "Installing guest additions"
+common/authenticate.bash "Installing guest additions"
 sudo mkdir -p /mnt/cdrom
 sudo mount /dev/sr0 /mnt/cdrom
 sudo /mnt/cdrom/VBoxLinuxAdditions.run

@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo "Installing basic development tools"
+common/authenticate.bash "Installing basic development tools"
 sudo apt-get install -y \
   vim \
   git \

@@ -9,10 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-if [ -e "/usr/bin/apt-get" ]
-then
-  ./apt-get-remove-guest-tools.bash
-elif [ -e "/usr/bin/yum" ]
-then
-  ./yum-remove-guest-tools.bash
-fi
+echo $1
+echo "You will need to authenticate"
+sleep 4

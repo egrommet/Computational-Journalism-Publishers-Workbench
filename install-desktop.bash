@@ -9,9 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo 'Installing desktop add-ons'
-echo "You will need to authenticate"
-sleep 4
 if [ -e "/usr/bin/apt-get" ]
 then
   ./apt-get-desktop.bash 2>&1 | tee desktop.log
