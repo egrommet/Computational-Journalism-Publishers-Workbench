@@ -9,9 +9,9 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-mkdir -p ~/local/src
+mkdir -p /usr/local/src
 
-pushd ~/local/src
+pushd /usr/local/src
 export WHERE=http://redis.googlecode.com/files
 export VERSION=`curl http://redis.io/download/|grep '\.tar\.gz'|head -n 1|sed 's/^.*redis-'//|sed 's/\.tar\.gz.*$//'`
 rm -fr redis-*
@@ -22,11 +22,7 @@ tar xf ${WHAT}
 cd ${DIR}
 make
 make test
-echo 'Installing Redis'
-echo "You will need to authenticate"
-sleep 4
-sudo make install
+make install
 popd
 
 sudo /sbin/ldconfig
-
