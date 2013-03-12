@@ -12,5 +12,5 @@
 source ~/.bash_profile
 for i in dependencies rstudio-server
 do
-  sudo ./install-${i}.bash 2>&1 | tee ${i}.log
+  sudo -H ./install-${i}.bash 2>&1 | tee ${i}.log
 done

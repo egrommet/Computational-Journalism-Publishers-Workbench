@@ -10,30 +10,30 @@
 #
 
 # unixODBC
-sudo yum install -y \
+sudo -H yum install -y \
   unixODBC \
   unixODBC-devel \
   unixODBC-gui-qt
 
 # Numeric libraries
-sudo yum install -y \
+sudo -H yum install -y \
   gsl-devel \
   gmp-devel \
   mpfr-devel \
   atlas-devel
 
 # GUI tools
-sudo yum install -y \
+sudo -H yum install -y \
   bwidget \
   freeglut-devel \
   libXt-devel
 
 # RStudio source
-sudo yum install -y \
+sudo -H yum install -y \
   patch
 
 # RStudio Desktop
-sudo yum install -y \
+sudo -H yum install -y \
   boost-devel \
   libuuid-devel \
   qt-devel \

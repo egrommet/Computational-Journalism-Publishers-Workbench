@@ -11,4 +11,4 @@
 
 source ~/.bash_profile
 ../common/authenticate.bash "Installing R packages in site library"
-sudo /usr/bin/time R --no-save --no-restore < load-packages.R
+sudo -H /usr/bin/time R --no-save --no-restore < load-packages.R

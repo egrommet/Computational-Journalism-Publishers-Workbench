@@ -9,13 +9,13 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo useradd -r rstudio-server
-sudo cp /usr/local/lib/rstudio-server/extras/pam/rstudio /etc/pam.d
-sudo cp /usr/local/lib/rstudio-server/extras/init.d/redhat/rstudio-server /etc/init.d
-sudo chmod +x /etc/init.d/rstudio-server
-sudo /sbin/chkconfig --add rstudio-server
-sudo ln -f -s /usr/local/lib/rstudio-server/bin/rstudio-server /usr/sbin/rstudio-server
-sudo rstudio-server start
+sudo -H useradd -r rstudio-server
+sudo -H cp /usr/local/lib/rstudio-server/extras/pam/rstudio /etc/pam.d
+sudo -H cp /usr/local/lib/rstudio-server/extras/init.d/redhat/rstudio-server /etc/init.d
+sudo -H chmod +x /etc/init.d/rstudio-server
+sudo -H /sbin/chkconfig --add rstudio-server
+sudo -H ln -f -s /usr/local/lib/rstudio-server/bin/rstudio-server /usr/sbin/rstudio-server
+sudo -H rstudio-server start
 
 echo "Open TCP port 8787"
 sleep 4

@@ -10,20 +10,20 @@
 #
 
 # unixODBC
-sudo apt-get install -y \
+sudo -H apt-get install -y \
   unixodbc \
   unixodbc-bin \
   unixodbc-dev
 
 # Numeric libraries
-sudo apt-get install -y \
+sudo -H apt-get install -y \
   libgsl0-dev \
   libgmp-dev \
   libmpfr-dev \
   libatlas-dev
 
 # GUI tools
-sudo apt-get install -y \
+sudo -H apt-get install -y \
   tcl-dev \
   tk-dev \
   bwidget \
@@ -32,7 +32,7 @@ sudo apt-get install -y \
   libxml2-dev
 
 # RStudio Desktop
-sudo apt-get install -y \
+sudo -H apt-get install -y \
   cmake \
   libboost1.50-all-dev \
   libqtwebkit-dev \

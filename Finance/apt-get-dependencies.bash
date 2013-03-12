@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo apt-get install -y \
+sudo -H apt-get install -y \
   libltdl-dev \
   libtool
 
@@ -20,5 +20,5 @@ then
   echo 'QuantLib is already installed!'
   sleep 4
 else
-  ./install-quantlib.bash 2>&1 | tee quantlib.log
+  sudo -H ./install-quantlib.bash 2>&1 | tee quantlib.log
 fi

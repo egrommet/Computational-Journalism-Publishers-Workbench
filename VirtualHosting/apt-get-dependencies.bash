@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo apt-get install -y \
+sudo -H apt-get install -y \
   gir1.2-spice-client-glib-2.0 \
   gir1.2-spice-client-gtk-2.0 \
   gir1.2-spice-client-gtk-3.0 \
@@ -35,4 +35,4 @@ sudo apt-get install -y \
 
 echo "Add Virtual Machine Manager users to the 'libvirtd' group!"
 sleep 4
-sudo vim /etc/group
+sudo -H vim /etc/group

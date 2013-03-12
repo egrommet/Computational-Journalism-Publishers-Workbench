@@ -9,8 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-mkdir -p ~/local/src
-pushd ~/local/src
+mkdir -p /usr/local/src
+pushd /usr/local/src
 export FILES='http://sourceforge.net/projects/quantlib/files/QuantLib/'
 export VERSION=`curl -s ${FILES}|grep tar\.gz|head -n 1|sed 's/^.*QuantLib-//'|sed 's/\.tar\.gz.*$//'`
 echo $VERSION
@@ -31,5 +31,5 @@ sleep 4
 sudo make install
 popd
 
-sudo cp quantlib.conf /etc/ld.so.conf.d/
-sudo /sbin/ldconfig
+cp quantlib.conf /etc/ld.so.conf.d/
+/sbin/ldconfig

@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo yum install -y \
+sudo -H yum install -y \
   apvlv \
   baekmuk-ttf-fonts-ghostscript \
   diffpdf \
