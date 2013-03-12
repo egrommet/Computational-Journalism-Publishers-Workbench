@@ -11,6 +11,6 @@
 
 ./setup-environment.bash
 ./remove-guest-tools.bash
-./install-devtools.bash
 ./updateos.bash
+./install-devtools.bash
 ./reboot.bash
