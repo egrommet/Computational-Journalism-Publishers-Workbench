@@ -22,6 +22,13 @@
 * [PDF Chain](http://pdfchain.sourceforge.net/)
 * [Ghostscript](http://pages.cs.wisc.edu/~ghost/)
 * [Doc⚡split](http://documentcloud.github.com/docsplit/)
+* [PoDoFo](http://podofo.sourceforge.net/)
+* [PDFEdit](http://pdfedit.cz/en/index.html)
+* [DiffPDF](http://www.qtrac.eu/diffpdf.html)
+* [PDFMod](https://live.gnome.org/PdfMod)
+* [PDFResurrect](http://freecode.com/projects/pdfresurrect)
+* [PDF Shuffler](http://pdfshuffler.sourceforge.net/)
+* [QPDF](http://qpdf.sourceforge.net/)
 
 ## Suggested Reading
 * [Scraping for Journalists by Paul Bradshaw](https://leanpub.com/scrapingforjournalists)
