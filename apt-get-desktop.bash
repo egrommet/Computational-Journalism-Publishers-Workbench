@@ -10,7 +10,7 @@
 #
 
 common/authenticate.bash "Installing desktop add-ons"
-sudo apt-get install -y \
+sudo -H apt-get install -y \
   obconf \
   obmenu \
   openbox \

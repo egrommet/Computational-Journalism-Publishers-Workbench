@@ -12,5 +12,5 @@
 common/authenticate.bash "Updating packages"
 echo "Press 'Enter' to accept defaults if asked about configuration files"
 sleep 10
-sudo apt-get update
-sudo apt-get upgrade -y
+sudo -H apt-get update
+sudo -H apt-get upgrade -y

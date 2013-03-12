@@ -10,6 +10,6 @@
 #
 
 common/authenticate.bash 'Updating packages'
-sudo yum clean all
-sudo rm -f `find /var/cache/yum/ -name 'timedhosts*'`
-sudo /usr/bin/time yum update -y
+sudo -H yum clean all
+sudo -H rm -f `find /var/cache/yum/ -name 'timedhosts*'`
+sudo -H /usr/bin/time yum update -y

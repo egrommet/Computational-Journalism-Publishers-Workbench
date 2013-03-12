@@ -10,9 +10,9 @@
 #
 
 common/authenticate.bash 'Installing developer tools'
-sudo yum clean all
-sudo rm `find /var/cache/yum/ -name 'timedhosts*'`
-sudo yum install -y \
+sudo -H yum clean all
+sudo -H rm `find /var/cache/yum/ -name 'timedhosts*'`
+sudo -H yum install -y \
   yum-fastestmirror \
   vim \
   git \
@@ -23,18 +23,18 @@ sudo yum install -y \
   libcurl-devel
 
 # Needed to install guest tools on virtual machines
-sudo yum install -y \
+sudo -H yum install -y \
   make \
   gcc \
 
 # Needed for packages
-sudo yum install -y \
+sudo -H yum install -y \
   java-1.7.0-openjdk-devel \
   gcc-c++ \
   gcc-gfortran
 
 # R and GGobi from distro!
-sudo yum install -y \
+sudo -H yum install -y \
   R \
   R-devel \
   ggobi \

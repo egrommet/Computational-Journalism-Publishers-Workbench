@@ -13,14 +13,14 @@ echo "If you haven't already, do 'VM -> Install VMware Tools'"
 sleep 15
 
 common/authenticate.bash "Installing guest additions"
-sudo mkdir -p /mnt/cdrom
-sudo mount /dev/sr0 /mnt/cdrom
+sudo -H mkdir -p /mnt/cdrom
+sudo -H mount /dev/sr0 /mnt/cdrom
 tar xf /mnt/cdrom/VMwareTools-9.2.2-893683.tar.gz
 cd vmware-tools-distrib
-sudo ./vmware-install.pl
+sudo -H ./vmware-install.pl
 cd ..
-sudo rm -fr vmware-tools-distrib # cleanup!!!
+sudo -H rm -fr vmware-tools-distrib # cleanup!!!
 
 echo "Shutting down in 15 seconds so you can take a snapshot"
 sleep 15
-sudo /sbin/shutdown -P now
+sudo -H /sbin/shutdown -P now

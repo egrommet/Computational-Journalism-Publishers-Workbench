@@ -10,7 +10,7 @@
 #
 
 common/authenticate.bash "Installing basic development tools"
-sudo apt-get install -y \
+sudo -H apt-get install -y \
   vim \
   git \
   curl \
@@ -22,7 +22,7 @@ sudo apt-get install -y \
   openjdk-7-jdk
 
 # R and GGobi from distro!
-sudo apt-get install -y \
+sudo -H apt-get install -y \
   r-base \
   r-base-core \
   r-base-dev \

@@ -10,7 +10,7 @@
 #
 
 common/authenticate.bash "Installing desktop add-ons"
-sudo yum install -y \
+sudo -H yum install -y \
   obapps \
   obconf \
   obmenu \
