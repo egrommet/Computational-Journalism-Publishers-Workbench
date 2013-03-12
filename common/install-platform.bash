@@ -9,9 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo 'Installing Linux platform packages'
-echo "You will need to authenticate"
-sleep 4
+../common/authenticate.bash 'Installing Linux platform packages'
 if [ -e "/usr/bin/apt-get" ]
 then
   ./apt-get-platform.bash
