@@ -1,5 +1,12 @@
 ## What's New?
 
+### Release 2.6.0
+1. Cutesy release code name: 'A veiled threat!'
+1. I've moved R and GGobi into the base, before installing all of the tools in R-platform. That means that once you've installed Linux and run 'before-snapshot.bash', you have a complete desktop including both R and GGobi.
+1. All the R packages installed in R-platform and the options are installed for all users in a site library. See [Managing Libraries](http://cran.r-project.org/doc/manuals/r-release/R-admin.html#Managing-libraries) for the details on how this works.
+1. [Shiny Server](https://github.com/rstudio/shiny-server#shiny-server) is now included in the [Node.js option](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Node.js/README.md).
+1. I've added more PDF tools to the [ScrapingTools option](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/ScrapingTools/README.md).
+
 ### Release 2.5.0
 1. Cutesy release code names: Ubuntu's got 'em, Fedora's got 'em, even ***R*** has them now. But sadly, the Computational Journalism Publishers' Workbench never thought to start that tradition. So here goes: the 'theme' is punchlines to jokes/riddles. For 2.5.0, the cutesy release code name is 'I was talking to the duck!'
 1. I've made [RKWard](http://rkward.sourceforge.net/) an option rather than having it as a standard part of the platform.
