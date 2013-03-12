@@ -8,7 +8,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source('../common/Rprofile', echo=TRUE)
+source('../common/Rprofile')
 library(ctv)
 update.views(
   c(
