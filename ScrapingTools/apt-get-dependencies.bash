@@ -39,6 +39,7 @@ sudo -H apt-get install -y \
   pdfsam \
   pdfshuffler \
   pdftk \
+  libpodofo-utils \
   poppler-data \
   poppler-utils \
   pstoedit \
