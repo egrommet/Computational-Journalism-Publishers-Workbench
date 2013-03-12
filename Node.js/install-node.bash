@@ -16,8 +16,8 @@ pushd ${DIR}
 ./configure
 /usr/bin/time make
 make install
-npm install -g coffee-script
-npm install -g shiny-server
+/usr/local/npm install -g coffee-script
+/usr/local/npm install -g shiny-server
 /sbin/ldconfig
 popd
 
