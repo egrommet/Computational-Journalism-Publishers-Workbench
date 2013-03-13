@@ -25,6 +25,7 @@ sudo -H yum install -y \
 sudo -H yum install -y \
   make \
   gcc \
+  kernel-devel
 
 # Needed for packages
 sudo -H yum install -y \
