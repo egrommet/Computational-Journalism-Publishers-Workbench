@@ -40,4 +40,5 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 	./VMwareSetup.bash
 	```
 1. You will be asked a number of questions. In all cases, just press 'Enter' and accept the default.
+1. When the VMware Tools are installed, reboot the virtual machine.
 ## [Next Step: Installing the Computatational Journalism Publishers Workbench Platform](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/InstallingThePlatform.md)
