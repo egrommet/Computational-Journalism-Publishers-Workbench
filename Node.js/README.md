@@ -12,3 +12,4 @@
 ## Suggested Reading
 * [Professional Node.js: Building Javascript Based Scalable Software by Pedro Teixeira](http://j.mp/Z2Tipp)
 * [CoffeeScript Programming with jQuery, Rails, and Node.js by Michael Erasmus](http://j.mp/YcE4jx)
+* [Shiny Server](https://github.com/rstudio/shiny-server/blob/master/README.md)
