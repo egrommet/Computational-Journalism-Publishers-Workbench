@@ -28,7 +28,7 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 
 ### [Download and unpack the scripts](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#download-and-unpack-the-scripts)
 
-### [Run the 'install-base.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-install-base-script)
+### [Run the 'install-base.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-install-basebash-script)
 
 ### Install VMware tools
 1. In the 'Virtual Machine' menu, select 'Removable Devices' and disconnect any ISO images that may still be connected. Select 'Yes' to over-ride the lock if asked.
