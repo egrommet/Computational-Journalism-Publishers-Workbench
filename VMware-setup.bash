@@ -20,7 +20,3 @@ cd vmware-tools-distrib
 sudo -H ./vmware-install.pl
 cd ..
 sudo -H rm -fr vmware-tools-distrib # cleanup!!!
-
-echo "Shutting down in 15 seconds so you can take a snapshot"
-sleep 15
-sudo -H /sbin/shutdown -P now

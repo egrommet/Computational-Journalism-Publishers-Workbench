@@ -16,7 +16,3 @@ common/authenticate.bash "Installing guest additions"
 sudo -H mkdir -p /mnt/cdrom
 sudo -H mount /dev/sr0 /mnt/cdrom
 sudo -H /mnt/cdrom/VBoxLinuxAdditions.run
-
-echo "Shutting down in 15 seconds so you can take a snapshot"
-sleep 15
-sudo -H /sbin/shutdown -P now
