@@ -13,4 +13,3 @@
 ./remove-guest-tools.bash
 ./updateos.bash
 ./install-devtools.bash
-./reboot.bash
