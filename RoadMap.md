@@ -1,5 +1,10 @@
 ## Road Map
 
+### Release 2.6.0
+1. Next cutesy release code name: 'A sunburned zebra!'
+1. Riak is on hold for a bit. My highest priority right now is getting some test applications done using Shiny Server.
+1. I will probably put [Overview](http://overview.ap.org/) in the next release. There is an Overview Tutorial coming up on Friday, March 15, and once I've seen that I'll most likely create install scripts for Overview.
+
 ### Release 2.5.0
 1. Next cutesy release code name: 'A veiled threat!'.
 1. The next release will probably have Riak, built from source. I need to dig into what it can do and how that's relevant to computational journalism, and the best way to do that is to deploy it. Meanwhile, read [Seven Databases in Seven Weeks by Eric Redmond and Jim R. Wilson](http://j.mp/Xycr5A) and imagine the possibilities.
