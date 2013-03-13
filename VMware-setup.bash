@@ -15,7 +15,7 @@ sleep 15
 common/authenticate.bash "Installing guest additions"
 sudo -H mkdir -p /mnt/cdrom
 sudo -H mount /dev/sr0 /mnt/cdrom
-tar xf /mnt/cdrom/VMwareTools-9.2.2-893683.tar.gz
+tar xf /mnt/cdrom/VMwareTools-*.tar.gz
 cd vmware-tools-distrib
 sudo -H ./vmware-install.pl
 cd ..
