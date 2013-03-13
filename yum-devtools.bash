@@ -25,7 +25,8 @@ sudo -H yum install -y \
 sudo -H yum install -y \
   make \
   gcc \
-  kernel-devel
+  kernel-devel \
+  dkms
 
 # Needed for packages
 sudo -H yum install -y \
