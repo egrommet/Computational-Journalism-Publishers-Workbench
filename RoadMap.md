@@ -3,7 +3,9 @@
 ### Release 2.6.0
 1. Next cutesy release code name: 'A sunburned zebra!'
 1. Riak is on hold for a bit. My highest priority right now is getting some test applications done using Shiny Server.
-1. I will probably put [Overview](http://overview.ap.org/) in the next release. There is an Overview Tutorial coming up on Friday, March 15, and once I've seen that I'll most likely create install scripts for Overview.
+1. Those who have been following my data and computational journalism projects over the past few years know that one of my long-term goals is for the tools to be available on Windows desktops / laptops. While I personally prefer Linux for numerous reasons, Windows is much more readily available in newsrooms.
+
+This week, I discovered a project that brings me much closer to that goal. It's an R package called [installr](http://cran.r-project.org/web/packages/installr/index.html). On a Windows R installation, 'installr' will update R to the latest stable version and install numerous other packages, all from the R console. This includes the MikTeX environment, RStudio Desktop, git and quite a few other tools. With 'installr' and RStudio, a Windows machine can become a first-class open source computational journalism platform just like a Linux desktop. Here's the [Github URL](https://github.com/talgalili/installr).
 
 ### Release 2.5.0
 1. Next cutesy release code name: 'A veiled threat!'.
