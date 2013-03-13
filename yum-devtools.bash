@@ -10,8 +10,6 @@
 #
 
 common/authenticate.bash 'Installing developer tools'
-sudo -H yum clean all
-sudo -H rm `find /var/cache/yum/ -name 'timedhosts*'`
 sudo -H yum install -y \
   vim \
   git \
