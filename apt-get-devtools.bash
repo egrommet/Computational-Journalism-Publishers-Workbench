@@ -21,6 +21,10 @@ sudo -H apt-get install -y \
   libcurl4-gnutls-dev \
   openjdk-7-jdk
 
+# Needed to install guest tools on virtual machines
+sudo -H apt-get install -y \
+  dkms
+
 # R and GGobi from distro!
 sudo -H apt-get install -y \
   r-base \
