@@ -11,5 +11,6 @@
 
 common/authenticate.bash 'Updating packages'
 sudo -H yum clean all
+sudo -H yum install -y yum-fastestmirror
 sudo -H rm -f `find /var/cache/yum/ -name 'timedhosts*'`
 sudo -H /usr/bin/time yum update -y
