@@ -28,7 +28,7 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 
 ### [Download and unpack the scripts](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#download-and-unpack-the-scripts)
 
-### [Run the 'before-snapshot.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-before-snapshotbash-script)
+### [Run the 'install-base.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-install-base-script)
 
 ### Install VMware tools
 1. In the 'Virtual Machine' menu, select 'Removable Devices' and disconnect any ISO images that may still be connected. Select 'Yes' to over-ride the lock if asked.
@@ -39,6 +39,5 @@ You'll need a Windows or Linux desktop/laptop with at least 3 GB of RAM. ***Ther
 	cd ~/Computational-*
 	./VMwareSetup.bash
 	```
-1. You will be asked a number of questions. In all cases, just press 'Enter' and accept the default. After the guest tools are installed, the virtual machine will shut down and VMware Player will close.
-1. After shutdown, go into the virtual machine's 'CD/DVD' settings and disconnect the VMware Tools virtual ISO file.
+1. You will be asked a number of questions. In all cases, just press 'Enter' and accept the default.
 ## [Next Step: Installing the Computatational Journalism Publishers Workbench Platform](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/InstallingThePlatform.md)

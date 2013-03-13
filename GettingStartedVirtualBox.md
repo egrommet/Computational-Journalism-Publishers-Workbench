@@ -21,7 +21,7 @@ You'll need a Windows, Linux or Macintosh desktop/laptop with at least 3 GB of R
 
 ### [Download and unpack the scripts](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#download-and-unpack-the-scripts)
 
-### [Run the 'before-snapshot.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-before-snapshotbash-script)
+### [Run the 'install-base.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-install-base-script)
 
 ### Install VirtualBox Guest Additions
 
@@ -32,6 +32,5 @@ You'll need a Windows, Linux or Macintosh desktop/laptop with at least 3 GB of R
 	cd ~/Computational-*
 	./VirtualBoxSetup.bash
 	```
-1. You may be asked if you wish to continue. If this happens, answer 'yes'. The script will then install the VirtualBox guest additions. Then the virtual machine will shut down.
-1. After shutdown, go into the machine's 'Storage' settings and disconnect the virtual ISO file with the guest additions.
+1. You may be asked if you wish to continue. If this happens, answer 'yes'. The script will then install the VirtualBox guest additions.
 ## [Next Step: Installing the Computatational Journalism Publishers Workbench Platform](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/InstallingThePlatform.md)
