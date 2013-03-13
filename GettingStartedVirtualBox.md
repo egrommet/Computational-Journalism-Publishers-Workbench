@@ -21,7 +21,7 @@ You'll need a Windows, Linux or Macintosh desktop/laptop with at least 3 GB of R
 
 ### [Download and unpack the scripts](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#download-and-unpack-the-scripts)
 
-### [Run the 'install-base.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-install-base-script)
+### [Run the 'install-base.bash' script](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/CommonInstallSteps.md#run-the-install-basebash-script)
 
 ### Install VirtualBox Guest Additions
 
