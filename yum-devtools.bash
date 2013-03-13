@@ -13,7 +13,6 @@ common/authenticate.bash 'Installing developer tools'
 sudo -H yum clean all
 sudo -H rm `find /var/cache/yum/ -name 'timedhosts*'`
 sudo -H yum install -y \
-  yum-fastestmirror \
   vim \
   git \
   curl \
@@ -26,6 +25,7 @@ sudo -H yum install -y \
 sudo -H yum install -y \
   make \
   gcc \
+  kernel-devel
 
 # Needed for packages
 sudo -H yum install -y \
