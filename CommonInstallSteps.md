@@ -13,7 +13,7 @@ You do ***not*** need to burn this image file to a CD/DVD or copy it to a USB dr
 1. When the install is finished, it will ask you to reboot. Reboot the system.
 1. Depending on the distribution, you will be asked to create a non-root user at some point in the process. Make sure this user has administrative privileges. On Linux Mint and Ubuntu, this happens automatically.
 
-But on Fedora, you have to set this ***after*** the install the first time the system boots up!
+But on Fedora, you have to set this ***after*** the install the first time the system boots up! In the 'Create User' screen, check the 'Add to Administrators group' checkbox to do this.
 
 ### Download and unpack the scripts
 1. After the reboot, log in as the non-root user you created during installation. Start the browser. Browse to the [Github tags page](http://j.mp/CompJournBench). Download the most recent 'Source code (tar.gz)' archive file. 
