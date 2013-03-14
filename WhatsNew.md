@@ -2,7 +2,7 @@
 
 ### Release 2.6.0
 1. Cutesy release code name: 'A veiled threat!'
-1. There is now a minimalist version of the workbench, which I call the "Base." The base consists of the chosen Linux desktop, the command-line version of R and the GGobi data visualization system. Both R and GGobi are installed from the Linux distribution. This means that in principle any Linux distribution with both R and GGobi can be used, although I am still only supporting Fedora 18, Linux Mint 14 and Ubuntu 12.10.
+1. There is now a minimalist version of the workbench, which I call the "Base." The base consists of the chosen Linux desktop, the command-line version of R and the GGobi data visualization system. Both R and GGobi are installed from the Linux distribution. This means that in principle any Linux distribution with both R and GGobi can be used, although I am still only supporting Fedora 18, Linux Mint 14 and Ubuntu 12.10.<br>
 For the impatient, there is now a three-step process to get started:
 	* Install a supported Linux desktop.
 	* Download and unpack the install scripts.
