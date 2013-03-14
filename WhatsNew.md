@@ -2,8 +2,13 @@
 
 ### Release 2.6.0
 1. Cutesy release code name: 'A veiled threat!'
-1. I've moved R and GGobi into the base, before installing all of the tools in R-platform. That means that once you've installed Linux and run 'before-snapshot.bash', you have a complete desktop including both R and GGobi.
-1. All the R packages installed in R-platform and the options are installed for all users in a site library. See [Managing Libraries](http://cran.r-project.org/doc/manuals/r-release/R-admin.html#Managing-libraries) for the details on how this works.
+1. There is now a minimalist version of the workbench, which I call the "Base." The base consists of the chosen Linux desktop, the command-line version of R and the GGobi data visualization system. Both R and GGobi are installed from the Linux distribution. This means that in principle any Linux distribution with both R and GGobi can be used, although I am still only supporting Fedora 18, Linux Mint 14 and Ubuntu 12.10.
+
+For the impatient, there is now a three-step process to get started:
+	* Install a supported Linux desktop.
+	* Download and unpack the install scripts.
+	* Run the 'install-base.bash' script.
+1. All the R packages installed in R-platform and the options are installed for all users in a ***site library***. See [Managing Libraries](http://cran.r-project.org/doc/manuals/r-release/R-admin.html#Managing-libraries) for the details on how this works.
 1. [Shiny Server](https://github.com/rstudio/shiny-server#shiny-server) is now included in the [Node.js option](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Node.js/README.md).
 1. I've added more PDF tools to the [ScrapingTools option](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/ScrapingTools/README.md).
 

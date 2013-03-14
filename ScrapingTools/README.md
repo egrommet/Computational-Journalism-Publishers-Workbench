@@ -33,3 +33,4 @@
 ## Suggested Reading
 * [Scraping for Journalists by Paul Bradshaw](https://leanpub.com/scrapingforjournalists)
 * [PDF Hacks by Sid Steward](http://j.mp/XWIqbI)
+* [The Bastards Book of Regular Expressions: Finding Patterns in Everyday Text by Dan Nguyen ](https://leanpub.com/bastards-regexes)
