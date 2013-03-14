@@ -1,6 +1,6 @@
-## Latest release: 2.5.0, 2013-03-04
+## Latest release: 2.6.0, 2013-03-14
 
-### Cutesy release code name 'I was talking to the duck!'
+### Cutesy release code name 'A veiled threat!'
 ## [Quick Start](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md)
 ## [What's New?](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/WhatsNew.md)
 ## [Road Map](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/RoadMap.md)
