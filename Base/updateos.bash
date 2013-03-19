@@ -9,10 +9,4 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-if [ -e "/usr/bin/apt-get" ]
-then
-  ./apt-get-devtools.bash 2>&1 | tee devtools.log
-elif [ -e "/usr/bin/yum" ]
-then
-  ./yum-devtools.bash 2>&1 | tee devtools.log
-fi
+../common/decide.bash updateos
