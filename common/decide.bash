@@ -9,5 +9,13 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-../common/authenticate.bash 'Installing Linux platform packages'
-../common/decide platform
+if [ -e "/usr/bin/apt-get" ]
+then
+  ./apt-get-$1.bash
+elif [ -e "/usr/bin/yum" ]
+then
+  ./yum-$1.bash
+elif [ -e "/usr/bin/zypper" ]
+then
+  ./zypper-$1.bash
+fi
