@@ -18,14 +18,13 @@ sudo -H zypper install -y \
 # Numeric libraries
 sudo -H zypper addrepo -cf \
   http://download.opensuse.org/repositories/devel:/libraries:/c_c++/openSUSE_12.3/devel:libraries:c_c++.repo
-sudo -H zypper addrepo -cf \
-  http://download.opensuse.org/repositories/home:/jenewton:/science/openSUSE_12.3/home:jenewton:science.repo
 sudo -H zypper --gpg-auto-import-keys refresh
 sudo -H zypper install -y \
   gsl-devel \
   gmp-devel \
   mpfr-devel \
-  libatlas3-devel
+  libatlas3-devel \
+  gd-devel
 
 # GUI tools
 sudo -H zypper install -y \
@@ -42,7 +41,6 @@ sudo -H zypper install -y \
 
 # RStudio Desktop
 sudo -H zypper install -y \
-  boost-devel \
   libuuid-devel \
   libQtWebKit-devel \
   ant \
