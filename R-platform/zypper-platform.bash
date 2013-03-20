@@ -33,7 +33,9 @@ sudo -H zypper install -y \
   libXt-devel \
   libbz2-devel \
   gtk3-devel \
-  gtk2-devel
+  gtk2-devel \
+  tcl-devel \
+  tk-devel
 
 # RStudio source
 sudo -H zypper install -y \
