@@ -14,7 +14,7 @@ if [ -e "/usr/bin/zypper" ]
 then
   unset JAVA_HOME
   R CMD javareconf
-  xhost +
   export DISPLAY=:0.0
+  xhost +
 fi
 /usr/bin/time R --no-save --no-restore < load-packages.R
