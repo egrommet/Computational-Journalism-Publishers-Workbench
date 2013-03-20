@@ -9,13 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-if [ -e "/usr/bin/apt-get" ]
-then
-  ./apt-get-desktop.bash 2>&1 | tee desktop.log
-elif [ -e "/usr/bin/yum" ]
-then
-  ./yum-desktop.bash 2>&1 | tee desktop.log
-fi
+../common/decide.bash desktop
 
 # Configure OpenBox/fbpanel
 ./config-openbox.bash

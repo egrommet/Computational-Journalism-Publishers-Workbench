@@ -9,10 +9,21 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-./setup-environment.bash
-pushd Base
-./remove-guest-tools.bash
-./updateos.bash
-./install-devtools.bash
-./install-desktop.bash
-popd
+../common/authenticate.bash "Installing desktop add-ons"
+sudo -H yum install -y \
+  obapps \
+  obconf \
+  obmenu \
+  openbox \
+  fbpanel \
+  yumex \
+  firefox \
+  vim-X11 \
+  xchat \
+  pidgin \
+  vim-enhanced \
+  powertop \
+  kernel-tools \
+  gitk \
+  git-gui \
+  perl-Padre

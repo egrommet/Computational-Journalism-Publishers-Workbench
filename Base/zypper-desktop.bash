@@ -9,21 +9,19 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-common/authenticate.bash "Installing desktop add-ons"
-sudo -H yum install -y \
-  obapps \
+../common/authenticate.bash "Installing desktop add-ons"
+sudo -H zypper addrepo -cf \
+  http://download.opensuse.org/repositories/home:/subchaser:/desktop/openSUSE_Factory/home:subchaser:desktop.repo
+sudo -H zypper --gpg-auto-import-keys refresh
+sudo -H zypper install -y \
   obconf \
-  obmenu \
   openbox \
   fbpanel \
-  yumex \
-  firefox \
-  vim-X11 \
+  MozillaFirefox \
+  gvim \
   xchat \
   pidgin \
-  vim-enhanced \
   powertop \
-  kernel-tools \
+  cpufrequtils \
   gitk \
-  git-gui \
-  perl-Padre
+  git-gui

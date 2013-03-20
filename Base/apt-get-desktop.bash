@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-common/authenticate.bash "Installing desktop add-ons"
+../common/authenticate.bash "Installing desktop add-ons"
 sudo -H apt-get install -y \
   obconf \
   obmenu \
