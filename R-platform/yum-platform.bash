@@ -34,7 +34,6 @@ sudo -H yum install -y \
 
 # RStudio Desktop
 sudo -H yum install -y \
-  boost-devel \
   libuuid-devel \
   qt-devel \
   qtwebkit-devel \
