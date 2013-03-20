@@ -34,7 +34,6 @@ sudo -H apt-get install -y \
 # RStudio Desktop
 sudo -H apt-get install -y \
   cmake \
-  libboost1.50-all-dev \
   libqtwebkit-dev \
   uuid-dev \
   ant
