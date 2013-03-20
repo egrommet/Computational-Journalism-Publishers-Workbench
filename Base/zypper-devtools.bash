@@ -33,6 +33,8 @@ sudo -H zypper install -y \
   gcc-fortran
 
 # R and GGobi from distro!
+
+# GGobi lives here
 sudo -H zypper addrepo -cf \
   http://download.opensuse.org/repositories/home:/aeszter/openSUSE_12.3/home:aeszter.repo
 sudo -H zypper --gpg-auto-import-keys refresh

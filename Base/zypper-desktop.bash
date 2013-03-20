@@ -10,6 +10,8 @@
 #
 
 ../common/authenticate.bash "Installing desktop add-ons"
+
+# fbpanel lives here
 sudo -H zypper addrepo -cf \
   http://download.opensuse.org/repositories/home:/subchaser:/desktop/openSUSE_Factory/home:subchaser:desktop.repo
 sudo -H zypper --gpg-auto-import-keys refresh
