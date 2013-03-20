@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-common/authenticate.bash 'Updating packages'
+../common/authenticate.bash 'Updating packages'
 sudo -H yum clean all
 sudo -H yum install -y yum-fastestmirror
 sudo -H rm -f `find /var/cache/yum/ -name 'timedhosts*'`

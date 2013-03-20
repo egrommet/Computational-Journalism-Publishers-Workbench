@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-common/authenticate.bash "Removing guest tools / additions already installed"
+../common/authenticate.bash "Removing guest tools / additions already installed"
 sudo -H zypper remove -y \
   virtualbox-guest-kmp-default \
   virtualbox-guest-kmp-desktop \

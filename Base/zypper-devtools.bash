@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-common/authenticate.bash 'Installing developer tools'
+../common/authenticate.bash 'Installing developer tools'
 sudo -H zypper install -y \
   findutils-locate \
   vim-enhanced \

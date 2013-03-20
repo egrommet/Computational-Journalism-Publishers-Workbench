@@ -9,7 +9,7 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-common/authenticate.bash "Updating packages"
+../common/authenticate.bash "Updating packages"
 echo "Press 'Enter' to accept defaults if asked about configuration files"
 sleep 10
 sudo -H apt-get update
