@@ -10,11 +10,4 @@
 #
 
 ../common/authenticate.bash "Installing R packages in site library"
-if [ -e "/usr/bin/zypper" ]
-then
-  unset JAVA_HOME
-  R CMD javareconf
-  export DISPLAY=:0.0
-  xhost +
-fi
 /usr/bin/time R --no-save --no-restore < load-packages.R

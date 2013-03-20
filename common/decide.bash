@@ -15,7 +15,4 @@ then
 elif [ -e "/usr/bin/yum" ]
 then
   ./yum-$1.bash
-elif [ -e "/usr/bin/zypper" ]
-then
-  ./zypper-$1.bash
 fi
