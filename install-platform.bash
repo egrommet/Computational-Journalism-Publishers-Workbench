@@ -10,7 +10,6 @@
 #
 
 source ~/.bash_profile
-./install-desktop.bash
 
 # recursive installer
 for i in */install-platform.bash
