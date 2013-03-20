@@ -31,7 +31,10 @@ sudo -H zypper install -y \
 sudo -H zypper install -y \
   bwidget \
   freeglut-devel \
-  libXt-devel
+  libXt-devel \
+  libbz2-devel \
+  gtk3-devel \
+  gtk2-devel
 
 # RStudio source
 sudo -H zypper install -y \

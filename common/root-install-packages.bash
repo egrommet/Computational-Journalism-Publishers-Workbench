@@ -9,5 +9,12 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-../common/authenticate.bash 'Installing Linux platform packages'
-../common/decide.bash platform
+../common/authenticate.bash "Installing R packages in site library"
+if [ -e "/usr/bin/zypper" ]
+then
+  unset JAVA_HOME
+  R CMD javareconf
+  xhost +
+  export DISPLAY=:0.0
+fi
+/usr/bin/time R --no-save --no-restore < load-packages.R
