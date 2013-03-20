@@ -17,6 +17,7 @@ sudo -H yum install -y \
   openbox \
   fbpanel \
   yumex \
+  gpointing-device-settings \
   firefox \
   vim-X11 \
   xchat \
