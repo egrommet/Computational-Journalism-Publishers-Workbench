@@ -13,5 +13,6 @@
 pushd /etc/yum.repos.d/
 sudo -H wget http://download.opensuse.org/repositories/isv:ownCloud:community/Fedora_18/isv:ownCloud:community.repo
 sudo -H yum check-update
+popd
 
-yum install owncloud
+sudo yum install -y owncloud
