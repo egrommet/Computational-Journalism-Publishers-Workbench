@@ -13,3 +13,4 @@ sudo -H yum install -y \
   fftw-devel
 
 sudo -H ./install-jags.bash
+sudo -H ./install-rjags.bash
