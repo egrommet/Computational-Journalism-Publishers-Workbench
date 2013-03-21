@@ -18,9 +18,6 @@ install.packages(
     '--with-jags-lib=/usr/local/lib',
     '--with-jags-modules=/usr/local/lib/JAGS/modules-3'
   ),
-  INSTALL_opts=c(
-    '--no-clean-on-error'
-  ),
   dependencies=TRUE
 )
 warnings()
