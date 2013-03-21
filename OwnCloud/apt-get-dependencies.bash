@@ -15,4 +15,5 @@ wget http://download.opensuse.org/repositories/isv:ownCloud:community/xUbuntu_12
 sudo -H cp ${HERE}/apt-get-repository.txt /etc/apt/sources.list.d/owncloud.list 
 sudo -H apt-key add - < ${HERE}/Release.key  
 sudo -H apt-get update
-sudo -H apt-get install owncloud
+
+sudo -H apt-get install -y owncloud
