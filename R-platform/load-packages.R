@@ -24,7 +24,8 @@ install.packages(
     'shiny',
     'knitr',
     'markdown',
-    'ctv'
+    'ctv',
+    'RPostgreSQL'
   ),
   dependencies=TRUE
 )

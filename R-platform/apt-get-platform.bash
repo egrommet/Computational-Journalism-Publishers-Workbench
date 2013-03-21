@@ -37,3 +37,14 @@ sudo -H apt-get install -y \
   libqtwebkit-dev \
   uuid-dev \
   ant
+
+# PostgreSQL
+sudo -H apt-get install -y \
+  pgadmin3 \
+  postgresql \
+  postgresql-client \
+  postgresql-contrib \
+  postgresql-doc \
+  postgresql-plperl \
+  postgresql-plpython \
+  libpq-dev

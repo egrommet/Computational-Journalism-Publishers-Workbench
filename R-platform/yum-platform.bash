@@ -39,3 +39,14 @@ sudo -H yum install -y \
   qtwebkit-devel \
   ant \
   cmake
+
+# PostgreSQL
+sudo -H yum install -y \
+  pgadmin3 \
+  postgresql \
+  postgresql-devel \
+  postgresql-contrib \
+  postgresql-docs \
+  postgresql-plperl \
+  postgresql-plpython \
+  postgresql-server

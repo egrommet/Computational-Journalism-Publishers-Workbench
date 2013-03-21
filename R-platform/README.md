@@ -30,6 +30,7 @@
 * [JGR - Java GUI for R](http://www.rforge.net/JGR/)
 * [Deducer - An R Graphical User Interface (GUI) for Everyone](http://www.deducer.org/pmwiki/index.php?n=Main.DeducerManual?from=Main.HomePage)
 * [RStudio](http://www.rstudio.com/)
+* [PostgreSQL Home Page](http://www.postgresql.org/)
 
 ## Suggested Reading
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)
