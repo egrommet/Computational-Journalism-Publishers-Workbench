@@ -48,3 +48,7 @@ sudo -H apt-get install -y \
   postgresql-plperl \
   postgresql-plpython \
   libpq-dev
+
+# wxMaxima
+sudo -H apt-get install -y \
+  wxmaxima
