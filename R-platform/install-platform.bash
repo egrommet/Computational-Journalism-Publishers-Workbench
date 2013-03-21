@@ -10,11 +10,12 @@
 #
 
 source ~/.bash_profile
-../common/install-platform.bash # OS-level packages
+install-dependencies.bash # OS-level packages
 
 sudo -H mkdir -p `R RHOME`/site-library # make a place for our stuff
 cp ../common/Rprofile ~/.Rprofile
 
+../common/authenticate.bash "Installing platform R packages"
 ./install-packages.bash 2>&1 | tee packages.log
 ../common/authenticate.bash "Installing RStudio source code"
 sudo -H ./install-rstudio-source.bash 2>&1 | tee source.log

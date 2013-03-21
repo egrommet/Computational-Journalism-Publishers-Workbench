@@ -10,16 +10,6 @@
 #
 
 source ~/.bash_profile
-
-# recursive installer
-for i in */install-platform.bash
-do
-  j=`echo ${i} | sed 's/install-platform.bash//'`
-  if [ "${j}" != "common/" ]
-  then
-    echo ${j}
-    pushd ${j}
-    ./install-platform.bash 2>&1 | tee platform.log
-    popd
-  fi
-done
+pushd R-platform
+./install-platform.bash
+popd
