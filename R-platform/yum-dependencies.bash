@@ -21,6 +21,7 @@ sudo -H yum install -y \
   gmp-devel \
   mpfr-devel \
   atlas-devel \
+  lapack-devel \
   boost-devel
 
 # GUI tools

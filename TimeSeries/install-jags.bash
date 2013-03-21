@@ -21,11 +21,10 @@ rm -fr ${DIR}
 tar xf ${WHAT}
 cd ${DIR}
 export ATLAS=`cat /etc/ld.so.conf.d/atlas-*.conf`
-./configure \
-  --with-blas=${ATLAS}/libf77blas.so \
-  --with-lapack=${ATLAS}/liblapack.so
+./configure
 make
 make install
 popd
 
-sudo /sbin/ldconfig
+cp JAGS.conf /etc/ld.so.conf.d/
+ldconfig
