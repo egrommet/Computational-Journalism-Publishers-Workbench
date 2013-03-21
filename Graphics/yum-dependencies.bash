@@ -17,5 +17,4 @@ sudo -H yum install -y \
   proj-devel \
   proj-epsg \
   libjpeg-turbo-devel \
-  openjpeg-devel \
-  turbojpeg-devel
+  openjpeg-devel
