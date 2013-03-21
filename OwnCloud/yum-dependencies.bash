@@ -15,4 +15,4 @@ sudo -H wget http://download.opensuse.org/repositories/isv:ownCloud:community/Fe
 sudo -H yum check-update
 popd
 
-sudo yum install -y owncloud
+sudo yum install -y owncloud owncloud-client
