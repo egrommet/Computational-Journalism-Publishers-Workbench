@@ -13,4 +13,5 @@ sudo -H yum install -y \
   QuantLib-devel \
   QuantLib-doc \
   QuantLib-test \
-  QuantLib
+  QuantLib \
+  boost-devel
