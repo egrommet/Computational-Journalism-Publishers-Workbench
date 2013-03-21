@@ -20,7 +20,8 @@ sudo -H yum install -y \
   gsl-devel \
   gmp-devel \
   mpfr-devel \
-  atlas-devel
+  atlas-devel \
+  boost-devel
 
 # GUI tools
 sudo -H yum install -y \
