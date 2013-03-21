@@ -9,7 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo -H yum install -y \
-  fftw-devel
-
-sudo -H ./install-jags.bash
+source ~/.bash_profile
+../common/authenticate.bash "Installing 'rjags' in site library"
+/usr/bin/time R --no-save --no-restore < load-rjags.R

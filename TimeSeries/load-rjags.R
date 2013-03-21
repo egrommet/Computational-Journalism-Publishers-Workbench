@@ -1,4 +1,3 @@
-#! /bin/bash
 #
 # Copyright (C) 2012 by M. Edward (Ed) Borasky
 #
@@ -9,7 +8,19 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo -H yum install -y \
-  fftw-devel
-
-sudo -H ./install-jags.bash
+source('../common/Rprofile')
+install.packages(
+  c(
+    'rjags'
+  ),
+  configure.args=c(
+    '--with-jags-include=/usr/local/include/JAGS',
+    '--with-jags-lib=/usr/local/lib',
+    '--with-jags-modules=/usr/local/lib/JAGS/modules-3'
+  ),
+  INSTALL_opts=c(
+    '--no-clean-on-error'
+  ),
+  dependencies=TRUE
+)
+warnings()
