@@ -20,6 +20,7 @@ sudo -H yum install -y \
   libreoffice-ogltrans \
   libreoffice-opensymbol-fonts \
   libreoffice-pdfimport \
+  libreoffice-postgresql \
   libreoffice-presentation-minimizer \
   libreoffice-presenter-screen \
   libreoffice-report-builder \
