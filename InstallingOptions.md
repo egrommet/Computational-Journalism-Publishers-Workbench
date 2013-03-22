@@ -18,7 +18,7 @@ The currently available options are:
 * [MachineLearning](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/MachineLearning/README.md)
 * [NaturalLanguageProcessing](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/NaturalLanguageProcessing/README.md)
 * [Node.js](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Node.js/README.md)
-* [PostgreSQL](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/PostgreSQL/README.md)
+* [OwnCloud](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/OwnCloud/README.md)
 * [Redis](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Redis/README.md)
 * [ReproducibleResearch](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/ReproducibleResearch/README.md)
 * [RKWard](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/RKWard/README.md)
