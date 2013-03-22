@@ -13,6 +13,6 @@
 pushd Base
 ./remove-guest-tools.bash
 ./updateos.bash
-./install-devtools.bash
-./install-desktop.bash
+./install-devtools.bash 2>&1 | tee devtools.log
+./install-desktop.bash 2>&1 | tee desktop.log
 popd
