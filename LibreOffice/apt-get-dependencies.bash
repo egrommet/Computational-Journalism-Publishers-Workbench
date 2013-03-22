@@ -23,6 +23,7 @@ sudo -H apt-get install -y \
   libreoffice-pdfimport \
   libreoffice-presentation-minimizer \
   libreoffice-presenter-console \
+  libreoffice-sdbc-postgresql \
   libreoffice-writer \
   libreoffice \
   libreoffice-dmaths \
