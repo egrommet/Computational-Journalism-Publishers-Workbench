@@ -49,7 +49,8 @@ sudo -H apt-get install -y \
   postgresql-doc \
   postgresql-plperl \
   postgresql-plpython \
-  libpq-dev
+  libpq-dev \
+  postgresql-server-dev-all
 
 # wxMaxima
 sudo -H apt-get install -y \
