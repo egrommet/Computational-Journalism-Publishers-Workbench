@@ -20,7 +20,9 @@ sudo -H apt-get install -y \
   libgsl0-dev \
   libgmp-dev \
   libmpfr-dev \
-  libatlas-dev
+  libatlas-dev \
+  liblapack-dev \
+  libboost-all-dev
 
 # GUI tools
 sudo -H apt-get install -y \
