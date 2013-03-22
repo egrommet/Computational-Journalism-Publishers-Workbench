@@ -10,6 +10,6 @@
 #
 
 source ~/.bash_profile
-pushd R-platform
+pushd Platform
 ./install-platform.bash
 popd
