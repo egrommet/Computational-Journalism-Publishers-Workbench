@@ -52,3 +52,7 @@ sudo -H yum install -y \
   postgresql-plperl \
   postgresql-plpython \
   postgresql-server
+
+# wxMaxima
+sudo -H yum install -y \
+  wxMaxima
