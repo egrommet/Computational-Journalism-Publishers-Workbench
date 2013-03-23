@@ -42,7 +42,7 @@ sudo -H yum install -y \
   ant \
   cmake
 
-# PostgreSQL
+# PostgreSQL and MySQL
 sudo -H yum install -y \
   pgadmin3 \
   postgresql \
@@ -51,7 +51,8 @@ sudo -H yum install -y \
   postgresql-docs \
   postgresql-plperl \
   postgresql-plpython \
-  postgresql-server
+  postgresql-server \
+  mysql-devel
 
 # wxMaxima
 sudo -H yum install -y \
