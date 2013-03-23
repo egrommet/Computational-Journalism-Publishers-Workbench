@@ -11,6 +11,7 @@
 
 ../common/authenticate.bash "Installing basic development tools"
 sudo -H apt-get install -y \
+  apt-file \
   vim \
   git \
   curl \
