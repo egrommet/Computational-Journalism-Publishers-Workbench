@@ -40,7 +40,7 @@ sudo -H apt-get install -y \
   uuid-dev \
   ant
 
-# PostgreSQL
+# PostgreSQL and MySQL
 sudo -H apt-get install -y \
   pgadmin3 \
   postgresql \
@@ -50,7 +50,8 @@ sudo -H apt-get install -y \
   postgresql-plperl \
   postgresql-plpython \
   libpq-dev \
-  postgresql-server-dev-all
+  postgresql-server-dev-all \
+  libmysqlclient-dev
 
 # wxMaxima
 sudo -H apt-get install -y \

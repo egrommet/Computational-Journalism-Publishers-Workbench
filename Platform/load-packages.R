@@ -25,7 +25,9 @@ install.packages(
     'knitr',
     'markdown',
     'ctv',
-    'RPostgreSQL'
+    'RPostgreSQL',
+    'RMySQL',
+    'RSQLite'
   ),
   dependencies=TRUE
 )
