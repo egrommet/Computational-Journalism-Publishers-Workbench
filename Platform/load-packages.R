@@ -27,7 +27,10 @@ install.packages(
     'ctv',
     'RPostgreSQL',
     'RMySQL',
-    'RSQLite'
+    'RSQLite',
+    'RSQLite.extfuns',
+    'filehash',
+    'filehashSQLite'
   ),
   dependencies=TRUE
 )
