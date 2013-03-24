@@ -6,14 +6,14 @@
 So my plan is to expand the [Github project wiki](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki) with more of this kind of information and to phase out the Scoop.it topics. My inspiration is Hadley Wickham's [Advanced R Programming](https://github.com/hadley/devtools/wiki) wiki.
 
 ### Release 2.6.0
-1. Next cutesy release code name: 'Why, is one missing?'
+1. Next cutesy release code name: "Why, is one missing?"
 1. Riak is on hold for a bit. My highest priority right now is getting some test applications done using Shiny Server.
 1. Those who have been following my data and computational journalism projects over the past few years know that one of my long-term goals is for the tools to be available on Windows desktops / laptops. While I personally prefer Linux for numerous reasons, Windows is much more readily available in newsrooms.<br><br>
 This week, I discovered a project that brings me much closer to that goal. It's an R package called [installr](http://cran.r-project.org/web/packages/installr/index.html). On a Windows R installation, 'installr' will update R to the latest stable version and install numerous other packages, all from the R console. This includes the MikTeX environment, RStudio Desktop, git and quite a few other tools. With 'installr' and RStudio, a Windows machine can become a first-class open source computational journalism platform just like a Linux desktop. Here's the [Github URL](https://github.com/talgalili/installr).<br><br>
 So I am looking at ways to integrate 'installr' into a spin-off of the workbench for Windows users. I'm not sure yet whether this will be a separate project or part of the Computational Journalism Publishers Workbench.
 
 ### Release 2.5.0
-1. Next cutesy release code name: 'A veiled threat!'.
+1. Next cutesy release code name: "A veiled threat!".
 1. The next release will probably have Riak, built from source. I need to dig into what it can do and how that's relevant to computational journalism, and the best way to do that is to deploy it. Meanwhile, read [Seven Databases in Seven Weeks by Eric Redmond and Jim R. Wilson](http://j.mp/Xycr5A) and imagine the possibilities.
 1. Django and Rails will be options in some future release. I'm holding off until the course materials for [For Journalism](http://kck.st/10XiAfn) start to take shape. The plan is that those courses will run "out of the box" on the workbench. Meanwhile, please [join me in backing For Journalism](http://kck.st/10XiAfn).
 1. I'm planning to add [Beancounter](http://search.cpan.org/~edd/beancounter_0.8.10/) as a PostgreSQL test case. I'm hoping to get this into 2.6.0.
