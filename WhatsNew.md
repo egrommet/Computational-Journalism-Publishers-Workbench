@@ -1,5 +1,12 @@
 ## What's New?
 
+### Release 2.7.0
+1. Cutesy release code name: 'Why, is one missing?'
+1. I've added MySQL and SQLite and their R interface packages to the platform. The underlying libraries get installed anyway with most full-featured Linux desktops, so all that's missing is GUI and command line tools for database administration and the R packages,
+1. I've added an option to install [ownCloud](http://owncloud.org/) from upstream packages. See the [ownCloud option README](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/ownCloud/README.md) for links to the online documentation.
+1. I've added the [wxMaxima](https://github.com/andrejv/wxmaxima) symbolic math package to the platform.
+1. I've refactored the install scripts. The base components are now found in the 'Base' directory and the platform components in the 'Platform' directory. The top-level install scripts should function the same way they did in the previous release.
+
 ### Release 2.6.0
 1. Cutesy release code name: 'A veiled threat!'
 1. There is now a minimalist version of the workbench, which I call the "Base." The base consists of the chosen Linux desktop, the command-line version of R and the GGobi data visualization system. Both R and GGobi are installed from the Linux distribution. This means that in principle any Linux distribution with both R and GGobi can be used, although I am still only supporting Fedora 18, Linux Mint 14 and Ubuntu 12.10.<br><br>
