@@ -1,5 +1,11 @@
 ## Road Map
 
+### Release 2.7.0
+1. Next cutesy release code name: "You don't - you get down off a goose!"
+1. As you may have noticed from my tweet stream, I've been curating general [computational and data journalism](http://www.scoop.it/t/computational-and-data-journalism) stories and [R for Journalists](http://www.scoop.it/t/r-for-journalists) 'tool tips' on two Scoop.it topics. While that's a convenient way to provide quick distribution, it's not integrated with the workbench.
+
+So my plan is to expand the [Github project wiki](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki) with more of this kind of information and to phase out the Scoop.it topics. My inspiration is Hadley Wickham's [Advanced R Programming](https://github.com/hadley/devtools/wiki) wiki.
+
 ### Release 2.6.0
 1. Next cutesy release code name: 'Why, is one missing?'
 1. Riak is on hold for a bit. My highest priority right now is getting some test applications done using Shiny Server.
