@@ -42,8 +42,12 @@ sudo -H yum install -y \
   ant \
   cmake
 
-# PostgreSQL and MySQL
+# SQLite, PostgreSQL and MySQL
 sudo -H yum install -y \
+  sqlite \
+  sqliteman \
+  sqlite-devel \
+  sqlite-doc \
   pgadmin3 \
   postgresql \
   postgresql-devel \
