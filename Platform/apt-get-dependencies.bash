@@ -40,8 +40,15 @@ sudo -H apt-get install -y \
   uuid-dev \
   ant
 
-# PostgreSQL and MySQL
+# SQLite, PostgreSQL and MySQL
 sudo -H apt-get install -y \
+  libsqlite3-dev \
+  sqlite3 \
+  sqlite3-doc \
+  sqlite \
+  sqlite-doc \
+  sqliteman \
+  sqliteman-doc \
   pgadmin3 \
   postgresql \
   postgresql-client \
