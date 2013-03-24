@@ -56,6 +56,7 @@ sudo -H yum install -y \
   postgresql-plperl \
   postgresql-plpython \
   postgresql-server \
+  mysql-workbench \
   mysql-devel
 
 # wxMaxima
