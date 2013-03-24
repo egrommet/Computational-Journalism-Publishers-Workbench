@@ -58,6 +58,8 @@ sudo -H apt-get install -y \
   postgresql-plpython \
   libpq-dev \
   postgresql-server-dev-all \
+  mysql-workbench \
+  mysql-workbench-data \
   libmysqlclient-dev
 
 # wxMaxima
