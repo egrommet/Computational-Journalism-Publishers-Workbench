@@ -9,4 +9,5 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo -H service postgresql start
+echo 'PostgreSQL is configured at install time on Linux Mint and Ubuntu'
+sleep 4
