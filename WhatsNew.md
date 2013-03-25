@@ -3,8 +3,8 @@
 ### Release 2.7.0
 1. Cutesy release code name: "Why, is one missing?"
 1. PostgreSQL is no longer an option; I've moved it and its R interface package into the platform.
-1. I've added MySQL and SQLite and their R interface packages to the platform. The underlying libraries get installed anyway with most full-featured Linux desktops, so all that's missing is GUI and command line tools for database administration and the R packages,
-1. I've added an option to install [ownCloud](http://owncloud.org/) from upstream packages. See the [ownCloud option README](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/ownCloud/README.md) for links to the online documentation. ownCloud servers can work with SQLite, MySQL or PostgreSQL, which is another motivation for adding SQLite and MySQL to the platform.
+1. I've added SQLite, SQLite Manager and the SQLite R interface packages to the platform. The underlying libraries get installed anyway with most full-featured Linux desktops, so all that's missing is GUI and command line tools for database administration and the R packages,
+1. I've added an option to install [ownCloud](http://owncloud.org/) from upstream packages. See the [ownCloud option README](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/ownCloud/README.md) for links to the online documentation.
 1. I've added the [wxMaxima](https://github.com/andrejv/wxmaxima) symbolic math package to the platform.
 1. I've refactored the install scripts. The base components are now found in the 'Base' directory and the platform components in the 'Platform' directory. The top-level install scripts should function the same way they did in the previous release.
 

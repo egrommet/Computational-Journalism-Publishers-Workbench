@@ -42,7 +42,7 @@ sudo -H yum install -y \
   ant \
   cmake
 
-# SQLite, PostgreSQL and MySQL
+# SQLite and PostgreSQL
 sudo -H yum install -y \
   sqlite \
   sqliteman \
@@ -56,8 +56,6 @@ sudo -H yum install -y \
   postgresql-plperl \
   postgresql-plpython \
   postgresql-server \
-  mysql-workbench \
-  mysql-devel
 
 # wxMaxima
 sudo -H yum install -y \

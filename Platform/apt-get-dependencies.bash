@@ -40,7 +40,7 @@ sudo -H apt-get install -y \
   uuid-dev \
   ant
 
-# SQLite, PostgreSQL and MySQL
+# SQLite and PostgreSQL
 sudo -H apt-get install -y \
   libsqlite3-dev \
   sqlite3 \
@@ -57,10 +57,7 @@ sudo -H apt-get install -y \
   postgresql-plperl \
   postgresql-plpython \
   libpq-dev \
-  postgresql-server-dev-all \
-  mysql-workbench \
-  mysql-workbench-data \
-  libmysqlclient-dev
+  postgresql-server-dev-all
 
 # wxMaxima
 sudo -H apt-get install -y \

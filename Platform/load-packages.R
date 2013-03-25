@@ -26,7 +26,6 @@ install.packages(
     'markdown',
     'ctv',
     'RPostgreSQL',
-    'RMySQL',
     'RSQLite',
     'RSQLite.extfuns',
     'filehash',
