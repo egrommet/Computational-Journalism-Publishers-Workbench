@@ -11,6 +11,7 @@
 source('../common/Rprofile')
 install.packages(
   c(
+    'rgexf',
     'sna',
     'statnet'
   ),
