@@ -209,11 +209,6 @@ Plugin {
             tooltip = Web Browser
             action = firefox
     	}
-	button {
-            icon = rkward
-            tooltip = RKWard R GUI/IDE
-            action = rkward
-    	}
     }
 }
 
