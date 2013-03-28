@@ -15,5 +15,4 @@ sudo -H yum install -y \
   gdal-doc \
   proj \
   proj-devel \
-  proj-epsg \
-  libjpeg-turbo-devel
+  proj-epsg
