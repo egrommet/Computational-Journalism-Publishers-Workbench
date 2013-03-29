@@ -9,5 +9,5 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo -H ./install-erlang.bash 2>&1 | tee erlang.log
-sudo -H ./install-riak.bash 2>&1 | tee riak.log
+sudo -H ./install-erlang.bash
+sudo -H ./install-riak.bash
