@@ -21,6 +21,7 @@ The currently available options are:
 * [ownCloud](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/ownCloud/README.md)
 * [Redis](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Redis/README.md)
 * [ReproducibleResearch](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/ReproducibleResearch/README.md)
+* [Riak](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Riak/README.md)
 * [RKWard](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/RKWard/README.md)
 * [RStudioServer](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/RStudioServer/README.md)
 * [ScrapingTools](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/ScrapingTools/README.md)
