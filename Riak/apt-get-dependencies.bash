@@ -10,4 +10,4 @@
 #
 
 sudo -H ./install-erlang.bash
-sudo -H ./install-riak.bash
+./install-riak.bash
