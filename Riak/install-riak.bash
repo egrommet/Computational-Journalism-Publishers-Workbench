@@ -12,6 +12,7 @@
 # reference: 
 # docs.basho.com/riak/1.3.0/tutorials/installation/Installing-on-RHEL-and-CentOS/
 
+export PATH=${PATH}:/usr/local/bin
 mkdir -p /usr/local/src
 pushd /usr/local/src
 rm -fr riak*
@@ -19,5 +20,6 @@ wget http://downloads.basho.com.s3-website-us-east-1.amazonaws.com/riak/1.3/1.3.
 tar zxvf riak-1.3.0.tar.gz
 cd riak-1.3.0
 make rel
+ldconfig
 popd
 

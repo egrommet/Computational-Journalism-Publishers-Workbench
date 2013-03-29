@@ -18,4 +18,5 @@ wget http://erlang.org/download/otp_src_R15B01.tar.gz
 tar zxvf otp_src_R15B01.tar.gz
 cd otp_src_R15B01
 ./configure && make && make install
+ldconfig
 popd
