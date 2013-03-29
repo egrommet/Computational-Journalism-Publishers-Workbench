@@ -7,7 +7,7 @@
 	```
 	./install-all.bash
 	```
-1. This takes a very long time on slower machines. Riak requires an older version of Erlang than the one shipped in most current Linux distributions, which means it has to be compiled from source.
+1. This takes a very long time on slower machines. Riak requires an older version of Erlang than the one shipped in most current Linux distributions, which means it has to be compiled from source. On my 2.2 GHz dual-core 4 GB workstation the Erlang compile took about 12 minutes and Riak another four minutes.
 1. [Open an issue on Github](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new) if you have any questions or problems.
 
 ## Suggested Reading
