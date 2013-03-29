@@ -9,7 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 #
-# reference: http://docs.basho.com/riak/1.3.0/tutorials/installation/Installing-Erlang/
+# reference:
+# http://docs.basho.com/riak/1.3.0/tutorials/installation/Installing-Erlang/
 
 mkdir -p /usr/local/src
 pushd /usr/local/src

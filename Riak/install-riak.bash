@@ -10,7 +10,7 @@
 #
 #
 # reference: 
-# docs.basho.com/riak/1.3.0/tutorials/installation/Installing-on-RHEL-and-CentOS/
+# http://docs.basho.com/riak/1.3.0/tutorials/fast-track/Building-a-Development-Environment/
 
 export PATH=${PATH}:/usr/local/bin
 mkdir -p /usr/local/src
