@@ -1,4 +1,4 @@
-# [Riak](http://docs.basho.com/riak/1.3.0/)
+# [Riak](http://docs.basho.com/riak/1.3.0/tutorials/fast-track/)
 
 ## Usage
 
