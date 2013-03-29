@@ -18,12 +18,16 @@ sudo -H apt-get install -y \
   wget \
   lynx \
   aria2 \
-  make \
   libcurl4-gnutls-dev \
   openjdk-7-jdk
 
 # Needed to install guest tools on virtual machines
 sudo -H apt-get install -y \
+  build-essential \
+  libncurses5-dev \
+  openssl \
+  libssl-dev \
+  make \
   dkms
 
 # R and GGobi from distro!
