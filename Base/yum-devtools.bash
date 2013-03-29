@@ -21,10 +21,14 @@ sudo -H yum install -y \
 
 # Needed to install guest tools on virtual machines
 sudo -H yum install -y \
+  autoconf \
   make \
   gcc \
   kernel-devel \
-  dkms
+  dkms \
+  ncurses-devel \
+  openssl-devel \
+  glibc-devel
 
 # Needed for packages
 sudo -H yum install -y \
