@@ -19,7 +19,7 @@ rm -fr riak*
 wget http://downloads.basho.com.s3-website-us-east-1.amazonaws.com/riak/1.3/1.3.0/riak-1.3.0.tar.gz
 tar zxvf riak-1.3.0.tar.gz
 cd riak-1.3.0
-/usr/bin/time make rel
+/usr/bin/time make all
 ldconfig
 popd
 
