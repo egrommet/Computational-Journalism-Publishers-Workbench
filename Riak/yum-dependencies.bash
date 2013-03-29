@@ -8,14 +8,6 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-#
-# reference: http://docs.basho.com/riak/1.3.0/tutorials/installation/Installing-Erlang/
 
-mkdir -p /usr/local/src
-pushd /usr/local/src
-rm -fr otp_src*
-wget http://erlang.org/download/otp_src_R15B01.tar.gz
-tar zxvf otp_src_R15B01.tar.gz
-cd otp_src_R15B01
-./configure && make && make install
-popd
+sudo -H ./install-erlang.bash 2>&1 | tee erlang.log
+sudo -H ./install-riak.bash 2>&1 | tee riak.log
