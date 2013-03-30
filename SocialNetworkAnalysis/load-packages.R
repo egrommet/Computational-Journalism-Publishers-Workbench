@@ -11,10 +11,15 @@
 source('../common/Rprofile')
 install.packages(
   c(
+    'egonet',
+    'snort',
     'igraph',
+    'latentnet',
+    'giRaph',
     'rgexf',
     'sna',
-    'statnet'
+    'statnet',
+    'statnet.common'
   ),
   dependencies=TRUE
 )
