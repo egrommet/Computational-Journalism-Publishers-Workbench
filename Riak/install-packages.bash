@@ -1,1 +1,1 @@
-../common/no-packages.bash
+../common/install-packages.bash
