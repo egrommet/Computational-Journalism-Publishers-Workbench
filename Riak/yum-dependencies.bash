@@ -9,5 +9,14 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+sudo -H yum install -y \
+  protobuf \
+  protobuf-c \
+  protobuf-c-devel \
+  protobuf-compiler \
+  protobuf-devel \
+  protobuf-lite \
+  protobuf-lite-devel
+
 sudo -H ./install-erlang.bash
 ./install-riak.bash
