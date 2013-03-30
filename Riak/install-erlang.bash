@@ -10,7 +10,7 @@
 #
 #
 # reference:
-# http://docs.basho.com/riak/1.3.0/tutorials/installation/Installing-Erlang/
+# http://docs.basho.com/riak/latest/tutorials/installation/Installing-Erlang/
 
 mkdir -p /usr/local/src
 pushd /usr/local/src

@@ -10,7 +10,7 @@
 #
 #
 # reference: 
-# http://docs.basho.com/riak/1.3.0/tutorials/fast-track/Building-a-Development-Environment/
+# http://docs.basho.com/riak/latest/tutorials/fast-track/Building-a-Development-Environment/
 
 source ~/.bash_profile
 pushd ~/local/
