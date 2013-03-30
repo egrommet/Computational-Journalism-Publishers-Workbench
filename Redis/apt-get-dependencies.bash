@@ -9,4 +9,4 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo -H ./install-redis.bash 2>&1 | tee redis.log
+sudo -H ./install-redis.bash
