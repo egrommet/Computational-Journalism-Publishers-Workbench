@@ -9,5 +9,8 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+sudo -H apt-get install -y \
+  libprotobuf-dev
+
 sudo -H ./install-erlang.bash
 ./install-riak.bash
