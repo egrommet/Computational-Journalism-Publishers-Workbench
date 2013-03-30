@@ -1,5 +1,8 @@
 ## What's New?
 
+### Release 2.8.0
+1. On March 28, 2013, the Portland Riak Meetup Group had in [Intro to Riak Workshop](http://www.meetup.com/Portland-Riak/events/105400582/). We went through the [Riak Fast Track] and Riak is now available as an option in the workbench! I've tested it on both Fedora 18 and Linux Mint 14 and will be testing it on Ubuntu 12.10 in the near future. I've essentially duplicated what's in the fast track, so everything on the Basho site should work as described in the 'devrel' setup.
+
 ### Release 2.7.0
 1. Cutesy release code name: "Why, is one missing?"
 1. PostgreSQL is no longer an option; I've moved it and its R interface package into the platform.
