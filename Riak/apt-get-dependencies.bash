@@ -10,7 +10,9 @@
 #
 
 sudo -H apt-get install -y \
-  libprotobuf-dev
+  libprotobuf-dev \
+  libprotoc-dev \
+  libprotobuf-c0-dev
 
 sudo -H ./install-erlang.bash
 ./install-riak.bash
