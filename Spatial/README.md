@@ -19,6 +19,7 @@
 * [PROJ.4 - Cartographic Projections Library](http://trac.osgeo.org/proj/)
 * [Quantum GIS (QGIS)](http://www.qgis.org/)
 * [spatialite-gui](https://www.gaia-gis.it/fossil/spatialite_gui/index)
+* [SAGA - System for Automated Geoscientific Analysis](http://www.saga-gis.org/en/index.html)
 
 # Suggested Reading
 * [The Geospatial Desktop by Gary Sherman, Tyler Mitchell](http://j.mp/Zj90T1)
