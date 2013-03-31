@@ -19,6 +19,7 @@ update.views(
 warnings()
 install.packages(
   c(
+    'RSAGA',
     'acs',
     'UScensus2000blkgrp',
     'UScensus2000cdp',

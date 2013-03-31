@@ -28,4 +28,6 @@ sudo -H yum install -y \
   qgis \
   qgis-grass \
   spatialite-gui \
-  spatialite-tools
+  spatialite-tools \
+  saga \
+  saga-devel
