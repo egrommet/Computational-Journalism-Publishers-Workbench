@@ -1,5 +1,8 @@
 ## Road Map
 
+### Release 2.8.0
+1. Next cutesy release code name: "But officer - I was only driving one way!"
+
 ### Release 2.7.0
 1. Next cutesy release code name: "You don't - you get down off a goose!"
 1. <p>As you may have noticed from my tweet stream, I've been curating general [computational and data journalism](http://www.scoop.it/t/computational-and-data-journalism) stories and [R for Journalists](http://www.scoop.it/t/r-for-journalists) 'tool tips' on two Scoop.it topics. While that's a convenient way to provide quick distribution, it's not integrated with the workbench.</p>

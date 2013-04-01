@@ -1,7 +1,9 @@
 ## What's New?
 
 ### Release 2.8.0
+1. Cutesy release code name: "You don't - you get down off a goose!"
 1. On March 28, 2013, the Portland Riak Meetup Group had an [Intro to Riak Workshop](http://www.meetup.com/Portland-Riak/events/105400582/). We went through the [Riak Fast Track](http://docs.basho.com/riak/latest/tutorials/fast-track/) and Riak is now available as an option in the workbench! I've tested it on both Fedora 18 and Linux Mint 14 and will be testing it on Ubuntu 12.10 in the near future. I've essentially duplicated what's in the fast track, so everything on the Basho site should work as described in the 'devrel' setup.
+1. I've added [SAGA (System for Automated Geoscientific Analysis)](http://www.saga-gis.org/en/index.html) and the [RSAGA: SAGA Geoprocessing and Terrain Analysis in R](http://cran.r-project.org/web/packages/RSAGA/index.html) package to the [Spatial](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Spatial/README.md) option.
 
 ### Release 2.7.0
 1. Cutesy release code name: "Why, is one missing?"

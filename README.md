@@ -1,6 +1,6 @@
-## Latest release: 2.6.0, 2013-03-14
+## Latest release: 2.8.0, 2013-04-01
 
-### Cutesy release code name 'A veiled threat!'
+### Cutesy release code name "You don't - you get down off a goose!"
 ## [Quick Start](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md)
 ## [What's New?](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/WhatsNew.md)
 ## [Road Map](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/RoadMap.md)
