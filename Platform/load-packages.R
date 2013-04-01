@@ -29,7 +29,10 @@ install.packages(
     'RSQLite',
     'RSQLite.extfuns',
     'filehash',
-    'filehashSQLite'
+    'filehashSQLite',
+    'googlePublicData',
+    'googleVis',
+    'gooJSON'
   ),
   dependencies=TRUE
 )
