@@ -20,6 +20,7 @@ sudo -H apt-get install -y \
   aria2 \
   libcurl4-gnutls-dev \
   openjdk-7-jdk
+sudo -H apt-file update
 
 # Needed to install guest tools on virtual machines
 sudo -H apt-get install -y \
