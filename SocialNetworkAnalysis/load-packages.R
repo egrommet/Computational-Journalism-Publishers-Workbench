@@ -19,7 +19,8 @@ install.packages(
     'rgexf',
     'sna',
     'statnet',
-    'statnet.common'
+    'statnet.common',
+    'Bergm'
   ),
   dependencies=TRUE
 )
