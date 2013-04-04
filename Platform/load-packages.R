@@ -17,6 +17,7 @@ install.packages(
     'tm.plugin.mail',
     'tm.plugin.webmining',
     'tm.plugin.sentiment',
+    'twitteR',
     'streamR',
     'rattle',
     'reshapeGUI',
