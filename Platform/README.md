@@ -34,6 +34,8 @@
 * [Rattle: A Graphical User Interface for Data Mining using R ](http://rattle.togaware.com/)
 * [JGR - Java GUI for R](http://www.rforge.net/JGR/)
 * [Deducer - An R Graphical User Interface (GUI) for Everyone](http://www.deducer.org/pmwiki/index.php?n=Main.DeducerManual?from=Main.HomePage)
+* [CRAN Task View: Graphic Displays & Dynamic Graphics & Graphic Devices & Visualization](http://cran.r-project.org/web/views/Graphics.html)
+* [CRAN Task View: Reproducible Research](http://cran.r-project.org/web/views/ReproducibleResearch.html)
 * [RStudio](http://www.rstudio.com/)
 * [SQLite Home Page](https://www.sqlite.org/)
 * [SQliteman Home Page](https://www.sqliteman.com/)
@@ -47,3 +49,4 @@
 * [Learning RStudio for R Statistical Computing by Mark van der Loo, Edwin de Jonge](http://j.mp/14Z5k8d)
 * [Getting Started with RStudio by John Verzani](http://j.mp/XQsgSb)
 * [Lean Analytics by Alistair Croll and Benjamin Yoskovitz](http://j.mp/13u0X6T)
+* [R Graphics Cookbook by Winston Chang](http://j.mp/XXLJBe)

@@ -38,3 +38,13 @@ install.packages(
   dependencies=TRUE
 )
 warnings()
+
+library(ctv)
+update.views(
+  c(
+    'Graphics',
+    'ReproducibleResearch'
+  ),
+  dependencies=TRUE
+)
+warnings()
