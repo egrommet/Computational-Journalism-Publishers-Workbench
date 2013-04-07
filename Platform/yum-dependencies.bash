@@ -61,3 +61,8 @@ sudo -H yum install -y \
 # wxMaxima
 sudo -H yum install -y \
   wxMaxima
+
+# Pandoc
+sudo -H yum install -y \
+  pandoc \
+  pandoc-pdf

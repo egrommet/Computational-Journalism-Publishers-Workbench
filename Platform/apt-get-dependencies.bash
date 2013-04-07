@@ -63,3 +63,7 @@ sudo -H apt-get install -y \
 # wxMaxima
 sudo -H apt-get install -y \
   wxmaxima
+
+# Pandoc
+sudo -H apt-get install -y \
+  pandoc
