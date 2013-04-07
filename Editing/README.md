@@ -23,7 +23,6 @@
 * [Inkscape Scalable Vector Graphics Editor](http://inkscape.org/)
 * [LyX Document Processor](http://www.lyx.org/)
 * [OCAL Open Clip Art Library](https://openclipart.org/)
-* [Pandoc](http://www.johnmacfarlane.net/pandoc/)
 * [PiTiVi Video Editor](http://www.pitivi.org/)
 * [Scribus Desktop Publishing](http://scribus.net/canvas/Scribus)
 * [Sigil EPUB Editor](https://code.google.com/p/sigil/)

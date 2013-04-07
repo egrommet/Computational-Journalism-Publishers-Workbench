@@ -39,6 +39,7 @@
 * [SQliteman Home Page](https://www.sqliteman.com/)
 * [PostgreSQL Home Page](http://www.postgresql.org/)
 * [pgAdmin Home Page](http://www.pgadmin.org/)
+* [Pandoc](http://www.johnmacfarlane.net/pandoc/)
 
 ## Suggested Reading
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)
