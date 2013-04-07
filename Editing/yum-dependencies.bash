@@ -55,8 +55,6 @@ sudo -H yum install -y \
   openclipart \
   optipng \
   PackageKit-gstreamer-plugin \
-  pandoc \
-  pandoc-pdf \
   pinta \
   pitivi \
   pngcrush \

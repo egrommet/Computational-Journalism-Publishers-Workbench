@@ -48,7 +48,6 @@ sudo -H apt-get install -y \
   nautilus-image-converter \
   openclipart \
   optipng \
-  pandoc \
   pinta \
   pitivi \
   pngcrush \
