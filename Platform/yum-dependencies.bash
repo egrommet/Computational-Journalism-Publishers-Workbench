@@ -66,3 +66,12 @@ sudo -H yum install -y \
 sudo -H yum install -y \
   pandoc \
   pandoc-pdf
+
+# Graphics task view
+sudo -H yum install -y \
+  gdal \
+  gdal-devel \
+  gdal-doc \
+  proj \
+  proj-devel \
+  proj-epsg

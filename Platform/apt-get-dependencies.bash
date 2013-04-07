@@ -67,3 +67,14 @@ sudo -H apt-get install -y \
 # Pandoc
 sudo -H apt-get install -y \
   pandoc
+
+# Graphics task view
+sudo -H apt-get install -y \
+  proj-bin \
+  proj-data \
+  proj-ps-doc \
+  libproj-dev \
+  dans-gdal-scripts \
+  gdal-bin \
+  libgdal-dev \
+  libgdal-doc
