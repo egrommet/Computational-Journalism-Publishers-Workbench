@@ -9,11 +9,11 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-./setup-environment.bash
-pushd BareMetal
-./updateos.bash
+./install-base.bash
+pushd Platform
+./install-dependencies.bash
 popd
 
-echo 'Rebooting in 15 seconds - ctl-C to prevent!'
+echo 'Rebooting in 15 seconds!'
 sleep 15
 sudo reboot
