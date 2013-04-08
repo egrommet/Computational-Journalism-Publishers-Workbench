@@ -9,6 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-./install-base.bash
+./run-me-first.bash
 ./install-platform.bash
 ./install-all-options.bash
