@@ -10,9 +10,6 @@
 #
 
 sudo -H yum install -y \
-  gdal \
-  gdal-devel \
-  gdal-doc \
   geos \
   geos-devel \
   grass \
@@ -22,9 +19,6 @@ sudo -H yum install -y \
   postgis \
   postgis-docs \
   postgis-utils \
-  proj \
-  proj-devel \
-  proj-epsg \
   qgis \
   qgis-grass \
   spatialite-gui \

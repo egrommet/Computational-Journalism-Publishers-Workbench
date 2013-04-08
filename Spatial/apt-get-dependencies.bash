@@ -10,10 +10,6 @@
 #
 
 sudo -H apt-get install -y \
-  dans-gdal-scripts \
-  gdal-bin \
-  libgdal-dev \
-  libgdal-doc \
   qlandkartegt \
   libgeos-dev \
   libgeos-doc \
@@ -28,10 +24,6 @@ sudo -H apt-get install -y \
   osm2pgsql \
   postgis \
   imposm \
-  proj-bin \
-  proj-data \
-  proj-ps-doc \
-  libproj-dev \
   gpx2shp \
   libqgis-dev \
   qgis \

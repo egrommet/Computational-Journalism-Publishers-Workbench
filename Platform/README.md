@@ -42,6 +42,8 @@
 * [PostgreSQL Home Page](http://www.postgresql.org/)
 * [pgAdmin Home Page](http://www.pgadmin.org/)
 * [Pandoc](http://www.johnmacfarlane.net/pandoc/)
+* [GDAL - Geospatial Data Abstraction Library](http://www.gdal.org/)
+* [PROJ.4 - Cartographic Projections Library](http://trac.osgeo.org/proj/)
 
 ## Suggested Reading
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)
