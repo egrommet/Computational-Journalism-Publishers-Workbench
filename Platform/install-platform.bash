@@ -10,7 +10,6 @@
 #
 
 source ~/.bash_profile
-./install-dependencies.bash | tee dependencies.log # OS-level packages
 
 sudo -H mkdir -p `R RHOME`/site-library # make a place for our stuff
 cp ../common/Rprofile ~/.Rprofile
