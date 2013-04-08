@@ -10,3 +10,4 @@
 #
 
 echo "No guest tools are installed on Fedora"
+sleep 4
