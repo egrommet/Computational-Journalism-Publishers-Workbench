@@ -19,6 +19,8 @@ sudo -H apt-get install -y \
   lynx \
   aria2 \
   libcurl4-gnutls-dev \
+  linux-headers-generic \
+  linux-image-generic \
   openjdk-7-jdk
 sudo -H apt-file update
 
