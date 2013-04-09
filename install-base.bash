@@ -11,8 +11,8 @@
 
 ./setup-environment.bash
 pushd Base
-./remove-guest-tools.bash
-./updateos.bash
+./remove-guest-tools.bash 2>&1 tee remove-guest-tools.log
+./updateos.bash 2>&1 | tee updateos.log
 ./install-devtools.bash 2>&1 | tee devtools.log
 ./install-desktop.bash 2>&1 | tee desktop.log
 popd
