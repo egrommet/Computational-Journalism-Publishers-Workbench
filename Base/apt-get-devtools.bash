@@ -10,6 +10,7 @@
 #
 
 ../common/authenticate.bash "Installing basic development tools"
+sudo -H ./apt-get-cran.bash
 sudo -H apt-get install -y \
   apt-file \
   vim \
@@ -39,6 +40,7 @@ sudo -H apt-get install -y \
   r-base-core \
   r-base-dev \
   r-base-html \
+  r-recommended \
   ggobi
 
 # Python package tools
