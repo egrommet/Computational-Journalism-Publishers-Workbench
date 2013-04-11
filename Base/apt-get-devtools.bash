@@ -40,3 +40,17 @@ sudo -H apt-get install -y \
   r-base-dev \
   r-base-html \
   ggobi
+
+# Python package tools
+sudo -H apt-get install -y \
+  python-setuptools \
+  python-pip \
+  python-markdown \
+  python-pygments \
+  python-jinja2 \
+  python-mock \
+  python-pexpect \
+  python-requests \
+  python-yaml \
+  python-docutils \
+  python-nose
