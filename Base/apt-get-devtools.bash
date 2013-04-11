@@ -43,7 +43,7 @@ sudo -H apt-get install -y \
   r-recommended \
   ggobi
 
-# Python package tools
+# Python package tools for Dexy
 sudo -H apt-get install -y \
   python-setuptools \
   python-pip \

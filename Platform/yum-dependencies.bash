@@ -75,3 +75,6 @@ sudo -H yum install -y \
   proj \
   proj-devel \
   proj-epsg
+
+# Dexy
+sudo -H python-pip install dexy

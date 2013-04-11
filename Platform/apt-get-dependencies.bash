@@ -78,3 +78,6 @@ sudo -H apt-get install -y \
   gdal-bin \
   libgdal-dev \
   libgdal-doc
+
+# Dexy
+sudo -H pip install dexy

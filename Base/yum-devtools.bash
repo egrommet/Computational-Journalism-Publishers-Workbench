@@ -43,7 +43,7 @@ sudo -H yum install -y \
   ggobi \
   ggobi-devel
 
-# Python package tools
+# Python package tools for Dexy
 sudo -H yum install -y \
   python-setuptools \
   python-pip \
@@ -54,4 +54,8 @@ sudo -H yum install -y \
   python-mock \
   python-ordereddict \
   python-pexpect \
-  python-requests
+  python-requests \
+  pexpect \
+  python-yaml \
+  python-docutils \
+  python-nose
