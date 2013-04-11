@@ -42,3 +42,16 @@ sudo -H yum install -y \
   R-devel \
   ggobi \
   ggobi-devel
+
+# Python package tools
+sudo -H yum install -y \
+  python-setuptools \
+  python-pip \
+  python-markdown \
+  python-markdown2 \
+  python-pygments \
+  python-jinja2 \
+  python-mock \
+  python-ordereddict \
+  python-pexpect \
+  python-requests
