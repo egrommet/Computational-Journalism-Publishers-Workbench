@@ -21,3 +21,4 @@
 
 # Suggested Reading
 * [The Geospatial Desktop by Gary Sherman, Tyler Mitchell](http://j.mp/Zj90T1)
+* [Applied Spatial Data Analysis with R by Roger S. Bivand, Edzer J. Pebesma, Virgilio Gómez-Rubio](http://j.mp/1321PjX)
