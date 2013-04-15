@@ -11,6 +11,8 @@
 source('../common/Rprofile')
 install.packages(
   c(
+    'ggplot2',
+    'ggmap',
     'Rcmdr',
     'RcmdrPlugin.temis',
     'tm.plugin.dc',
