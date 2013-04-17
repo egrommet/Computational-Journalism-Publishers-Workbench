@@ -65,7 +65,6 @@ sudo -H yum install -y \
   rawtherapee \
   scribus \
   shotwell \
-  sigil \
   synfig \
   ufraw \
   ufraw-gimp \

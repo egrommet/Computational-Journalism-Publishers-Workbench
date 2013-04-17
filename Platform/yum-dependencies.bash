@@ -78,3 +78,7 @@ sudo -H yum install -y \
 
 # Dexy
 sudo -H python-pip install dexy
+
+# Sigil
+sudo -H yum install -y \
+  sigil
