@@ -45,6 +45,9 @@
 * [GDAL - Geospatial Data Abstraction Library](http://www.gdal.org/)
 * [PROJ.4 - Cartographic Projections Library](http://trac.osgeo.org/proj/)
 * [The Dexy Guide](http://www.dexy.it/guide/the-dexy-guide.html)
+* [Calibre E-Book Manager](http://calibre-ebook.com/)
+* [LyX Document Processor](http://www.lyx.org/)
+* [Sigil EPUB Editor](https://code.google.com/p/sigil/)
 
 ## Suggested Reading
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)

@@ -16,7 +16,6 @@ sudo -H yum install -y \
   audacity-manual \
   blender \
   bluefish \
-  calibre \
   cinepaint \
   dia \
   dia-gnomeDIAicons \
@@ -49,7 +48,6 @@ sudo -H yum install -y \
   istanbul \
   jabref \
   jing \
-  lyx \
   mypaint \
   nautilus-image-converter \
   openclipart \

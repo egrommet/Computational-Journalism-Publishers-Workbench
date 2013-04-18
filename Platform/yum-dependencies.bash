@@ -79,6 +79,8 @@ sudo -H yum install -y \
 # Dexy
 sudo -H python-pip install dexy
 
-# Sigil
+# Editing
 sudo -H yum install -y \
-  sigil
+  sigil \
+  lyx \
+  calibre

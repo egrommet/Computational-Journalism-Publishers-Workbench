@@ -14,7 +14,6 @@ sudo -H apt-get install -y \
   audacity \
   blender \
   bluefish \
-  calibre \
   create-resources \
   dia \
   dia2code \
@@ -43,7 +42,6 @@ sudo -H apt-get install -y \
   istanbul \
   jabref \
   jing \
-  lyx \
   mypaint \
   nautilus-image-converter \
   openclipart \

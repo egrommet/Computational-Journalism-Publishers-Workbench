@@ -82,8 +82,10 @@ sudo -H apt-get install -y \
 # Dexy
 sudo -H pip install dexy
 
-# Sigil
+# Editing
 sudo -H add-apt-repository -y ppa:rgibert/ebook # Sigil lives here
 sudo -H apt-get update
 sudo -H apt-get install -y \
+  calibre \
+  lyx \
   sigil
