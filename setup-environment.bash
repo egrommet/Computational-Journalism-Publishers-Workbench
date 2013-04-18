@@ -21,4 +21,3 @@ fi
 
 # set up stuff everyone needs
 cat bashrc >> ~/.bashrc
-source ~/.bash_profile
