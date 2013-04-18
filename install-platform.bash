@@ -9,9 +9,17 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-./install-base.bash
+./setup-environment.bash
+source ~/.bash_profile
+pushd Base
+./remove-guest-tools.bash 2>&1 tee remove-guest-tools.log
+./updateos.bash 2>&1 | tee updateos.log
+./install-devtools.bash 2>&1 | tee devtools.log
+./install-desktop.bash 2>&1 | tee desktop.log
+popd
 pushd Platform
 ./install-dependencies.bash
+./install-platform.bash
 popd
 
 echo 'Rebooting in 15 seconds!'
