@@ -18,7 +18,7 @@ pushd Base
 ./install-desktop.bash 2>&1 | tee desktop.log
 popd
 pushd Platform
-./install-dependencies.bash
+./install-dependencies.bash 2>&1 | tee dependencies.log
 ./install-platform.bash
 popd
 
