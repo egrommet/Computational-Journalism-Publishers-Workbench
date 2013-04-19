@@ -12,13 +12,13 @@
 ./setup-environment.bash
 source ~/.bash_profile
 pushd Base
-./remove-guest-tools.bash 2>&1 tee remove-guest-tools.log
-./updateos.bash 2>&1 | tee updateos.log
-./install-devtools.bash 2>&1 | tee devtools.log
-./install-desktop.bash 2>&1 | tee desktop.log
+/usr/bin/time ./remove-guest-tools.bash 2>&1 tee remove-guest-tools.log
+/usr/bin/time ./updateos.bash 2>&1 | tee updateos.log
+/usr/bin/time ./install-devtools.bash 2>&1 | tee devtools.log
+/usr/bin/time ./install-desktop.bash 2>&1 | tee desktop.log
 popd
 pushd Platform
-./install-dependencies.bash 2>&1 | tee dependencies.log
+/usr/bin/time ./install-dependencies.bash 2>&1 | tee dependencies.log
 ./install-platform.bash
 popd
 
