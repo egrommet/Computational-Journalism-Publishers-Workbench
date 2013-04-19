@@ -9,17 +9,29 @@
 #
 
 source('../common/Rprofile')
-update.packages(ask=FALSE)
 library(ctv)
 update.views(
   c(
     'Graphics',
     'ReproducibleResearch',
-    'Spatial'
+    'Spatial',
+    'NaturalLanguageProcessing'
+  ),
+  dependencies=NA
+)
+warnings()
+install.packages(
+  c(
+    'Rcmdr',
+    'RcmdrPlugin.temis',
+    'tm.plugin.dc',
+    'tm.plugin.mail',
+    'tm.plugin.webmining',
+    'tm.plugin.sentiment',
+    'rattle'
   ),
   dependencies=TRUE
 )
-warnings()
 install.packages(
   c(
     'RSAGA',
@@ -32,12 +44,6 @@ install.packages(
     'ggmap',
     'OpenStreetMap',
     'plotGoogleMaps',
-    'Rcmdr',
-    'RcmdrPlugin.temis',
-    'tm.plugin.dc',
-    'tm.plugin.mail',
-    'tm.plugin.webmining',
-    'tm.plugin.sentiment',
     'twitteR',
     'streamR',
     'rattle',
@@ -56,6 +62,6 @@ install.packages(
     'googleVis',
     'gooJSON'
   ),
-  dependencies=TRUE
+  dependencies=NA
 )
 warnings()
