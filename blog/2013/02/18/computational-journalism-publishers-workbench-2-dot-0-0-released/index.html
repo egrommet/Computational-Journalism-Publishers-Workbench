@@ -1,0 +1,298 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Computational Journalism Publishers Workbench 2.0.0 Released - Computational Journalism Publishers Workbench</title>
+  <meta name="author" content="M. Edward (Ed) Borasky">
+
+  
+  <meta name="description" content="Quick Start I&#8217;ve just pushed release 2.0.0 of the Computational Journalism Publishers Workbench to Github. I&#8217;ve shuffled a few things &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/18/computational-journalism-publishers-workbench-2-dot-0-0-released">
+  <link href="/Computational-Journalism-Publishers-Workbench/favicon.png" rel="icon">
+  <link href="/Computational-Journalism-Publishers-Workbench/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/Computational-Journalism-Publishers-Workbench/atom.xml" rel="alternate" title="Computational Journalism Publishers Workbench" type="application/atom+xml">
+  <script src="/Computational-Journalism-Publishers-Workbench/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/Computational-Journalism-Publishers-Workbench/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38597418-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/Computational-Journalism-Publishers-Workbench/">Computational Journalism Publishers Workbench</a></h1>
+  
+    <h2>An open source workbench for independent computational journalists</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/Computational-Journalism-Publishers-Workbench/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:znmeb.github.io/Computational-Journalism-Publishers-Workbench" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/Computational-Journalism-Publishers-Workbench/">Blog</a></li>
+  <li><a href="/Computational-Journalism-Publishers-Workbench/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Computational Journalism Publishers Workbench 2.0.0 Released</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-18T06:31:00-08:00" pubdate data-updated="true">Feb 18<span>th</span>, 2013</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md">Quick Start</a></h2>
+
+<p>I&#8217;ve just pushed release 2.0.0 of the Computational Journalism Publishers Workbench to Github. I&#8217;ve shuffled a few things around, removed some tools I wasn&#8217;t using and added some new ones. If there&#8217;s anything missing from previous releases that you want back, either open an issue on Github or leave a comment here.</p>
+
+<h2>What&#8217;s New?</h2>
+
+<!-- more -->
+
+
+<ol>
+<li>Bare metal support: I&#8217;m now testing on 64-bit machines with both Linux Mint 14 and Fedora 18. You&#8217;ll need an Intel or AMD 64-bit machine with at least 4 GB of RAM. Both Fedora 18 and Linux Mint 14 have excellent installation documentation.</li>
+<li>Virtual hosting on bare metal: I&#8217;ve included scripts to install the Virtual Machine Manager and the kernel virtual machine hypervisor. See the <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/VirtualHosting/README.md">Virtual Hosting README.md</a>.</li>
+<li>Massive refactoring: I removed a number of packages that I wasn&#8217;t using, and added many more optional end-user tools from the Linux repositories. See the README.md files in the directories for the major components.</li>
+<li>RKWard: it turns out that the <a href="http://rkward.sourceforge.net/">RKWard R GUI/IDE</a> is available for both Fedora 18 and Linux Mint 14. This isn&#8217;t quite as powerful as RStudio, but it&#8217;s packaged by the Linux teams and has a fair amount of help available for beginners.</li>
+<li>Suggested readings: I&#8217;ve added Amazon affiliate links for some of the better books for beginners on the technologies available. I own most of them already and the rest are on my wish list.</li>
+</ol>
+
+
+<h2>Road Map</h2>
+
+<ol>
+<li>Now that this release is done, I&#8217;ll be revising the <a href="https://github.com/znmeb/CompJournoStick">CompJournoStick</a> code to draw from this repository in constructing media. That way, the bill of materials for the stick will be the same as the Fedora version of this workbench.</li>
+<li>I&#8217;m backing the <a href="http://www.kickstarter.com/projects/gotoplanb/for-journalism">For Journalism</a> project on Kickstarter. I&#8217;m tracking their materials and will be adding software to this project and CompJournoStick to run all of their code.</li>
+<li>I&#8217;ve looked at openSUSE 12.3 and there are some critical tools missing from their repositories. So I will not be supporting openSUSE going forward.</li>
+<li>I&#8217;m planning to support Ubuntu 13.04 and Linux Mint 15. I don&#8217;t have enough disk space on my test machines to test Ubuntu on bare metal, however.</li>
+<li>The next release will have Redis 2.6 back in. I removed it because the Linux repositories are still shipping 2.4, and I wanted to install it from Linux rather than build it from source.</li>
+<li>The next release will have Shiny server and Node.js. It may also have Meteor, which seems to be the up-and-coming wrapper for Node.js.</li>
+</ol>
+
+
+<h2>Download the Latest Source</h2>
+
+<p><a href="http://j.mp/CompJournBench">http://j.mp/CompJournBench</a></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">M. Edward (Ed) Borasky</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-18T06:31:00-08:00" pubdate data-updated="true">Feb 18<span>th</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/18/computational-journalism-publishers-workbench-2-dot-0-0-released/" data-via="znmeb" data-counturl="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/18/computational-journalism-publishers-workbench-2-dot-0-0-released/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/Computational-Journalism-Publishers-Workbench/blog/2013/01/28/compjournostick-0-dot-9-0-released/" title="Previous Post: CompJournoStick 0.9.0 Released">&laquo; CompJournoStick 0.9.0 Released</a>
+      
+      
+        <a class="basic-alignment right" href="/Computational-Journalism-Publishers-Workbench/blog/2013/02/20/computational-journalism-publishers-workbench-2-dot-0-2-released/" title="Next Post: Computational Journalism Publishers Workbench 2.0.2 Released">Computational Journalism Publishers Workbench 2.0.2 Released &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/Computational-Journalism-Publishers-Workbench/blog/2013/04/06/compjournwin8pro-0-dot-0-8-released/">CompJournWin8Pro 0.0.8 Released</a>
+      </li>
+    
+      <li class="post">
+        <a href="/Computational-Journalism-Publishers-Workbench/blog/2013/04/05/windows-port-status-update/">CompJournWin8Pro 0.0.7 Released</a>
+      </li>
+    
+      <li class="post">
+        <a href="/Computational-Journalism-Publishers-Workbench/blog/2013/04/03/it-has-begun-the-windows-port/">It Has Begun - the Windows Port</a>
+      </li>
+    
+      <li class="post">
+        <a href="/Computational-Journalism-Publishers-Workbench/blog/2013/04/01/computational-journalism-publishers-workbench-2-dot-8-0-released/">Computational Journalism Publishers Workbench 2.8.0 Released</a>
+      </li>
+    
+      <li class="post">
+        <a href="/Computational-Journalism-Publishers-Workbench/blog/2013/03/25/computational-journalism-publishers-workbench-2-dot-6-0-why/">Computational Journalism Publishers Workbench 2.7.0 "Why, is one missing?" Released</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/113666002925425704321?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - M. Edward (Ed) Borasky -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'compjournobench';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/18/computational-journalism-publishers-workbench-2-dot-0-0-released/';
+        var disqus_url = 'http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/18/computational-journalism-publishers-workbench-2-dot-0-0-released/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Twitter | Computational Journalism Publishers Workbench]]></title>
+  <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/categories/twitter/atom.xml" rel="self"/>
+  <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/"/>
+  <updated>2013-04-19T09:40:55-07:00</updated>
+  <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/</id>
+  <author>
+    <name><![CDATA[M. Edward (Ed) Borasky]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench Version 0.3.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/2012/08/19/computational-journalism-publishers-workbench-version-0-3-0-released/
+/"/>
+    <updated>2012-08-19T00:00:00-07:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/2012/08/19/computational-journalism-publishers-workbench-version-0-3-0-released/computational-journalism-publishers-workbench-version-0-3-0-released</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>I’ve just released version 0.3.0 of the <strong><em><a href="http://znmeb.github.com/Computational-Journalism-Publishers-Workbench/">Computational Journalism Publishers Workbench</a></em></strong>. This is mostly bug fixes and more packages are now installed from upstream binary or source rather than from the distributions. The only new package is the JabRef bibliography tool. And, as I noted <strong><em><a href="http://borasky-research.net/2012/08/17/project-road-map/">yesterday</a></em>, </strong><strong><em>I am no longer releasing any Twitter tools as open source.</em></strong></p>
+
+<p>The short-term focus of the workbench is on tools for the creation of web pages and eBooks from <strong><em>clean</em></strong> data. There are many fine tools for acquiring and cleaning data, both open source and proprietary. I’ve kept Google Refine and the PDF extraction tools in the workbench because people ask for them, but they aren’t something I use on a regular basis. Neither are scrapers, for that matter.</p>
+
+<p>Some really important stories have come from scrapers and PDF extraction, to be sure. But the kinds of stories that interest me most – finance, economics and the environment – come with copious cleaned datasets. If you’re interested in scrapers, I highly recommend <a href="https://leanpub.com/scrapingforjournalists"><strong><em>Scraping for Journalists</em></strong></a> by <a href="https://leanpub.com/u/paulbradshaw"><strong><em>Paul Bradshaw</em></strong></a>. Paul is a Professor of journalism in the UK and runs the <a href="http://onlinejournalismblog.com/"><strong><em>Online Journalism Blog</em></strong></a>. And he’s on Twitter, of course – <a href="https://twitter.com/paulbradshaw"><strong><em>@paulbradshaw</em></strong></a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench Version 0.1.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/2012/08/06/computational-journalism-publishers-workbench-version-0-1-0-released/
+/"/>
+    <updated>2012-08-06T00:00:00-07:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/2012/08/06/computational-journalism-publishers-workbench-version-0-1-0-released/computational-journalism-publishers-workbench-version-0-1-0-released</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>For a variety of reasons, I’ve stopped working on the SUSE Studio versions of my tool collections. I’ve discontinued distribution of Data Journalism Developer Studio 2012LX. I’m still distributing the Computational Journalism Server, but all enhancements are on hold until openSUSE 12.2 is released and the repositories are available in SUSE Studio. There has not yet been a commitment from the openSUSE project on a date for that release.</p>
+
+<p>In the interim, I’m focusing on the desktop use cases with the <a href="http://znmeb.github.com/Computational-Journalism-Publishers-Workbench/" title="Computational Journalism Publishers Workbench">Computational Journalism Publishers Workbench</a>. I’ve taken the scripts I’ve been using to install the tools for previous appliances and ported them to three Linux desktops – <a href="http://spins.fedoraproject.org/lxde/" title="Fedora 17 LXDE">Fedora 17 LXDE</a>, <a href="https://help.ubuntu.com/community/Lubuntu/GetLubuntu" title="Lubuntu 12.04">Lubuntu 12.04</a> and <a href="http://software.opensuse.org/developer/en" title="openSUSE 12.2 Release Candidate 2">openSUSE 12.2 Release Candidate 2</a>. I am planning to port them to Linux Mint Debian Edition, Linux Mint 13 and Mageia Version 2 in the next few weeks.</p>
+
+<p>The rough road map is to release 0.x.0 every Monday for the next five weeks, then revisit some of the major use cases. In particular, I’m planning to enhance the PDF data extraction functionality and the Twitter research tools. The main over-arching goal is to build a platform for the independent publishing equivalent of reproducible research. In my opinion the whole publishing tool set – research, reporting, editing and publishing – needs to be reproducible and as automatic as possible. The core tools are similar to what you’ve seen from the previous collections – Linux and R Studio.</p>
+]]></content>
+  </entry>
+  
+</feed>

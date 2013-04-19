@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/sitemap.xml 

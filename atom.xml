@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Computational Journalism Publishers Workbench]]></title>
+  <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/atom.xml" rel="self"/>
+  <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/"/>
+  <updated>2013-04-19T09:40:55-07:00</updated>
+  <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/</id>
+  <author>
+    <name><![CDATA[M. Edward (Ed) Borasky]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CompJournWin8Pro 0.0.8 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/04/06/compjournwin8pro-0-dot-0-8-released/"/>
+    <updated>2013-04-06T20:21:00-07:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/04/06/compjournwin8pro-0-dot-0-8-released</id>
+    <content type="html"><![CDATA[<p>I&#8217;ve just pushed another release of <a href="http://znmeb.github.io/CompJournWin8Pro">CompJournWin8Pro</a>, this one tagged v0.0.8. This is going to be the last release for a while. Rather than spend a lot of effort tracking down installers for the numerous options in the full workbench, I want to spend some time making sure I can get the basics done with what&#8217;s in the current release.</p>
+
+<p>I am in the process of synchronizing this release with the workbench. That means moving Pandoc and the Graphics and Reproducible Research task views into the workbench platform. I&#8217;ll probably also merge the Base and Platform there as well. And I&#8217;m hoping to get started on a Macintosh port in the next week or so.</p>
+
+<h2>What&#8217;s In It?</h2>
+
+<!-- more -->
+
+
+<ul>
+<li>R</li>
+<li>GGobi</li>
+<li>RStudio</li>
+<li>Rtools</li>
+<li>MikTeX</li>
+<li>git</li>
+<li>R Commander</li>
+<li>Rattle</li>
+<li>Graphics and Reproducible Research task views</li>
+<li>Gvim</li>
+<li>Pandoc</li>
+<li>PostgreSQL</li>
+<li>A generous collection of useful CRAN packages</li>
+</ul>
+
+
+<h2>Road Map</h2>
+
+<ol>
+<li>v0.0.9 - Bug fixes, documentation tweaks, etc.</li>
+<li>v0.1.0 - Full platform release</li>
+</ol>
+
+
+<h2><a href="http://znmeb.github.io/CompJournWin8Pro">Getting Started</a></h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CompJournWin8Pro 0.0.7 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/04/05/windows-port-status-update/"/>
+    <updated>2013-04-05T23:45:00-07:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/04/05/windows-port-status-update</id>
+    <content type="html"><![CDATA[<p>After some intense thrashing around, installing/uninstalling/rebooting, etc., I&#8217;ve pushed another release. I&#8217;m calling this one v0.0.7, mostly because seven is a lucky number. Special thanks to <a href="http://www.r-statistics.com/">Tal Galili</a> for the awesome tool that makes this possible, the &#8217;<a href="http://cran.r-project.org/web/packages/installr/index.html">installr</a>&#8217; package.</p>
+
+<h2>What&#8217;s In It?</h2>
+
+<!-- more -->
+
+
+<ul>
+<li>R</li>
+<li>GGobi</li>
+<li>RStudio</li>
+<li>Rtools</li>
+<li>MikTeX</li>
+<li>git</li>
+<li>GGobi</li>
+<li>R Commander</li>
+<li>Rattle</li>
+<li>Graphics and Reproducible Research task views</li>
+<li>A generous collection of useful CRAN packages</li>
+</ul>
+
+
+<h2>Road Map</h2>
+
+<ol>
+<li>v0.0.8 - Editing option
+
+<ul>
+<li>Pandoc will be added to the Base.</li>
+<li>Calibre</li>
+<li>Sigil</li>
+<li>LyX</li>
+<li>GIMP</li>
+<li>Avidemux</li>
+<li>Blender</li>
+<li>Audacity</li>
+<li>CRAN Audio packages</li>
+</ul>
+</li>
+<li>v0.0.9 - PostgreSQL option</li>
+<li>v0.0.10 - Perl option - Strawberry Perl + Padre</li>
+<li>v0.1.0 - Full platform release</li>
+</ol>
+
+
+<h2><a href="http://znmeb.github.com/CompJournWin8Pro">Getting Started</a></h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[It Has Begun - the Windows Port]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/04/03/it-has-begun-the-windows-port/"/>
+    <updated>2013-04-03T21:14:00-07:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/04/03/it-has-begun-the-windows-port</id>
+    <content type="html"><![CDATA[<h2>It Has Begun</h2>
+
+<p>I just pushed release 0.0.1 of &#8217;<a href="http://znmeb.github.com/CompJournWin8Pro/">CompJournWin8Pro</a>&#8217; to Github. The rough plan is for a Windows desktop/laptop with &#8216;CompJournWin8Pro&#8217; to be running <strong><em>most</em></strong> of what&#8217;s in the Computational Journalism Publishers Workbench. There are a number of things I&#8217;m not initially planning to port, however. Most notable among these are the &#8216;Linux-only&#8217; pseudo-task views &#8216;Editing&#8217; and &#8216;ScrapingTools&#8217;. Everything that&#8217;s available for Windows R and the Python NLTK and NetworkX tools are definitely on the road map.</p>
+
+<h2>Getting Started</h2>
+
+<ol>
+<li>Install <strong><em>64-bit Windows 8 Pro</em></strong> on a 64-bit Intel/AMD system. You need at least 4 GB of RAM for most of these tools to be useful and the more RAM you have, the better. There is <strong><em>no support</em></strong> for
+
+<ul>
+<li>Windows 8 &#8220;core&#8221; or Windows 8 RT,</li>
+<li>32-bit Windows, or</li>
+<li>Older versions of Windows.</li>
+</ul>
+</li>
+<li>Install R 3.0.0 (or later). Older versions of R are <strong><em>not supported</em></strong>.
+
+<ul>
+<li><strong><em>Install the 64-bit R.</em></strong> De-select the 32-bit components unless you know what you&#8217;re doing. Having both 64-bit and 32-bit R on your system will most likely just confuse you.</li>
+</ul>
+</li>
+<li>Open the 64-bit R application. Go to &#8216;Packages -> Install Packages&#8217; and install the &#8216;installr&#8217; package. If it asks you if you want to use a personal library, answer &#8216;Yes&#8217;. Answer &#8216;Yes&#8217; again when it asks to <em>create</em> the personal library.</li>
+<li><p>Go back to the R console and enter the following code at the &#8216;>&#8217; prompt:</p>
+
+<p> <code>
+ library(installr)
+ install.GitHub()
+ install.RStudio()
+</code></p></li>
+<li>Follow the installation recommendations / defaults for GitHub and RStudio. I strongly recommend opening a free GitHub account if you don&#8217;t have one already.</li>
+<li>Start RStudio. On the &#8216;Packages&#8217; tab, check the box next to &#8216;installr&#8217;. That should load the &#8216;installr&#8217; library.</li>
+<li>Go to the &#8216;Console&#8217; window and type <code>install.git()</code>. Yes, you need both GitHub and Git. RStudio can&#8217;t find the version of Git supplied with GitHub.
+
+<ul>
+<li>In the &#8216;Select Components&#8217; screen, accept the defaults.</li>
+<li>In the &#8216;Adjusting your PATH environment&#8217; screen, select the bottom option: &#8216;Run Git and included Unix tools from the Windows command prompt&#8217;. This is required for RStudio to find the Git tools.</li>
+<li>In the &#8216;Configuring the line ending conversions&#8217; screen, select the default (first) option.</li>
+</ul>
+</li>
+<li>Open an issue at <a href="https://github.com/znmeb/CompJournWin8Pro/issues/new">https://github.com/znmeb/CompJournWin8Pro/issues/new</a> if anything is broken, unclear, etc.</li>
+<li>Licenses:
+
+<ul>
+<li>Code: <a href="http://www.gnu.org/licenses/agpl-3.0.txt">Affero GNU Public License, version 3</a></li>
+<li>Documentation: <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)</a></li>
+</ul>
+</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 2.8.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/04/01/computational-journalism-publishers-workbench-2-dot-8-0-released/"/>
+    <updated>2013-04-01T15:41:00-07:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/04/01/computational-journalism-publishers-workbench-2-dot-8-0-released</id>
+    <content type="html"><![CDATA[<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md">Quick Start</a></h2>
+
+<p>I&#8217;ve just pushed the latest release, 2.8.0, cutesy release code name &#8220;You don&#8217;t - you get down off a goose!&#8221; to Github. As always you can <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new">file issues here</a>.</p>
+
+<h2>What&#8217;s New?</h2>
+
+<!-- more -->
+
+
+<ol>
+<li>Cutesy release code name: &#8220;You don&#8217;t - you get down off a goose!&#8221;</li>
+<li>I&#8217;ve added some Google interface routines to the platform:
+
+<ul>
+<li>googlePublicData - An R library to build Google&#8217;s Public Data Explorer DSPL Metadata files</li>
+<li>googleVis - Interface between R and the Google Chart Tools</li>
+<li>gooJSON - Google JSON Data Interpreter for R</li>
+</ul>
+</li>
+<li>On March 28, 2013, the Portland Riak Meetup Group had an <a href="http://www.meetup.com/Portland-Riak/events/105400582/">Intro to Riak Workshop</a>. We went through the <a href="http://docs.basho.com/riak/latest/tutorials/fast-track/">Riak Fast Track</a> and Riak is now available as an option in the workbench! I&#8217;ve tested it on both Fedora 18 and Linux Mint 14 and will be testing it on Ubuntu 12.10 in the near future. I&#8217;ve essentially duplicated what&#8217;s in the fast track, so everything on the Basho site should work as described in the &#8216;devrel&#8217; setup.</li>
+<li>I&#8217;ve added <a href="http://www.saga-gis.org/en/index.html">SAGA (System for Automated Geoscientific Analysis)</a> and the <a href="http://cran.r-project.org/web/packages/RSAGA/index.html">RSAGA: SAGA Geoprocessing and Terrain Analysis in R</a> package to the <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Spatial/README.md">Spatial</a> option.</li>
+</ol>
+
+
+<h2>Road Map</h2>
+
+<ol>
+<li>Next cutesy release code name: &#8220;But officer - I was only driving one way!&#8221;</li>
+</ol>
+
+
+<h2><a href="http://j.mp/CompJournBench">Download the Latest Source</a></h2>
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new">Open an Issue on Github</a></h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 2.7.0 "Why, is one missing?" Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/03/25/computational-journalism-publishers-workbench-2-dot-6-0-why/"/>
+    <updated>2013-03-25T15:56:00-07:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/03/25/computational-journalism-publishers-workbench-2-dot-6-0-why</id>
+    <content type="html"><![CDATA[<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md">Quick Start</a></h2>
+
+<p>I&#8217;ve just pushed the latest release, 2.7.0, cutesy release code name &#8220;Why, is one missing?&#8221; to Github. As always you can <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new">file issues here</a>.</p>
+
+<h2>What&#8217;s New?</h2>
+
+<!-- more -->
+
+
+<ol>
+<li>Cutesy release code name: &#8220;Why, is one missing?&#8221;</li>
+<li>PostgreSQL is no longer an option; I&#8217;ve moved it and its R interface package into the platform.</li>
+<li>I&#8217;ve added SQLite, SQLite Manager and the SQLite R interface packages to the platform. The underlying libraries get installed anyway with most full-featured Linux desktops, so all that&#8217;s missing is GUI and command line tools for database administration and the R packages,</li>
+<li>I&#8217;ve added an option to install <a href="http://owncloud.org/">ownCloud</a> from upstream packages. See the <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/ownCloud/README.md">ownCloud option README</a> for links to the online documentation.</li>
+<li>I&#8217;ve added the <a href="https://github.com/andrejv/wxmaxima">wxMaxima</a> symbolic math package to the platform.</li>
+<li>I&#8217;ve refactored the install scripts. The base components are now found in the &#8216;Base&#8217; directory and the platform components in the &#8216;Platform&#8217; directory. The top-level install scripts should function the same way they did in the previous release.</li>
+</ol>
+
+
+<h2>Road Map</h2>
+
+<ol>
+<li>Next cutesy release code name: &#8220;You don&#8217;t - you get down off a goose!&#8221;</li>
+<li>As you may have noticed from my tweet stream, I&#8217;ve been curating general <a href="http://www.scoop.it/t/computational-and-data-journalism">computational and data journalism</a> stories and <a href="http://www.scoop.it/t/r-for-journalists">R for Journalists</a> &#8216;tool tips&#8217; on two Scoop.it topics. While that&#8217;s a convenient way to provide quick distribution of tools I find, it&#8217;s not integrated with the workbench.<br><br>
+So my plan is to expand the <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki">Github project wiki</a> with more of this kind of information and to phase out the Scoop.it topics. My inspiration is Hadley Wickham&#8217;s <a href="https://github.com/hadley/devtools/wiki">Advanced R Programming</a> wiki.</li>
+</ol>
+
+
+<h2><a href="http://j.mp/CompJournBench">Download the Latest Source</a></h2>
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new">Open an Issue on Github</a></h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 2.6.0 "A veiled threat!" Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/03/14/computational-journalism-publishers-workbench-2-dot-6-0-a-veiled-threat-released/"/>
+    <updated>2013-03-14T08:29:00-07:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/03/14/computational-journalism-publishers-workbench-2-dot-6-0-a-veiled-threat-released</id>
+    <content type="html"><![CDATA[<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md">Quick Start</a></h2>
+
+<p>I&#8217;ve just pushed the latest release, 2.6.0, cutesy release code name &#8220;A veiled threat!&#8221;, to Github. As always you can <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new">file issues here</a>. And if you&#8217;re interested in text / document mining, please join me for <a href="https://twitter.com/jonathanstray">@jonathanstray</a>&#8217;s <a href="https://www.newsu.org/digital-tools-overview">Document Mining with Overview</a> tutorial. If you miss the live webinar tomorrow, it will be recorded and you&#8217;ll be able to replay it any time.</p>
+
+<h2>What&#8217;s New?</h2>
+
+<!-- more -->
+
+
+<ol>
+<li>Cutesy release code name: &#8220;A veiled threat!&#8221;</li>
+<li>There is now a minimalist version of the workbench, which I call the &#8220;Base.&#8221; The base consists of the chosen Linux desktop, the command-line version of R and the GGobi data visualization system. Both R and GGobi are installed from the Linux distribution. This means that in principle any Linux distribution with both R and GGobi can be used, although I am still only supporting Fedora 18, Linux Mint 14 and Ubuntu 12.10.<br><br>
+For the impatient, there is now a three-step process to get started:
+
+<ul>
+<li>Install a supported Linux desktop.</li>
+<li>Download and unpack the install scripts.</li>
+<li>Run the &#8216;install-base.bash&#8217; script.</li>
+</ul>
+</li>
+<li>All the R packages installed in R-platform and the options are installed for all users in a <strong><em>site library</em></strong>. See <a href="http://cran.r-project.org/doc/manuals/r-release/R-admin.html#Managing-libraries">Managing Libraries</a> for the details on how this works.</li>
+<li><a href="https://github.com/rstudio/shiny-server#shiny-server">Shiny Server</a> is now included in the <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Node.js/README.md">Node.js option</a>.</li>
+<li>I&#8217;ve added more PDF tools to the <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/ScrapingTools/README.md">ScrapingTools option</a>.</li>
+</ol>
+
+
+<h2>Road Map</h2>
+
+<ol>
+<li>Next cutesy release code name: &#8220;Why, is one missing?&#8221;</li>
+<li>Riak is on hold for a bit. My highest priority right now is getting some test applications done using Shiny Server.</li>
+<li>Those who have been following my data and computational journalism projects over the past few years know that one of my long-term goals is for the tools to be available on Windows desktops / laptops. While I personally prefer Linux for numerous reasons, Windows is much more readily available in newsrooms.</p></li>
+</ol>
+
+
+<p>This week, I discovered a project that brings me much closer to that goal. It&#8217;s an R package called <a href="http://cran.r-project.org/web/packages/installr/index.html">installr</a>. On a Windows R installation, &#8216;installr&#8217; will update R to the latest stable version and install numerous other packages, all from the R console. This includes the MikTeX environment, RStudio Desktop, git and quite a few other tools. With &#8216;installr&#8217; and RStudio, a Windows machine can become a first-class open source computational journalism platform just like a Linux desktop. Here&#8217;s the <a href="https://github.com/talgalili/installr">Github URL</a>.</p></p>
+
+<p>So I am looking at ways to integrate &#8216;installr&#8217; into a spin-off of the workbench for Windows users. I&#8217;m not sure yet whether this will be a separate project or part of the Computational Journalism Publishers Workbench.</p></p>
+
+<h2><a href="http://j.mp/CompJournBench">Download the Latest Source</a></h2>
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new">Open an Issue on Github</a></h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 2.5.0 - Now With Cutesy Release Code Names!]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/03/04/computational-journalism-publishers-workbench-2-dot-5-0-i-was-talking-to-the-duck-released/"/>
+    <updated>2013-03-04T12:11:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/03/04/computational-journalism-publishers-workbench-2-dot-5-0-i-was-talking-to-the-duck-released</id>
+    <content type="html"><![CDATA[<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md">Quick Start</a></h2>
+
+<p>I&#8217;ve just pushed the latest release, 2.5.0, cutesy release code name &#8220;I was talking to the duck!&#8221;, to Github. As always you can <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new">file issues here</a>. <strong><em>And please join me in support of <a href="http://kck.st/10XiAfn">For Journalism</a>.</em></strong></p>
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/WhatsNew.md">What&#8217;s New?</a></h2>
+
+<!-- more -->
+
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/RoadMap.md">Road Map</a></h2>
+
+<h2><a href="http://j.mp/CompJournBench">Download the Latest Source</a></h2>
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new">Open an Issue on Github</a></h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 2.4.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/25/computational-journalism-publishers-workbench-2-dot-4-0-released/"/>
+    <updated>2013-02-25T13:12:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/25/computational-journalism-publishers-workbench-2-dot-4-0-released</id>
+    <content type="html"><![CDATA[<hr />
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md">Quick Start</a></h2>
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/WhatsNew.md">What&#8217;s New?</a></h2>
+
+<!-- more -->
+
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/RoadMap.md">Road Map</a></h2>
+
+<h2><a href="http://j.mp/CompJournBench">Download the Latest Source</a></h2>
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new">Open an Issue on Github</a></h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 2.3.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/23/computational-journalism-publishers-workbench-2-dot-3-0-released/"/>
+    <updated>2013-02-23T14:56:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/23/computational-journalism-publishers-workbench-2-dot-3-0-released</id>
+    <content type="html"><![CDATA[<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md">Quick Start</a></h2>
+
+<p>I&#8217;ve just pushed release 2.3.0 of the Computational Journalism Publishers Workbench to Github.</p>
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/WhatsNew.md">What&#8217;s New?</a></h2>
+
+<!-- more -->
+
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/RoadMap.md">Road Map</a></h2>
+
+<h2><a href="http://j.mp/CompJournBench">Download the Latest Source</a></h2>
+
+<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new">Open an Issue on Github</a></h2>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 2.2.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/22/computational-journalism-publishers-workbench-2-dot-2-0-released/"/>
+    <updated>2013-02-22T15:47:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/22/computational-journalism-publishers-workbench-2-dot-2-0-released</id>
+    <content type="html"><![CDATA[<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md">Quick Start</a></h2>
+
+<h3>What&#8217;s New?</h3>
+
+<!-- more -->
+
+
+<ol>
+<li>I&#8217;ve added the <a href="http://openbox.org/">Openbox window manager</a> and the <a href="http://fbpanel.sourceforge.net/">fbpanel panel</a> to the build on both Fedora and Linux Mint/Ubuntu. This gives a fallback on low-capacity systems.</li>
+<li>I&#8217;ve added a few more packages to the <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Editing/README.md">Editing Tools psuedo-task view</a>. At the moment, they&#8217;re just in the Fedora build but most of them will be in Linux Mint/Ubuntu for the next release.</li>
+</ol>
+
+
+<h3>What&#8217;s Coming?</h3>
+
+<p>I&#8217;m back on the <a href="http://znmeb.github.com/CompJournoStick/">CompJournoStick</a> development cycle. I&#8217;m not sure when the next release will be, but it will feature:</p>
+
+<ul>
+<li>Automatic package discovery: the scripts build a kickstart file with all of the Fedora packages from the Computational Journalism Publishers Workbench.</li>
+<li>You&#8217;ll be able to create a persistent live USB stick from a virtual machine.</li>
+<li>You&#8217;ll be able to host virtual machines on a suitably large bare-metal install.</li>
+<li>You&#8217;ll be able to choose from GNOME 3, KDE and Cinnamon desktops.</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 2.1.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/21/computational-journalism-publishers-workbench-2-dot-1-0-released/"/>
+    <updated>2013-02-21T16:46:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/21/computational-journalism-publishers-workbench-2-dot-1-0-released</id>
+    <content type="html"><![CDATA[<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md">Quick Start</a></h2>
+
+<p>I&#8217;ve just pushed this up to Github. The main feature of 2.1.0 is the addition of optional scripts to install the <a href="http://cran.r-project.org/web/views/MachineLearning.html">Machine Learning &amp; Statistical Learning CRAN Task View</a>. This task view includes the <a href="http://rattle.togaware.com/">Rattle Graphical user interface for data mining in R</a>, also available with the <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/R-GUIs/README.md">R-GUIs option</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 2.0.2 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/20/computational-journalism-publishers-workbench-2-dot-0-2-released/"/>
+    <updated>2013-02-20T22:08:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/20/computational-journalism-publishers-workbench-2-dot-0-2-released</id>
+    <content type="html"><![CDATA[<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md">Quick Start</a></h2>
+
+<p>This is a bug fix / minor tweak release. I removed some of the extra Qt development tools and cleaned up some of the README files. Now that <a href="http://znmeb.github.com/blog/2013/02/19/jonathan-strays-computational-journalism-course-is-now-online/">Jonathan Stray&#8217;s computational journalism course is online</a>, I&#8217;m planning to post a few more sample programs besides the ones available in the R packages. So &#8230; watch this space!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 2.0.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/18/computational-journalism-publishers-workbench-2-dot-0-0-released/"/>
+    <updated>2013-02-18T06:31:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/02/18/computational-journalism-publishers-workbench-2-dot-0-0-released</id>
+    <content type="html"><![CDATA[<h2><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md">Quick Start</a></h2>
+
+<p>I&#8217;ve just pushed release 2.0.0 of the Computational Journalism Publishers Workbench to Github. I&#8217;ve shuffled a few things around, removed some tools I wasn&#8217;t using and added some new ones. If there&#8217;s anything missing from previous releases that you want back, either open an issue on Github or leave a comment here.</p>
+
+<h2>What&#8217;s New?</h2>
+
+<!-- more -->
+
+
+<ol>
+<li>Bare metal support: I&#8217;m now testing on 64-bit machines with both Linux Mint 14 and Fedora 18. You&#8217;ll need an Intel or AMD 64-bit machine with at least 4 GB of RAM. Both Fedora 18 and Linux Mint 14 have excellent installation documentation.</li>
+<li>Virtual hosting on bare metal: I&#8217;ve included scripts to install the Virtual Machine Manager and the kernel virtual machine hypervisor. See the <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/VirtualHosting/README.md">Virtual Hosting README.md</a>.</li>
+<li>Massive refactoring: I removed a number of packages that I wasn&#8217;t using, and added many more optional end-user tools from the Linux repositories. See the README.md files in the directories for the major components.</li>
+<li>RKWard: it turns out that the <a href="http://rkward.sourceforge.net/">RKWard R GUI/IDE</a> is available for both Fedora 18 and Linux Mint 14. This isn&#8217;t quite as powerful as RStudio, but it&#8217;s packaged by the Linux teams and has a fair amount of help available for beginners.</li>
+<li>Suggested readings: I&#8217;ve added Amazon affiliate links for some of the better books for beginners on the technologies available. I own most of them already and the rest are on my wish list.</li>
+</ol>
+
+
+<h2>Road Map</h2>
+
+<ol>
+<li>Now that this release is done, I&#8217;ll be revising the <a href="https://github.com/znmeb/CompJournoStick">CompJournoStick</a> code to draw from this repository in constructing media. That way, the bill of materials for the stick will be the same as the Fedora version of this workbench.</li>
+<li>I&#8217;m backing the <a href="http://www.kickstarter.com/projects/gotoplanb/for-journalism">For Journalism</a> project on Kickstarter. I&#8217;m tracking their materials and will be adding software to this project and CompJournoStick to run all of their code.</li>
+<li>I&#8217;ve looked at openSUSE 12.3 and there are some critical tools missing from their repositories. So I will not be supporting openSUSE going forward.</li>
+<li>I&#8217;m planning to support Ubuntu 13.04 and Linux Mint 15. I don&#8217;t have enough disk space on my test machines to test Ubuntu on bare metal, however.</li>
+<li>The next release will have Redis 2.6 back in. I removed it because the Linux repositories are still shipping 2.4, and I wanted to install it from Linux rather than build it from source.</li>
+<li>The next release will have Shiny server and Node.js. It may also have Meteor, which seems to be the up-and-coming wrapper for Node.js.</li>
+</ol>
+
+
+<h2>Download the Latest Source</h2>
+
+<p><a href="http://j.mp/CompJournBench">http://j.mp/CompJournBench</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CompJournoStick 0.9.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/01/28/compjournostick-0-dot-9-0-released/"/>
+    <updated>2013-01-28T18:24:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/01/28/compjournostick-0-dot-9-0-released</id>
+    <content type="html"><![CDATA[<p>There&#8217;s a saying that if your product doesn&#8217;t embarrass you, you waited too long to ship. Well, maybe that&#8217;s true, but the corollary must be that once you <em>do</em> ship, you&#8217;ll be embarrassed immediately.</p>
+
+<!-- more -->
+
+
+<p>With that, I&#8217;m pleased and embarrased to let loose up the world a beta product with at best alpha documentation, <a href="http://j.mp/CompJournoStick">CompJournoStick 0.9.0</a>. I&#8217;ll be hacking on the documentation intermittently over the next week, but I wanted to throw it out to the world now to get some feedback on what&#8217;s in it.</p>
+
+<p>So please, computational journalists of the world and interested bystanders, have at it! The Github issues page is <a href="https://github.com/znmeb/CompJournoStick/issues">https://github.com/znmeb/CompJournoStick/issues</a>, and you can always send me a message with questions.</p>
+
+<p>Road map: about the only thing that&#8217;s not in it that I want to add is Node.js and Shiny Server. I mostly plan to beef up the documentation as fast as I can.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 1.5.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/01/18/computational-journalism-publishers-workbench-1-dot-5-0-released/"/>
+    <updated>2013-01-18T15:52:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/01/18/computational-journalism-publishers-workbench-1-dot-5-0-released</id>
+    <content type="html"><![CDATA[<h2>Quick Start</h2>
+
+<ul>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md">Quick Start - Fedora 18 or Linux Mint 14 on VMware Player</a></li>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md">Quick Start - Fedora 18</a></li>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md">Quick Start - Linux Mint 14</a></li>
+</ul>
+
+
+<h2>What&#8217;s New?</h2>
+
+<!-- more -->
+
+
+<ol>
+<li><strong><em>The preferred hosting for virtual machines is now VMware Player or VMware Workstation.</em></strong> I haven&#8217;t done any comprehensive performance testing, but for the Redis benchmarks in <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Redis-Source">https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Redis-Source</a>, VMware was <strong><em>much</em></strong> faster than VirtualBox.</li>
+<li>I&#8217;ve dropped support for Ubuntu, Mageia, and openSUSE:
+
+<ul>
+<li>The testing time was too much for me.</li>
+<li>Ubuntu 12.10 has some issues with the default Unity desktop in virtual machines.</li>
+<li>Mageia 2 has issues with the display as a Virtual Machine Manager / GNOME Boxes guest.</li>
+<li>openSUSE 12.2 is missing some packages that I added for this release.</li>
+</ul>
+</li>
+<li>I&#8217;ve added the <a href="http://padre.perlide.org/">Padre Perl IDE</a>.</li>
+<li><a href="http://www.postgresql.org/">PostgreSQL</a> is now installed as part of the platform.</li>
+<li>I&#8217;ve added <a href="http://postgis.refractions.net/">PostGIS</a> to the &#8216;Spatial&#8217; task view.</li>
+<li>I&#8217;ve added the <a href="http://nltk.org/">Python Natural Language Processing Toolkit (NLTK)</a> to the &#8216;Natural Language Processing&#8217; task view.</li>
+<li>I&#8217;ve added R utilities for dealing with semantic web RDF data to the &#8216;Natural Language Processing&#8217; task view.</li>
+<li>I&#8217;ve added a new &#8220;pseudo-task view&#8221; for social network / graph analysis. In addition to R packages, this option contains the <a href="http://networkx.lanl.gov/index.html">Python NetworkX</a> package.</li>
+</ol>
+
+
+<h2>Road Map</h2>
+
+<ol>
+<li>With the release of Fedora 18, I consider this project &#8220;finished&#8221;. I&#8217;ll continue to support Linux Mint 14 and fix bugs, but I&#8217;m focusing on Fedora 18 and 19 for the remainder of 2013. As I noted above, I was spending a lot of time testing on openSUSE, Ubuntu and Mageia and there wasn&#8217;t any real payoff. I will be looking at openSUSE 12.3, which is now in beta, but unless some critical packages show up in it, I won&#8217;t be pursuing it further.</li>
+<li>The Perl Net::Twitter API package is now in beta test with the Twitter 1.1 API. I&#8217;ll be testing it in the near future and will push out a release once I have some demo code for it.</li>
+<li>I am going ahead with the plan for a new project based on Fedora 18. It will be a <a href="http://padre.perlide.org/">Fedora Remix</a> and will contain most of the software in release 1.5.0. I&#8217;m pretty sure I&#8217;ll be dropping Maqetta and Google Refine, and I&#8217;m pretty sure I&#8217;ll be adding Node.js and Django, but otherwise it will look a lot like this release.</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 1.2.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/01/02/computational-journalism-publishers-workbench-1-dot-2-0-released/"/>
+    <updated>2013-01-02T16:08:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/01/02/computational-journalism-publishers-workbench-1-dot-2-0-released</id>
+    <content type="html"><![CDATA[<h2>Quick Start</h2>
+
+<ul>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md">Quick Start - Generic Linux on VMware Player</a></li>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md">Quick Start - Fedora 17 / 18 Beta on VirtualBox</a></li>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md">Quick Start - Linux Mint 14 on VirtualBox</a></li>
+</ul>
+
+
+<h2>What&#8217;s New?</h2>
+
+<!-- more -->
+
+
+<ol>
+<li>There is now alpha-level support for hosting with Windows 8 Pro&#8217;s &#8216;Client Hyper-V&#8217; virtualizer. I&#8217;ve only tested it with a Fedora 18 64-bit guest, but the performance on the Redis benchmark is good enough that I&#8217;m going to support it. There are some things you&#8217;ll need to know:
+
+<ul>
+<li>You&#8217;ll need two network adapters if you want to run the host Windows machine and the guest workbench at the same time. The Hyper-V &#8216;Virtual Switch&#8217; connects to one of the network adapters and locks out the host when it does.</li>
+<li>You can&#8217;t run either VMware or VirtualBox in the machine if you have Hyper-V enabled.</li>
+<li>Turning Hyper-V on or off requires a reboot.</li>
+</ul>
+</li>
+<li>Fedora, Linux Mint, openSUSE and Ubuntu are now supported as guests with VirtManager / qemu-kvm. The host version I&#8217;m using is what&#8217;s shipped with Fedora 18, but it should work with other Linux distributions. Mageia 2 does not appear to work as a guest in this system; if you want to use Mageia, use either VirtualBox or VMware Player / Workstation.</li>
+<li>I&#8217;ve tuned the Redis benchmark in the &#8216;Redis-Source&#8217; directory. And on Fedora 18 or Linux Mint 14, it will use &#8216;operf&#8217; to capture a profile of the Redis process being benchmarked. This also works with in a guest system running on a VirtManager / qemu-kvm host, provided the Processor configuration uses the host processor topology. See the sub-directories in <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Redis-Source">https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Redis-Source</a> for benchmark results with Fedora 18 on bare metal and guest systems.</li>
+<li>I&#8217;ve updated PDQ to the <a href="http://perfdynamics.blogspot.com/2012/12/pdq-601-is-released.html">6.0.1 release</a>.</li>
+</ol>
+
+
+<h2>Road Map</h2>
+
+<ol>
+<li>Fedora 18 is scheduled for release on January 8, 2013. I&#8217;ve been running Fedora 18 as my main release since late alpha stage and it&#8217;s solid. The only major hitch is that the installer user interface is brand-new and will probably confuse you if you&#8217;re used to the old one. For installation in a guest on blank hard drives, this isn&#8217;t a problem - you just accept the defaults and go. But if you&#8217;re dual-booting it on a Windows machine you&#8217;ll want to hunt down some documentation before doing an install. In any event, I will stop supporting Fedora 17 once 18 is released.</li>
+<li>The R Twitter API package is now in beta test with the Twitter 1.1 API. I&#8217;ll be testing it in the near future and will push out a release once I have some demo code for it.</li>
+<li>I haven&#8217;t started serious work with Mageia 3 yet. I&#8217;ve run a few preliminary tests with the alpha media but I ran into too many issues and abandoned it. Mageia 2 is fine for now.</li>
+<li>Longer term (around April 2013) R 3.0 is being released. At that point or shortly before, I will migrate a fair amount of software that&#8217;s now being installed from source or from upstream binaries into the dependency structures of the distributions. R and TeXLive in particular will be moved into the &#8216;platform&#8217; part of the workbench. But just about everything that&#8217;s already packaged in both Fedora and Linux Mint will be taken from the repositories, and I will be dropping support for openSUSE and Mageia if these packages aren&#8217;t maintained there.</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 1.1.1 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2012/12/14/computational-journalism-publishers-workbench-1-dot-1-1-released/"/>
+    <updated>2012-12-14T11:20:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2012/12/14/computational-journalism-publishers-workbench-1-dot-1-1-released</id>
+    <content type="html"><![CDATA[<h2>Quick Start</h2>
+
+<ul>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md">Quick Start - Generic Linux on VMware Player</a></li>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md">Quick Start - Fedora 17 / 18 Beta on VirtualBox</a></li>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md">Quick Start - Linux Mint 14 on VirtualBox</a></li>
+</ul>
+
+
+<h2>What&#8217;s New?</h2>
+
+<!-- more -->
+
+
+<p>This is a bug fix release. The install script for Calibre wasn&#8217;t working. It turns out that the Python installer doesn&#8217;t work when you pipe its output to &#8220;tee&#8221;. Release 1.1.1 fixes that.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 1.1.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2012/12/12/computational-journalism-publishers-workbench-1-dot-1-0-released/"/>
+    <updated>2012-12-12T17:21:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2012/12/12/computational-journalism-publishers-workbench-1-dot-1-0-released</id>
+    <content type="html"><![CDATA[<h2>Quick Start</h2>
+
+<ul>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md">Quick Start - Generic Linux on VMware Player</a></li>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md">Quick Start - Fedora 17 / 18 Beta on VirtualBox</a></li>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md">Quick Start - Linux Mint 14 on VirtualBox</a></li>
+</ul>
+
+
+<h2>What&#8217;s New?</h2>
+
+<!-- more -->
+
+
+<p>The are numerous minor tweaks, bug fixes, etc., but the major new feature is that VMware Player 5 and VMware Workstation 9 are now supported hosts. Fedora 18 Beta is a supported Linux distribution as well, and is my preferred operating environment.</p>
+
+<h2>Road Map</h2>
+
+<p>The next major update will feature Windows 8 Pro &#8216;Client Hyper-V&#8217; hosting. I have this working with my laptop when connected to <strong><em>both</em></strong> wired and wireless networks, but there are some configuration issues with wireless networking alone. The other major issue with the Windows 8 Pro &#8216;Client Hyper-V&#8217; hosting is that you can&#8217;t have both Hyper-V and VMware Workstation active at the same time. I&#8217;m tentatively planning to release this on December 19, 2012.</p>
+
+<p>Other coming attractions:</p>
+
+<ol>
+<li>The <a href="http://www.rstudio.com/shiny/">Shiny project</a> is very active. There is a server version in the works and I&#8217;m tracking that in more or less real time.</li>
+<li>I am considering selling pre-built appliances with the workbench software. The big stumbling block is branding; I have to remove all traces of the upstream Linux distribution&#8217;s branding and create my own. I think it&#8217;s worth doing, though - it takes a long time to build one of these appliances from the ground up. Most likely these will be built with SUSE Studio and be based on openSUSE Linux 12.2 32-bit version.</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench 1.0.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2012/11/25/computational-journalism-publishers-workbench-1-dot-0-0-released/"/>
+    <updated>2012-11-25T19:12:00-08:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2012/11/25/computational-journalism-publishers-workbench-1-dot-0-0-released</id>
+    <content type="html"><![CDATA[<h2>Quick Start</h2>
+
+<ul>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md">Quick Start - Generic Linux on VMware Player</a></li>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md">Quick Start - Fedora 17 / 18 Beta on VirtualBox</a></li>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md">Quick Start - Linux Mint 14 on VirtualBox</a></li>
+</ul>
+
+
+<h2>What&#8217;s New?</h2>
+
+<!-- more -->
+
+
+<ol>
+<li>Now builds on the <a href="http://distrowatch.com/dwres.php?resource=popularity">five most popular Linux distributions</a>
+
+<ul>
+<li><a href="http://linuxmint.com/">Linux Mint 13+</a></li>
+<li><a href="http://www.ubuntu.com/">Ubuntu 12.04+</a></li>
+<li><a href="http://www.mageia.org/en/">Mageia 2+</a></li>
+<li><a href="https://fedoraproject.org/">Fedora 17+</a></li>
+<li><a href="http://www.opensuse.org/en/">openSUSE 12.2+</a></li>
+</ul>
+</li>
+<li>Now works with all major Linux desktops
+
+<ul>
+<li><a href="http://www.gnome.org/">GNOME</a></li>
+<li><a href="http://www.kde.org/">KDE</a></li>
+<li><a href="http://www.xfce.org/">XFCE</a></li>
+<li><a href="http://lxde.org/">LXDE</a></li>
+<li><a href="http://mate-desktop.org/">MATE</a></li>
+<li><a href="http://cinnamon.linuxmint.com/">Cinnamon</a></li>
+<li><a href="http://unity.ubuntu.com/">Unity</a></li>
+</ul>
+</li>
+<li>Runs on bare metal or as a guest virtual machine with VirtualBox or Virtual Machine Manager / qemu-kvm hosts</li>
+<li>New applications:
+
+<ul>
+<li>Redis 2.6 with Perl, Ruby and R client libraries</li>
+<li>Perl, Ruby and R Twitter API libraries</li>
+<li><a href="http://www.rstudio.com/shiny/">Shiny</a> R application framework</li>
+<li><a href="https://github.com/ggobi/cranvas/wiki">cranvas</a> R exploratory data analysis framework</li>
+<li>Linux profiling tools and <a href="http://sourceforge.net/projects/pdq-qnm-pkg/">Pretty Damn Quick (PDQ)</a> Queueing Model Package</li>
+</ul>
+</li>
+</ol>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Computational Journalism Publishers Workbench Version 0.3.0 Released]]></title>
+    <link href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/2012/08/19/computational-journalism-publishers-workbench-version-0-3-0-released/
+/"/>
+    <updated>2012-08-19T00:00:00-07:00</updated>
+    <id>http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/2012/08/19/computational-journalism-publishers-workbench-version-0-3-0-released/computational-journalism-publishers-workbench-version-0-3-0-released</id>
+    <content type="html"><![CDATA[<h1></h1>
+
+<p>I’ve just released version 0.3.0 of the <strong><em><a href="http://znmeb.github.com/Computational-Journalism-Publishers-Workbench/">Computational Journalism Publishers Workbench</a></em></strong>. This is mostly bug fixes and more packages are now installed from upstream binary or source rather than from the distributions. The only new package is the JabRef bibliography tool. And, as I noted <strong><em><a href="http://borasky-research.net/2012/08/17/project-road-map/">yesterday</a></em>, </strong><strong><em>I am no longer releasing any Twitter tools as open source.</em></strong></p>
+
+<p>The short-term focus of the workbench is on tools for the creation of web pages and eBooks from <strong><em>clean</em></strong> data. There are many fine tools for acquiring and cleaning data, both open source and proprietary. I’ve kept Google Refine and the PDF extraction tools in the workbench because people ask for them, but they aren’t something I use on a regular basis. Neither are scrapers, for that matter.</p>
+
+<p>Some really important stories have come from scrapers and PDF extraction, to be sure. But the kinds of stories that interest me most – finance, economics and the environment – come with copious cleaned datasets. If you’re interested in scrapers, I highly recommend <a href="https://leanpub.com/scrapingforjournalists"><strong><em>Scraping for Journalists</em></strong></a> by <a href="https://leanpub.com/u/paulbradshaw"><strong><em>Paul Bradshaw</em></strong></a>. Paul is a Professor of journalism in the UK and runs the <a href="http://onlinejournalismblog.com/"><strong><em>Online Journalism Blog</em></strong></a>. And he’s on Twitter, of course – <a href="https://twitter.com/paulbradshaw"><strong><em>@paulbradshaw</em></strong></a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

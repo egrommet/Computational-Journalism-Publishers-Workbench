@@ -1,0 +1,309 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Computational Journalism Publishers Workbench 1.5.0 Released - Computational Journalism Publishers Workbench</title>
+  <meta name="author" content="M. Edward (Ed) Borasky">
+
+  
+  <meta name="description" content="Quick Start Quick Start - Fedora 18 or Linux Mint 14 on VMware Player
+Quick Start - Fedora 18
+Quick Start - Linux Mint 14 What&#8217;s New? The &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/01/18/computational-journalism-publishers-workbench-1-dot-5-0-released">
+  <link href="/Computational-Journalism-Publishers-Workbench/favicon.png" rel="icon">
+  <link href="/Computational-Journalism-Publishers-Workbench/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/Computational-Journalism-Publishers-Workbench/atom.xml" rel="alternate" title="Computational Journalism Publishers Workbench" type="application/atom+xml">
+  <script src="/Computational-Journalism-Publishers-Workbench/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/Computational-Journalism-Publishers-Workbench/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-38597418-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/Computational-Journalism-Publishers-Workbench/">Computational Journalism Publishers Workbench</a></h1>
+  
+    <h2>An open source workbench for independent computational journalists</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/Computational-Journalism-Publishers-Workbench/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:znmeb.github.io/Computational-Journalism-Publishers-Workbench" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/Computational-Journalism-Publishers-Workbench/">Blog</a></li>
+  <li><a href="/Computational-Journalism-Publishers-Workbench/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Computational Journalism Publishers Workbench 1.5.0 Released</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-18T15:52:00-08:00" pubdate data-updated="true">Jan 18<span>th</span>, 2013</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><h2>Quick Start</h2>
+
+<ul>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedGenericVMware.md">Quick Start - Fedora 18 or Linux Mint 14 on VMware Player</a></li>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedFedora.md">Quick Start - Fedora 18</a></li>
+<li><a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/GettingStartedLinuxMint.md">Quick Start - Linux Mint 14</a></li>
+</ul>
+
+
+<h2>What&#8217;s New?</h2>
+
+<!-- more -->
+
+
+<ol>
+<li><strong><em>The preferred hosting for virtual machines is now VMware Player or VMware Workstation.</em></strong> I haven&#8217;t done any comprehensive performance testing, but for the Redis benchmarks in <a href="https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Redis-Source">https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/tree/master/Redis-Source</a>, VMware was <strong><em>much</em></strong> faster than VirtualBox.</li>
+<li>I&#8217;ve dropped support for Ubuntu, Mageia, and openSUSE:
+
+<ul>
+<li>The testing time was too much for me.</li>
+<li>Ubuntu 12.10 has some issues with the default Unity desktop in virtual machines.</li>
+<li>Mageia 2 has issues with the display as a Virtual Machine Manager / GNOME Boxes guest.</li>
+<li>openSUSE 12.2 is missing some packages that I added for this release.</li>
+</ul>
+</li>
+<li>I&#8217;ve added the <a href="http://padre.perlide.org/">Padre Perl IDE</a>.</li>
+<li><a href="http://www.postgresql.org/">PostgreSQL</a> is now installed as part of the platform.</li>
+<li>I&#8217;ve added <a href="http://postgis.refractions.net/">PostGIS</a> to the &#8216;Spatial&#8217; task view.</li>
+<li>I&#8217;ve added the <a href="http://nltk.org/">Python Natural Language Processing Toolkit (NLTK)</a> to the &#8216;Natural Language Processing&#8217; task view.</li>
+<li>I&#8217;ve added R utilities for dealing with semantic web RDF data to the &#8216;Natural Language Processing&#8217; task view.</li>
+<li>I&#8217;ve added a new &#8220;pseudo-task view&#8221; for social network / graph analysis. In addition to R packages, this option contains the <a href="http://networkx.lanl.gov/index.html">Python NetworkX</a> package.</li>
+</ol>
+
+
+<h2>Road Map</h2>
+
+<ol>
+<li>With the release of Fedora 18, I consider this project &#8220;finished&#8221;. I&#8217;ll continue to support Linux Mint 14 and fix bugs, but I&#8217;m focusing on Fedora 18 and 19 for the remainder of 2013. As I noted above, I was spending a lot of time testing on openSUSE, Ubuntu and Mageia and there wasn&#8217;t any real payoff. I will be looking at openSUSE 12.3, which is now in beta, but unless some critical packages show up in it, I won&#8217;t be pursuing it further.</li>
+<li>The Perl Net::Twitter API package is now in beta test with the Twitter 1.1 API. I&#8217;ll be testing it in the near future and will push out a release once I have some demo code for it.</li>
+<li>I am going ahead with the plan for a new project based on Fedora 18. It will be a <a href="http://padre.perlide.org/">Fedora Remix</a> and will contain most of the software in release 1.5.0. I&#8217;m pretty sure I&#8217;ll be dropping Maqetta and Google Refine, and I&#8217;m pretty sure I&#8217;ll be adding Node.js and Django, but otherwise it will look a lot like this release.</li>
+</ol>
+
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">M. Edward (Ed) Borasky</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-01-18T15:52:00-08:00" pubdate data-updated="true">Jan 18<span>th</span>, 2013</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/01/18/computational-journalism-publishers-workbench-1-dot-5-0-released/" data-via="znmeb" data-counturl="http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/01/18/computational-journalism-publishers-workbench-1-dot-5-0-released/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/Computational-Journalism-Publishers-Workbench/blog/2013/01/02/computational-journalism-publishers-workbench-1-dot-2-0-released/" title="Previous Post: Computational Journalism Publishers Workbench 1.2.0 Released">&laquo; Computational Journalism Publishers Workbench 1.2.0 Released</a>
+      
+      
+        <a class="basic-alignment right" href="/Computational-Journalism-Publishers-Workbench/blog/2013/01/28/compjournostick-0-dot-9-0-released/" title="Next Post: CompJournoStick 0.9.0 Released">CompJournoStick 0.9.0 Released &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/Computational-Journalism-Publishers-Workbench/blog/2013/04/06/compjournwin8pro-0-dot-0-8-released/">CompJournWin8Pro 0.0.8 Released</a>
+      </li>
+    
+      <li class="post">
+        <a href="/Computational-Journalism-Publishers-Workbench/blog/2013/04/05/windows-port-status-update/">CompJournWin8Pro 0.0.7 Released</a>
+      </li>
+    
+      <li class="post">
+        <a href="/Computational-Journalism-Publishers-Workbench/blog/2013/04/03/it-has-begun-the-windows-port/">It Has Begun - the Windows Port</a>
+      </li>
+    
+      <li class="post">
+        <a href="/Computational-Journalism-Publishers-Workbench/blog/2013/04/01/computational-journalism-publishers-workbench-2-dot-8-0-released/">Computational Journalism Publishers Workbench 2.8.0 Released</a>
+      </li>
+    
+      <li class="post">
+        <a href="/Computational-Journalism-Publishers-Workbench/blog/2013/03/25/computational-journalism-publishers-workbench-2-dot-6-0-why/">Computational Journalism Publishers Workbench 2.7.0 "Why, is one missing?" Released</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section class="googleplus">
+  <h1>
+    <a href="https://plus.google.com/113666002925425704321?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - M. Edward (Ed) Borasky -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'compjournobench';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/01/18/computational-journalism-publishers-workbench-1-dot-5-0-released/';
+        var disqus_url = 'http://znmeb.github.io/Computational-Journalism-Publishers-Workbench/blog/2013/01/18/computational-journalism-publishers-workbench-1-dot-5-0-released/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
