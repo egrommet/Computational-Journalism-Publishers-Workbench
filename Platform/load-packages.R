@@ -9,8 +9,25 @@
 #
 
 source('../common/Rprofile')
+update.packages(ask=FALSE)
+library(ctv)
+update.views(
+  c(
+    'Graphics',
+    'ReproducibleResearch',
+    'Spatial'
+  ),
+  dependencies=TRUE
+)
+warnings()
 install.packages(
   c(
+    'RSAGA',
+    'acs',
+    'UScensus2000blkgrp',
+    'UScensus2000cdp',
+    'UScensus2000tract',
+    'UScensus2010',
     'ggplot2',
     'ggmap',
     'OpenStreetMap',
@@ -38,17 +55,6 @@ install.packages(
     'googlePublicData',
     'googleVis',
     'gooJSON'
-  ),
-  dependencies=TRUE
-)
-warnings()
-
-library(ctv)
-update.views(
-  c(
-    'Graphics',
-    'ReproducibleResearch',
-    'Spatial'
   ),
   dependencies=TRUE
 )
