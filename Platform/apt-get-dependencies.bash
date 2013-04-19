@@ -121,3 +121,17 @@ sudo -H apt-get install -y \
   libsaga \
   libsaga-dev \
   saga
+
+# Natural Language Processing
+sudo -H apt-get install -y \
+  subversion \
+  libraptor2-doc \
+  libraptor2-dev \
+  raptor2-utils \
+  python-nltk \
+  wordnet \
+  wordnet-base \
+  wordnet-dev \
+  wordnet-grind \
+  wordnet-gui \
+  wordnet-sense-index

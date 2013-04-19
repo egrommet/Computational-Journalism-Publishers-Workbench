@@ -60,7 +60,9 @@ install.packages(
     'filehashSQLite',
     'googlePublicData',
     'googleVis',
-    'gooJSON'
+    'gooJSON',
+    'RDF',
+    'rrdf'
   ),
   dependencies=NA
 )
