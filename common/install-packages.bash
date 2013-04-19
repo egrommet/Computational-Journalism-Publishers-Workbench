@@ -10,4 +10,4 @@
 #
 
 source ~/.bash_profile
-sudo ../common/root-install-packages.bash
+/usr/bin/time sudo ../common/root-install-packages.bash

@@ -11,8 +11,8 @@
 
 if [ -e "/usr/bin/apt-get" ]
 then
-  ./apt-get-$1.bash
+  /usr/bin/time ./apt-get-$1.bash
 elif [ -e "/usr/bin/yum" ]
 then
-  ./yum-$1.bash
+  /usr/bin/time ./yum-$1.bash
 fi
