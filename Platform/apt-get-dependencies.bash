@@ -89,3 +89,35 @@ sudo -H apt-get install -y \
   calibre \
   lyx \
   sigil
+
+# Spatial
+sudo -H apt-get install -y \
+  qlandkartegt \
+  libgeos-dev \
+  libgeos-doc \
+  grass \
+  grass-dev \
+  grass-dev-doc \
+  grass-doc \
+  grass-gui \
+  libnetcdf-dev \
+  netcdf-bin \
+  netcdf-doc \
+  osm2pgsql \
+  postgis \
+  imposm \
+  gpx2shp \
+  libqgis-dev \
+  qgis \
+  qgis-api-doc \
+  qgis-mapserver \
+  qgis-plugin-grass \
+  qgis-providers \
+  librasterlite-dev \
+  libspatialite-dev \
+  rasterlite-bin \
+  spatialite-bin \
+  spatialite-gui \
+  libsaga \
+  libsaga-dev \
+  saga

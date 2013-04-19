@@ -84,3 +84,21 @@ sudo -H yum install -y \
   sigil \
   lyx \
   calibre
+
+# Spatial
+sudo -H yum install -y \
+  geos \
+  geos-devel \
+  grass \
+  netcdf-devel \
+  osm2pgsql \
+  pgRouting \
+  postgis \
+  postgis-docs \
+  postgis-utils \
+  qgis \
+  qgis-grass \
+  spatialite-gui \
+  spatialite-tools \
+  saga \
+  saga-devel

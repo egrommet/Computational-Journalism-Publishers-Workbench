@@ -13,6 +13,8 @@ install.packages(
   c(
     'ggplot2',
     'ggmap',
+    'OpenStreetMap',
+    'plotGoogleMaps',
     'Rcmdr',
     'RcmdrPlugin.temis',
     'tm.plugin.dc',
@@ -45,7 +47,8 @@ library(ctv)
 update.views(
   c(
     'Graphics',
-    'ReproducibleResearch'
+    'ReproducibleResearch',
+    'Spatial'
   ),
   dependencies=TRUE
 )
