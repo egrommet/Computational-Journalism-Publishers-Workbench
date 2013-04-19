@@ -102,3 +102,17 @@ sudo -H yum install -y \
   spatialite-tools \
   saga \
   saga-devel
+
+# Natural Language Processing
+sudo -H yum install -y \
+  subversion \
+  raptor2 \
+  raptor2-devel \
+  python-nltk \
+  wordnet \
+  wordnet-devel
+
+# WordNet environment variable
+sudo -H cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
+source /etc/profile
+set|grep WNHOME
