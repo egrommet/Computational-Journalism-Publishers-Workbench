@@ -18,6 +18,6 @@ install.packages(
     '--with-jags-lib=/usr/local/lib',
     '--with-jags-modules=/usr/local/lib/JAGS/modules-3'
   ),
-  dependencies=TRUE
+  dependencies=NA
 )
 warnings()

@@ -13,6 +13,6 @@ install.packages(
   c(
     'RProtoBuf'
   ),
-  dependencies=TRUE
+  dependencies=NA
 )
 warnings()
