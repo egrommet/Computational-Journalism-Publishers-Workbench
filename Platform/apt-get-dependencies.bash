@@ -135,3 +135,8 @@ sudo -H apt-get install -y \
   wordnet-grind \
   wordnet-gui \
   wordnet-sense-index
+
+# Social Network Analysis
+sudo -H apt-get install -y \
+  python-networkx \
+  python-networkx-doc

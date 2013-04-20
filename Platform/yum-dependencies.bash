@@ -112,6 +112,11 @@ sudo -H yum install -y \
   wordnet \
   wordnet-devel
 
+# Social Network Analysis
+sudo -H yum install -y \
+  python-networkx \
+  python-networkx-doc
+
 # WordNet environment variable
 sudo -H cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
 source /etc/profile

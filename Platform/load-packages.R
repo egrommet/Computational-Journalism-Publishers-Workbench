@@ -66,7 +66,17 @@ install.packages(
     'googleVis',
     'gooJSON',
     'RDF',
-    'rrdf'
+    'rrdf',
+    'egonet',
+    'snort',
+    'igraph',
+    'latentnet',
+    'giRaph',
+    'rgexf',
+    'sna',
+    'statnet',
+    'statnet.common',
+    'Bergm'
   ),
   dependencies=NA
 )
