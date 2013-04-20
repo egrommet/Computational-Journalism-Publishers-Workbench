@@ -21,7 +21,6 @@ pushd Platform
 ./install-dependencies.bash 2>&1 | tee dependencies.log
 ./install-platform.bash
 popd
-exit
 
 echo 'Rebooting in 15 seconds!'
 sleep 15
