@@ -9,19 +9,9 @@
 #
 
 source('../common/Rprofile')
-library(ctv)
-update.views(
-  c(
-    'Graphics',
-    'ReproducibleResearch',
-    'Spatial',
-    'NaturalLanguageProcessing'
-  ),
-  dependencies=NA
-)
-warnings()
 install.packages(
   c(
+    'ctv',
     'Rcmdr',
     'RcmdrPlugin.temis',
     'tm.plugin.dc',
@@ -32,6 +22,18 @@ install.packages(
   ),
   dependencies=TRUE
 )
+library(ctv)
+update.views(
+  c(
+    'Graphics',
+    'ReproducibleResearch',
+    'Spatial',
+    'NaturalLanguageProcessing'
+  ),
+  coreOnly=FALSE,
+  dependencies=NA
+)
+warnings()
 install.packages(
   c(
     'RSAGA',
@@ -44,15 +46,17 @@ install.packages(
     'ggmap',
     'OpenStreetMap',
     'plotGoogleMaps',
+    'plotKML',
+    'R2G2',
+    'RgoogleMaps',
+    'RWeather',
     'twitteR',
     'streamR',
-    'rattle',
     'reshapeGUI',
     'devtools',
     'shiny',
     'knitr',
     'markdown',
-    'ctv',
     'RPostgreSQL',
     'RSQLite',
     'RSQLite.extfuns',
