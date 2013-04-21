@@ -145,4 +145,9 @@ sudo -H apt-get install -y \
 sudo -H apt-get install -y \
   texlive-fonts-extra \
   libtiff5-dev \
+  libreadline-dev \
+  tcl-dev \
+  tk-dev \
+  libjpeg-dev \
+  liblzma-dev \
   texinfo
