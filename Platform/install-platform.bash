@@ -11,6 +11,8 @@
 
 source ~/.bash_profile
 
+# R from source
+sudo -H ./install-R-source.bash 2>&1 | tee R-source.log
 sudo -H mkdir -p `R RHOME`/site-library # make a place for our stuff
 cp ../common/Rprofile ~/.Rprofile
 
