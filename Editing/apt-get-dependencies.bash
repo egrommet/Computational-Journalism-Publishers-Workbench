@@ -61,4 +61,6 @@ sudo -H apt-get install -y \
   synfig \
   ufraw \
   ufraw-batch \
-  texlive-xetex
+  texlive-xetex \
+  libfftw3-dev \
+  libsndfile1-dev

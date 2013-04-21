@@ -23,6 +23,10 @@
 * [OCAL Open Clip Art Library](https://openclipart.org/)
 * [PiTiVi Video Editor](http://www.pitivi.org/)
 * [Scribus Desktop Publishing](http://scribus.net/canvas/Scribus)
+* [seewave: Time wave analysis and graphical representation](http://cran.r-project.org/web/packages/seewave/index.html)
+* [tuneR: Analysis of music and speech](http://cran.r-project.org/web/packages/tuneR/index.html)
+* [signal: Signal processing](http://cran.r-project.org/web/packages/signal/index.html)
+* [audio: Audio Interface for R](http://cran.r-project.org/web/packages/audio/index.html)
 
 ## Suggested Reading
 * [Crafting Digital Media, by Daniel James](http://j.mp/12TTnxM)
