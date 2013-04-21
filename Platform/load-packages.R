@@ -17,8 +17,7 @@ install.packages(
     'tm.plugin.dc',
     'tm.plugin.mail',
     'tm.plugin.webmining',
-    'tm.plugin.sentiment',
-    'rattle'
+    'tm.plugin.sentiment'
   ),
   dependencies=TRUE
 )
@@ -36,6 +35,7 @@ update.views(
 warnings()
 install.packages(
   c(
+    'rattle',
     'RSAGA',
     'acs',
     'UScensus2000blkgrp',
