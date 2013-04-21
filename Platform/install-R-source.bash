@@ -50,6 +50,7 @@ export R_BROWSER=`which firefox`
   --with-x
 /usr/bin/time make
 make install
+echo `R RHOME`/lib > /etc/ld.so.conf.d/R.conf
 ldconfig
 popd
 
