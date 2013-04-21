@@ -34,13 +34,8 @@ sudo -H apt-get install -y \
   make \
   dkms
 
-# R and GGobi from distro!
+# GGobi from distro!
 sudo -H apt-get install -y \
-  r-base \
-  r-base-core \
-  r-base-dev \
-  r-base-html \
-  r-recommended \
   ggobi
 
 # Python package tools for Dexy
