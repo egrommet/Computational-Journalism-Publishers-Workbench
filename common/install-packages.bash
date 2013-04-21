@@ -10,5 +10,4 @@
 #
 
 source ~/.bash_profile
-sudo -H R CMD javareconf
 /usr/bin/time sudo -H ../common/root-install-packages.bash

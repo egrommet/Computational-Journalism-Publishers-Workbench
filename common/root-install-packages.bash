@@ -10,4 +10,6 @@
 #
 
 ../common/authenticate.bash "Installing R packages in site library"
-/usr/bin/time R --no-save --no-restore < load-packages.R
+export PATH=${PATH}:/usr/local/bin
+R CMD javareconf
+R --no-save --no-restore < load-packages.R
