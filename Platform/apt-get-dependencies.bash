@@ -150,4 +150,5 @@ sudo -H apt-get install -y \
   tk-dev \
   libjpeg-dev \
   liblzma-dev \
+  libbz2-dev \
   texinfo
