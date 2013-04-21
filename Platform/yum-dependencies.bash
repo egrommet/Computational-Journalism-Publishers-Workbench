@@ -117,6 +117,19 @@ sudo -H yum install -y \
   python-networkx \
   python-networkx-doc
 
+# Building R from source
+sudo -H yum install -y \
+  readline-devel \
+  tcl-devel \
+  tk-devel \
+  texlive-collection-fontsextra \
+  libtiff-devel \
+  libjpeg-turbo-devel \
+  openjpeg-devel \
+  pango-devel \
+  cairo-devel \
+  xz-devel
+
 # WordNet environment variable
 sudo -H cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
 source /etc/profile

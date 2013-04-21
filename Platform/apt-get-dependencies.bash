@@ -140,3 +140,9 @@ sudo -H apt-get install -y \
 sudo -H apt-get install -y \
   python-networkx \
   python-networkx-doc
+
+# Building R from source
+sudo -H apt-get install -y \
+  texlive-fonts-extra \
+  libtiff5-dev \
+  texinfo
