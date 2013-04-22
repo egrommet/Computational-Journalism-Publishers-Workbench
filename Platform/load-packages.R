@@ -11,6 +11,7 @@
 source('../common/Rprofile')
 install.packages(
   c(
+    'rattle',
     'ctv',
     'Rcmdr',
     'RcmdrPlugin.temis',
@@ -35,7 +36,6 @@ update.views(
 warnings()
 install.packages(
   c(
-    'rattle',
     'RSAGA',
     'acs',
     'UScensus2000blkgrp',
