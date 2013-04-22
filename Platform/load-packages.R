@@ -36,6 +36,8 @@ update.views(
 warnings()
 install.packages(
   c(
+    'foreign',
+    'memisc',
     'RSAGA',
     'acs',
     'UScensus2000blkgrp',
