@@ -9,6 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-source ~/.bash_profile
 ../common/authenticate.bash "Installing 'rjags' in site library"
-/usr/bin/time R --no-save --no-restore < load-rjags.R
+export PATH=${PATH}:/usr/local/bin
+R --no-save --no-restore < load-rjags.R
