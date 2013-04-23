@@ -9,6 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-echo 'deb http://cran.fhcrc.org/bin/linux/ubuntu quantal/' >> /etc/apt/sources.list
+echo 'deb http://cran.fhcrc.org/bin/linux/ubuntu precise/' >> /etc/apt/sources.list
 apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 apt-get update
