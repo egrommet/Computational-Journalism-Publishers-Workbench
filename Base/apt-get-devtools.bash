@@ -22,6 +22,10 @@ sudo -H apt-get install -y \
   libcurl4-gnutls-dev \
   linux-headers-generic \
   linux-image-generic \
+  gcc \
+  g++ \
+  gfortran \
+  make \
   openjdk-7-jdk
 sudo -H apt-file update
 
