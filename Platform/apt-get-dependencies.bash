@@ -144,7 +144,7 @@ sudo -H apt-get install -y \
 # Building R from source
 sudo -H apt-get install -y \
   texlive-fonts-extra \
-  libtiff5-dev \
+  libtiff4-dev \
   libreadline-dev \
   tcl-dev \
   tk-dev \
