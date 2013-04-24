@@ -128,7 +128,8 @@ sudo -H yum install -y \
   openjpeg-devel \
   pango-devel \
   cairo-devel \
-  xz-devel
+  xz-devel \
+  bzip2-devel
 
 # WordNet environment variable
 sudo -H cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
