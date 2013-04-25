@@ -30,7 +30,6 @@ sudo -H apt-get install -y \
   gimp-resynthesizer \
   gimp-ufraw \
   gmic \
-  gmic-zart \
   gstreamer0.10-packagekit \
   gthumb \
   gtk-recordmydesktop \
