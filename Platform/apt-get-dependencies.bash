@@ -93,15 +93,20 @@ sudo -H apt-get install -y \
   sigil
 
 # Spatial
+sudo -H add-apt-repository 'deb http://qgis.org/debian-nightly precise main'
+sudo -H add-apt-repository 'deb-src http://qgis.org/debian-nightly precise main'
+sudo -H /usr/bin/gpg -–recv-keys 1F9ADD375CA44993
+sudo -H /usr/bin/gpg -–export -–armor 1F9ADD375CA44993 \
+  | sudo -H /usr/bin/apt-key add -
+sudo -H apt-get update
 sudo -H apt-get install -y \
+  --allow-unauthenticated \
   qlandkartegt \
   libgeos-dev \
   libgeos-doc \
   grass \
   grass-dev \
-  grass-dev-doc \
   grass-doc \
-  grass-gui \
   libnetcdf-dev \
   netcdf-bin \
   netcdf-doc \
