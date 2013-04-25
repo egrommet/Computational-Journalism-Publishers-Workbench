@@ -58,7 +58,6 @@ sudo -H apt-get install -y \
   scribus-doc \
   shotwell \
   sozi \
-  synfig \
   ufraw \
   ufraw-batch \
   texlive-xetex

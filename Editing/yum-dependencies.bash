@@ -63,7 +63,6 @@ sudo -H yum install -y \
   rawtherapee \
   scribus \
   shotwell \
-  synfig \
   ufraw \
   ufraw-gimp \
   xsane-gimp
