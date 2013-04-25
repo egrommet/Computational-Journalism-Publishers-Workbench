@@ -22,7 +22,9 @@ sudo -H yum install -y \
   mpfr-devel \
   atlas-devel \
   lapack-devel \
-  boost-devel
+  boost-devel \
+  fftw-devel \
+  libsndfile-devel
 
 # GUI tools
 sudo -H yum install -y \

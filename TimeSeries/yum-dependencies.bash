@@ -9,8 +9,5 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo -H yum install -y \
-  fftw-devel
-
 sudo -H ./install-jags.bash
 sudo -H ./install-rjags.bash

@@ -22,7 +22,9 @@ sudo -H apt-get install -y \
   libmpfr-dev \
   libatlas-dev \
   liblapack-dev \
-  libboost-all-dev
+  libboost-all-dev \
+  libfftw3-dev \
+  libsndfile1-dev
 
 # GUI tools
 sudo -H apt-get install -y \

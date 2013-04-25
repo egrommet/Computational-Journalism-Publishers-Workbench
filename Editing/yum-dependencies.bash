@@ -66,6 +66,4 @@ sudo -H yum install -y \
   synfig \
   ufraw \
   ufraw-gimp \
-  xsane-gimp \
-  fftw-devel \
-  libsndfile-devel
+  xsane-gimp
