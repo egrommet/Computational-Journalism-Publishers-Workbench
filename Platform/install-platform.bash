@@ -16,8 +16,8 @@ sudo -H ./install-R-source.bash 2>&1 | tee R-source.log
 sudo -H mkdir -p `R RHOME`/site-library # make a place for our stuff
 cp ../common/Rprofile ~/.Rprofile
 
-# 'maps' is singled out because it doesn't compile on 'Precise Pangolin'!
-sudo -H ./install-maps.bash 2>&1 | tee maps.log
+# Packages that crash Precise gcc with -flto
+sudo -H ./install-nolto.bash 2>&1 | tee nolto.log
 
 ../common/authenticate.bash "Installing platform R packages"
 ./install-packages.bash 2>&1 | tee packages.log
