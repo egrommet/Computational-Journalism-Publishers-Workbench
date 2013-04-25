@@ -14,7 +14,7 @@ mkdir -p ~/.R
 cp `R RHOME`/etc/Makeconf ~/.R/Makevars
 sed -i 's/^LTO =.*$/LTO = /' ~/.R/Makevars
 PRECISE=`uname -v|grep precise|wc -l`
-if [ $PRECISE > "0" ]
+if [ $PRECISE -gt 0 ]
 then
   echo "Installing on 'precise' - engaging 'maps' workaround"
 else
