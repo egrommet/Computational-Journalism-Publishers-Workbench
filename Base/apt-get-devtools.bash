@@ -26,7 +26,9 @@ sudo -H apt-get install -y \
   g++ \
   gfortran \
   make \
-  openjdk-7-jdk
+  default-jdk \
+  default-jre \
+  icedtea-plugin \
 sudo -H apt-file update
 
 # Needed to install guest tools on virtual machines
