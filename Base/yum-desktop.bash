@@ -25,6 +25,4 @@ sudo -H yum install -y \
   vim-enhanced \
   powertop \
   kernel-tools \
-  gitk \
-  git-gui \
   perl-Padre
