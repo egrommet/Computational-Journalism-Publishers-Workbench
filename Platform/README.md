@@ -2,12 +2,6 @@
 
 ## Usage
 
-1. Open a terminal and type
-
-	```
-	./install-platform.bash
-	```
-1. This will run quite a while. It is downloading many Linux and R software pacakges, RStudio, and some fairly large helper tools and compiling much of it from source. When the run completes, examine file 'packages.log' for errors. The 'Rmpi' package currently fails to build, but there shouldn't be any other packages failing with the 'ERROR:' designation. You can ignore this warning: 'In install.packages(c("devtools", "shiny", "ggplot2",  ... : installation of package ‘Rmpi’ had non-zero exit status'
 1. To configure PostgreSQL, type
 
 	```
