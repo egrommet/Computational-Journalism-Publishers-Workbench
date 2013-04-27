@@ -69,4 +69,4 @@ I'm using the [Github issue tracker](https://github.com/znmeb/Computational-Jour
 ## Disclosure
 * The suggested readings are Amazon Affiliate links.
 
-## [The Rest of the Story](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/Kipling.md)
+## [The Rest of the Story](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki/The-Rest-of-the-Story)
