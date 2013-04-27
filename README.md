@@ -1,9 +1,9 @@
 ## Latest release: 2.8.0, 2013-04-01
 
 ### Cutesy release code name "You don't - you get down off a goose!"
-## [Quick Start](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/QuickStart.md)
-## [What's New?](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/WhatsNew.md)
-## [Road Map](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/blob/master/RoadMap.md)
+## [Quick Start](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki/Quick-Start)
+## [What's New?](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki/What%27s-New)
+## [Road Map](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki/Road-Map)
 
 ## Why?
 
