@@ -28,7 +28,7 @@ sudo -H apt-get install -y \
   make \
   default-jdk \
   default-jre \
-  icedtea-plugin \
+  icedtea-plugin
 sudo -H apt-file update
 
 # Needed to install guest tools on virtual machines
