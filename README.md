@@ -60,7 +60,7 @@ The components of the Computational Journalism Publishers Workbench are proven t
 * ***Functionality that would cost thousands of dollars in commercial licenses is available for the cost of a download!***
 
 ## Issue tracker
-I'm using the [Github issue tracker](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues) on this project, although you can also send me a message if you're a Github member.
+I'm using the [Github issue tracker](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new) on this project, although you can also send me a message if you're a Github member.
 
 ## Licenses
 * Code: [Affero GNU Public License, version 3](http://www.gnu.org/licenses/agpl-3.0.txt)
