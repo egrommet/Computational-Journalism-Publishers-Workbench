@@ -11,5 +11,5 @@
 1. [Open an issue on Github](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new) if you have any questions or problems.
 
 ## Suggested Reading
-[Redis in Action by Josiah L. Carlson](http://j.mp/YzIEJE)
-[Seven Databases in Seven Weeks by Eric Redmond and Jim R. Wilson](http://j.mp/Xycr5A)
+* [Redis in Action by Josiah L. Carlson](http://j.mp/YzIEJE)
+* [Seven Databases in Seven Weeks by Eric Redmond and Jim R. Wilson](http://j.mp/Xycr5A)
