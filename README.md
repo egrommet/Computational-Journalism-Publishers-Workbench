@@ -1,6 +1,6 @@
-## Latest release: 2.8.0, 2013-04-01
+## Latest release: 2.9.0, 2013-04-29
 
-### Cutesy release code name "You don't - you get down off a goose!"
+### Cutesy release code name "But Officer! I was only driving one way!"
 ## [Quick Start](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki/Quick-Start)
 ## [What's New?](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki/What%27s-New)
 ## [Road Map](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki/Road-Map)
