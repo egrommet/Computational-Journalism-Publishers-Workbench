@@ -24,16 +24,11 @@ pushd /usr/local/src
   pushd rstudio-*
 
     pushd dependencies/common
-      for i in gwt dictionaries mathjax
+      for i in gwt dictionaries mathjax boost
       do
         patch -b ./install-$i ${HERE}/install-$i.patch
         /usr/bin/time ./install-$i
       done
-      if [ -e "/usr/bin/apt-get" ]
-      then
-        patch -b ./install-boost ${HERE}/install-boost.patch
-        /usr/bin/time ./install-boost
-      fi
     popd
 
     patch -b src/gwt/build.xml ${HERE}/build.xml.patch
