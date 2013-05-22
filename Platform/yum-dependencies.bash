@@ -143,6 +143,27 @@ sudo -H yum install -y \
   ufraw-gimp \
   xsane-gimp
 
+# LibreOffice
+sudo -H yum install -y \
+  libreoffice-emailmerge \
+  libreoffice-graphicfilter \
+  libreoffice-headless \
+  libreoffice-impress \
+  libreoffice-langpack-en \
+  libreoffice-math \
+  libreoffice-nlpsolver \
+  libreoffice-ogltrans \
+  libreoffice-opensymbol-fonts \
+  libreoffice-pdfimport \
+  libreoffice-postgresql \
+  libreoffice-presentation-minimizer \
+  libreoffice-presenter-screen \
+  libreoffice-report-builder \
+  libreoffice-wiki-publisher \
+  libreoffice-writer2latex \
+  libreoffice-writer2xhtml \
+  libreoffice-xsltfilter
+
 # Spatial
 sudo -H yum install -y \
   geos \

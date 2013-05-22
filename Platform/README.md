@@ -73,6 +73,7 @@
 * [tuneR: Analysis of music and speech](http://cran.r-project.org/web/packages/tuneR/index.html)
 * [signal: Signal processing](http://cran.r-project.org/web/packages/signal/index.html)
 * [audio: Audio Interface for R](http://cran.r-project.org/web/packages/audio/index.html)
+* [LibreOffice Home Page](https://www.libreoffice.org/#0)
 
 ## Suggested Reading
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)
