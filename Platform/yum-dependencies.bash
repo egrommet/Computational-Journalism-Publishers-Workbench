@@ -131,6 +131,7 @@ sudo -H yum install -y \
   pango-devel \
   cairo-devel \
   xz-devel \
+  texinfo \
   bzip2-devel
 
 # WordNet environment variable
