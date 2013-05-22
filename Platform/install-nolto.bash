@@ -11,11 +11,11 @@
 
 # ugly workaround for -flto crashes on Precise Pangolin
 mkdir -p ~/.R
+export PATH=${PATH}:/usr/local/bin
 cp `R RHOME`/etc/Makeconf ~/.R/Makevars
 sed -i 's/^LTO =.*$/LTO = /' ~/.R/Makevars
 
 ../common/authenticate.bash "Installing packages without 'lto' in site library"
-export PATH=${PATH}:/usr/local/bin
 R --no-save --no-restore < load-nolto.R
 
 # remove workaround!
