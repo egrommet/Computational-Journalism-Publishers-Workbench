@@ -78,7 +78,11 @@ install.packages(
     'sna',
     'statnet',
     'statnet.common',
-    'Bergm'
+    'Bergm',
+    'seewave',
+    'tuneR',
+    'signal',
+    'audio'
   ),
   dependencies=NA
 )

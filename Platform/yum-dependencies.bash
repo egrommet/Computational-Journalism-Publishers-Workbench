@@ -85,7 +85,63 @@ sudo -H python-pip install dexy
 sudo -H yum install -y \
   sigil \
   lyx \
-  calibre
+  calibre \
+  alsa-plugins-pulseaudio \
+  alsa-utils \
+  audacity \
+  audacity-manual \
+  blender \
+  bluefish \
+  cinepaint \
+  dia \
+  dia-gnomeDIAicons \
+  entangle \
+  fontforge \
+  fontmatrix \
+  freemind \
+  gimp \
+  gimp-data-extras \
+  gimp-devel-tools \
+  gimp-fourier-plugin \
+  gimp-help \
+  gimp-help-browser \
+  gimp-lqr-plugin \
+  gimp-resynthesizer \
+  GREYCstoration \
+  GREYCstoration-gimp \
+  gstreamer-plugins-bad-free \
+  gstreamer-plugins-espeak \
+  gstreamer-plugins-good \
+  gthumb \
+  gtk-recordmydesktop \
+  hugin \
+  ImageMagick \
+  inkscape \
+  inkscape-docs \
+  inkscape-sozi \
+  inkscape-view \
+  intltool \
+  istanbul \
+  jabref \
+  jing \
+  mypaint \
+  nautilus-image-converter \
+  openclipart \
+  optipng \
+  PackageKit-gstreamer-plugin \
+  pinta \
+  pitivi \
+  pngcrush \
+  postr \
+  pulseaudio \
+  pulseaudio-module-x11 \
+  pulseaudio-utils \
+  rawtherapee \
+  scribus \
+  shotwell \
+  ufraw \
+  ufraw-gimp \
+  xsane-gimp
 
 # Spatial
 sudo -H yum install -y \
