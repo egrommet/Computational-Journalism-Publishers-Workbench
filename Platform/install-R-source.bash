@@ -9,17 +9,16 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-export WHERE=http://cran.fhcrc.org/src/base/R-3
-export VERSION=3.0.0
-export DIR=R-${VERSION}
-export WHAT=${DIR}.tar.gz
 export HERE=`pwd`
-
 mkdir -p /usr/local/src
 
 pushd /usr/local/src
 rm -fr R-* # ditch all versions of R past!
+export WHERE=http://cran.fhcrc.org/src/base
+export WHAT=R-latest.tar.gz
 curl ${WHERE}/${WHAT} > ${WHAT}
+export DIR=`tar tf ${WHAT} | head -n 1`
+echo ${DIR}
 tar xf ${WHAT}
 
 pushd ${DIR}
@@ -50,6 +49,7 @@ export R_BROWSER=`which firefox`
   --with-x
 /usr/bin/time make
 make install
+export PATH=/usr/local/bin:${PATH}
 echo `R RHOME`/lib > /etc/ld.so.conf.d/R.conf
 ldconfig
 popd
