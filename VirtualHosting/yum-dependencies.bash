@@ -16,5 +16,22 @@ sudo -H yum install -y \
   virt-manager \
   virt-viewer \
   virt-top \
+  libvirt-daemon \
+  libvirt-daemon-config-network \
+  libvirt-daemon-config-nwfilter \
+  libvirt-daemon-driver-interface \
+  libvirt-daemon-driver-libxl \
+  libvirt-daemon-driver-lxc \
+  libvirt-daemon-driver-network \
+  libvirt-daemon-driver-nodedev \
+  libvirt-daemon-driver-nwfilter \
   libvirt-daemon-driver-qemu \
-  libvirt-daemon-qemu
+  libvirt-daemon-driver-secret \
+  libvirt-daemon-driver-storage \
+  libvirt-daemon-driver-uml \
+  libvirt-daemon-driver-xen \
+  libvirt-daemon-kvm \
+  libvirt-daemon-lxc \
+  libvirt-daemon-qemu \
+  libvirt-daemon-uml \
+  libvirt-daemon-xen
