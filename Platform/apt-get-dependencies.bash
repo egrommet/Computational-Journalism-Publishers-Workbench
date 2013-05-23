@@ -90,7 +90,82 @@ sudo -H apt-get update
 sudo -H apt-get install -y \
   calibre \
   lyx \
-  sigil
+  sigil \
+  alsa-utils \
+  audacity \
+  blender \
+  bluefish \
+  create-resources \
+  dia \
+  dia2code \
+  dia-shapes \
+  fontforge \
+  fontmatrix \
+  freemind \
+  gimp \
+  gimp-data \
+  gimp-data-extras \
+  gimp-gap \
+  gimp-gmic \
+  gimp-help-en \
+  gimp-resynthesizer \
+  gimp-ufraw \
+  gmic \
+  gstreamer0.10-packagekit \
+  gthumb \
+  gtk-recordmydesktop \
+  hugin \
+  imagemagick \
+  imagemagick-doc \
+  inkscape \
+  intltool \
+  istanbul \
+  jabref \
+  jing \
+  mypaint \
+  nautilus-image-converter \
+  openclipart \
+  optipng \
+  pinta \
+  pitivi \
+  pngcrush \
+  postr \
+  pulseaudio \
+  pulseaudio-module-x11 \
+  pulseaudio-utils \
+  rawtherapee \
+  scribus \
+  scribus-doc \
+  shotwell \
+  sozi \
+  ufraw \
+  ufraw-batch \
+  texlive-xetex
+
+sudo -H apt-get install -y \
+  libreoffice-base \
+  libreoffice-calc \
+  libreoffice-draw \
+  libreoffice-emailmerge \
+  libreoffice-gtk \
+  libreoffice-help-en-us \
+  libreoffice-impress \
+  libreoffice-math \
+  libreoffice-nlpsolver \
+  libreoffice-ogltrans \
+  libreoffice-pdfimport \
+  libreoffice-presentation-minimizer \
+  libreoffice-presenter-console \
+  libreoffice-sdbc-postgresql \
+  libreoffice-writer \
+  libreoffice \
+  libreoffice-dmaths \
+  libreoffice-filter-mobiledev \
+  libreoffice-gtk3 \
+  libreoffice-templates \
+  libreoffice-wiki-publisher \
+  libreoffice-writer2latex \
+  libreoffice-writer2xhtml
 
 # Spatial
 sudo -H add-apt-repository 'deb http://qgis.org/debian-nightly precise main'
