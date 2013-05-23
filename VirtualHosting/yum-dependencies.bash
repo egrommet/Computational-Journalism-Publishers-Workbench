@@ -12,6 +12,9 @@
 sudo -H yum install -y \
   python-virtinst \
   libvirt \
+  qemu \
+  qemu-kvm-tools \
+  qemu-user \
   qemu-kvm \
   virt-manager \
   virt-viewer \
