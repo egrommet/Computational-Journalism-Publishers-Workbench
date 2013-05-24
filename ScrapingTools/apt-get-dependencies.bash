@@ -11,7 +11,6 @@
 
 sudo -H apt-get install -y \
   apvlv \
-  comparepdf \
   diffpdf \
   ghostscript \
   ghostscript-doc \
@@ -53,7 +52,7 @@ sudo -H apt-get install -y \
   python-reportlab-accel \
   python-reportlab-doc \
   qpdf \
-  ruby-mechanize \
+  libwww-mechanize-ruby \
   ruby-pdf-inspector \
   ruby-pdf-reader \
   ruby-prawn \
