@@ -196,6 +196,96 @@ sudo -H yum install -y \
   python-networkx \
   python-networkx-doc
 
+# Scraping tools
+sudo -H yum install -y \
+  apvlv \
+  baekmuk-ttf-fonts-ghostscript \
+  diffpdf \
+  ghostscript \
+  ghostscript-chinese \
+  ghostscript-chinese-zh_CN \
+  ghostscript-chinese-zh_TW \
+  ghostscript-doc \
+  ghostscript-fonts \
+  ghostscript-gtk \
+  GraphicsMagick \
+  htmldoc \
+  ImageMagick \
+  ImageMagick-doc \
+  mupdf \
+  pdfchain \
+  pdfcrack \
+  pdfedit \
+  pdfgrep \
+  pdfmerge \
+  pdfmod \
+  pdfresurrect \
+  pdfshuffler \
+  pdftk \
+  pdf-tools \
+  perl-PDF-API2 \
+  perl-PDF-Create \
+  perl-PDF-Haru \
+  perl-PDF-Reuse \
+  perl-Text-PDF \
+  perl-WWW-Mechanize \
+  perl-WWW-Mechanize-GZip \
+  podofo \
+  poppler \
+  poppler-data \
+  poppler-utils \
+  pstoedit \
+  pyPdf \
+  pypoppler \
+  python-mechanize \
+  python-poppler-qt4 \
+  python-reportlab \
+  qpdf \
+  qpdf-doc \
+  rubygem-mechanize \
+  rubygem-pdf-reader \
+  rubygem-pdf-reader-doc \
+  tesseract \
+  tesseract-devel \
+  tesseract-langpack-bul \
+  tesseract-langpack-cat \
+  tesseract-langpack-ces \
+  tesseract-langpack-chi_sim \
+  tesseract-langpack-chi_tra \
+  tesseract-langpack-dan \
+  tesseract-langpack-dan-frak \
+  tesseract-langpack-deu \
+  tesseract-langpack-deu-frak \
+  tesseract-langpack-ell \
+  tesseract-langpack-fin \
+  tesseract-langpack-fra \
+  tesseract-langpack-hun \
+  tesseract-langpack-ind \
+  tesseract-langpack-ita \
+  tesseract-langpack-jpn \
+  tesseract-langpack-kor \
+  tesseract-langpack-lav \
+  tesseract-langpack-lit \
+  tesseract-langpack-nld \
+  tesseract-langpack-nor \
+  tesseract-langpack-pol \
+  tesseract-langpack-por \
+  tesseract-langpack-ron \
+  tesseract-langpack-rus \
+  tesseract-langpack-slk \
+  tesseract-langpack-slv \
+  tesseract-langpack-spa \
+  tesseract-langpack-srp \
+  tesseract-langpack-swe \
+  tesseract-langpack-swe-frak \
+  tesseract-langpack-tgl \
+  tesseract-langpack-tur \
+  tesseract-langpack-ukr \
+  tesseract-langpack-vie \
+  texlive-pdfjam \
+  texlive-pdfjam-doc
+./install-docsplit-gem.bash
+
 # Building R from source
 sudo -H yum install -y \
   readline-devel \
