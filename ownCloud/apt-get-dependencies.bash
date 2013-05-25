@@ -16,4 +16,4 @@ sudo -H cp ${HERE}/apt-get-repository.txt /etc/apt/sources.list.d/owncloud.list
 sudo -H apt-key add - < ${HERE}/Release.key  
 sudo -H apt-get update
 
-sudo -H apt-get install -y owncloud owncloud-client
+sudo -H apt-get install -y owncloud
