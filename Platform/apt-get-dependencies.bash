@@ -9,6 +9,12 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
+sudo -H add-apt-repository -y ppa:rgibert/ebook # Sigil lives here
+
+# QGIS
+sudo -H add-apt-repository 'deb http://qgis.org/debian-nightly precise main'
+sudo -H apt-get update
+
 # unixODBC
 sudo -H apt-get install -y \
   unixodbc \
@@ -85,8 +91,6 @@ sudo -H apt-get install -y \
 sudo -H pip install dexy
 
 # Editing
-sudo -H add-apt-repository -y ppa:rgibert/ebook # Sigil lives here
-sudo -H apt-get update
 sudo -H apt-get install -y \
   calibre \
   lyx \
@@ -168,12 +172,6 @@ sudo -H apt-get install -y \
   libreoffice-writer2xhtml
 
 # Spatial
-sudo -H add-apt-repository 'deb http://qgis.org/debian-nightly precise main'
-sudo -H add-apt-repository 'deb-src http://qgis.org/debian-nightly precise main'
-sudo -H /usr/bin/gpg -–recv-keys 1F9ADD375CA44993
-sudo -H /usr/bin/gpg -–export -–armor 1F9ADD375CA44993 \
-  | sudo -H /usr/bin/apt-key add -
-sudo -H apt-get update
 sudo -H apt-get install -y \
   --allow-unauthenticated \
   qlandkartegt \
@@ -226,7 +224,6 @@ sudo -H apt-get install -y \
 # Scraping tools
 sudo -H apt-get install -y \
   apvlv \
-  comparepdf \
   diffpdf \
   ghostscript \
   ghostscript-doc \
@@ -268,7 +265,8 @@ sudo -H apt-get install -y \
   python-reportlab-accel \
   python-reportlab-doc \
   qpdf \
-  ruby-mechanize \
+  rubygems \
+  libwww-mechanize-ruby \
   ruby-pdf-inspector \
   ruby-pdf-reader \
   ruby-prawn \
