@@ -11,11 +11,6 @@
 
 ../common/authenticate.bash "Installing desktop add-ons"
 sudo -H yum install -y \
-  obapps \
-  obconf \
-  obmenu \
-  openbox \
-  fbpanel \
   yumex \
   gpointing-device-settings \
   firefox \
