@@ -145,6 +145,10 @@ sudo -H yum install -y \
 
 # LibreOffice
 sudo -H yum install -y \
+  --skip-broken \
+  libreoffice-base \
+  libreoffice-calc \
+  libreoffice-draw \
   libreoffice-emailmerge \
   libreoffice-graphicfilter \
   libreoffice-headless \
@@ -159,9 +163,14 @@ sudo -H yum install -y \
   libreoffice-presentation-minimizer \
   libreoffice-report-builder \
   libreoffice-wiki-publisher \
+  libreoffice-writer \
   libreoffice-writer2latex \
   libreoffice-writer2xhtml \
-  libreoffice-xsltfilter
+  libreoffice-xsltfilter \
+  libreoffice \
+  ooo2gd \
+  openoffice.org-diafilter \
+  unoconv
 
 # Spatial
 sudo -H yum install -y \
