@@ -11,12 +11,6 @@
 
 ../common/authenticate.bash "Installing desktop add-ons"
 sudo -H apt-get install -y \
-  obconf \
-  obmenu \
-  openbox \
-  openbox-themes \
-  openbox-xdgmenu \
-  fbpanel \
   gpointing-device-settings \
   xchat \
   pidgin \
