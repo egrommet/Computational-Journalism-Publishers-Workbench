@@ -12,7 +12,7 @@
 ../common/authenticate.bash 'Installing developer tools'
 sudo -H yum install -y \
   vim \
-  git-all\
+  git-all \
   curl \
   wget \
   lynx \
