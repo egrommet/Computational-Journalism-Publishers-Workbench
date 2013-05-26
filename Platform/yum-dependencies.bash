@@ -176,7 +176,12 @@ sudo -H yum install -y \
 sudo -H yum install -y \
   geos \
   geos-devel \
+  geos-python \
+  geos-ruby \
   grass \
+  grass-devel \
+  josm \
+  librasterlite-devel \
   netcdf-devel \
   osm2pgsql \
   pgRouting \
@@ -185,6 +190,7 @@ sudo -H yum install -y \
   postgis-utils \
   qgis \
   qgis-grass \
+  qgis-python \
   spatialite-gui \
   spatialite-tools \
   saga \
@@ -231,6 +237,7 @@ sudo -H yum install -y \
   pdfshuffler \
   pdftk \
   pdf-tools \
+  perl-Net-Twitter \
   perl-PDF-API2 \
   perl-PDF-Create \
   perl-PDF-Haru \
@@ -249,6 +256,7 @@ sudo -H yum install -y \
   python-mechanize \
   python-poppler-qt4 \
   python-reportlab \
+  python-twitter \
   qpdf \
   qpdf-doc \
   rubygem-mechanize \
@@ -292,7 +300,8 @@ sudo -H yum install -y \
   tesseract-langpack-ukr \
   tesseract-langpack-vie \
   texlive-pdfjam \
-  texlive-pdfjam-doc
+  texlive-pdfjam-doc \
+  tweepy
 ./install-docsplit-gem.bash
 
 # Building R from source
