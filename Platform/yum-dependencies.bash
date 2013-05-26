@@ -174,7 +174,6 @@ sudo -H yum install -y \
 
 # Spatial
 sudo -H yum install -y \
-  carto \
   geos \
   geos-devel \
   geos-python \
