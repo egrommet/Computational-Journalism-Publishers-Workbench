@@ -174,6 +174,7 @@ sudo -H yum install -y \
 
 # Spatial
 sudo -H yum install -y \
+  carto \
   geos \
   geos-devel \
   geos-python \
@@ -182,19 +183,35 @@ sudo -H yum install -y \
   grass-devel \
   josm \
   librasterlite-devel \
+  mapnik \
+  mapnik-demo \
+  mapnik-python \
+  mapnik-utils \
+  mapserver \
+  mapserver-perl \
+  mapserver-python \
+  merkaartor \
   netcdf-devel \
+  openlayers \
+  openlayers-doc \
   osm2pgsql \
+  osm-gps-map \
   pgRouting \
   postgis \
   postgis-docs \
   postgis-utils \
+  python-osmgpsmap \
   qgis \
   qgis-grass \
+  qgis-mapserver \
   qgis-python \
+  readosm \
+  routino \
   spatialite-gui \
   spatialite-tools \
   saga \
-  saga-devel
+  saga-devel \
+  tiled
 
 # Natural Language Processing
 sudo -H yum install -y \
