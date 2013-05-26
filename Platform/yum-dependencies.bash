@@ -236,6 +236,7 @@ sudo -H yum install -y \
   perl-PDF-Haru \
   perl-PDF-Reuse \
   perl-Text-PDF \
+  perl-Web-Scraper \
   perl-WWW-Mechanize \
   perl-WWW-Mechanize-GZip \
   podofo \
