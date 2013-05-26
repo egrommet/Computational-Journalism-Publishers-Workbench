@@ -157,7 +157,6 @@ sudo -H yum install -y \
   libreoffice-pdfimport \
   libreoffice-postgresql \
   libreoffice-presentation-minimizer \
-  libreoffice-presenter-screen \
   libreoffice-report-builder \
   libreoffice-wiki-publisher \
   libreoffice-writer2latex \
