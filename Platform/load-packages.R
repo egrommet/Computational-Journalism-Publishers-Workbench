@@ -18,7 +18,14 @@ install.packages(
     'tm.plugin.dc',
     'tm.plugin.mail',
     'tm.plugin.webmining',
-    'tm.plugin.sentiment'
+    'tm.plugin.sentiment',
+    'Deducer',
+    'DeducerExtras',
+    'DeducerPlugInExample',
+    'DeducerPlugInScaling',
+    'DeducerSpatial',
+    'DeducerSurvival',
+    'DeducerText'
   ),
   dependencies=TRUE
 )
@@ -82,14 +89,7 @@ install.packages(
     'seewave',
     'tuneR',
     'signal',
-    'audio',
-    'Deducer',
-    'DeducerExtras',
-    'DeducerPlugInExample',
-    'DeducerPlugInScaling',
-    'DeducerSpatial',
-    'DeducerSurvival',
-    'DeducerText'
+    'audio'
   ),
   dependencies=NA
 )
