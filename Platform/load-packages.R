@@ -82,7 +82,14 @@ install.packages(
     'seewave',
     'tuneR',
     'signal',
-    'audio'
+    'audio',
+    'Deducer',
+    'DeducerExtras',
+    'DeducerPlugInExample',
+    'DeducerPlugInScaling',
+    'DeducerSpatial',
+    'DeducerSurvival',
+    'DeducerText'
   ),
   dependencies=NA
 )
