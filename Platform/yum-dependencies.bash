@@ -231,6 +231,7 @@ sudo -H yum install -y \
   apvlv \
   baekmuk-ttf-fonts-ghostscript \
   diffpdf \
+  evince \
   ghostscript \
   ghostscript-chinese \
   ghostscript-chinese-zh_CN \
