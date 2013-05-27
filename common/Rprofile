@@ -18,5 +18,6 @@ options(repos=c(
   CRAN='http://cran.fhcrc.org',
   BioCsoft='http://www.bioconductor.org/packages/2.12/bioc',
   Omegahat='http://www.omegahat.org/R' ,
+  Census='http://lakshmi.calit2.uci.edu/census2000/R',
   'R-Forge'='http://R-Forge.R-project.org' 
 ))
