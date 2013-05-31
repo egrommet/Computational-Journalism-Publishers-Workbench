@@ -9,7 +9,7 @@
 	./configure-rstudio-server.bash
 	```
 This will open a platform-specific firewall settings tool. 
-	* On Fedora, you will need to go to the 'Ports' tab. For both 'Runtime Configuration' and 'Persistent Configuration', open port 8787 for the TCP protocol.
+	* On Fedora, you will need to go to the 'Public' zone and select the 'Ports' tab. For both 'Runtime Configuration' and 'Persistent Configuration', open port 8787 for the TCP protocol.
 	* On Linux Mint / Ubuntu, press the 'Unlock' button and authenticate. Set the Firewall Status to "On". Then, press the '+' button to enter the dialog for adding rules.
 		* Go to the 'Simple' tab.
 		* Enter '8787' in the 'Port or service' field and press 'Add'.
