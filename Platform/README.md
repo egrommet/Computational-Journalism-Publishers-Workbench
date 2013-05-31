@@ -2,11 +2,21 @@
 
 ## Usage
 
-1. To configure PostgreSQL, type
+1. When the installation is finished, you will need to run a configuration script to use RStudio Server. ***This will allow both local users on your desktop and remote users on your LAN to access RStudio Server. If that's not what you want, don't do this!*** When you're ready to deploy the server, open a terminal and type
 
 	```
-	./configure-postgresql.bash
+	cd ~/Computational-*/Platform
+	./configure-rstudio-server.bash
 	```
+This will open a platform-specific firewall settings tool. 
+	* On Fedora, you will need to go to the 'Ports' tab. For both 'Runtime Configuration' and 'Persistent Configuration', open port 8787 for the TCP protocol.
+	* On Linux Mint / Ubuntu, press the 'Unlock' button and authenticate. Set the Firewall Status to "On". Then, press the '+' button to enter the dialog for adding rules.
+		* Go to the 'Simple' tab.
+		* Enter '8787' in the 'Port or service' field and press 'Add'.
+		* Change the drop-down 'In' to 'Out' and repeat.
+		* Press 'Close'.
+		* Select 'Quit' in the 'File' menu.
+1. Firefox should open up and browse to the RStudio Server.
 1. [Open an issue on Github](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new) if you have any questions or problems.
 
 ## Upstream Projects
