@@ -36,13 +36,15 @@ sudo -H yum install -y \
 sudo -H yum install -y \
   patch
 
-# RStudio Desktop
+# RStudio Desktop and Server
 sudo -H yum install -y \
   libuuid-devel \
   qt-devel \
   qtwebkit-devel \
   ant \
-  cmake
+  cmake \
+  openssl-devel \
+  pam-devel
 
 # SQLite and PostgreSQL
 sudo -H yum install -y \

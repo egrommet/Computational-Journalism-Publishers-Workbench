@@ -25,3 +25,7 @@ sudo -H ./install-nolto.bash 2>&1 | tee nolto.log
 sudo -H ./install-rstudio-source.bash 2>&1 | tee source.log
 ../common/authenticate.bash "Installing RStudio Desktop"
 sudo -H ./install-rstudio-desktop.bash 2>&1 | tee desktop.log
+../common/authenticate.bash "Installing RStudio Server"
+sudo -H ./install-rstudio-server.bash 2>&1 | tee server.log
+
+./configure-postgresql.bash 2>&1 | tee postgresql.log

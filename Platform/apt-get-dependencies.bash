@@ -41,12 +41,13 @@ sudo -H apt-get install -y \
   libgtk2.0-dev \
   libxml2-dev
 
-# RStudio Desktop
+# RStudio Desktop and Server
 sudo -H apt-get install -y \
   cmake \
   libqtwebkit-dev \
   uuid-dev \
-  ant
+  ant \
+  libpam-dev
 
 # SQLite and PostgreSQL
 sudo -H apt-get install -y \
