@@ -94,3 +94,10 @@ install.packages(
   dependencies=NA
 )
 warnings()
+
+# install the 2010 Census data files
+library(UScensus2010)
+install.blkgrp('linux')
+install.cdp('linux')
+install.county('linux')
+install.tract('linux')
