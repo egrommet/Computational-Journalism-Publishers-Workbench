@@ -28,4 +28,5 @@ sudo -H ./install-rstudio-desktop.bash 2>&1 | tee desktop.log
 ../common/authenticate.bash "Installing RStudio Server"
 sudo -H ./install-rstudio-server.bash 2>&1 | tee server.log
 
-./configure-postgresql.bash 2>&1 | tee postgresql.log
+./configure-postgresql.bash 2>&1 | tee configure-postgresql.log
+./configure-rstudio-server.bash 2>&1 | tee configure-rstudio-server.log
