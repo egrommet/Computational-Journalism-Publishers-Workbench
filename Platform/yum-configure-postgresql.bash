@@ -9,6 +9,6 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo -H service postgresql initdb
+sudo -H postgresql-setup initdb
 sudo -H service postgresql enable
 sudo -H service postgresql start
