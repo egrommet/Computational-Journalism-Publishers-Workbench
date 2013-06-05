@@ -37,4 +37,6 @@ sudo -H yum install -y \
   libvirt-daemon-lxc \
   libvirt-daemon-qemu \
   libvirt-daemon-uml \
-  libvirt-daemon-xen
+  libvirt-daemon-xen \
+  lxc-doc \
+  lxc-templates
