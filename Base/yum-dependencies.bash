@@ -352,3 +352,8 @@ sudo -H ./install-jags.bash
 sudo -H cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
 source /etc/profile
 set|grep WNHOME
+
+# Configure PostgreSQL
+sudo -H postgresql-setup initdb
+sudo -H service postgresql enable
+sudo -H service postgresql start
