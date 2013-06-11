@@ -349,15 +349,6 @@ sudo -H yum install -y \
 sudo -H ./install-jags.bash
 sudo -H ./install-rjags.bash
 
-# ownCloud
-# set up repository
-pushd /etc/yum.repos.d/
-sudo -H wget http://download.opensuse.org/repositories/isv:ownCloud:community/Fedora_18/isv:ownCloud:community.repo
-sudo -H yum check-update
-popd
-
-sudo yum install -y owncloud owncloud-client
-
 # WordNet environment variable
 sudo -H cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
 source /etc/profile
