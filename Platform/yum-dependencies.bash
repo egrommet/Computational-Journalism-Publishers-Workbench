@@ -338,6 +338,13 @@ sudo -H yum install -y \
   texinfo \
   bzip2-devel
 
+# Finance
+sudo -H yum install -y \
+  QuantLib-devel \
+  QuantLib-doc \
+  QuantLib-test \
+  QuantLib
+
 # WordNet environment variable
 sudo -H cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
 source /etc/profile

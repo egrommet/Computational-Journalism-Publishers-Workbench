@@ -352,3 +352,9 @@ sudo -H apt-get install -y \
   liblzma-dev \
   libbz2-dev \
   texinfo
+
+# Finance
+sudo -H apt-get install -y \
+  libquantlib0-dev \
+  quantlib-examples \
+  quantlib-refman-html
