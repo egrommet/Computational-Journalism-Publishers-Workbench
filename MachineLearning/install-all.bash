@@ -1,1 +1,0 @@
-../common/install-all.bash

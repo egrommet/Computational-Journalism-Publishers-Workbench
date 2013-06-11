@@ -35,7 +35,9 @@ update.views(
     'Graphics',
     'ReproducibleResearch',
     'Spatial',
-    'NaturalLanguageProcessing'
+    'NaturalLanguageProcessing',
+    'Finance',
+    'MachineLearning'
   ),
   coreOnly=FALSE,
   dependencies=NA
