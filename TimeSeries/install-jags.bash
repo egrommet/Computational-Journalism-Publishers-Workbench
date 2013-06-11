@@ -22,7 +22,7 @@ tar xf ${WHAT}
 cd ${DIR}
 export ATLAS=`cat /etc/ld.so.conf.d/atlas-*.conf`
 ./configure
-make
+/usr/bin/time pmake
 make install
 popd
 

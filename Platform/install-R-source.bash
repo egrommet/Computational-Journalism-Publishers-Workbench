@@ -47,7 +47,7 @@ export R_BROWSER=`which firefox`
   --with-recommended-packages \
   --with-ICU \
   --with-x
-/usr/bin/time make
+/usr/bin/time pmake
 make install
 export PATH=/usr/local/bin:${PATH}
 echo `R RHOME`/lib > /etc/ld.so.conf.d/R.conf

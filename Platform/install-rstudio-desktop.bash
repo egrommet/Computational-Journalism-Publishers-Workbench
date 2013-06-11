@@ -14,5 +14,5 @@ pushd /usr/local/src/rstudio-*/build
   cmake \
     -DRSTUDIO_TARGET=Desktop \
     -DCMAKE_BUILD_TYPE=Release ..
-  /usr/bin/time make install
+  /usr/bin/time pmake install
 popd

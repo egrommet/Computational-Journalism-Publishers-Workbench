@@ -24,7 +24,7 @@ tar xf ${WHAT}
 cd ${DIR}
 autoreconf --verbose
 ./configure
-/usr/bin/time make
+/usr/bin/time pmake
 echo "Installing QuantLib"
 echo "You will need to authenticate"
 sleep 4
