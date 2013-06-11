@@ -347,7 +347,6 @@ sudo -H yum install -y \
 
 # Time Series
 sudo -H ./install-jags.bash
-sudo -H ./install-rjags.bash
 
 # WordNet environment variable
 sudo -H cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
