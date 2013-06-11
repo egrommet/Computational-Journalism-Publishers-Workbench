@@ -37,7 +37,8 @@ update.views(
     'Spatial',
     'NaturalLanguageProcessing',
     'Finance',
-    'MachineLearning'
+    'MachineLearning',
+    'Econometrics'
   ),
   coreOnly=FALSE,
   dependencies=NA
