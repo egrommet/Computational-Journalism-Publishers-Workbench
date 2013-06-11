@@ -47,7 +47,8 @@ export R_BROWSER=`which firefox`
   --with-recommended-packages \
   --with-ICU \
   --with-x
-/usr/bin/time pmake
+export NUMCPUS=`grep -c '^processor' /proc/cpuinfo`
+/usr/bin/time nice make -j$NUMCPUS --load-average=$NUMCPUS
 make install
 export PATH=/usr/local/bin:${PATH}
 echo `R RHOME`/lib > /etc/ld.so.conf.d/R.conf

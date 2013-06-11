@@ -17,5 +17,6 @@ pushd /usr/local/src/rstudio-*/build
   cmake \
     -DRSTUDIO_TARGET=Server \
     -DCMAKE_BUILD_TYPE=Release ..
-  /usr/bin/time pmake install
+  export NUMCPUS=`grep -c '^processor' /proc/cpuinfo`
+  /usr/bin/time nice make -j$NUMCPUS --load-average=$NUMCPUS install
 popd
