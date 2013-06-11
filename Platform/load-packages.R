@@ -38,7 +38,8 @@ update.views(
     'NaturalLanguageProcessing',
     'Finance',
     'MachineLearning',
-    'Econometrics'
+    'Econometrics',
+    'TimeSeries'
   ),
   coreOnly=FALSE,
   dependencies=NA

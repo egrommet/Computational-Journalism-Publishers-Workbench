@@ -345,6 +345,10 @@ sudo -H yum install -y \
   QuantLib-test \
   QuantLib
 
+# Time Series
+sudo -H ./install-jags.bash
+sudo -H ./install-rjags.bash
+
 # WordNet environment variable
 sudo -H cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
 source /etc/profile

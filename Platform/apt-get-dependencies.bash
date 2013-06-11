@@ -358,3 +358,7 @@ sudo -H apt-get install -y \
   libquantlib0-dev \
   quantlib-examples \
   quantlib-refman-html
+
+# Time Series
+sudo -H apt-get install -y \
+  jags
