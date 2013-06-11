@@ -15,7 +15,7 @@
 #
 .libPaths(c(paste(R.home(), '/', 'site-library', sep=''), .libPaths()))
 options(repos=c(
-  CRAN='http://cran.fhcrc.org',
+  CRAN='http://cran.rstudio.com/',
   BioCsoft='http://www.bioconductor.org/packages/2.12/bioc',
   Omegahat='http://www.omegahat.org/R' ,
   Census='http://lakshmi.calit2.uci.edu/census2000/R',
