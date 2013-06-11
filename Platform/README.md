@@ -103,6 +103,7 @@ This will open a platform-specific firewall settings tool.
 * [PDF Shuffler](http://pdfshuffler.sourceforge.net/)
 * [QPDF](http://qpdf.sourceforge.net/)
 * [QuantLib](http://quantlib.org/index.shtml)
+* [ownCloud](http://owncloud.org/)
 
 ## Suggested Reading
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)
@@ -126,3 +127,6 @@ This will open a platform-specific firewall settings tool.
 * [The Bastards Book of Regular Expressions: Finding Patterns in Everyday Text by Dan Nguyen ](https://leanpub.com/bastards-regexes)
 * [The Elements of Statistical Learning, Second Edition by Jerome Friedman, Trevor Hastie, Robert Tibshirani](http://j.mp/16tyH4r)
 * [Machine Learning for Hackers by Drew Conway, John Myles White](http://j.mp/Yt9X4E)
+* [ownCloud Desktop Client Manual](http://doc.owncloud.org/desktop/1.2/)
+* [ownCloud Server User Manual](http://doc.owncloud.org/server/5.0/user_manual/)
+* [ownCloud Administrators Manual](http://doc.owncloud.org/server/5.0/admin_manual/)
