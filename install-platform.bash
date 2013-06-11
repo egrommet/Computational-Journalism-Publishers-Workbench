@@ -16,9 +16,9 @@ pushd Base
 ./updateos.bash 2>&1 | tee updateos.log
 ./install-devtools.bash 2>&1 | tee devtools.log
 ./install-desktop.bash 2>&1 | tee desktop.log
+./install-dependencies.bash 2>&1 | tee dependencies.log
 popd
 pushd Platform
-./install-dependencies.bash 2>&1 | tee dependencies.log
 ./install-platform.bash
 popd
 
