@@ -360,5 +360,4 @@ sudo -H apt-get install -y \
   quantlib-refman-html
 
 # Time Series
-sudo -H apt-get install -y \
-  jags
+sudo -H ./install-jags.bash
