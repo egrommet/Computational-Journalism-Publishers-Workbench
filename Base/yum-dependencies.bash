@@ -24,7 +24,8 @@ sudo -H yum install -y \
   lapack-devel \
   boost-devel \
   fftw-devel \
-  libsndfile-devel
+  libsndfile-devel \
+  armadillo-devel
 
 # GUI tools
 sudo -H yum install -y \
