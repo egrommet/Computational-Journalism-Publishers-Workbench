@@ -19,6 +19,9 @@ cp ../common/Rprofile ~/.Rprofile
 # Packages that crash Precise gcc with -flto
 sudo -H ./install-nolto.bash 2>&1 | tee nolto.log
 
+# rjags
+sudo -H ./install-rjags.bash 2>&1 | tee rjags.log
+
 ../common/authenticate.bash "Installing platform R packages"
 ./install-packages.bash 2>&1 | tee packages.log
 ../common/authenticate.bash "Installing RStudio source code"
