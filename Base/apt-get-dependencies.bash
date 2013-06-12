@@ -30,7 +30,8 @@ sudo -H apt-get install -y \
   liblapack-dev \
   libboost-all-dev \
   libfftw3-dev \
-  libsndfile1-dev
+  libsndfile1-dev \
+  libarmadillo-dev
 
 # GUI tools
 sudo -H apt-get install -y \
