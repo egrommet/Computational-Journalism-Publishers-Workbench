@@ -17,9 +17,10 @@ sudo -H ln -f -s /usr/local/lib/rstudio-server/bin/rstudio-server \
   /usr/sbin/rstudio-server
 sudo -H rstudio-server start
 
-echo "Open TCP port 8787"
-sleep 4
-gufw
+echo "Opening TCP port 8787"
+sudo -H ufw enable
+sudo -H ufw allow 8787/tcp
+sudo -H ufw status verbose
 
 # Test it
 firefox localhost:8787
