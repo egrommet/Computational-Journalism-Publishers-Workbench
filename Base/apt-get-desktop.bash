@@ -22,4 +22,5 @@ sudo -H apt-get install -y \
   git-gui \
   gitk \
   gufw \
-  padre
+  padre \
+  vidalia
