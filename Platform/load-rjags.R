@@ -9,6 +9,7 @@
 #
 
 source('../common/Rprofile')
+install.packages('coda')
 install.packages(
   c(
     'rjags'
