@@ -20,4 +20,5 @@ sudo -H yum install -y \
   vim-enhanced \
   powertop \
   kernel-tools \
-  perl-Padre
+  perl-Padre \
+  vidalia
