@@ -9,4 +9,4 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo -H gem install docsplit
+sudo -H gem install -V docsplit scraperwiki
