@@ -279,9 +279,12 @@ sudo -H yum install -y \
   python-twitter \
   qpdf \
   qpdf-doc \
+  ruby-devel \
   rubygem-mechanize \
   rubygem-pdf-reader \
   rubygem-pdf-reader-doc \
+  rubygem-bundler \
+  rubygem-bundler-doc \
   tesseract \
   tesseract-devel \
   tesseract-langpack-bul \
