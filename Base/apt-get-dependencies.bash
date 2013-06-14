@@ -340,7 +340,6 @@ sudo -H apt-get install -y \
   tesseract-ocr-tur \
   tesseract-ocr-ukr \
   tesseract-ocr-vie
-./install-docsplit-gem.bash
 
 # Building R from source
 sudo -H apt-get install -y \

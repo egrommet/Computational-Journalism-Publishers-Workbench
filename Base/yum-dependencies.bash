@@ -325,7 +325,6 @@ sudo -H yum install -y \
   texlive-pdfjam \
   texlive-pdfjam-doc \
   tweepy
-./install-docsplit-gem.bash
 
 # Building R from source
 sudo -H yum install -y \
