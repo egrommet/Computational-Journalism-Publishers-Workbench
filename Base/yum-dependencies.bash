@@ -96,6 +96,9 @@ sudo -H yum install -y \
   blender \
   bluefish \
   cinepaint \
+  csound-gui \
+  csound-manual \
+  csound \
   dia \
   dia-gnomeDIAicons \
   entangle \
