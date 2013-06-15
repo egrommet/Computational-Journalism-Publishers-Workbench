@@ -168,7 +168,6 @@ sudo -H apt-get install -y \
   libreoffice-dmaths \
   libreoffice-filter-mobiledev \
   libreoffice-gtk3 \
-  libreoffice-templates \
   libreoffice-wiki-publisher \
   libreoffice-writer2latex \
   libreoffice-writer2xhtml
@@ -362,4 +361,5 @@ sudo -H apt-get install -y \
   quantlib-refman-html
 
 # Time Series
-sudo -H ./install-jags.bash
+sudo -H apt-get install -y \
+  jags
