@@ -267,7 +267,9 @@ sudo -H apt-get install -y \
   python-reportlab-accel \
   python-reportlab-doc \
   qpdf \
+  ruby-dev \
   rubygems \
+  ruby-bundler \
   libwww-mechanize-ruby \
   ruby-pdf-inspector \
   ruby-pdf-reader \
