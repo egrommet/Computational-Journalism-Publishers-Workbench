@@ -14,7 +14,7 @@ mkdir -p /usr/local/src
 
 pushd /usr/local/src
 rm -fr R-* # ditch all versions of R past!
-export WHERE=http://cran.fhcrc.org/src/base
+export WHERE=http://cran.rstudio.com/src/base
 export WHAT=R-latest.tar.gz
 curl ${WHERE}/${WHAT} > ${WHAT}
 export DIR=`tar tf ${WHAT} | head -n 1`
