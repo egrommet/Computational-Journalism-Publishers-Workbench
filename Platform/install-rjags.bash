@@ -9,6 +9,9 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-../common/authenticate.bash "Installing 'rjags' in site library"
-export PATH=${PATH}:/usr/local/bin
-R --no-save --no-restore < load-rjags.R
+if [ -e "/usr/bin/yum" ]
+then
+  ../common/authenticate.bash "Installing 'rjags' in site library"
+  export PATH=${PATH}:/usr/local/bin
+  R --no-save --no-restore < load-rjags.R
+fi
