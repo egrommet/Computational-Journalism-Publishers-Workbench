@@ -1,23 +1,6 @@
 # R Platform
 
-## Usage
-
-1. When the installation is finished, you will need to run a configuration script to use RStudio Server. ***This will allow both local users on your desktop and remote users on your LAN to access RStudio Server. If that's not what you want, don't do this!*** When you're ready to deploy the server, open a terminal and type
-
-	```
-	cd ~/Computational-*/Platform
-	./configure-rstudio-server.bash
-	```
-This will open a platform-specific firewall settings tool. 
-	* On Fedora, you will need to go to the 'Public' zone and select the 'Ports' tab. For both 'Runtime Configuration' and 'Persistent Configuration', open port 8787 for the TCP protocol.
-	* On Linux Mint / Ubuntu, press the 'Unlock' button and authenticate. Set the Firewall Status to "On". Then, press the '+' button to enter the dialog for adding rules.
-		* Go to the 'Simple' tab.
-		* Enter '8787' in the 'Port or service' field and press 'Add'.
-		* Change the drop-down 'In' to 'Out' and repeat.
-		* Press 'Close'.
-		* Select 'Quit' in the 'File' menu.
-1. Firefox should open up and browse to the RStudio Server.
-1. [Open an issue on Github](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new) if you have any questions or problems.
+[Open an issue on Github](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new) if you have any questions or problems.
 
 ## Upstream Projects
 * [The R Project for Statistical Computing](http://www.r-project.org/)
@@ -103,7 +86,7 @@ This will open a platform-specific firewall settings tool.
 * [PDF Shuffler](http://pdfshuffler.sourceforge.net/)
 * [QPDF](http://qpdf.sourceforge.net/)
 * [QuantLib](http://quantlib.org/index.shtml)
-* [ownCloud](http://owncloud.org/)
+* [Tor Project: Anonymity Online](http://j.mp/169PS9K)
 
 ## Suggested Reading
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)
@@ -127,6 +110,3 @@ This will open a platform-specific firewall settings tool.
 * [The Bastards Book of Regular Expressions: Finding Patterns in Everyday Text by Dan Nguyen ](https://leanpub.com/bastards-regexes)
 * [The Elements of Statistical Learning, Second Edition by Jerome Friedman, Trevor Hastie, Robert Tibshirani](http://j.mp/16tyH4r)
 * [Machine Learning for Hackers by Drew Conway, John Myles White](http://j.mp/Yt9X4E)
-* [ownCloud Desktop Client Manual](http://doc.owncloud.org/desktop/1.2/)
-* [ownCloud Server User Manual](http://doc.owncloud.org/server/5.0/user_manual/)
-* [ownCloud Administrators Manual](http://doc.owncloud.org/server/5.0/admin_manual/)

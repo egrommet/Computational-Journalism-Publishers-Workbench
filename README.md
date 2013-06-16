@@ -5,7 +5,7 @@
 ### Questions? Problems? Just want to talk about computational journalism?
 * [Follow @znmeb on Twitter](https://twitter.com/znmeb)
 * [File an issue on Github](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/issues/new)
-* [Computational and Data Journalism on Scoop.it](http://www.scoop.it/t/computational-and-data-journalism)
+* [Frontiers of Journalism on Scoop.it](http://www.scoop.it/t/computational-and-data-journalism)
 * [R for Journalists on Scoop.it](http://www.scoop.it/t/r-for-journalists)
 
 ### Why?
@@ -36,12 +36,13 @@
 
 #### Tools for collecting, managing, analyzing and presenting data
 * Numerical
-* Financial and economic
+* Financial, economic and time series
 * Geospatial / mapping
-* Natural language, text data
+* Natural language, text data, machine learning
 * Social networks and graphs
 * Web scraping and PDF data extraction tools
 * Digital media creation and editing tools
+* Reproducible research
 
 ### Who is it for?
 * Journalism students: high school, community college and beyond
@@ -67,6 +68,6 @@ The components of the Computational Journalism Publishers Workbench are proven t
 * Documentation: [Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)](http://creativecommons.org/licenses/by-sa/3.0/)
 
 ### Disclosure
-* The suggested readings are Amazon Affiliate links.
+* Many of the suggested readings are Amazon Affiliate links.
 
 ### [The Rest of the Story](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki/The-Rest-of-the-Story)
