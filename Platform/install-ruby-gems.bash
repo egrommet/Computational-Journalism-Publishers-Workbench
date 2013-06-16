@@ -9,4 +9,9 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 
-sudo -H gem install docsplit scraperwiki nanoc pandoc-ruby jekyll
+sudo -H gem install --no-rdoc --no-ri \
+  docsplit \
+  scraperwiki \
+  nanoc \
+  pandoc-ruby \
+  jekyll
