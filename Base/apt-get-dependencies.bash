@@ -102,11 +102,6 @@ sudo -H apt-get install -y \
   blender \
   bluefish \
   create-resources \
-  csound \
-  csound-doc \
-  csound-gui \
-  csound-manpages \
-  csound-utils \
   dia \
   dia2code \
   dia-shapes \
