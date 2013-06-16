@@ -23,7 +23,7 @@ cd ${DIR}
 export ATLAS=`cat /etc/ld.so.conf.d/atlas-*.conf`
 ./configure
 export NUMCPUS=`grep -c '^processor' /proc/cpuinfo`
-/usr/bin/time nice make -j$NUMCPUS --load-average=$NUMCPUS
+/usr/bin/time make -j$NUMCPUS --load-average=$NUMCPUS
 make install
 popd
 

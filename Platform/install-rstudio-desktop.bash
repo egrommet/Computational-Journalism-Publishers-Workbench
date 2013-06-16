@@ -15,5 +15,5 @@ pushd /usr/local/src/rstudio-*/build
     -DRSTUDIO_TARGET=Desktop \
     -DCMAKE_BUILD_TYPE=Release ..
   export NUMCPUS=`grep -c '^processor' /proc/cpuinfo`
-  /usr/bin/time nice make -j$NUMCPUS --load-average=$NUMCPUS install
+  /usr/bin/time make -j$NUMCPUS --load-average=$NUMCPUS install
 popd
