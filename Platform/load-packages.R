@@ -66,6 +66,7 @@ install.packages(
     'devtools',
     'shiny',
     'knitr',
+    'knitcitations',
     'markdown',
     'RPostgreSQL',
     'RSQLite',
@@ -90,7 +91,9 @@ install.packages(
     'seewave',
     'tuneR',
     'signal',
-    'audio'
+    'audio',
+    'reports',
+    'pander'
   ),
   dependencies=NA
 )
