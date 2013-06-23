@@ -164,14 +164,12 @@ sudo -H yum install -y \
   libreoffice-pdfimport \
   libreoffice-postgresql \
   libreoffice-presentation-minimizer \
-  libreoffice-report-builder \
   libreoffice-wiki-publisher \
   libreoffice-writer \
   libreoffice-writer2latex \
   libreoffice-writer2xhtml \
   libreoffice-xsltfilter \
   libreoffice \
-  ooo2gd \
   openoffice.org-diafilter \
   unoconv
 
@@ -258,6 +256,8 @@ sudo -H yum install -y \
   pdftk \
   pdf-tools \
   perl-Net-Twitter \
+  perl-Hash-Flatten \
+  perl-PadWalker \
   perl-PDF-API2 \
   perl-PDF-Create \
   perl-PDF-Haru \
@@ -266,6 +266,10 @@ sudo -H yum install -y \
   perl-Web-Scraper \
   perl-WWW-Mechanize \
   perl-WWW-Mechanize-GZip \
+  perl-YAML \
+  perl-YAML-LibYAML \
+  perl-YAML-Syck \
+  perl-YAML-Tiny \
   podofo \
   poppler \
   poppler-data \
