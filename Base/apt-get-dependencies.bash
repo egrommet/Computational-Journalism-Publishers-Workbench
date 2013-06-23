@@ -240,6 +240,12 @@ sudo -H apt-get install -y \
   imagemagick-doc \
   libwww-mechanize-gzip-perl \
   libwww-mechanize-perl \
+  libhash-flatten-perl \
+  libpadwalker-perl \
+  libyaml-libyaml-perl \
+  libyaml-perl \
+  libyaml-syck-perl \
+  libyaml-tiny-perl \
   mupdf \
   mupdf-tools \
   pdfchain \
