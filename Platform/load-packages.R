@@ -67,6 +67,8 @@ install.packages(
     'shiny',
     'knitr',
     'knitcitations',
+    'roxygen2',
+    'testthat',
     'markdown',
     'RPostgreSQL',
     'RSQLite',
