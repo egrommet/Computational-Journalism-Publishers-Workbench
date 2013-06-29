@@ -1,4 +1,4 @@
-### Latest release: 2.9.0, 2013-04-29 - cutesy release code name "But Officer! I was only driving one way!"
+### Latest release: 2.9.1, 2013-06-28 - cutesy release code name "He was in the ice cream this morning!"
 ### [Quick Start](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki/Quick-Start)
 ### [What's New?](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki/What%27s-New)
 ### [Road Map](https://github.com/znmeb/Computational-Journalism-Publishers-Workbench/wiki/Road-Map)
