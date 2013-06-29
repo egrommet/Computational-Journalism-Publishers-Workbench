@@ -10,7 +10,6 @@
 #
 
 sudo -H yum install -y \
-  python-virtinst \
   libvirt \
   qemu \
   qemu-kvm-tools \
@@ -38,3 +37,7 @@ sudo -H yum install -y \
   libvirt-daemon-uml \
   lxc-doc \
   lxc-templates
+
+# enable / start services
+sudo service libvirtd enable
+sudo service libvirtd start
