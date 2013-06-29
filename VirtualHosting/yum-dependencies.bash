@@ -22,7 +22,6 @@ sudo -H yum install -y \
   libvirt-daemon-config-network \
   libvirt-daemon-config-nwfilter \
   libvirt-daemon-driver-interface \
-  libvirt-daemon-driver-libxl \
   libvirt-daemon-driver-lxc \
   libvirt-daemon-driver-network \
   libvirt-daemon-driver-nodedev \
@@ -35,9 +34,14 @@ sudo -H yum install -y \
   libvirt-daemon-lxc \
   libvirt-daemon-qemu \
   libvirt-daemon-uml \
+  lxc \
+  lxc-devel \
   lxc-doc \
+  lxc-libs \
   lxc-templates
 
 # enable / start services
 sudo service libvirtd enable
 sudo service libvirtd start
+sudo service libvirt-guests enable
+sudo service libvirt-guests start
