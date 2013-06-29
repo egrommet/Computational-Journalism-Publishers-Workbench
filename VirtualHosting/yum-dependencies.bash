@@ -32,11 +32,9 @@ sudo -H yum install -y \
   libvirt-daemon-driver-secret \
   libvirt-daemon-driver-storage \
   libvirt-daemon-driver-uml \
-  libvirt-daemon-driver-xen \
   libvirt-daemon-kvm \
   libvirt-daemon-lxc \
   libvirt-daemon-qemu \
   libvirt-daemon-uml \
-  libvirt-daemon-xen \
   lxc-doc \
   lxc-templates
