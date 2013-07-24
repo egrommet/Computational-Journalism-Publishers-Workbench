@@ -23,4 +23,6 @@ sudo -H apt-get install -y \
   gitk \
   gufw \
   padre \
-  vidalia
+  vidalia \
+  gnome-terminal \
+  evince
