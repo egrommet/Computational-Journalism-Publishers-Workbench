@@ -11,38 +11,37 @@
 source('../common/Rprofile')
 install.packages(
   c(
-    'rattle',
-    'ctv',
+    'snatm',
     'Rcmdr',
     'RcmdrPlugin.temis',
     'tm.plugin.dc',
     'tm.plugin.mail',
     'tm.plugin.webmining',
     'tm.plugin.sentiment',
-    'Deducer',
-    'DeducerExtras',
-    'DeducerPlugInExample',
-    'DeducerPlugInScaling',
-    'DeducerSpatial',
-    'DeducerSurvival',
-    'DeducerText'
+    'twitteR',
+    'streamR',
+    'ggplot2',
+    'sm',
+    'reshapeGUI',
+    'shiny',
+    'devtools',
+    'lubridate',
+    'knitr',
+    'knitcitations',
+    'pander'
   ),
   dependencies=TRUE
 )
-library(ctv)
-update.views(
+warnings()
+require(devtools)
+install_github(
   c(
-    'Graphics',
-    'ReproducibleResearch',
-    'Spatial',
-    'NaturalLanguageProcessing',
-    'Finance',
-    'MachineLearning',
-    'Econometrics',
-    'TimeSeries'
+    'slidify',
+    'slidifyLibraries',
+    'rCharts'
   ),
-  coreOnly=FALSE,
-  dependencies=NA
+  username='ramnathv', 
+  dependencies=TRUE
 )
 warnings()
 install.packages(
@@ -52,7 +51,6 @@ install.packages(
     'RSAGA',
     'acs',
     'UScensus2010',
-    'ggplot2',
     'ggmap',
     'OpenStreetMap',
     'plotGoogleMaps',
@@ -60,16 +58,6 @@ install.packages(
     'R2G2',
     'RgoogleMaps',
     'RWeather',
-    'twitteR',
-    'streamR',
-    'reshapeGUI',
-    'devtools',
-    'shiny',
-    'knitr',
-    'knitcitations',
-    'roxygen2',
-    'testthat',
-    'markdown',
     'RPostgreSQL',
     'RSQLite',
     'RSQLite.extfuns',
@@ -95,9 +83,9 @@ install.packages(
     'signal',
     'audio',
     'reports',
-    'pander'
+    'ctv'
   ),
-  dependencies=NA
+  dependencies=TRUE
 )
 warnings()
 
@@ -107,3 +95,21 @@ install.blkgrp('linux')
 install.cdp('linux')
 install.county('linux')
 install.tract('linux')
+
+# finally, the task views
+require(ctv)
+update.views(
+  c(
+    'Graphics',
+    'ReproducibleResearch',
+    'Spatial',
+    'NaturalLanguageProcessing',
+    'Finance',
+    'MachineLearning',
+    'Econometrics',
+    'TimeSeries'
+  ),
+  coreOnly=FALSE,
+  dependencies=NA
+)
+warnings()
