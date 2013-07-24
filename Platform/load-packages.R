@@ -85,7 +85,7 @@ install.packages(
     'reports',
     'ctv'
   ),
-  dependencies=TRUE
+  dependencies=NA
 )
 warnings()
 
