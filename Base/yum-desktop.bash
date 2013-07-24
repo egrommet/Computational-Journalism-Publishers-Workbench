@@ -21,4 +21,6 @@ sudo -H yum install -y \
   powertop \
   kernel-tools \
   perl-Padre \
-  vidalia
+  vidalia \
+  gnome-terminal \
+  evince
