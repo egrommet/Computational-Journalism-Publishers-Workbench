@@ -354,6 +354,12 @@ sudo -H yum install -y \
 # Time Series
 sudo -H ./install-jags.bash
 
+# Cinepaint is broken - erase it!
+sudo -H yum erase -y /
+  cinepaint \
+  cinepaint-libs \
+  cinepaint-devel
+
 # WordNet environment variable
 sudo -H cp wordnet-yum.sh /etc/profile.d/ # set WordNet home
 source /etc/profile
