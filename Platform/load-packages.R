@@ -84,8 +84,7 @@ install.packages(
     'audio',
     'reports',
     'ctv'
-  ),
-  dependencies=NA
+  )
 )
 warnings()
 
@@ -108,8 +107,6 @@ update.views(
     'MachineLearning',
     'Econometrics',
     'TimeSeries'
-  ),
-  coreOnly=FALSE,
-  dependencies=NA
+  )
 )
 warnings()
