@@ -8,9 +8,3 @@
 # MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. Please refer to the
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
-
-../common/authenticate.bash "Removing guest tools / additions already installed"
-sudo -H yum erase -y \
-  open-vm-tools \
-  open-vm-tools-desktop \
-  open-vm-tools-devel
