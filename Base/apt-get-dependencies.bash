@@ -130,7 +130,6 @@ sudo -H apt-get install -y \
   jing \
   mypaint \
   nautilus-image-converter \
-  openclipart \
   optipng \
   pinta \
   pitivi \

@@ -129,7 +129,6 @@ sudo -H yum install -y \
   jing \
   mypaint \
   nautilus-image-converter \
-  openclipart \
   optipng \
   PackageKit-gstreamer-plugin \
   pinta \
