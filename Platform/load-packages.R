@@ -30,7 +30,8 @@ install.packages(
     'knitcitations',
     'pander'
   ),
-  dependencies=TRUE
+  dependencies=TRUE,
+  destdir='./downloaded_packages'
 )
 warnings()
 require(devtools)
@@ -84,7 +85,8 @@ install.packages(
     'audio',
     'reports',
     'ctv'
-  )
+  ),
+  destdir='./downloaded_packages'
 )
 warnings()
 
@@ -100,48 +102,56 @@ require(ctv)
 update.views(
   c(
     'Graphics'
-  )
+  ),
+  destdir='./downloaded_packages'
 )
 warnings()
 update.views(
   c(
     'ReproducibleResearch'
-  )
+  ),
+  destdir='./downloaded_packages'
 )
 warnings()
 update.views(
   c(
     'Spatial'
-  )
+  ),
+  destdir='./downloaded_packages'
 )
 warnings()
 update.views(
   c(
     'NaturalLanguageProcessing'
-  )
+  ),
+  destdir='./downloaded_packages'
 )
 warnings()
 update.views(
   c(
     'Finance'
-  )
+  ),
+  destdir='./downloaded_packages'
 )
 warnings()
 update.views(
   c(
     'MachineLearning'
-  )
+  ),
+  destdir='./downloaded_packages'
 )
 warnings()
 update.views(
   c(
     'Econometrics'
-  )
+  ),
+  destdir='./downloaded_packages'
 )
 warnings()
 update.views(
   c(
     'TimeSeries'
-  )
+  ),
+  destdir='./downloaded_packages'
 )
 warnings()
