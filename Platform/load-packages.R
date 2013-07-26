@@ -99,13 +99,48 @@ install.tract('linux')
 require(ctv)
 update.views(
   c(
-    'Graphics',
-    'ReproducibleResearch',
-    'Spatial',
-    'NaturalLanguageProcessing',
-    'Finance',
-    'MachineLearning',
-    'Econometrics',
+    'Graphics'
+  )
+)
+warnings()
+update.views(
+  c(
+    'ReproducibleResearch'
+  )
+)
+warnings()
+update.views(
+  c(
+    'Spatial'
+  )
+)
+warnings()
+update.views(
+  c(
+    'NaturalLanguageProcessing'
+  )
+)
+warnings()
+update.views(
+  c(
+    'Finance'
+  )
+)
+warnings()
+update.views(
+  c(
+    'MachineLearning'
+  )
+)
+warnings()
+update.views(
+  c(
+    'Econometrics'
+  )
+)
+warnings()
+update.views(
+  c(
     'TimeSeries'
   )
 )
