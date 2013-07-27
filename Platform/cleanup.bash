@@ -12,4 +12,5 @@
 rm -f Michie.pdf
 rm -fr HTML TIFF TEXT
 rm -f Release.key*
+rm -fr downloaded_packages
 ../common/cleanup.bash
