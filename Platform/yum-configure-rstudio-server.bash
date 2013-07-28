@@ -20,6 +20,3 @@ sudo -H rstudio-server start
 echo "Opening TCP port 8787"
 sudo -H firewall-cmd --permanent --add-port 8787/tcp
 sudo -H firewall-cmd --add-port 8787/tcp
-
-# Test it
-firefox localhost:8787

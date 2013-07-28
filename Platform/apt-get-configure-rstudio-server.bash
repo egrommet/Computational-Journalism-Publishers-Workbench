@@ -21,6 +21,3 @@ echo "Opening TCP port 8787"
 sudo -H ufw enable
 sudo -H ufw allow 8787/tcp
 sudo -H ufw status verbose
-
-# Test it
-firefox localhost:8787
