@@ -23,4 +23,6 @@ sudo -H yum install -y \
   perl-Padre \
   vidalia \
   gnome-terminal \
-  evince
+  evince \
+  open-vm-tools \
+  open-vm-tools-desktop
