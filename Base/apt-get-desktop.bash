@@ -23,7 +23,6 @@ sudo -H apt-get install -y \
   gitk \
   gufw \
   padre \
-  vidalia \
   gnome-terminal \
   evince \
   open-vm-dkms \

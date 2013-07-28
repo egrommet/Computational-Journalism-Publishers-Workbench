@@ -21,7 +21,6 @@ sudo -H yum install -y \
   powertop \
   kernel-tools \
   perl-Padre \
-  vidalia \
   gnome-terminal \
   evince \
   open-vm-tools \
