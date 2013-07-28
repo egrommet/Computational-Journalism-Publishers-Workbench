@@ -15,6 +15,7 @@ sudo -H cp /usr/local/lib/rstudio-server/extras/init.d/redhat/rstudio-server /et
 sudo -H chmod +x /etc/init.d/rstudio-server
 sudo -H /sbin/chkconfig --add rstudio-server
 sudo -H ln -f -s /usr/local/lib/rstudio-server/bin/rstudio-server /usr/sbin/rstudio-server
+sudo -H ln -f -s /usr/local/bin/R /usr/sbin/R
 sudo -H rstudio-server start
 
 echo "Opening TCP port 8787"
