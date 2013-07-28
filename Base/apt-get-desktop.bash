@@ -25,4 +25,7 @@ sudo -H apt-get install -y \
   padre \
   vidalia \
   gnome-terminal \
-  evince
+  evince \
+  open-vm-dkms \
+  open-vm-toolbox \
+  open-vm-tools 
