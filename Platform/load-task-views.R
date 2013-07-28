@@ -9,6 +9,61 @@
 #
 
 source('../common/Rprofile')
+
+# advanced packages
+install.packages(
+  c(
+    'foreign',
+    'memisc',
+    'RSAGA',
+    'acs',
+    'UScensus2010',
+    'ggmap',
+    'OpenStreetMap',
+    'plotGoogleMaps',
+    'plotKML',
+    'R2G2',
+    'RgoogleMaps',
+    'RWeather',
+    'RPostgreSQL',
+    'RSQLite',
+    'RSQLite.extfuns',
+    'filehash',
+    'filehashSQLite',
+    'googlePublicData',
+    'googleVis',
+    'gooJSON',
+    'RDF',
+    'rrdf',
+    'egonet',
+    'snort',
+    'igraph',
+    'latentnet',
+    'giRaph',
+    'rgexf',
+    'sna',
+    'statnet',
+    'statnet.common',
+    'Bergm',
+    'seewave',
+    'tuneR',
+    'signal',
+    'audio',
+    'reports',
+    'ctv'
+  ),
+  destdir='./downloaded_packages'
+)
+warnings()
+
+# install the 2010 Census data files
+require(UScensus2010)
+install.blkgrp('linux')
+install.cdp('linux')
+install.county('linux')
+install.tract('linux')
+
+# task views
 require(ctv)
 update.views(
   c(
