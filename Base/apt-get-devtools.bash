@@ -12,7 +12,6 @@
 ../common/authenticate.bash "Installing basic development tools"
 sudo -H ./apt-get-cran.bash
 sudo -H apt-get install -y \
-  apt-file \
   vim \
   git \
   curl \
@@ -29,7 +28,6 @@ sudo -H apt-get install -y \
   default-jdk \
   default-jre \
   icedtea-plugin
-sudo -H apt-file update
 
 # Needed to install guest tools on virtual machines
 sudo -H apt-get install -y \
