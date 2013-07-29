@@ -25,6 +25,5 @@ sudo -H apt-get install -y \
   padre \
   gnome-terminal \
   evince \
-  open-vm-dkms \
   open-vm-toolbox \
   open-vm-tools 
