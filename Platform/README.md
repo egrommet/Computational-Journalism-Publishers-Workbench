@@ -18,9 +18,6 @@
 * [devtools: Tools to make developing R code easier](http://cran.r-project.org/web/packages/devtools/index.html)
 * [Shiny](http://www.rstudio.com/shiny/)
 * [The R Commander: A Basic-Statistics GUI for R](http://socserv.mcmaster.ca/jfox/Misc/Rcmdr/)
-* [Rattle: A Graphical User Interface for Data Mining using R ](http://rattle.togaware.com/)
-* [JGR - Java GUI for R](http://www.rforge.net/JGR/)
-* [Deducer - An R Graphical User Interface (GUI) for Everyone](http://www.deducer.org/pmwiki/index.php?n=Main.DeducerManual?from=Main.HomePage)
 * [RStudio](http://www.rstudio.com/)
 * [SQLite Home Page](https://www.sqlite.org/)
 * [SQliteman Home Page](https://www.sqliteman.com/)
@@ -48,7 +45,6 @@
 * [Audacity® Audio Editor and Recorder](http://audacity.sourceforge.net/)
 * [Blender 3D Animation](http://www.blender.org)
 * [Bluefish Editor](http://bluefish.openoffice.nl/index.html)
-* [CinePaint Deep Paint Software](http://www.cinepaint.org)
 * [Dia Diagram Creator](https://live.gnome.org/Dia)
 * [Entangle - Tethered shooting & control of digital cameras](http://entangle-photo.org/)
 * [FontForge Outline Font Editor](http://sourceforge.net/projects/fontforge/)
@@ -82,7 +78,6 @@
 * [PDF Shuffler](http://pdfshuffler.sourceforge.net/)
 * [QPDF](http://qpdf.sourceforge.net/)
 * [QuantLib](http://quantlib.org/index.shtml)
-* [Tor Project: Anonymity Online](http://j.mp/169PS9K)
 
 ## Suggested Reading
 * [Interactive and Dynamic Graphics for Data Analysis by Dianne Cook, Deborah F. Swayne, A. Buja, D. Temple Lang, H. Hofmann, H. Wickham, M. Lawrence](http://j.mp/WPhvCU)
