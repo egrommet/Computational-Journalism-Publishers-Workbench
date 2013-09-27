@@ -10,35 +10,17 @@
 #
 
 sudo -H yum install -y \
-  libvirt \
-  qemu \
-  qemu-kvm-tools \
-  qemu-user \
-  qemu-kvm \
+  virt-install \
   virt-manager \
-  virt-viewer \
   virt-top \
-  libvirt-daemon \
-  libvirt-daemon-config-network \
-  libvirt-daemon-config-nwfilter \
-  libvirt-daemon-driver-interface \
-  libvirt-daemon-driver-lxc \
-  libvirt-daemon-driver-network \
-  libvirt-daemon-driver-nodedev \
-  libvirt-daemon-driver-nwfilter \
-  libvirt-daemon-driver-qemu \
-  libvirt-daemon-driver-secret \
-  libvirt-daemon-driver-storage \
-  libvirt-daemon-driver-uml \
+  virt-viewer \
+  guestfs-browser \
+  libguestfs-tools \
+  python-libguestfs \
+  qemu-system-x86 \
   libvirt-daemon-kvm \
-  libvirt-daemon-lxc \
-  libvirt-daemon-qemu \
-  libvirt-daemon-uml \
-  lxc \
-  lxc-devel \
-  lxc-doc \
-  lxc-libs \
-  lxc-templates
+  libvirt-daemon-config-network
+
 
 # enable / start services
 sudo service libvirtd enable
