@@ -9,4 +9,4 @@
 # AGPL (http://www.gnu.org/licenses/agpl-3.0.txt) for more details.
 #
 # Reference: http://www.ilsistemista.net/index.php/virtualization/11-kvm-io-slowness-on-rhel-6.html
-sudo qemu-img create -f qcow2 -o preallocation=metadata,size=51539607552 $1.qcow2
+sudo qemu-img create -f qcow2 -o preallocation=metadata,size=53687091200 $1.qcow2
